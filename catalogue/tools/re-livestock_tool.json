@@ -1,0 +1,125 @@
+{
+  "id": "re-livestock_tool",
+  "email": "josmith@mvarc.eu",
+  "name": "Re-Livestock tool",
+  "url": "https://www.mvarc.eu/tools/dev/re-livestock_tool",
+  "description_brief": "The Re-Livestock tool is a sustainability assessment for farms covering 13 categories of sustainability, developed for the Horizon Europe project Re-Livestock and based on the Public Goods tool",
+  "logo_url": "https://re-livestock.eu/wp-content/uploads/2022/11/Relivestock_logo.svg",
+  "primary_purpose": [
+    "Decision support"
+  ],
+  "keywords": [
+    "Sustainability assessment",
+    "farm-level"
+  ],
+  "developers": "Based on the Public Goods tool (https://www.organicresearchcentre.com/our-research/research-project-library/public-goods-tool-2/) developed by Laurence Smith at the Organic Research Centre and developed for online use by MVARC.",
+  "organizations": "MVARC (https://mvarc.eu/), University of Reading (https://www.reading.ac.uk/)",
+  "contact": "info@mvarc.eu",
+  "description_full": "",
+  "status": "Under development",
+  "software_proglanguage": [
+    "Javascript"
+  ],
+  "minimum_req": [
+    "Internet connection",
+    "Open source software/programming language",
+    "Cross-platform tool (works in Windows, Mac and Linux)"
+  ],
+  "license": "Not stated",
+  "year_release": 2024,
+  "year_lastupdate": 2024,
+  "previous_versions_available": "No",
+  "systems": [
+    "Agriculture",
+    "Agroforestry"
+  ],
+  "system_components": [
+    "Crop",
+    "Tree",
+    "Livestock",
+    "People"
+  ],
+  "indicators": [
+    "Yield",
+    "Biodiversity",
+    "Water",
+    "Soil",
+    "Carbon",
+    "Nutrients",
+    "Labour",
+    "Social",
+    "Economics",
+    "Animal welfare"
+  ],
+  "spatial_scales": [
+    "Farm"
+  ],
+  "time_steps": [
+    "Yearly"
+  ],
+  "input_data_protocols": [
+    "User enters the data directly manually"
+  ],
+  "input_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "input_data_file_formats": [
+    "JSON"
+  ],
+  "output_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)",
+    "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
+  ],
+  "output_data_file_formats": [
+    "JSON",
+    "PDF"
+  ],
+  "end_users": [
+    "Farmer",
+    "Landowner",
+    "Farm advisor",
+    "Retailer",
+    "Final consumer"
+  ],
+  "usages": {
+    "Research": 0,
+    "Education": 0,
+    "Planning/Design": 0,
+    "Implementation": 0,
+    "Management": 1,
+    "Monitoring/Evaluating": 1,
+    "Forecasting": 1
+  },
+  "languages": [
+    "Dutch",
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "Spanish",
+    "Polish",
+    "Danish",
+    "Swedish"
+  ],
+  "url_persistent": "No",
+  "access_barrier": "No, direct download/access through a web link",
+  "access_procedure": "",
+  "access_procedure_documentation": "",
+  "listed_other_databases": "Don't know",
+  "listed_other_databases_list": "",
+  "integrated_other_tools": "No",
+  "integrated_other_tools_list": "",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Yes",
+  "url_documentation": "https://zenodo.org/doi/10.5281/zenodo.10870156",
+  "documentation_theoretical_background": "No",
+  "documentation_theoretical_background_list": "",
+  "data_provenance": "No",
+  "development_process": "No",
+  "url_training_materials": "https://zenodo.org/doi/10.5281/zenodo.10870156",
+  "documentation_contribute": "No",
+  "digitaf_tool": "No",
+  "digitaf_tool_ll": [],
+  "feedback_tool_info": "",
+  "feedback_general": ""
+}

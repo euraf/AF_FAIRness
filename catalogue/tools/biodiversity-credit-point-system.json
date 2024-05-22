@@ -1,0 +1,108 @@
+{
+	"id": "biodiversity-credit-point-system",
+  "timestamp_creation": 1704275034000,
+  "submitter_name": "Simon Birrer",
+  "submitter_email": "simon.birrer@vogelwarte.ch",
+  "name": "Biodiversity Credit Point System (IP-Suisse)",
+  "url": "https://admin.ipsuisse.ch/secret/frmMain.aspx",
+  "description_brief": "A point score system which is part of the label “IP-Suisse”. It can be used by farmers to review his effort to support biodiversity on his own farm. Farmers part of the label have to reach a minimum of 15 points.",
+  "logo_url": "https://www.ipsuisse.ch/wp-content/uploads/Logo_ips_200px.png",
+  "primary_purpose": [
+    "Decision support"
+  ],
+  "keywords": [
+    "Biodiversity",
+    "Farm-scale",
+    "Label",
+    "Switzerland"
+  ],
+  "developers": "Simon Birrer (https://www.researchgate.net/profile/Simon-Birrer-2) in cooperation with many collegues",
+  "organizations": "Swiss Ornithological institute, IP-Suisse, Research Institute of Organic Agriculture (FiBL)",
+  "contact": "simon.birrer@vogelwarte.ch",
+  "status": "Implemented",
+  "software_proglanguage": [
+    "Microsoft Excel",
+    "R"
+  ],
+  "minimum_req": [
+    "Internet connection",
+    "Desktop computer (e.g. optimized for wider screens)",
+    "Licensed software/programming language",
+    "Cross-platform tool (works in Windows, Mac and Linux)"
+  ],
+  "license": "Don't know",
+  "year_release": 2009,
+  "year_lastupdate": 2023,
+  "previous_versions_available": "No",
+  "systems": [
+    "Agriculture"
+  ],
+  "system_components": [
+    "Crop",
+    "Tree",
+    "Livestock"
+  ],
+  "indicators": [
+    "Biodiversity"
+  ],
+  "spatial_scales": [
+    "Farm"
+  ],
+  "time_steps": [
+    "Yearly"
+  ],
+  "input_data_protocols": [
+    "User enters the data directly manually"
+  ],
+  "input_data_formats": [
+    ""
+  ],
+  "input_data_file_formats": [
+    ""
+  ],
+  "output_data_formats": [
+    "Other"
+  ],
+  "output_data_formats_other": "Point Score",
+  "output_data_file_formats": [
+    ""
+  ],
+  "end_users": [
+    "Farmer",
+    "Farm advisor"
+  ],
+  "usages_most_relevant": [
+    "Implementation",
+    "Management"
+  ],
+  "usages_least_relevant": [
+    "Forecasting"
+  ],
+  "languages": [
+    "French",
+    "German",
+    "Italian"
+  ],
+  "url_persistent": "No",
+  "access_barrier": "User registration needed",
+  "access_procedure": "",
+  "access_procedure_documentation": "Yes",
+  "listed_other_databases": "No",
+  "listed_other_databases_list": "",
+  "integrated_other_tools": "No",
+  "integrated_other_tools_list": "",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Some of it",
+  "url_documentation": "https://admin.ipsuisse.ch/secret/frmMain.aspx",
+  "documentation_theoretical_background": "Yes",
+  "documentation_theoretical_background_list": "www.doi.org/10.1016/j.agee.2014.08.008",
+  "data_provenance": "No",
+  "development_process": "No",
+  "training_materials": "No",
+  "url_training_materials": "",
+  "documentation_contribute": "No",
+  "digitaf_tool": "No",
+  "digitaf_tool_ll": [],
+  "digitaf_tool_demo_video": "",
+  "feedback_tool_info": ""
+}

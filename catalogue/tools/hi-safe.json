@@ -1,0 +1,104 @@
+{
+	"id": "hi-safe",
+  "email": "anatomas@mvarc.eu",
+  "name": "Hi-sAFe",
+  "url": "https://www1.montpellier.inra.fr/wp-inra/hi-safe/en/",
+  "description_brief": "Hi-sAFe is a 3-D mechanistic simulation model representing tree and crop growth, taking into account light, water and nitrogen competition between trees and annual or perennial crops.",
+  "logo_url": "https://www1.montpellier.inra.fr/wp-inra/hi-safe/wp-content/uploads/sites/9/2018/01/HisAFe_logo-300x282.jpg",
+  "primary_purpose": [
+    "Research",
+    "Education and training"
+  ],
+  "keywords": [
+    "land equivalent ratio",
+    "long-term simulation",
+    "3-D",
+    "mechanistic"
+  ],
+  "developers": "Christian Dupraz",
+  "organizations": "INRAE",
+  "contact": "christian.dupraz@inrae.fr",
+  "description_full": "Hi-sAFe is a mechanistic, biophysical model designed to explore the interactions within agroforestry systems that mix trees with crops. The model couples the pre-existing STICS crop model to a new tree model that includes several plasticity mechanisms responsive to tree–tree and tree–crop competition for light, water, and nitrogen. Monoculture crop and tree systems can also be simulated, enabling calculation of the land equivalent ratio. The model’s 3D and spatially explicit form is key for accurately representing many competition and facilitation processes. Hi-sAFe is a tool for exploring agroforestry designs (e.g., tree spacing, crop type, tree row orientation), management strategies (e.g., thinning, branch pruning, root pruning, fertilization, irrigation), and responses to environmental variation (e.g., latitude, climate change, soil depth, soil structure and fertility, fluctuating water table).",
+  "status": "Implemented",
+  "software_proglanguage": [
+    "Java"
+  ],
+  "minimum_req": [
+    "Desktop computer (e.g. optimized for wider screens)",
+    "Cross-platform tool (works in Windows, Mac and Linux)"
+  ],
+  "license": "Not stated",
+  "year_release": "",
+  "year_lastupdate": "",
+  "previous_versions_available": "Don't know",
+  "systems": [
+    "Agriculture",
+    "Forestry",
+    "Agroforestry"
+  ],
+  "system_components": [
+    "Crop",
+    "Tree"
+  ],
+  "indicators": [
+    "Growth",
+    "Water",
+    "Nutrients"
+  ],
+  "spatial_scales": [
+    "Plot"
+  ],
+  "time_steps": [
+    "Daily"
+  ],
+  "input_data_protocols": [
+    "User enters the data directly manually"
+  ],
+  "input_data_formats": [
+    ""
+  ],
+  "input_data_file_formats": [
+    ""
+  ],
+  "output_data_formats": [
+    ""
+  ],
+  "output_data_file_formats": [
+    ""
+  ],
+  "end_users": [
+    "Researcher"
+  ],
+  "usages": {
+    "Research": 1,
+    "Education": 1,
+    "Planning/Design": 0,
+    "Implementation": -1,
+    "Management": -1,
+    "Monitoring/Evaluating": 0,
+    "Forecasting": 1
+  },
+  "languages": [
+    "English"
+  ],
+  "url_persistent": "No",
+  "access_barrier": "User registration needed",
+  "access_procedure": "First, register on https://www1.montpellier.inra.fr/wp-inra/hi-safe/en/demande-login/ to get a private user code. After that, the private section is the place to look for all guides on how to install and use the Hi-sAFe model.",
+  "access_procedure_documentation": "Yes",
+  "listed_other_databases": "Don't know",
+  "listed_other_databases_list": "",
+  "integrated_other_tools": "Yes",
+  "integrated_other_tools_list": "Coupled with STICS (version 8) crop model sAFe-Tree tree model.",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Yes",
+  "url_documentation": "https://www1.montpellier.inra.fr/wp-inra/hi-safe/en/modele/",
+  "documentation_theoretical_background": "Don't know",
+  "documentation_theoretical_background_list": "https://doi.org/10.3390/su11082293",
+  "data_provenance": "Don't know",
+  "development_process": "Don't know",
+  "url_training_materials": "",
+  "documentation_contribute": "Don't know",
+  "digitaf_tool": "Don't know",
+  "digitaf_tool_ll": [""],
+  "feedback_tool_info": ""
+}

@@ -1,0 +1,117 @@
+{
+	"id": "merlin",
+  "email": "jari.vandendriessche@ugent.be",
+  "name": "Merlin",
+  "url": "https://merlin.allaboutbirds.org/",
+  "description_brief": "Merlin features the best of community contributed photos, songs, and calls, tips from experts around the world to help you ID the birds you see, and range maps from Birds of the World—all powered by billions of bird observations submitted to eBird.",
+  "logo_url": "https://merlin.allaboutbirds.org/wp-content/uploads/2023/09/clo_merlin_stacked.svg",
+  "keywords": [
+    "Birds",
+    "Species identification"
+  ],
+  "developers": "",
+  "organizations": "TheCornellLab, Cornell University",
+  "contact": "cornellbirds@cornell.edu",
+  "description_full": "Bird ID Wizard—Step-by-step\n\nAnswer three simple questions about a bird you are trying to identify and Merlin will give you a list of possible matches. Merlin offers quick identification help for all levels of bird watchers and outdoor enthusiasts to help you learn about the birds in any country in the world. \n\nIdentify Bird Songs and Calls\n\nSound ID listens to the birds around you and shows real-time suggestions for who’s singing. Compare your recording to the songs and calls in Merlin to confirm what you heard. Sound ID works completely offline, so you can identify birds you hear no matter where you are.\n\nAvailable for birds in the US, Canada, Europe, with some common birds of Central and South America, and India. More species and regions coming soon. \n\nIdentify Birds in a Photo\n\nSnap a photo of a bird, or pull one in from your camera roll, and Photo ID will offer a short list of possible matches. Photo ID works completely offline, so you can identify birds in the photos you take no matter where you are. \n\nSave Birds to Your Life List\n\nBuild a digital scrapbook of your birding memories with Save My Bird. Tap “This is my bird!” each time you identify a bird, and Merlin will add it to your growing life list.\n\nExplore Lists of Birds Near You\n\nMerlin is powered by eBird, allowing you to build custom lists of the birds you’re likely to spot wherever you are. Use the filter options to explore birds for different locations or time of year, or switch to show all the species in the Bird Packs you’ve downloaded. Get more from the app with these Merlin Tips and Tricks.\n\nThe Best Birding App, Powered By You\n\nMerlin features the best of community contributed photos, songs, and calls, tips from experts around the world to help you ID the birds you see, and range maps from Birds of the World—all powered by billions of bird observations submitted to eBird.",
+  "status": "Implemented",
+  "software_proglanguage": [
+    ""
+  ],
+  "minimum_req": [
+    "Internet connection",
+    "Mobile phone (e.g. works on small screens; use the camera)"
+  ],
+  "license": "Don't know",
+  "year_release": 2023,
+  "year_lastupdate": 2023,
+  "previous_versions_available": "No",
+  "systems": [
+    "Agriculture",
+    "Forestry",
+    "Agroforestry",
+    "Natural/Wild"
+  ],
+  "system_components": [
+    "Crop",
+    "Tree"
+  ],
+  "indicators": [
+    "Biodiversity"
+  ],
+  "spatial_scales": [
+    "Plant/animal",
+    "Plot"
+  ],
+  "time_steps": [
+    "Not relevant"
+  ],
+  "input_data_protocols": [
+    "User enters the data directly manually"
+  ],
+  "input_data_formats": [
+    ""
+  ],
+  "input_data_file_formats": [
+    "Images (e.g. png, jpg, tiff, etc)",
+    "mp3"
+  ],
+  "output_data_formats": [
+    ""
+  ],
+  "output_data_file_formats": [
+    ""
+  ],
+  "end_users": [
+    "Researcher",
+    "Student",
+    "Policy-maker",
+    "Farmer",
+    "Landowner",
+    "Farm advisor",
+    "Wholesaler",
+    "Retailer",
+    "Carbon trader",
+    "Final consumer"
+  ],
+  "usages": {
+    "Research": 1,
+    "Education": 1,
+    "Planning/Design": -1,
+    "Implementation": -1,
+    "Management": -1,
+    "Monitoring/Evaluating": 1,
+    "Forecasting": -1
+  },
+  "languages": [
+    "English",
+    "French",
+    "German"
+  ],
+  "url_persistent": "No",
+  "access_barrier": "User registration needed",
+  "access_procedure": "",
+  "access_procedure_documentation": "Yes",
+  "listed_other_databases": "Don't know",
+  "listed_other_databases_list": "",
+  "integrated_other_tools": "Don't know",
+  "integrated_other_tools_list": "",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Some of it",
+  "url_documentation": "https://merlin.allaboutbirds.org/",
+  "documentation_theoretical_background": "No",
+  "documentation_theoretical_background_list": "",
+  "data_provenance": "Yes",
+  "development_process": "Not completely",
+  "url_training_materials": "https://www.youtube.com/watch?v=xmSUOLxyatY",
+  "documentation_contribute": "Yes",
+  "digitaf_tool": "No",
+  "digitaf_tool_ll": [
+    ""
+  ],
+  "feedback_tool_info": "",
+  "primary_purpose": [
+    "Research",
+    "Education and training"
+  ],
+  "digitaf_tool_demo_video": ""
+}

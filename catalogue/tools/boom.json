@@ -1,0 +1,129 @@
+{
+	"id": "boom",
+  "timestamp_creation": 1708420514000,
+  "submitter_name": "Ton Baltissen",
+  "submitter_email": "baltissen56@gmail.com",
+  "name": "BOOM",
+  "url": "https://www.notenteelt.com/shop/categorie/20-registratie-programma-bomen",
+  "description_brief": "BOOM is an online GIS based registration and evaluation programm for (fruit)trees, their characters and registrate cultivation operations and monitoring diseases, pest and yield, etc.  ",
+  "logo_url": "https://mvarc.eu/tools/dev/AF_FAIRness/img/boom.jpg",
+  "primary_purpose": [
+    "Research",
+    "Decision support"
+  ],
+  "keywords": [
+    "Registration",
+    "Monitoring",
+    "Evaluation trees"
+  ],
+  "developers": "notenteelt.com en kaartserver.nl",
+  "organizations": "notenteelt.com en kaartserver.nl",
+  "contact": "info@notenteelt.com",
+  "description_full": "See for more information at www.notenteelt.com It is operationally in the Netherlands and Vlaanderen (Belgium)",
+  "status": "Implemented",
+  "software_proglanguage": [
+    "HTML/CSS"
+  ],
+  "minimum_req": [
+    "Internet connection",
+    "Desktop computer (e.g. optimized for wider screens)",
+    "Mobile phone (e.g. works on small screens; use the camera)",
+    "Licensed software/programming language"
+  ],
+  "license": "Don't know",
+  "year_release": 2022,
+  "year_lastupdate": 2022,
+  "previous_versions_available": "Yes",
+  "systems": [
+    "Forestry",
+    "Agroforestry"
+  ],
+  "system_components": [
+    "Tree"
+  ],
+  "indicators": [
+    "Yield",
+    "Suitability",
+    "Water",
+    "Soil",
+    "Carbon",
+    "Nutrients",
+    "Mechanization",
+    "Labour",
+    "Economics",
+    "Nutrition",
+    "Pests and Diseases"
+  ],
+  "spatial_scales": [
+    "Leaf/stem (sub-individual)",
+    "Plant/animal",
+    "Plot",
+    "One-hectare",
+    "Farm",
+    "Regional",
+    "National"
+  ],
+  "time_steps": [
+    "Not relevant"
+  ],
+  "input_data_protocols": [
+    "User enters the data directly manually"
+  ],
+  "input_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "input_data_file_formats": [
+    "Shapefile"
+  ],
+  "output_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)",
+    "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
+  ],
+  "output_data_file_formats": [
+    "XLS/XLSX (Microsoft Excel formats)",
+    "Shapefile",
+    "Images (e.g. png, jpg, tiff, etc)",
+    "PDF"
+  ],
+  "end_users": [
+    "Researcher",
+    "Student",
+    "Farmer",
+    "Landowner",
+    "Farm advisor"
+  ],
+  "usages_most_relevant": [
+    "Research",
+    "Implementation",
+    "Management",
+    "Monitoring/Evaluating"
+  ],
+  "usages_least_relevant": [
+    "Education"
+  ],
+  "languages": [
+    "Dutch"
+  ],
+  "url_persistent": "No",
+  "access_barrier": "Paywall",
+  "access_procedure": "Register on the tools's website, pay for it and account will be sent.",
+  "access_procedure_documentation": "Yes",
+  "listed_other_databases": "Don't know",
+  "listed_other_databases_list": "",
+  "integrated_other_tools": "Yes",
+  "integrated_other_tools_list": "Tool is GIS based and can use digital maps from www.pudok.nl (like soil map, kadastermap)",
+  "documentation_available": "Yes",
+  "documentation_accessible": "No",
+  "url_documentation": "",
+  "documentation_theoretical_background": "No",
+  "documentation_theoretical_background_list": "",
+  "data_provenance": "Yes",
+  "development_process": "Not completely",
+  "training_materials": "Yes",
+  "url_training_materials": "https://youtu.be/S2eFmhGRtl4",
+  "documentation_contribute": "No",
+  "digitaf_tool": "No",
+  "digitaf_tool_ll": [],
+  "digitaf_tool_demo_video": "",
+  "feedback_tool_info": ""
+}

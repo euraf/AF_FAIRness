@@ -1,0 +1,138 @@
+{
+	"id": "obsidentify",
+  "email": "hannes.ledegen@natuurpunt.be",
+  "name": "ObsIdentify",
+  "url": "http://www.observation.org/apps/obsidentify/install/",
+  "description_brief": "Recognize nature in one click! Take a photo in Europe and find out which species it is. Collect all your wildlife observations in the app. You'll be rewarded with tips to find new species, earn badges, and be invited to join challenges.\n",
+  "logo_url": "https://observation.github.io/brand/logo-obsidentify.svg",
+  "keywords": [
+    "Biodiversity",
+    "Image recognition",
+    "Identify species",
+    "Nature photography",
+    "Fauna and flora"
+  ],
+  "developers": "The image recognition in ObsIdentify is made possible by millions of observations from thousands of users of Waarneming.nl, Waarnemingen.be and Observation.org. ObsIdentify is a product of the Observation International Foundation, in collaboration with Naturalis Biodiversity Center (The Netherlands) and Natuurpunt (Belgium).",
+  "organizations": "Observation International, Natuurpunt, Naturalis",
+  "contact": "info@waarnemingen.be",
+  "description_full": "Recognize nature in one click! Take a photo in Europe or the Dutch Caribbean and find out which species it is. Collect all your wildlife observations in the app. You'll be rewarded with tips to find new species, earn badges, and be invited to join challenges. Create groups with colleagues, family or friends, to share your stunning nature observations. Your observations, and those of others, contribute to biological research and knowledge about nature. Every observation counts!\n\nObsIdentify only recognizes wild animals, plants and mushrooms in Europe and the Dutch Caribbean. Please do not use the app for selfies, people, pets, house or garden plants.\n\nObsIdentify, like it's web portals Observation.org, Waarnemingen.be and Waarneming.nl, uses the image recognition NIA (Nature Identification API) this is a Deep Learning model. After the user uploads the image, a team of human specialists checks if all identifications made by NIA are correct. Int his way the image recognition keeps on improving and extra species are added every year. ObsIdentify is an app focussing on the general public and enabling them to identify biodiversity in Europe (and the dutch carribeans) with a very simple and intuitive system. The app then stimulates users to learn more about species or discover more with gamification such as badges and challenges. These badges give specific tips based on the skill-level of the user for a certain species group. ObsIdentify also stimulates you to challenge friends with a grouping system.\nAll observations go to the nature databases of Observation.org where they can be freely accessed (unless the user specified otherwise or it is a sensitive species). The portal also has warning systems for invasive alien species so that farmers get a notification whenever a dangerous organism for their crops has been spotted in the vicinity or for nature conservationists to stem the flow of invasive alien species. All data is sent to GBIF (Global Biodiversity Platform) and is used for scientifc publications.",
+  "status": "Implemented",
+  "software_proglanguage": [
+    "Javascript",
+    "TypeScript",
+    "React Native"
+  ],
+  "minimum_req": [
+    "Internet connection",
+    "Desktop computer (e.g. optimized for wider screens)",
+    "Mobile phone (e.g. works on small screens; use the camera)"
+  ],
+  "license": "Not stated",
+  "license_comment": "Everyone can use the tool. Users can set their prefference for CC licences for the images they upload in their profile (CC-BY-NC by default).",
+  "year_release": "2019 for ObsIdentify 2.0. Before that there was an Android-only version from 2017",
+  "year_lastupdate": "2023 and updates are ongoing",
+  "previous_versions_available": "Yes",
+  "systems": [
+    "Forestry",
+    "Agroforestry",
+    "Natural/Wild"
+  ],
+  "system_components": [
+    "Tree"
+  ],
+  "indicators": [
+    "Biodiversity"
+  ],
+  "spatial_scales": [
+    "Leaf/stem (sub-individual)",
+    "Plant/animal"
+  ],
+  "spatial_scales_comment": "The image recognition works on wild plants and animals. The system can be used in all of europe. It does not work for cultivars.",
+  "time_steps": [
+    "Not relevant"
+  ],
+  "input_data_protocols": [
+    "User enters the data directly manually",
+    "Data entry can be fully automated programmatically (e.g. automatically run a script for multiple scenarios)"
+  ],
+  "input_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "input_data_file_formats": [
+    "XLS/XLSX (Microsoft Excel formats)",
+    "CSV",
+    "JSON",
+    "XML",
+    "HTTP GET method - Query string parameters (e.g. http://www.url.com/start?param1=a&param2=b)",
+    "HTTP POST method - Data in request body & file upload",
+    "GeoJSON",
+    "NetCDF",
+    "Shapefile",
+    "Images (e.g. png, jpg, tiff, etc)"
+  ],
+  "output_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)",
+    "Custom file formats",
+    "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)",
+    "Alert e-mails when a certain species is seen"
+  ],
+  "output_data_file_formats": [
+    "XLS/XLSX (Microsoft Excel formats)",
+    "CSV",
+    "JSON",
+    "Shapefile",
+    "Images (e.g. png, jpg, tiff, etc)",
+    "PDF"
+  ],
+  "end_users": [
+    "Researcher",
+    "Student",
+    "Policy-maker",
+    "Farmer",
+    "Landowner",
+    "Farm advisor"
+  ],
+  "usages": {
+    "Research": 1,
+    "Education": 1,
+    "Planning/Design": 0,
+    "Implementation": -1,
+    "Management": 0,
+    "Monitoring/Evaluating": 1,
+    "Forecasting": 0
+  },
+  "languages": [
+    "Dutch",
+    "English",
+    "French",
+    "German",
+    "Spanish"
+  ],
+  "url_persistent": "Yes",
+  "access_barrier": "No, direct download/access through a web link",
+  "access_procedure": "Simply download the free-to-use app in the appstore or playstore https://observation.org/apps/obsidentify/install/",
+  "access_procedure_documentation": "Yes",
+  "listed_other_databases": "Yes",
+  "listed_other_databases_list": "Policy makers, farmers and naturalists as well as research institutes and schools allready use the app all over europe. It is mentioned in many guides from school books to research monitoring protocols and tips and tricks.",
+  "integrated_other_tools": "Yes",
+  "integrated_other_tools_list": "API's are available making interoperability limitless. The website uses background maps from Openstreetmaps and Google, the website's early warning system is used by many different institutions. Validated observations are regularly uploaded to the Global Biodiversity Information Facility (GBIF).",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Some of it",
+  "url_documentation": "API documentation is open: https://waarnemingen.be/api/v1/docs/\nApp documentation is available but closed\nGithub: https://github.com/observation",
+  "documentation_theoretical_background": "Incomplete",
+  "documentation_theoretical_background_list": "There is a myriad of publications done with the data the app generates, as well as a publication made prior to developing the app about the different components of the app and why they would work.",
+  "data_provenance": "Yes",
+  "development_process": "Yes",
+  "url_training_materials": "https://natuuracademie.webinargeek.com/obsidentify-waarnemingen-be-voor-beginners-1/join/hx9e3oov",
+  "documentation_contribute": "No",
+  "digitaf_tool": "Don't know",
+  "digitaf_tool_ll": [
+    ""
+  ],
+  "feedback_tool_info": "This tool is a very strong tool to identify wild nature. It does not however recognise cultivars such as crops or pot plants.",
+  "primary_purpose": [
+    "Research",
+    "Education and training"
+  ],
+  "digitaf_tool_demo_video": ""
+}

@@ -1,0 +1,112 @@
+{
+	"id": "carat",
+  "timestamp_creation": 1702974447000,
+  "submitter_name": "Paul Pardon",
+  "submitter_email": "paul.pardon@ilvo.vlaanderen.be",
+  "name": "CARAT - CARbon Agroforestry Tool",
+  "url": "https://shiny.ilvo.be/PLANT/CARAT_v3/",
+  "description_brief": "The CARbon Agroforestry Tool “CARAT” is an online tool developed by the Soil Service of Belgium (BDB), UGent and ILVO. It makes use of the software program R and is developed as an interactive app using the Shiny package. The primary goal of the CARAT tool is to support farmers, researchers and/or policy actors in quantifying carbon stocks of a specific AF field in temperate climatic conditions, and to predict how these stocks evolve over a period of 30 years. At present, the tool is aimed at simulating AF systems that consist of high pruned solitary trees. Choice between 20 different tree species is made possible. The user is provided with a field-scale map showing heterogeneities in SOC as a result of tree presence, as well as an estimation of above- and belowground carbon stocks at field level and their evolution with time.",
+  "logo_url": "https://ilvo.vlaanderen.be/uploads/images/_900xAUTO_fit_center-center_none/Afbeelding1_2023-09-19-094021.png",
+  "primary_purpose": [
+    "Research",
+    "Decision support"
+  ],
+  "keywords": [
+    "Carbon",
+    "Simulation tool",
+    "Temperate agroforestry",
+    "Woody biomass",
+    "SOC"
+  ],
+  "developers": "Tom Coussement, Eveline Baens, Dries de Bièvre, Annemie Elsen (https://www.researchgate.net/profile/Annemie-Elsen), Thomas Vanneste (https://www.researchgate.net/profile/Thomas-Vanneste), Kris Verheyen (https://www.researchgate.net/profile/Kris-Verheyen-2), Bert Reubens (https://www.researchgate.net/profile/Bert-Reubens)",
+  "organizations": "Soil Service of Belgium (BDB), UGent Forest and Nature lab (Fornalab), Flanders research institute for agriculture, fisheries and food (ILVO)",
+  "contact": "info@agroforestryvlaanderen.be",
+  "status": "Implemented",
+  "software_proglanguage": [
+    "R"
+  ],
+  "minimum_req": [
+    "Internet connection"
+  ],
+  "license": "Don't know",
+  "year_release": 2023,
+  "year_lastupdate": 2023,
+  "previous_versions_available": "No",
+  "systems": [
+    "Agroforestry"
+  ],
+  "system_components": [
+    "Tree"
+  ],
+  "indicators": [
+    "Growth",
+    "Soil",
+    "Carbon"
+  ],
+  "spatial_scales": [
+    "Plant/animal",
+    "Plot"
+  ],
+  "time_steps": [
+    "Yearly"
+  ],
+  "input_data_protocols": [
+    "User enters the data directly manually"
+  ],
+  "input_data_formats": [
+    ""
+  ],
+  "input_data_file_formats": [
+    ""
+  ],
+  "output_data_formats": [
+    "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
+  ],
+  "output_data_file_formats": [
+    "PDF"
+  ],
+  "end_users": [
+    "Researcher",
+    "Student",
+    "Policy-maker",
+    "Farmer",
+    "Landowner",
+    "Farm advisor",
+    "Carbon trader"
+  ],
+  "usages_most_relevant": [
+    "Research",
+    "Education",
+    "Planning/Design",
+    "Monitoring/Evaluating",
+    "Forecasting"
+  ],
+  "usages_least_relevant": [
+    "Management"
+  ],
+  "languages": [
+    "English"
+  ],
+  "url_persistent": "No",
+  "access_barrier": "No, direct download/access through a web link",
+  "access_procedure": "",
+  "access_procedure_documentation": "",
+  "listed_other_databases": "Don't know",
+  "listed_other_databases_list": "",
+  "integrated_other_tools": "Yes",
+  "integrated_other_tools_list": "LPIS Flanders",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Yes",
+  "url_documentation": "https://ilvo.vlaanderen.be/uploads/documents/CARAT-manual.pdf \nhttps://www.agroforestryvlaanderen.be/nl/nieuws/koolstofopslag-in-agroforestry-systemen-simuleren-met-de-carat-tool",
+  "documentation_theoretical_background": "Yes",
+  "documentation_theoretical_background_list": "",
+  "data_provenance": "Yes",
+  "development_process": "Yes",
+  "training_materials": "Yes",
+  "url_training_materials": "https://ilvo.vlaanderen.be/uploads/documents/CARAT-manual.pdf\nhttps://www.youtube.com/watch?v=-j93hxZSE2c",
+  "documentation_contribute": "Yes",
+  "digitaf_tool": "Yes",
+  "digitaf_tool_ll": [],
+  "digitaf_tool_demo_video": "https://www.youtube.com/watch?v=-j93hxZSE2c",
+  "feedback_tool_info": "i) we are currently looking at which license will be applicable ii) not all suplementary information of the tool is online yet, but will soon follow"
+}

@@ -1,0 +1,112 @@
+{
+	"id": "carbocatch",
+  "timestamp_creation": 1704202529000,
+  "submitter_name": "Waas Thissen",
+  "submitter_email": "w.thissen@louisbolk.nl",
+  "name": "CarboCatch",
+  "url": "https://carbocatch.space4good.com/",
+  "description_brief": "CarboCatch is an online interactive tool for agroforestry carbon sequestration projects. It's main functionality is aboveground biomass verification using high-resolution satellite data coupled with AI models.",
+  "logo_url": "https://www.eurisy.eu/wp-content/uploads/2023/04/CarboCatch-Presentation_Promotion_English.jpg",
+  "primary_purpose": [
+    "Research",
+    "Decision support"
+  ],
+  "keywords": [
+    "Agroforestry",
+    "Carbon",
+    "Biomass verification",
+    "Satellite",
+    "AI"
+  ],
+  "developers": "",
+  "organizations": "Space4Good, Louis Bolk Instituut",
+  "contact": "w.thissen@louisbolk.nl",
+  "status": "Under development",
+  "software_proglanguage": [
+    "Other"
+  ],
+  "software_proglanguage_other": "Multiple",
+  "minimum_req": [
+    "Internet connection",
+    "Desktop computer (e.g. optimized for wider screens)"
+  ],
+  "license": "Not stated",
+  "license_comments": "License fee model",
+  "year_release": "",
+  "year_lastupdate": "",
+  "previous_versions_available": "Only one version exists",
+  "systems": [
+    "Agroforestry"
+  ],
+  "system_components": [
+    "Tree"
+  ],
+  "indicators": [
+    "Growth",
+    "Carbon"
+  ],
+  "spatial_scales": [
+    "Plant/animal",
+    "Plot",
+    "One-hectare",
+    "Farm",
+    "Landscape"
+  ],
+  "time_steps": [
+    "Monthly"
+  ],
+  "input_data_protocols": [
+    "Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)"
+  ],
+  "input_data_formats": [
+    ""
+  ],
+  "input_data_file_formats": [
+    ""
+  ],
+  "output_data_formats": [
+    ""
+  ],
+  "output_data_file_formats": [
+    ""
+  ],
+  "end_users": [
+    "Researcher",
+    "Policy-maker",
+    "Farmer",
+    "Farm advisor",
+    "Carbon trader"
+  ],
+  "usages_most_relevant": [
+    "Monitoring/Evaluating"
+  ],
+  "usages_least_relevant": [
+    "Education",
+    "Planning/Design",
+    "Implementation"
+  ],
+  "languages": [
+    "English"
+  ],
+  "url_persistent": "No",
+  "access_barrier": "Access to the tool needs to be granted (e.g. tool owner needs to give permission after user registration; tool owner sends tool after receiving a request email)",
+  "access_procedure": "",
+  "access_procedure_documentation": "",
+  "listed_other_databases": "Don't know",
+  "listed_other_databases_list": "",
+  "integrated_other_tools": "Don't know",
+  "integrated_other_tools_list": "",
+  "documentation_available": "No",
+  "documentation_accessible": "No",
+  "url_documentation": "",
+  "documentation_theoretical_background": "No",
+  "documentation_theoretical_background_list": "",
+  "data_provenance": "No",
+  "development_process": "No",
+  "url_training_materials": "",
+  "documentation_contribute": "No",
+  "digitaf_tool": "No",
+  "digitaf_tool_ll": [],
+  "digitaf_tool_demo_video": "",
+  "feedback_tool_info": ""
+}

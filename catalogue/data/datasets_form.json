@@ -1,0 +1,501 @@
+[
+  {
+    "id": "id",
+    "text": "ID",
+    "helper": "string slug - exactly the same used to name the .json file",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "timestamp_creation",
+    "text": "Creation date",
+    "type": "date",
+    "required": true
+  },
+  {
+    "id": "timestamp_lastedit",
+    "text": "Last edited date",
+    "type": "date",
+    "required": true
+  },
+  {
+    "id": "submitter_name",
+    "text": "Your name",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "submitter_email",
+    "text": "Your email",
+    "helper": "This information allows us to contact you in case there is something that needs clarifying.",
+    "type": "email",
+    "required": true
+  },
+  {
+    "id": "editor_name",
+    "text": "Your name",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "editor_email",
+    "text": "Your email",
+    "helper": "This information allows us to contact you in case there is something that needs clarifying.",
+    "type": "email",
+    "required": true
+  },
+  {
+    "id": "name",
+    "text": "What is the name of the dataset?",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "url",
+    "text": "What is the link to the dataset?",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "url_persistent",
+    "text": "Is the link to the dataset a unique and persistent identifier?",
+    "type": "tag",
+    "required": true,
+    "fair": "F1",
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "id": "description",
+    "text": "Dataset description",
+    "type": "long string",
+    "required": true
+  },
+  {
+    "id": "keywords",
+    "text": "Which keywords best describe the dataset?",
+    "type": "array of strings",
+    "required": true
+  },
+  {
+    "id": "data_ownership",
+    "text": "Who, or which organization, is the data owner?",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "data_contact",
+    "text": "Provide some contact information regarding the dataset",
+    "type": "string",
+    "required": false
+  },
+  {
+    "id": "data_project",
+    "text": "Was the data collected during a project?",
+    "type": "tag",
+    "required": true,
+    "answers": [
+      "Yes",
+      "No, it has another source",
+      "Don't know"
+    ]
+  },
+  {
+    "id": "data_project_name",
+    "text": "If yes, what was the name of the project?",
+    "type": "string",
+    "required": false
+  },
+  {
+    "id": "data_project_url",
+    "text": "If yes, please provide a project URL (preferrably of CORDIS if available)",
+    "type": "string",
+    "required": false
+  },
+  {
+    "id": "data_collection_country",
+    "text": "Regional extent, e.g. country (or region) where the data was collected?",
+    "type": "tag",
+    "filter": 2,
+    "short_text": "Regional extent",
+    "required": true,
+    "answers": [
+      "Belgium",
+      "Czech Republic",
+      "Finland",
+      "France",
+      "Germany",
+      "Italy",
+      "Netherlands",
+      "United Kingdom",
+      "Europe",
+      "Global",
+      "Other"
+    ]
+  },
+  {
+    "id": "data_collection_country_other",
+    "for": "data_collection_country",
+    "text": "Please, specify",
+    "type": "string",
+    "required": false
+  },
+  {
+    "id": "data_type",
+    "text": "Type of data?",
+    "filter": 1,
+    "short_text": "Type of data",
+    "type": "array of tags",
+    "required": true,
+    "answers": [
+      "Aggregated data",
+      "Analysis data",
+      "Audiovisual corpus",
+      "Computer code",
+      "Experimental data",
+      "Observational data",
+      "Simulation data",
+      "Spatial data",
+      "Survey data",
+      "Text corpus",
+      "Other"
+    ]
+  },
+  {
+    "id": "data_type_other",
+    "for": "data_type",
+    "text": "Please, specify",
+    "type": "string",
+    "required": false
+  },
+  {
+    "id": "spatial_scales",
+    "text": "What's the spatial scale of the data?",
+    "short_text": "Spatial scale",
+    "filter": 1,
+    "type": "array of tags",
+    "required": true,
+    "answers": [
+      "Leaf/stem (sub-individual)",
+      "Plant/animal",
+      "Plot",
+      "One-hectare",
+      "Farm",
+      "Landscape",
+      "Catchment",
+      "Ecosystem Service Spatial Unit (ESSU)",
+      "Regional",
+      "National",
+      "European",
+      "Global",
+      "Other"
+    ]
+  },
+  {
+    "id": "spatial_scales_other",
+    "for": "spatial_scales",
+    "text": "Please, specify",
+    "type": "string"
+  },
+  {
+    "id": "spatial_details",
+    "text": "If applicable, give further spatial details (e.g. resolution, grid size)",
+    "type": "long string",
+    "required": false
+  },
+  {
+    "id": "indicators",
+    "text": "What indicators are included in the dataset?",
+    "short_text": "Indicators",
+    "filter": 2,
+    "type": "array of tags",
+    "required": true,
+    "answers": [
+      "Growth",
+      "Yield / Biomass",
+      "Biodiversity",
+      "Species occurrence",
+      "Land cover",
+      "Land use",
+      "Vegetation indexes",
+      "Phenology",
+      "Suitability",
+      "Water",
+      "Meteorology",
+      "Soil",
+      "Carbon",
+      "Nutrients",
+      "Mechanization",
+      "Labour",
+      "Social",
+      "Economics",
+      "Nutrition",
+      "Animal welfare",
+      "Mortality",
+      "Pests and Diseases",
+      "Other"
+    ]
+  },
+  {
+    "id": "indicators_other",
+    "for": "indicators",
+    "text": "Please, specify",
+    "type": "string"
+  },
+  {
+    "id": "time_steps",
+    "text": "At which time intervals is the data collected?",
+    "short_text": "Time interval",
+    "filter": 2,
+    "type": "array of tags",
+    "required": true,
+    "answers": [
+      "Hourly",
+      "Daily",
+      "Weekly",
+      "Fortnightly",
+      "Monthly",
+      "Yearly",
+      "Not relevant",
+      "Other"
+    ]
+  },
+  {
+    "id": "time_steps_other",
+    "for": "time_steps",
+    "text": "Please, specify",
+    "type": "string"
+  },
+  {
+    "id": "year_release",
+    "text": "What was the year of release?",
+    "type": "integer",
+    "required": false
+  },
+  {
+    "id": "year_lastupdate",
+    "text": "What year was it last updated?",
+    "type": "integer",
+    "required": false
+  },
+  {
+    "id": "time_span_oldest",
+    "text": "Time span covered by the database: year of oldest observation",
+    "type": "integer",
+    "required": false
+  },
+  {
+    "id": "time_span_newest",
+    "text": "Time span covered by the database: year of newest observation",
+    "type": "integer",
+    "required": false
+  },
+  {
+    "id": "data_confidentiality",
+    "text": "Is the data confidential?",
+    "type": "tag",
+    "required": true,
+    "answers": [
+      "No, the data is public",
+      "Yes, it is confidential data",
+      "Data embargo, i.e there are rules or limits on using, sharing, or spreading it",
+      "Data has a limiting license"
+    ]
+  },
+  {
+    "id": "license",
+    "text": "What is the usage rights license for the dataset?",
+    "short_text": "License",
+    "filter": 3,
+    "type": "tag",
+    "required": true,
+    "fair": "R2",
+    "answers": [
+      "MIT License",
+      "Apache License 2.0",
+      "GNU General Public License (GPL)",
+      "Creative Commons BY",
+      "Creative Commons BY-SA",
+      "Creative Commons BY-NC",
+      "Creative Commons BY-NC-SA",
+      "Creative Commons BY-ND",
+      "Creative Commons BY-NC-ND",
+      "Creative Commons Zero (CC0)",
+      "Proprietary",
+      "Not stated",
+      "Don't know",
+      "Other"
+    ]
+  },
+  {
+    "id": "license_other",
+    "for": "license",
+    "text": "Please, specify",
+    "type": "string",
+    "required": false
+  },
+  {
+    "id": "license_url",
+    "text": "Please indicate the URL to the license.",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "access_barrier",
+    "text": "Is there any barrier to accessing the data?",
+    "type": "tag",
+    "required": true,
+    "fair": "A1",
+    "answers": [
+      "No, direct download/access through a web link",
+      "User registration needed",
+      "Access to the data needs to be granted (e.g. dataset owner needs to give permission after user registration; dataset owner sends data after receiving a request email)",
+      "Access to the data is evaluated before being granted, due to ethical, legal or contractual constrains (e.g. privacy, highly sensitive data)"
+    ]
+  },
+  {
+    "id": "data_formats",
+    "text": "What is the format of the data?",
+    "type": "array of tags",
+    "required": true,
+    "fair": "I1",
+    "answers": [
+      "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)",
+      "Custom file formats (database specific, not widely used)",
+      "Static content (e.g. textual, reports on website pages, tables and graphs, PDF files)",
+      "Other"
+    ]
+  },
+  {
+    "id": "data_formats_other",
+    "for": "data_formats",
+    "text": "Please, specify the data format",
+    "type": "string",
+    "required": false
+  },
+  {
+    "id": "data_relevant_attributes",
+    "text": "The data is accurate and well described with many relevant attributes?",
+    "type": "tag",
+    "required": true,
+    "fair": "R1",
+    "answers": [
+      "Yes",
+      "Not completely",
+      "No",
+      "Don't know"
+    ]
+  },
+  {
+    "id": "listed_other_databases",
+    "text": "Is the dataset also listed in other databases?",
+    "type": "tag",
+    "required": true,
+    "fair": "F3",
+    "answers": [
+      "Yes",
+      "No",
+      "Don't know"
+    ]
+  },
+  {
+    "id": "data_metadata",
+    "text": "The dataset has an associated metadata file (e.g. XML, md), where the dataset details are described?",
+    "type": "tag",
+    "required": true,
+    "fair": "F2",
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "id": "documentation_accessible",
+    "text": "Is the metadata file, or documentation, fully accessible, even if the data may not be publicly available?",
+    "type": "tag",
+    "required": true,
+    "fair": "A2",
+    "answers": [
+      "Yes",
+      "Some of it",
+      "No",
+      "Don't know"
+    ]
+  },
+  {
+    "id": "data_metadata_vocabulary",
+    "text": "Does the metadata file, or documentation, follow any controlled vocabularies, keywords, thesauri or ontologies?",
+    "type": "tag",
+    "required": true,
+    "fair": "I2",
+    "answers": [
+      "Yes",
+      "No",
+      "Don't know"
+    ]
+  },
+  {
+    "id": "development_process",
+    "text": "It is clear how, why and by whom the data have been created and processed?",
+    "type": "tag",
+    "required": true,
+    "fair": "R3",
+    "answers": [
+      "Yes",
+      "Not completely",
+      "No",
+      "Don't know"
+    ]
+  },
+  {
+    "id": "documentation_list",
+    "text": "Indicate the associated publication(s) or other documentation related with the dataset.",
+    "type": "long string",
+    "required": false
+  },
+  {
+    "id": "digitaf_data_ll",
+    "text": "For DigitAF participants, in which DigitAF Living Labs is the data being used?",
+    "short_text": "Used in DigitAF Living Labs",
+    "type": "array of tags",
+    "required": false,
+    "digitaf_specific": true,
+    "answers": [
+      "Czech Republic LL",
+      "Finland LL",
+      "Germany LL",
+      "Italy LL",
+      "Netherlands LL",
+      "United Kingdom LL"
+    ]
+  },
+  {
+    "id": "digitaf_data_wp",
+    "text": "For DigitAF participants, in what WPs is this data being used?",
+    "short_text": "Used in DigitAF Living Labs",
+    "type": "array of tags",
+    "required": false,
+    "digitaf_specific": true,
+    "answers": [
+      "WP1 - Tools for policy-makers",
+      "WP2 - Tools for practitioners and farm advisors",
+      "WP3 - Tools for beneficiaries",
+      "WP4 - LL and a common AF toolbox"
+    ]
+  },
+  {
+    "id": "digitaf_data_used",
+    "text": "For DigitAF participants, please detail how is this data being used within the project context.",
+    "type": "long string",
+    "digitaf_specific": true,
+    "required": false
+  },
+  {
+    "id": "feedback_data_info",
+    "text": "Is there any relevant information about the dataset that hasn't been collected in the previous questions?",
+    "type": "string",
+    "required": false
+  }
+]

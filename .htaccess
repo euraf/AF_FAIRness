@@ -1,0 +1,13 @@
+<IfModule mod_negotiation.c>
+  Options -MultiViews
+</IfModule>
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /tools/dev/AF_FAIRness/
+  RewriteRule ^/tools/dev/AF_FAIRness/index\.html$ - [L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !^/tools/dev/AF_FAIRness/py/?$
+  RewriteRule . /tools/dev/AF_FAIRness/index.html [L]
+</IfModule>

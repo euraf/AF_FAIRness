@@ -1,0 +1,144 @@
+{
+	"id": "farmtree-tool",
+  "email": "frank.vanschoubroeck@farmtree.earth",
+  "name": "FarmTree Tool",
+  "url": "https://tool.farmtree.earth",
+  "description_brief": "FarmTree BV provides Agroforestry Key Performance Indicators. A simple Plot Plan (intercrops, tree species + number) and the plot location instructs the FarmTree Model to generate KPIs of the proposed system.",
+  "logo_url": "https://www.farmtree.earth/web/image/website/1/logo/FarmTree.earth?unique=c8bf1be",
+  "keywords": [
+    "Economic projections",
+    "Quantitative",
+    "Performance",
+    "Decision-support",
+    "Agro-ecology"
+  ],
+  "developers": "https://www.linkedin.com/in/frank-van-schoubroeck-9524518?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLAONSa%2FLRnu8glXPs7uyeQ%3D%3D",
+  "organizations": "FarmTree BV",
+  "contact": "info@farmtree.earth",
+  "description_full": "The FarmTree Tool is an Agroforestry System Simulation Tool originally meant to capture farmers' decennia-long experiences in a hands-on decision support tool (2010s). In the 2020s it developed into an online quantitative development tool. It has (early 2024) the following modules:\n(1) Components of Agroforestry Systems (CAFS) database. This database holds tree species in a functional hierarchy (e.g., fruit tree > tropical > mango > hapus). This database will be online in spring 2024; in the meanwhile FarmTree operates its internal database.\n(2) FarmTree Model. This simulation model (with global application) is built up of (a) an annual and perennial growth model (b) an interaction-between-CAFS model  (competition for space, water, nutrients) (c) a soil fertility and hydrology model (d) APIs to Climate Change and Soil databases that make projections location-specific all over the globe.\n(3) FarmTree Model Interface. This is the interface through which users can run scenarios, compare projections, download outcomes. Functionality is continuously developing. Sub-tools are (a) Carbon Projection Tool, that projects the carbon performance of Agroforestry systems (b) Hydrology Projection Tool, that projects the hydrology of different Plot Scenarios (c) Economic Projection Tool, that projects the economic performance of different Plot Scenarios (d) Comparison Tool, that shows the performance of different scenarios side-by -side. Ask for a demo if you want to see it all.\n(4)  In early 2024, the FarmTree Model will be approachable through an API. Ask the FarmTree Team for details.",
+  "status": "Implemented",
+  "software_proglanguage": [
+    "C++",
+    "Javascript"
+  ],
+  "minimum_req": [
+    "Internet connection",
+    "Cross-platform tool (works in Windows, Mac and Linux)"
+  ],
+  "license": "Proprietary",
+  "license_comment": "A demo is available for free. For locally tailored and calibrated data a user fee is charged.",
+  "year_release": "First version: 2022. Continuously developing.",
+  "year_lastupdate": "2024. FarmTree does weekly updates.",
+  "previous_versions_available": "No",
+  "systems": [
+    "Agriculture",
+    "Forestry",
+    "Agroforestry"
+  ],
+  "system_components": [
+    "Crop",
+    "Tree"
+  ],
+  "indicators": [
+    "Growth",
+    "Yield",
+    "Biodiversity",
+    "Water",
+    "Soil",
+    "Carbon",
+    "Nutrients",
+    "Labour",
+    "Social",
+    "Economics",
+    "Nutrition",
+    "Mortality"
+  ],
+  "spatial_scales": [
+    "Leaf/stem (sub-individual)",
+    "Plant/animal",
+    "Plot",
+    "One-hectare",
+    "Farm",
+    "Landscape",
+    "Catchment"
+  ],
+  "time_steps": [
+    "Monthly"
+  ],
+  "input_data_protocols": [
+    "User enters the data directly manually",
+    "Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)",
+    "Data entry can be fully automated programmatically (e.g. automatically run a script for multiple scenarios)"
+  ],
+  "input_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "input_data_file_formats": [
+    "CSV",
+    "JSON"
+  ],
+  "output_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)",
+    "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
+  ],
+  "output_data_file_formats": [
+    "XLS/XLSX (Microsoft Excel formats)",
+    "CSV",
+    "JSON"
+  ],
+  "end_users": [
+    "Researcher",
+    "Student",
+    "Policy-maker",
+    "Farmer",
+    "Landowner",
+    "Farm advisor",
+    "Carbon trader"
+  ],
+  "usages": {
+    "Research": 0,
+    "Education": 1,
+    "Planning/Design": 1,
+    "Implementation": 1,
+    "Management": 1,
+    "Monitoring/Evaluating": 1,
+    "Forecasting": 1
+  },
+  "languages": [
+    "Dutch",
+    "English",
+    "French",
+    "German",
+    "Spanish",
+    "Bahasa Indonesia"
+  ],
+  "url_persistent": "No",
+  "access_barrier": "User registration needed",
+  "access_procedure": "You can access a Demo version. Specific Regional versions require a license agreement. Contact through https://www.farmtree.earth/contactus",
+  "access_procedure_documentation": "Yes",
+  "listed_other_databases": "Yes",
+  "listed_other_databases_list": "",
+  "integrated_other_tools": "Yes",
+  "integrated_other_tools_list": "The FarmTree Model retrieves climate projections from Copernicus.eu; and soil characteristics from soilgrids.org. Other data sources are being explored.",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Yes",
+  "url_documentation": "https://www.farmtree.earth/tool-methodology",
+  "documentation_theoretical_background": "Yes",
+  "documentation_theoretical_background_list": "Please refer to the documentation link above",
+  "data_provenance": "Incomplete",
+  "development_process": "Yes",
+  "url_training_materials": "https://www.farmtree.earth/instructions",
+  "documentation_contribute": "Don't know",
+  "digitaf_tool": "Don't know",
+  "digitaf_tool_ll": [
+    "Germany LL",
+    "Netherlands LL",
+    "United Kingdom LL"
+  ],
+  "feedback_tool_info": "Please contact the FarmTree Team for collaboration options!",
+  "primary_purpose": [
+    "Education and training",
+    "Decision support"
+  ],
+  "digitaf_tool_demo_video": ""
+}

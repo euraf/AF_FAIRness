@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="theme-color" content="">
+	<base href="/tools/dev/AF_FAIRness/" />
+	<title>Agroforestry FAIRness</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/v4-font-face.min.css">
+	<link rel="icon" href="favicon-digitaf.png" sizes="32x32">
+
+</head>
+<body class="bg-default">
+	<div id="app" class="container-fluid">
+		<top></top>
+		<div v-if="loaded" class="content-wrap">
+			<router-view></router-view>
+		</div>
+		<bottom></bottom>
+	</div>
+
+	<script type="text/javascript" src="js/libraries/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/libraries/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/libraries/vue.js"></script>
+	<script type="text/javascript" src="js/libraries/vue-router.js"></script>
+	<script type="text/javascript" src="js/libraries/httpVueLoader.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+	<script type="text/javascript" src="catalogue/tools/scoring/techonology_ranking.js"></script>
+	<script type="text/javascript" src="catalogue/tools/scoring/tools_fairness_scoring.js"></script>
+	<script type="text/javascript" src="catalogue/data/scoring/data_fairness_scoring.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

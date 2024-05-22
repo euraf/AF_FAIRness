@@ -1,0 +1,504 @@
+:root {
+  --orange: #ea9010;
+  --light-orange: #f1c88e;
+  --dark-orange: #da8813;
+  --light-green: #bacdb0;
+  --dark-grey: #67697c;
+  --light-grey: #cccdd6;
+}
+
+/* Fonts */
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('fonts/segoeui.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Segoe UI Bold';
+	src: url('fonts/segoeuib.ttf') format('truetype');
+}
+
+/* Body and general text styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffbf6;
+  font-size: 14px;
+  color: black;
+}
+
+input,
+select {
+  font-size: 14px!important;
+  color: black!important;
+}
+p {
+  font-size: 14px;
+  color: black;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.btn.btn-primary {
+  background-color: var(--orange);
+  border-color: var(--orange);
+}
+.btn.btn-primary a {
+  color: white;
+}
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  background-color: var(--dark-orange);
+  border-color: var(--dark-orange);
+}
+.btn.btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(234, 144, 16, 0.5);
+}
+
+.note p {
+  font-size: 80%; /* Adjusted note font size */
+}
+
+/* Tool card styles */
+.card.tool {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+}
+
+.card.tool:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.card.tool .card-body {
+  padding: 15px;
+}
+
+.card.tool .card-title {
+  margin-top: -27px;
+  margin-bottom: 20px;
+  color: green;
+  font-size: 18px; /* Adjusted tool name font size */
+  background-color: white;
+  padding: 10px 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(33, 33, 33, 0.5);
+}
+
+.card.tool .card-text {
+  font-size: 14px;
+}
+.card.dataset .card-text,
+.card.dataset .topic {
+  font-size: 90%;
+}
+.card.dataset .topic {
+  font-weight: bold;
+}
+
+.btn-crop,
+.btn-tree,
+.btn-livestock,
+.btn-people,
+.btn-natural,
+.btn-agroforestry {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 30px;
+  width: 100px;
+  margin-right: 5px;
+}
+
+.btn-crop { background-color: orange; }
+.btn-tree { background-color: green; }
+.btn-livestock { background-color: darkblue; }
+.btn-people { background-color: darkgray; }
+.btn-natural { background-color: gold; }
+.btn-agroforestry { background-color: yellowgreen; }
+
+/* Fair score styles */
+.h-fair-container {
+  position: relative;
+}
+.h-fair {
+  display: inline-block;
+  height: 2vw;
+}
+.h-fair-title {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8vw; /* Adjusted fair title font size */
+  text-align: center;
+}
+.h-fair-score {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.8vw; /* Adjusted fair score font size */
+  color: white;
+}
+
+/* Image styles */
+.card.tool .card-img-top.tool-cover {
+  width: 100%;
+  height: 200px; /* Adjusted tool cover image height */
+  object-fit: cover;
+  border-bottom: 1px solid #ccc;
+}
+
+.details-block {
+  margin-bottom: 5px;
+}
+.details-block p:not(.btn-small-title) {
+  margin-bottom: 0;
+}
+
+
+/* Small title styles */
+.btn-small-title {
+  font-size: 12px;
+  color: darkgray;
+  font-style: italic;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+/* Button hover styles */
+.btn-digitaf {
+  font-family: 'Segoe UI Bold';
+  color: #253d5b;
+  font-size: 18px;
+  transition: text-decoration 0.3s;
+}
+
+.btn-digitaf:hover {
+  text-decoration: underline;
+}
+
+/* Sorting styles */
+.sorting select {
+  margin-left: auto;
+  margin-right: 0;
+  width: 20rem;
+  font-size: 14px;
+}
+
+.sorting p {
+  font-size: 14px;
+  margin-top: 7px;
+  margin-bottom: 0;
+}
+
+table.fair-score, table.fair-score tr, table.fair-score td {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  padding: 0px;
+}
+
+.rotate90 { transform: rotate(90deg); }
+.rotate180 { transform: rotate(180deg); }
+.rotate270 { transform: rotate(270deg); }
+.mb-0 { margin-bottom: 0; }
+.mb-50 { margin-bottom: 50px; }
+
+/* Filtering */
+
+.card-header .btn-link {
+  color: green;
+  text-transform: uppercase;
+  font-size: 60%;
+  font-weight: bold;
+}
+
+.card-title {
+  margin-bottom: 1.25rem;
+  color: green;
+}
+.card-title a,
+.card-title a:hover,
+.card-title a:active,
+.card-title a:visited {
+  color: green;
+}
+.card-text {
+  font-size: 70%;
+}
+.card-header {
+  padding: 0;
+  border-bottom: none;
+  background-color: transparent;
+}
+
+.filters label {
+  font-size: 70%;
+  margin: 0;
+  padding: 0;
+}
+
+.tool-cover {
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(0, 128, 0, 0.05),
+    rgba(0, 128, 0, 0.05) 20px,
+    rgba(0, 128, 0, 0.07) 20px,
+    rgba(0, 128, 0, 0.07) 40px
+  );
+}
+
+.accordion button[data-toggle="collapse"]::after {
+  font-family: "FontAwesome";
+	content: "\f107";
+  position: absolute;
+  top: 25px;
+  right: 15px;
+  transition: all 0.30s;
+
+  /* rotate "play" icon from > (right arrow) to down arrow */
+  -webkit-transform: rotate(180deg);
+  -moz-transform:    rotate(180deg);
+  -ms-transform:     rotate(180deg);
+  -o-transform:      rotate(180deg);
+  transform:         rotate(180deg);
+}
+.accordion button[data-toggle="collapse"]::after {
+  top: 7px;
+}
+.accordion button[data-toggle="collapse"].collapsed::after {
+  /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+  -webkit-transform: rotate(0deg);
+  -moz-transform:    rotate(0deg);
+  -ms-transform:     rotate(0deg);
+  -o-transform:      rotate(0deg);
+  transform:         rotate(0deg);
+}
+
+.add-scroll {
+  overflow: hidden;
+}
+
+.add-scroll > div {
+  overflow-y: scroll;
+}
+
+.add-scroll > div.card-body {
+  max-height: 160px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+#accordionex {
+  font-size: 90%;
+}
+
+#accordionex .form-control,
+#accordionex .input-group-text {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: calc(1.5em + 2px);
+}
+
+a,
+a:hover,
+a:visited,
+a:focus {
+  color: green;
+}
+
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.demo-video {
+  max-height: 80px;
+}
+
+.score-bar {
+  display: flex;
+  margin-bottom: 0px;
+  margin-bottom: 2px;
+}
+
+.bar {
+  height: 15px;
+  width: 80%;
+  display: flex;
+  text-align: left;
+}
+.bar p {
+  margin-top: 2px;
+  font-size: 10px;
+  margin-left: 2px;
+}
+.label {
+  margin-bottom: 0px;
+  font-size: 12px;
+  width: 20%;
+}
+.footer {
+    background-color: white;
+    font-size: 80%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+  height: 60px;
+  background-color: var(--orange);
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  padding-right: 20px;
+}
+.top .logo img {
+  height: 55px;
+  width: auto;
+  padding-top: 3px;
+}
+.top .logo {
+  background-color: white;
+}
+.title h1 {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.title h1,
+.menu div {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:60px;
+}
+.top .menu a {
+  color: white;
+}
+.menu {
+  font-size: 90%;
+}
+.content-wrap {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.proglang .form-check div {
+  padding-left: 15px;
+}
+.form.form-self-assessment {
+  margin-left: 11rem;
+  margin-right: 6rem;
+}
+.form.form-add {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+.form .form-group {
+  margin-bottom: 30px;
+}
+
+.question-text {
+  font-weight: bold;
+}
+
+.scoring-block {
+  position: fixed;
+  top: 56px;
+  left: 20px;
+  z-index: 800;
+  background: white;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  width: 150px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.scoring-block .small-title {
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.scoring-block .bar p {
+  margin-top: 0;
+}
+
+.initial-screen {
+  margin-top: 200px;
+}
+
+.initial-screen a {
+  color: var(--orange);
+}
+
+.question-conditional {
+  margin-top: -20px;
+  display: flex;
+}
+.question-conditional .question-text {
+  font-weight: normal;
+}
+.question-conditional label {
+  margin-right: 10px;
+  padding-top: 5px;
+}
+.question-conditional input {
+  width: 70%;
+}
+
+span.compulsory {
+  color: red;
+}
+.about-tools,
+.about-data {
+  padding: 25px 0;
+}
+.about-data .btn,
+.about-tools .btn {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.about-tools .nr,
+.about-data .nr {
+  font-size: 130%;
+}
+.about-digitaf {
+  background-color: var(--light-grey);
+}
+.about-deliverables {
+  background-color: var(--dark-grey);
+}
+.about-fair {
+  background-color: var(--light-orange);
+}
+.about-this {
+  background-color: var(--light-green);
+}
+.about-this,
+.about-fair,
+.about-digitaf,
+.about-deliverables {
+  padding: 20px 120px;
+}
+.about-deliverables p,
+.about-deliverables h3 {
+  color: white;
+}
+.about-fair h3,
+.about-digitaf h3,
+.about-deliverables h3,
+.about-this h3 {
+  margin-bottom: 20px;
+}
+
+.highlight {
+  background-color: rgba(255, 255, 255, 0.5);
+}

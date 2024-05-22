@@ -1,0 +1,124 @@
+{
+	"id": "feast",
+  "email": "J.Tzilivakis@herts.ac.uk",
+  "name": "FEAST - Farmland Ecosystem Assessment Support Tool",
+  "url": "https://sitem.herts.ac.uk/aeru/feast/",
+  "description_brief": "The Farmland Ecosystem Assessment Support Tool (FEAST) software is a prototype tool that aims to support the process of assessing and managing farmland landscapes (individual features and whole landscapes) with respect to enhancing their effects on ecosystem services and biodiversity",
+  "logo_url": "https://sitem.herts.ac.uk/aeru/feast/graphics/FEAST_logo.png",
+  "keywords": [
+    "Farmland",
+    "Biodiversity",
+    "Ecosystem services"
+  ],
+  "developers": "Agriculture and the Environment Research Unit (AERU), University of Hertfordshire, UK",
+  "organizations": "FRAMEWork consortium (see: https://www.framework-biodiversity.eu/) (H2020 Project)",
+  "contact": "J.Tzilivakis@herts.ac.uk",
+  "description_full": "The FEAST software used the EFA Calculator (see https://sitem.herts.ac.uk/aeru/efa/) as a base and has been extended to include more land uses and landscape features; more biodiversity and species habitat suitability metrics; and now has a mapping interface to facilitate spatial analysis and visualisation. The tool also has functions to enter or import biodiversity monitoring data, and this can be integrated with outputs from other functions within the software (e.g. overlaying biodiversity monitoring data with habitat suitability assessments for different species on a map). Users can do simple/quick calculations (e.g. habitat suitability for a single landscape feature) through to advanced assessments using spatial calculation tools within the mapping interface for multiple landscape features and whole landscapes.",
+  "status": "Under development",
+  "software_proglanguage": [
+    "Visual Basic / VBScript"
+  ],
+  "minimum_req": [
+    "Internet connection",
+    "Desktop computer (e.g. optimized for wider screens)",
+    "Specific operating system: Windows"
+  ],
+  "license": "Not stated",
+  "year_release": "Expected 2024",
+  "year_lastupdate": 2024,
+  "previous_versions_available": "No",
+  "systems": [
+    "Agriculture",
+    "Forestry",
+    "Agroforestry",
+    "Natural/Wild"
+  ],
+  "system_components": [
+    "Crop",
+    "Tree"
+  ],
+  "indicators": [
+    "Biodiversity",
+    "Soil",
+    "Carbon"
+  ],
+  "spatial_scales": [
+    "Plot",
+    "Farm",
+    "Landscape"
+  ],
+  "time_steps": [
+    "Not relevant"
+  ],
+  "input_data_protocols": [
+    "User enters the data directly manually",
+    "Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)"
+  ],
+  "input_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "input_data_file_formats": [
+    "XLS/XLSX (Microsoft Excel formats)",
+    "CSV",
+    "Shapefile"
+  ],
+  "output_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)",
+    "Custom file formats",
+    "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
+  ],
+  "output_data_file_formats": [
+    "XLS/XLSX (Microsoft Excel formats)",
+    "CSV",
+    "Shapefile",
+    "Images (e.g. png, jpg, tiff, etc)"
+  ],
+  "end_users": [
+    "Researcher",
+    "Student",
+    "Policy-maker",
+    "Farmer",
+    "Landowner",
+    "Farm advisor"
+  ],
+  "usages": {
+    "Research": 1,
+    "Education": 0,
+    "Planning/Design": 1,
+    "Implementation": 1,
+    "Management": 1,
+    "Monitoring/Evaluating": 1,
+    "Forecasting": 0
+  },
+  "languages": [
+    "English"
+  ],
+  "url_persistent": "No",
+  "access_barrier": "No, direct download/access through a web link",
+  "access_procedure": "To be determined",
+  "access_procedure_documentation": "Yes",
+  "listed_other_databases": "Don't know",
+  "listed_other_databases_list": "NA",
+  "integrated_other_tools": "Yes",
+  "integrated_other_tools_list": "Global Biodiversity Information Facility (GBIF); NBN Atlas",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Yes",
+  "url_documentation": "https://sitem.herts.ac.uk/aeru/feast/help.htm",
+  "documentation_theoretical_background": "Yes",
+  "documentation_theoretical_background_list": "They are embedded within the software, plus related publications are listed here: https://sitem.herts.ac.uk/aeru/projects/escalc/",
+  "data_provenance": "Yes",
+  "development_process": "Yes",
+  "url_training_materials": "https://sitem.herts.ac.uk/aeru/feast/help.htm",
+  "documentation_contribute": "No",
+  "digitaf_tool": "No",
+  "digitaf_tool_ll": [
+    ""
+  ],
+  "feedback_tool_info": "",
+  "primary_purpose": [
+    "Research",
+    "Education and training",
+    "Decision support"
+  ],
+  "digitaf_tool_demo_video": ""
+}

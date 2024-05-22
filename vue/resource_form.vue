@@ -1,0 +1,204 @@
+<script>
+module.exports = {
+  name: "resource_form",
+  props: {
+    tools: Boolean,
+    data: Boolean
+  },
+  data() {
+    return {
+        formData: {}
+    }
+  },
+  mounted() {
+    if (this.id) {
+        var resource = this.resources.filter(el => el.id == this.id)
+        if (resource.length > 0) {
+            this.formData = Object.assign({}, resource[0])
+        }
+    }
+  },
+  watch: {
+    formData: {
+        deep: true,
+        handler() {
+            // this.updateScoring()
+        }
+    }
+  },
+  computed: {
+    id() {
+      return this.$route.params.id
+    },
+    resources() {
+        if (this.tools) {
+            return this.$root.$data.tools
+        } else {
+            return this.$root.$data.datasets
+        }
+    },
+    tools_form() {
+        return this.$root.$data.tools_form
+    },
+    datasets_form() {
+      return this.$root.$data.datasets_form
+    },
+    form() {
+        var obj = {}
+        if (this.tools) {
+            obj = this.$root.$data.tools_form.filter(question => question.id !== 'id')
+        } else if (this.data) {
+            obj = this.$root.$data.datasets_form.filter(question => question.id !== 'id')
+        }
+        if (this.creating) {
+            obj = obj.filter(question => question.id !== 'editor_name' && question.id !== 'editor_email' )
+        } else if (this.editing) {
+            obj = obj.filter(question => question.id !== 'submitter_name' && question.id !== 'submitter_email' )
+        }
+        return obj
+    },
+    editing() {
+        if (this.id) return true
+        return false   
+    },
+    creating() {
+        return !this.editing
+    }
+  },
+  methods: {
+    /* scoreColor(score) {
+      return {
+        0: '#e43e3d', // red
+        10: '#ea484d',
+        20: '#ec654e',
+        30: '#ef874c',
+        40: '#f3a74c',
+        50: '#f8c43d',
+        60: '#e1c63b',
+        70: '#c1cc36',
+        80: '#9fcd35',
+        90: '#7fcd31',
+        100: '#5aaf2b' // green
+      }[Math.round(score/10) * 10]
+    },
+    updateScoring() {
+        var FAIR = null
+        if (this.tools) {
+            FAIR = new Tools_FAIRness_scoring()
+        } else if (this.data) {
+            FAIR = new Data_FAIRness_scoring()
+        }
+        var scores = FAIR.score(this.formData)
+        this.$set(this.formData, 'findability_score', scores.F)
+        this.$set(this.formData, 'accessibility_score', scores.A)
+        this.$set(this.formData, 'interoperability_score', scores.I)
+        this.$set(this.formData, 'reusability_score', scores.R)
+    },*/
+    isValid(answer) {
+        return answer !== null && answer !== "null" && answer !== undefined && answer !== ""
+    },
+    sanitizeName(dataset_name) {
+        return dataset_name.replaceAll(/[^a-z0-9 ]/gi, '').replaceAll(' ', '_').toLowerCase();
+    },
+    verifyCompulsory() {
+        var ignore_list = []
+        if (this.creating) {
+            ignore_list = [ "id", "timestamp_creation", "timestamp_lastedit", "editor_name", "editor_email" ]
+        } else if (this.editing) {
+            ignore_list = [ "timestamp_lastedit" ]
+        }
+        for (question of this.form) {
+            if (ignore_list.includes(question.id)) {
+                continue;
+            }
+            if (question.required) {
+                if (question.id in this.formData && this.isValid(this.formData[question.id])) {
+                    // continue
+                } else {
+                    alert('Please answer all compulsory questions.\nQuestion missing an answer: ' + question.text)
+                    return false
+                }
+            }
+        }
+        return true
+    },
+    save() {
+        if (!this.verifyCompulsory()) {
+            return
+        }
+
+        if (this.creating) {
+            this.formData.id = this.sanitizeName(this.formData.name)
+            this.formData.timestamp_creation = Date.now()
+
+        } else if (this.editing) {
+            this.formData.timestamp_lastedit = Date.now()
+        }
+
+        var action = this.creating ? "create" : "update"
+        var resources = this.data ? "data" : "tools"
+        var databody = this.formData
+
+        $.ajax({
+            url: "https://mvarc.eu/tools/dev/AF_FAIRness_py",
+            type: "post",
+            data: { action: action, resources: resources, data: JSON.stringify(databody) },
+            dataType: "json",
+            success: function(response) {
+                alert(response);
+                console.log(response)
+            }
+        });
+    }
+  }
+}
+</script>
+
+<template>
+    <div>
+        <div class="row form form-add">
+            <div class="offset-2 col-8">
+                <div class="form-group" v-for="question in form" :key="question.id" :v-model="formData[question.id]">
+                    <input-text v-if="'for' in question" :question="question" :form-data="formData" v-show="formData[question.for] == 'Other'" class="question-conditional"></input-text>
+                    <dropdown v-else-if="question.type == 'tag'" :question="question" :form-data="formData"></dropdown>
+                    <checkbox v-else-if="question.type == 'array of tags'" :question="question" :form-data="formData"></checkbox>
+                    <input-text v-else-if="question.type == 'string' || question.type == 'long string' || question.type == 'email'" :question="question" :form-data="formData"></input-text>
+                    <keywords v-else-if="question.type == 'array of strings'" :question="question" :form-data="formData"></keywords>
+                    <input-number v-else-if="question.type == 'integer'" :question="question" :form-data="formData"></input-number>
+                </div>
+                <p class="btn btn-primary" @click="save()">Save</p>
+            </div>
+        </div>
+        <!--div class="scoring-block">
+            <p class="small-title"><b>FAIRness score</b></p>
+            <div class="score-bar">
+                <p class="label">F</p>
+                <div class="bar">
+                    <div :style="'width:' + formData.findability_score*0.75 + '%; background-color: ' + scoreColor(formData.findability_score) + ';'"></div>
+                    <p :class="{ 'ml-0': formData.findability_score == 0 }">{{ formData.findability_score }}%</p>
+                </div>
+            </div>
+            <div class="score-bar">
+                <p class="label">A</p>
+                <div class="bar">
+                    <div :style="'width:' + formData.accessibility_score*0.75 + '%; background-color: ' + scoreColor(formData.accessibility_score) + ';'"></div>
+                    <p :class="{ 'ml-0': formData.accessibility_score == 0 }">{{ formData.accessibility_score }}%</p>
+                </div>
+            </div>
+            <div class="score-bar">
+                <p class="label">I</p>
+                <div class="bar">
+                    <div :style="'width:' + formData.interoperability_score*0.75 + '%; background-color: ' + scoreColor(formData.interoperability_score) + ';'"></div>
+                    <p :class="{ 'ml-0': formData.interoperability_score == 0 }">{{ formData.interoperability_score }}%</p>
+                </div>
+            </div>
+            <div class="score-bar">
+                <p class="label">R</p>
+                <div class="bar">
+                    <div :style="'width:' + formData.reusability_score*0.75 + '%; background-color: ' + scoreColor(formData.reusability_score) + ';'"></div>
+                    <p :class="{ 'ml-0': formData.reusability_score == 0 }">{{ formData.reusability_score }}%</p>
+                </div>
+            </div>
+        </div-->
+    </div>
+</template>
