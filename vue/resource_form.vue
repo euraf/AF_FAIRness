@@ -135,20 +135,24 @@ module.exports = {
             this.formData.timestamp_lastedit = Date.now()
         }
 
+        delete this.formData.findability_score
+        delete this.formData.accessibility_score
+        delete this.formData.interoperability_score
+        delete this.formData.reusability_score
+
         var action = this.creating ? "create" : "update"
         var resources = this.data ? "data" : "tools"
         var databody = this.formData
-
+        
         $.ajax({
             url: "https://mvarc.eu/tools/dev/AF_FAIRness_py",
             type: "post",
             data: { action: action, resources: resources, data: JSON.stringify(databody) },
-            dataType: "json",
-            success: function(response) {
-                alert(response);
-                console.log(response)
-            }
-        });
+            dataType: "json"
+        }).always(function(response) {
+            alert(response.responseText);
+            console.log(response)
+        })
     }
   }
 }
@@ -166,7 +170,7 @@ module.exports = {
                     <keywords v-else-if="question.type == 'array of strings'" :question="question" :form-data="formData"></keywords>
                     <input-number v-else-if="question.type == 'integer'" :question="question" :form-data="formData"></input-number>
                 </div>
-                <p class="btn btn-primary" @click="save()">Save</p>
+                <p class="btn btn-primary pointer" @click="save()">Save</p>
             </div>
         </div>
         <!--div class="scoring-block">
