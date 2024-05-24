@@ -1,6 +1,8 @@
 {
   "id": "re-livestock_tool",
-  "email": "josmith@mvarc.eu",
+  "timestamp_creation": 1701693145000,
+  "submitter_name": "Jo Smith",
+  "submitter_email": "josmith@mvarc.eu",
   "name": "Re-Livestock tool",
   "url": "https://www.mvarc.eu/tools/dev/re-livestock_tool",
   "description_brief": "The Re-Livestock tool is a sustainability assessment for farms covering 13 categories of sustainability, developed for the Horizon Europe project Re-Livestock and based on the Public Goods tool",
@@ -10,12 +12,11 @@
   ],
   "keywords": [
     "Sustainability assessment",
-    "farm-level"
+    "Farm-level"
   ],
   "developers": "Based on the Public Goods tool (https://www.organicresearchcentre.com/our-research/research-project-library/public-goods-tool-2/) developed by Laurence Smith at the Organic Research Centre and developed for online use by MVARC.",
   "organizations": "MVARC (https://mvarc.eu/), University of Reading (https://www.reading.ac.uk/)",
   "contact": "info@mvarc.eu",
-  "description_full": "",
   "status": "Under development",
   "software_proglanguage": [
     "Javascript"
@@ -81,26 +82,21 @@
     "Retailer",
     "Final consumer"
   ],
-  "usages": {
-    "Research": 0,
-    "Education": 0,
-    "Planning/Design": 0,
-    "Implementation": 0,
-    "Management": 1,
-    "Monitoring/Evaluating": 1,
-    "Forecasting": 1
-  },
+  "usages_most_relevant": [
+    "Management",
+    "Monitoring/Evaluating",
+    "Forecasting"
+  ],
+  "usages_least_relevant": [],
   "languages": [
     "Dutch",
     "English",
     "French",
     "German",
     "Italian",
-    "Spanish",
-    "Polish",
-    "Danish",
-    "Swedish"
+    "Other"
   ],
+  "languages_other": "Spanish, Polish, Danish, Swedish",
   "url_persistent": "No",
   "access_barrier": "No, direct download/access through a web link",
   "access_procedure": "",
@@ -116,6 +112,7 @@
   "documentation_theoretical_background_list": "",
   "data_provenance": "No",
   "development_process": "No",
+  "training_materials": "Yes",
   "url_training_materials": "https://zenodo.org/doi/10.5281/zenodo.10870156",
   "documentation_contribute": "No",
   "digitaf_tool": "No",

@@ -1,21 +1,25 @@
 {
 	"id": "farmsafe_v3",
-  "email": "p.burgess@cranfield.ac.uk",
+  "timestamp_creation": 1711368801000,
+  "submitter_name": "Paul Burgess",
+  "submitter_email": "p.burgess@cranfield.ac.uk",
   "name": "Farm-SAFE v3",
   "url": "https://doi.org/10.17862/cranfield.rd.25151465.v1",
-  "description_brief": "Farm-SAFE (Financial and Resource use Model for Simulating AgroForestry in Europe) is a spreadsheet bio-economic model to compare the financial benefits and costs of crop-only, tree-only, and agroforestry system over rotations of up to 60 years. ",
+  "primary_purpose": [
+    "Research"
+  ],
+  "description_brief": "Farm-SAFE (Financial and Resource use Model for Simulating AgroForestry in Europe) is a spreadsheet-based bio-economic model which has been developed in Microsoft® Excel® to compare the financial benefits and costs of crop-only, tree-only, and agroforestry system over tree rotations of up to 60 years (Graves et al., 2024a). The results are presented in both graphical and tabular form in terms of a net present value and equivalent annual values. A description and user guide is also available (Graves et al., 2024b).",
   "logo_url": "https://mvarc.eu/tools/dev/AF-tools-database/img/farmsafe.png",
   "keywords": [
     "Financial",
-    "cost-benefit analysis",
-    "costs",
-    "revenue",
-    "net margins"
+    "Cost-benefit analysis",
+    "Costs",
+    "Revenue",
+    "Net margins"
   ],
   "developers": "Anil Graves (https://www.cranfield.ac.uk/people/dr-anil-graves-1310715)\nPaul Burgess (https://www.cranfield.ac.uk/people/professor-paul-burgess-784015) \nMichail Giannitsopoulos (https://www.cranfield.ac.uk/people/dr-michail-giannitsopoulos-22176267) \nFelix Herzog (https://scholar.google.com/citations?user=l1NuxOUAAAAJ&hl=de)\nJoao Palma (https://scholar.google.com/citations?user=uGpjAYYAAAAJ&hl=en)",
   "organizations": "Cranfield University (UK), MVarc (Portugal), Agroscope  (Switzerland)",
   "contact": "Anil Graves (a.graves@cranfield.ac.uk)",
-  "description_full": "Farm-SAFE (Financial and Resource use Model for Simulating AgroForestry in Europe) is a spreadsheet-based bio-economic model which has been developed in Microsoft® Excel® to compare the financial benefits and costs of crop-only, tree-only, and agroforestry system over tree rotations of up to 60 years (Graves et al., 2024a). The results are presented in both graphical and tabular form in terms of a net present value and equivalent annual values. A description and user guide is also available (Graves et al., 2024b). ",
   "status": "Implemented",
   "software_proglanguage": [
     "Microsoft Excel"
@@ -76,15 +80,15 @@
     "Student",
     "Farm advisor"
   ],
-  "usages": {
-    "Research": 1,
-    "Education": 1,
-    "Planning/Design": 1,
-    "Implementation": 0,
-    "Management": 0,
-    "Monitoring/Evaluating": -1,
-    "Forecasting": 1
-  },
+  "usages_most_relevant": [
+    "Research",
+    "Education",
+    "Planning/Design",
+    "Forecasting"
+  ],
+  "usages_least_relevant": [
+    "Monitoring/Evaluating"
+  ],
   "languages": [
     "English"
   ],
@@ -103,16 +107,13 @@
   "documentation_theoretical_background_list": "Giannitsopoulos, M., Graves, A.R, Burgess, P.J., Crous-Duran, J., Moreno, G., Herzog, F., Palma, J.H.N., Kay, S., García de Jalón, S. (2020). Whole system valuation of arable, agroforestry and tree-only systems at three case study sites in Europe.  Journal of Cleaner Production 269, 122283. https://doi.org/10.1016/j.jclepro.2020.122283\n\nGraves, A.R., Burgess, P.J., Palma, J.H.N., Herzog, F., Moreno, G., Bertomeu, M., Dupraz, C., Liagre, F., Keesman, K., van der Werf, W. Koeffeman de Nooy, A. & van den Briel, J.P. (2007). Development and application of bio-economic modelling to compare silvoarable, arable and forestry systems in three European countries.  Ecological Engineering 29, 434-449.\n\nGraves, A.R., Burgess, P.J., Liagre, F., Terreaux, J-P., Borrel, T, Dupraz, C., Palma, J., Herzog, F. (2011).  Farm-SAFE: the process of developing a plot- and farm-scale model of arable, forestry and silvoarable economics.  Agroforestry Systems 81, 93-108. https://doi.org/10.1007/s10457-010-9363-2\n\nGraves, A., Palma, J., Garcia de Jalon, S., Crous-Duran, J., Liagre, F., Burgess, P.J. (2017). Deliverable 9.27(9.3) Web-application of the Yield-SAFE and Farm-SAFE Model: Farm-SAFE_March17. Microsoft Excel worksheet model developed as part of the AGFORWARD project. 31 MB. March 2017.  https://www.agforward.eu/web-application-of-yield-safe-and-farm-safe-models.html\n\n",
   "data_provenance": "Yes",
   "development_process": "Yes",
+  "training_materials": "Yes",
   "url_training_materials": "https://doi.org/10.17862/cranfield.rd.25151465.v1",
   "documentation_contribute": "Yes",
   "digitaf_tool": "Yes",
   "digitaf_tool_ll": [
     "United Kingdom LL"
   ],
-  "feedback_tool_info": "No",
-  "feedback_general": "No",
-  "primary_purpose": [
-    "Research"
-  ],
-  "digitaf_tool_demo_video": ""
+  "digitaf_tool_demo_video": "",
+  "feedback_tool_info": "No"
 }
