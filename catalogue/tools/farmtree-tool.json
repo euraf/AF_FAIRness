@@ -1,10 +1,16 @@
 {
 	"id": "farmtree-tool",
-  "email": "frank.vanschoubroeck@farmtree.earth",
+  "timestamp_creation": 1703941655000,
+  "submitter_name": "Frank Vanschoubroeck",
+  "submitter_email": "frank.vanschoubroeck@farmtree.earth",
   "name": "FarmTree Tool",
   "url": "https://tool.farmtree.earth",
-  "description_brief": "FarmTree BV provides Agroforestry Key Performance Indicators. A simple Plot Plan (intercrops, tree species + number) and the plot location instructs the FarmTree Model to generate KPIs of the proposed system.",
+  "description_brief": "The FarmTree Tool is an Agroforestry System Simulation Tool originally meant to capture farmers' decennia-long experiences in a hands-on decision support tool (2010s). In the 2020s it developed into an online quantitative development tool. It has (early 2024) the following modules:\n(1) Components of Agroforestry Systems (CAFS) database. This database holds tree species in a functional hierarchy (e.g., fruit tree > tropical > mango > hapus). This database will be online in spring 2024; in the meanwhile FarmTree operates its internal database.\n(2) FarmTree Model. This simulation model (with global application) is built up of (a) an annual and perennial growth model (b) an interaction-between-CAFS model  (competition for space, water, nutrients) (c) a soil fertility and hydrology model (d) APIs to Climate Change and Soil databases that make projections location-specific all over the globe.\n(3) FarmTree Model Interface. This is the interface through which users can run scenarios, compare projections, download outcomes. Functionality is continuously developing. Sub-tools are (a) Carbon Projection Tool, that projects the carbon performance of Agroforestry systems (b) Hydrology Projection Tool, that projects the hydrology of different Plot Scenarios (c) Economic Projection Tool, that projects the economic performance of different Plot Scenarios (d) Comparison Tool, that shows the performance of different scenarios side-by -side. Ask for a demo if you want to see it all.\n(4)  In early 2024, the FarmTree Model will be approachable through an API. Ask the FarmTree Team for details.",
   "logo_url": "https://www.farmtree.earth/web/image/website/1/logo/FarmTree.earth?unique=c8bf1be",
+  "primary_purpose": [
+    "Education and training",
+    "Decision support"
+  ],
   "keywords": [
     "Economic projections",
     "Quantitative",
@@ -15,7 +21,6 @@
   "developers": "https://www.linkedin.com/in/frank-van-schoubroeck-9524518?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLAONSa%2FLRnu8glXPs7uyeQ%3D%3D",
   "organizations": "FarmTree BV",
   "contact": "info@farmtree.earth",
-  "description_full": "The FarmTree Tool is an Agroforestry System Simulation Tool originally meant to capture farmers' decennia-long experiences in a hands-on decision support tool (2010s). In the 2020s it developed into an online quantitative development tool. It has (early 2024) the following modules:\n(1) Components of Agroforestry Systems (CAFS) database. This database holds tree species in a functional hierarchy (e.g., fruit tree > tropical > mango > hapus). This database will be online in spring 2024; in the meanwhile FarmTree operates its internal database.\n(2) FarmTree Model. This simulation model (with global application) is built up of (a) an annual and perennial growth model (b) an interaction-between-CAFS model  (competition for space, water, nutrients) (c) a soil fertility and hydrology model (d) APIs to Climate Change and Soil databases that make projections location-specific all over the globe.\n(3) FarmTree Model Interface. This is the interface through which users can run scenarios, compare projections, download outcomes. Functionality is continuously developing. Sub-tools are (a) Carbon Projection Tool, that projects the carbon performance of Agroforestry systems (b) Hydrology Projection Tool, that projects the hydrology of different Plot Scenarios (c) Economic Projection Tool, that projects the economic performance of different Plot Scenarios (d) Comparison Tool, that shows the performance of different scenarios side-by -side. Ask for a demo if you want to see it all.\n(4)  In early 2024, the FarmTree Model will be approachable through an API. Ask the FarmTree Team for details.",
   "status": "Implemented",
   "software_proglanguage": [
     "C++",
@@ -95,23 +100,23 @@
     "Farm advisor",
     "Carbon trader"
   ],
-  "usages": {
-    "Research": 0,
-    "Education": 1,
-    "Planning/Design": 1,
-    "Implementation": 1,
-    "Management": 1,
-    "Monitoring/Evaluating": 1,
-    "Forecasting": 1
-  },
+  "usages_most_relevant": [
+    "Education",
+    "Planning/Design",
+    "Implementation",
+    "Management",
+    "Monitoring/Evaluating",
+    "Forecasting"
+  ],
+  "usages_least_relevant": [],
   "languages": [
     "Dutch",
     "English",
     "French",
     "German",
-    "Spanish",
-    "Bahasa Indonesia"
+    "Other"
   ],
+  "languages_other": "Spanish, Bahasa Indonesia",
   "url_persistent": "No",
   "access_barrier": "User registration needed",
   "access_procedure": "You can access a Demo version. Specific Regional versions require a license agreement. Contact through https://www.farmtree.earth/contactus",
@@ -127,6 +132,7 @@
   "documentation_theoretical_background_list": "Please refer to the documentation link above",
   "data_provenance": "Incomplete",
   "development_process": "Yes",
+  "training_materials": "Yes",
   "url_training_materials": "https://www.farmtree.earth/instructions",
   "documentation_contribute": "Don't know",
   "digitaf_tool": "Don't know",
@@ -135,10 +141,6 @@
     "Netherlands LL",
     "United Kingdom LL"
   ],
-  "feedback_tool_info": "Please contact the FarmTree Team for collaboration options!",
-  "primary_purpose": [
-    "Education and training",
-    "Decision support"
-  ],
-  "digitaf_tool_demo_video": ""
+  "digitaf_tool_demo_video": "",
+  "feedback_tool_info": "Please contact the FarmTree Team for collaboration options!"
 }

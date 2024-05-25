@@ -1,0 +1,107 @@
+{
+  "timestamp_creation": 1715001535000,
+  "submitter_name": "Jo Smith",
+  "submitter_email": "josmith@mvarc.eu",
+  "id": "hedgerow_biodiversity_assessment_tool",
+  "name": "TWECOM Hedgerow Biodiversity Assessment Tool v1.0",
+  "url": "https://zenodo.org/records/11061129",
+  "description_brief": "This protocol aims to assess the likely impacts on biodiversity from managing hedgerows for woodfuel and help guide management decisions. The assessment tool is a Microsoft Excel based tool which is made up of a number of sheets for data entry and a results page.",
+  "logo_url": "https://mvarc.eu/tools/dev/AF_FAIRness/img/hedgerowprotocol.png",
+  "primary_purpose": [
+    "Decision support"
+  ],
+  "keywords": [
+    "Biodiversity",
+    "Hedgerows",
+    "Coppicing",
+    "Woodfuel"
+  ],
+  "developers": "Mary Crossland (https://orcid.org/0000-0003-3887-2480), Sally Westaway (https://orcid.org/0000-0003-2691-9325), Catherine Gerrard, Jo Smith (https://orcid.org/0000-0001-8761-8556)",
+  "organizations": "Organic Research Centre",
+  "contact": "josmith@mvarc.eu",
+  "status": "Implemented",
+  "software_proglanguage": [
+    "Microsoft Excel"
+  ],
+  "minimum_req": [
+    "Desktop computer (e.g. optimized for wider screens)"
+  ],
+  "license": "Creative Commons BY",
+  "year_release": 2015,
+  "year_lastupdate": 2015,
+  "previous_versions_available": "Only one version exists",
+  "systems": [
+    "Agriculture",
+    "Agroforestry"
+  ],
+  "system_components": [
+    "Tree"
+  ],
+  "indicators": [
+    "Biodiversity"
+  ],
+  "spatial_scales": [
+    "Farm"
+  ],
+  "time_steps": [
+    "Not relevant"
+  ],
+  "input_data_protocols": [
+    "User enters the data directly manually"
+  ],
+  "input_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "input_data_file_formats": [
+    "XLS/XLSX (Microsoft Excel formats)"
+  ],
+  "output_data_formats": [
+    "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
+  ],
+  "output_data_file_formats": [
+    "XLS/XLSX (Microsoft Excel formats)"
+  ],
+  "end_users": [
+    "Researcher",
+    "Student",
+    "Farmer",
+    "Landowner",
+    "Farm advisor",
+    "Other"
+  ],
+  "end_users_other": "Conservation organisations",
+  "usages_most_relevant": [
+    "Research",
+    "Planning/Design",
+    "Implementation",
+    "Management",
+    "Monitoring/Evaluating",
+    "Forecasting"
+  ],
+  "usages_least_relevant": [],
+  "languages": [
+    "English"
+  ],
+  "url_persistent": "Yes",
+  "access_barrier": "No, direct download/access through a web link",
+  "access_procedure": "",
+  "access_procedure_documentation": "Yes",
+  "listed_other_databases": "Yes",
+  "listed_other_databases_list": "https://agricology.co.uk/resource/productive-hedges/",
+  "integrated_other_tools": "No",
+  "integrated_other_tools_list": "",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Yes",
+  "url_documentation": "https://zenodo.org/records/11061184, https://zenodo.org/records/11061256",
+  "documentation_theoretical_background": "Yes",
+  "documentation_theoretical_background_list": "https://www.organicresearchcentre.com/manage/authincludes/article_uploads/project_outputs/TWECOM%20ORC%20Biodiversity%20protocol%20report%20v1.0.pdf",
+  "data_provenance": "No",
+  "development_process": "Yes",
+  "training_materials": "Yes",
+  "url_training_materials": "https://zenodo.org/records/11061184",
+  "documentation_contribute": "No",
+  "digitaf_tool": "No",
+  "digitaf_tool_ll": [],
+  "digitaf_tool_demo_video": "",
+  "feedback_tool_info": ""
+}

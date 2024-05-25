@@ -531,7 +531,7 @@
     "id": "usages_most_relevant",
     "text": "What might be its MOST RELEVANT primary usages or purposes?",
     "type": "array of tags",
-    "required": true,
+    "required": false,
     "answers": [
       "Research",
       "Education",
@@ -546,7 +546,7 @@
     "id": "usages_least_relevant",
     "text": "What might be its LEAST RELEVANT primary usages or purposes?",
     "type": "array of tags",
-    "required": true,
+    "required": false,
     "answers": [
       "Research",
       "Education",

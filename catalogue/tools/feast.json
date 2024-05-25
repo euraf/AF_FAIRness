@@ -1,10 +1,17 @@
 {
 	"id": "feast",
-  "email": "J.Tzilivakis@herts.ac.uk",
+  "timestamp_creation": 1704468396000,
+  "submitter_name": "John Tzilivakis",
+  "submitter_email": "J.Tzilivakis@herts.ac.uk",
   "name": "FEAST - Farmland Ecosystem Assessment Support Tool",
   "url": "https://sitem.herts.ac.uk/aeru/feast/",
-  "description_brief": "The Farmland Ecosystem Assessment Support Tool (FEAST) software is a prototype tool that aims to support the process of assessing and managing farmland landscapes (individual features and whole landscapes) with respect to enhancing their effects on ecosystem services and biodiversity",
-  "logo_url": "https://sitem.herts.ac.uk/aeru/feast/graphics/FEAST_logo.png",
+  "description_brief": "The FEAST software used the EFA Calculator (see https://sitem.herts.ac.uk/aeru/efa/) as a base and has been extended to include more land uses and landscape features; more biodiversity and species habitat suitability metrics; and now has a mapping interface to facilitate spatial analysis and visualisation. The tool also has functions to enter or import biodiversity monitoring data, and this can be integrated with outputs from other functions within the software (e.g. overlaying biodiversity monitoring data with habitat suitability assessments for different species on a map). Users can do simple/quick calculations (e.g. habitat suitability for a single landscape feature) through to advanced assessments using spatial calculation tools within the mapping interface for multiple landscape features and whole landscapes.",
+  "logo_url": "https://sitem.herts.ac.uk/aeru/feast/assets/img/portfolio/gen2.jpg",
+  "primary_purpose": [
+    "Research",
+    "Education and training",
+    "Decision support"
+  ],
   "keywords": [
     "Farmland",
     "Biodiversity",
@@ -13,10 +20,10 @@
   "developers": "Agriculture and the Environment Research Unit (AERU), University of Hertfordshire, UK",
   "organizations": "FRAMEWork consortium (see: https://www.framework-biodiversity.eu/) (H2020 Project)",
   "contact": "J.Tzilivakis@herts.ac.uk",
-  "description_full": "The FEAST software used the EFA Calculator (see https://sitem.herts.ac.uk/aeru/efa/) as a base and has been extended to include more land uses and landscape features; more biodiversity and species habitat suitability metrics; and now has a mapping interface to facilitate spatial analysis and visualisation. The tool also has functions to enter or import biodiversity monitoring data, and this can be integrated with outputs from other functions within the software (e.g. overlaying biodiversity monitoring data with habitat suitability assessments for different species on a map). Users can do simple/quick calculations (e.g. habitat suitability for a single landscape feature) through to advanced assessments using spatial calculation tools within the mapping interface for multiple landscape features and whole landscapes.",
   "status": "Under development",
   "software_proglanguage": [
-    "Visual Basic / VBScript"
+    "VBA",
+    "Visual Basic (.Net)"
   ],
   "minimum_req": [
     "Internet connection",
@@ -81,15 +88,14 @@
     "Landowner",
     "Farm advisor"
   ],
-  "usages": {
-    "Research": 1,
-    "Education": 0,
-    "Planning/Design": 1,
-    "Implementation": 1,
-    "Management": 1,
-    "Monitoring/Evaluating": 1,
-    "Forecasting": 0
-  },
+  "usages_most_relevant": [
+    "Research",
+    "Planning/Design",
+    "Implementation",
+    "Management",
+    "Monitoring/Evaluating"
+  ],
+  "usages_least_relevant": [],
   "languages": [
     "English"
   ],
@@ -108,17 +114,13 @@
   "documentation_theoretical_background_list": "They are embedded within the software, plus related publications are listed here: https://sitem.herts.ac.uk/aeru/projects/escalc/",
   "data_provenance": "Yes",
   "development_process": "Yes",
+  "training_materials": "Yes",
   "url_training_materials": "https://sitem.herts.ac.uk/aeru/feast/help.htm",
   "documentation_contribute": "No",
   "digitaf_tool": "No",
   "digitaf_tool_ll": [
     ""
   ],
-  "feedback_tool_info": "",
-  "primary_purpose": [
-    "Research",
-    "Education and training",
-    "Decision support"
-  ],
-  "digitaf_tool_demo_video": ""
+  "digitaf_tool_demo_video": "",
+  "feedback_tool_info": ""
 }

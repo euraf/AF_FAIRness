@@ -6,7 +6,7 @@ module.exports = {
 		answer: {
 			get() {
 				if (this.question.id in this.formData && this.formData[this.question.id]) {
-					return this.formData[this.question.id].join(',')
+					return this.formData[this.question.id].join(', ')
 				} else {
 					return ''
 				}

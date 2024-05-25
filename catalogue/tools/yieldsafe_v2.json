@@ -1,10 +1,16 @@
 {
 	"id": "yieldsafe_v2",
-  "email": "p.burgess@cranfield.ac.uk",
+  "timestamp_creation": 1707235652000,
+  "submitter_name": "Paul Burgess",
+  "submitter_email": "p.burgess@cranfield.ac.uk",
   "name": "Yield-SAFE v2",
   "url": "https://doi.org/10.17862/cranfield.rd.24250549.v2",
-  "description_brief": "Yield-SAFE is a spreadsheet-based biophysical model for predicting tree and crop yields in arable, forest, and agroforestry systems on a daily time-step. ",
-  "logo_url": "https://mvarc.eu/tools/dev/AF-tools-database/img/yieldsafe_v2.png",
+  "description_brief": "Yield-SAFE v2 is a spreadsheet-based biophysical model which has been developed in Microsoft® Excel® for Microsoft 365 MSO (Version 2301 Build 16.0.16026.20214) 64-bit.  The memory requirement for storing Yield-SAFE primarily depends on the number of days of tree and crop growth that are simulated.  For example, 21900 days of analysis (60 years) requires around 67 MB.\n\nYield-SAFE v2 is recommended to be run with a computer using Windows 7 (or a more recent version: Windows 10, etc.) and Excel® 2010 or a more recent version (Excel® 2013 or Excel® 2016). The worksheets of Yield-SAFE have been developed at a screen resolution of 1920 x 1080.\n\nThe model predicts the biomass accumulation and yield of tree and crops in response to competition for light and water.  It operates on a daily time-step.  The recommended practice is to calibrate the models for tree growth and crop growth using local data.  The model can then be used to predict the yields of trees and crops within an agroforestry system.",
+  "logo_url": "https://mvarc.eu/tools/dev/AF_FAIRness/img/yieldsafe_v2.png",
+  "primary_purpose": [
+    "Research",
+    "Education and training"
+  ],
   "keywords": [
     "Prediction",
     "Yield",
@@ -15,7 +21,6 @@
   "developers": "Paul Burgess; Cranfield University: https://www.cranfield.ac.uk/people/professor-paul-burgess-784015\nAnil Graves, Cranfield University: https://www.cranfield.ac.uk/people/dr-anil-graves-1310715\nJoao Palma, MVArc; https://sites.google.com/view/joaopalma/home",
   "organizations": "Cranfield University\nWageningen University and Research\nAgroscope (Reckenholz), Zurich, Switzerland\n",
   "contact": "p.burgess@cranfield.ac.uk",
-  "description_full": "Yield-SAFE v2 is a spreadsheet-based biophysical model which has been developed in Microsoft® Excel® for Microsoft 365 MSO (Version 2301 Build 16.0.16026.20214) 64-bit.  The memory requirement for storing Yield-SAFE primarily depends on the number of days of tree and crop growth that are simulated.  For example, 21900 days of analysis (60 years) requires around 67 MB.\n\nYield-SAFE v2 is recommended to be run with a computer using Windows 7 (or a more recent version: Windows 10, etc.) and Excel® 2010 or a more recent version (Excel® 2013 or Excel® 2016). The worksheets of Yield-SAFE have been developed at a screen resolution of 1920 x 1080.\n\nThe model predicts the biomass accumulation and yield of tree and crops in response to competition for light and water.  It operates on a daily time-step.  The recommended practice is to calibrate the models for tree growth and crop growth using local data.  The model can then be used to predict the yields of trees and crops within an agroforestry system. \n",
   "status": "Implemented",
   "software_proglanguage": [
     "Microsoft Excel"
@@ -43,12 +48,9 @@
     "Water",
     "Soil",
     "Carbon",
-    "Solar radiation interception",
-    "Weather",
-    "Management",
-    "Design",
-    "Tree density"
+    "Other"
   ],
+  "indicators_other": "Solar radiation interception, Weather, Management, Design, Tree density",
   "spatial_scales": [
     "One-hectare"
   ],
@@ -77,15 +79,13 @@
     "Farm advisor",
     "Carbon trader"
   ],
-  "usages": {
-    "Research": 1,
-    "Education": 0,
-    "Planning/Design": 0,
-    "Implementation": 0,
-    "Management": 0,
-    "Monitoring/Evaluating": -1,
-    "Forecasting": 1
-  },
+  "usages_most_relevant": [
+    "Research",
+    "Forecasting"
+  ],
+  "usages_least_relevant": [
+    "Monitoring/Evaluating"
+  ],
   "languages": [
     "English"
   ],
@@ -104,17 +104,14 @@
   "documentation_theoretical_background_list": "Graves, A.R., Burgess, P.J., Palma, J., Keesman, K., van der Werf, W., Dupraz, C., van Keulen, H., Herzog, F., Mayus, M. (2010) Implementation and calibration of the parameter-sparse Yield-SAFE model to predict production and land equivalent ratio in mixed tree and crop systems under two contrasting production situations in Europe. Ecological Modelling 221, 1744-1756. https://doi.org/10.1016/j.ecolmodel.2010.03.008\n\nKeesman, K.J., Graves, A., van der Werf, W., Burgess, P.J., Palma, J., Dupraz, C., van Keulen, H. (2011).  A system identification approach for developing and parameterising an agroforestry system model under constrained availability of data.  Environmental Modelling and Software 26: 1540-1553. https://doi.org/10.1016/j.envsoft.2011.07.020\n\nvan der Werf, W., Keesman, K., Burgess, P.J., Graves, A.R., Pilbeam, D, Incoll, L.D, Metselaar, K., Mayus, M., Stappers, R., van Keulen, H., Palma, J., Dupraz, C. (2007).  Yield-SAFE: a parameter-sparse process-based dynamic model for predicting resource capture, growth and production in agroforestry systems.  Ecological Engineering 29: 419-433. https://doi.org/10.1016/j.ecoleng.2006.09.017\n\n\n",
   "data_provenance": "Yes",
   "development_process": "Yes",
+  "training_materials": "Yes",
   "url_training_materials": "Burgess, P.J., Graves, A.R., Wiltshire, K., Giannitsopoulos, M., Metselaar, K., Stappers, R., Keesman, K., Palma, J., van der Werf, W. (2023). Description of the Biophysical Yield-SAFE model as implemented in Microsoft Excel.  Cranfield, Bedfordshire, UK, Cranfield University. July 2023. 22 pp. https://cord.cranfield.ac.uk/articles/software/Yield-SAFE_v2_-_Biophysical_model_for_tree_and_crop_yields_in_agroforestry/24250549\n\nBurgess, P.J., Graves, A.R., Upson, M., Wiltshire, K., Giannitsopoulos, M., Metselaar, K., Stappers, R., Keesman, K., Palma, J., Pilbeam, D.J., van der Werf, W. (2023). Yield-SAFE Description and Calibration Guide.  Cranfield, Bedfordshire, UK, Cranfield University. July 2023. 46 pp.  https://cord.cranfield.ac.uk/articles/software/Yield-SAFE_v2_-_Biophysical_model_for_tree_and_crop_yields_in_agroforestry/24250549",
   "documentation_contribute": "No",
   "digitaf_tool": "Yes",
   "digitaf_tool_ll": [
     "United Kingdom LL"
   ],
+  "digitaf_tool_demo_video": "",
   "feedback_tool_info": "",
-  "feedback_general": "Perhaps acknowledgements of sponsors",
-  "primary_purpose": [
-    "Research",
-    "Education and training"
-  ],
-  "digitaf_tool_demo_video": ""
+  "feedback_general": "Perhaps acknowledgements of sponsors"
 }

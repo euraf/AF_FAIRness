@@ -1,0 +1,114 @@
+{
+  "timestamp": 1715000647000,
+  "submitter_name": "Jo Smith",
+  "submitter_email": "josmith@mvarc.eu",
+  "id": "sustainfarm_public_goods_tool",
+  "name": "SustainFARM Public Goods Tool",
+  "url": "https://zenodo.org/records/11060724",
+  "description_brief": "The tool is an excel workbook of less than 1 MB that consists of a series of sheets that should be worked through consecutively from left to right. The first sheet on the left contains instructions and the references that were used in developing the original tool. The second sheet (Initial data collection) is the most time consuming to complete as it collects detailed data on the farm for a 12-month period but is very important as it supports many calculations carried out elsewhere in the Tool. The next ten sheets relate to the different spurs; these contain a mixture of questions with answers selected from drop down lists and questions requiring data input. Two sheets require no inputs but show detail on certain aspects of the spurs, e.g. the NPK balance and energy benchmarks. The final two sheets on the far right of the Tool contain the results.",
+  "logo_url": "https://mvarc.eu/tools/dev/AF_FAIRness/img/sustainfarm.jpg",
+  "primary_purpose": [
+    "Decision support"
+  ],
+  "keywords": [
+    "Public goods",
+    "Sustainability",
+    "Agroforestry"
+  ],
+  "developers": "Laurence Smith (https://scholar.google.co.uk/citations?user=vcq5iEgAAAAJ&hl=en), Jo Smith (https://www.researchgate.net/profile/Jo-Smith-10), Samantha Mullender, Sally Westaway (https://www.researchgate.net/profile/Sally-Westaway) ",
+  "organizations": "Organic Research Centre",
+  "contact": "josmith@mvarc.eu",
+  "status": "Implemented",
+  "software_proglanguage": [
+    "Microsoft Excel"
+  ],
+  "minimum_req": [
+    "Desktop computer (e.g. optimized for wider screens)"
+  ],
+  "license": "Creative Commons BY-NC-ND",
+  "year_release": 2019,
+  "year_lastupdate": 2019,
+  "previous_versions_available": "Only one version exists",
+  "systems": [
+    "Agriculture",
+    "Agroforestry"
+  ],
+  "system_components": [
+    "Crop",
+    "Tree",
+    "Livestock",
+    "People"
+  ],
+  "indicators": [
+    "Yield",
+    "Biodiversity",
+    "Soil",
+    "Carbon",
+    "Nutrients",
+    "Labour",
+    "Social",
+    "Economics",
+    "Animal welfare"
+  ],
+  "spatial_scales": [
+    "Farm"
+  ],
+  "time_steps": [
+    "Yearly"
+  ],
+  "input_data_protocols": [
+    "User enters the data directly manually"
+  ],
+  "input_data_formats": [],
+  "input_data_file_formats": [
+    "XLS/XLSX (Microsoft Excel formats)"
+  ],
+  "output_data_formats": [
+    "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
+  ],
+  "output_data_file_formats": [
+    "XLS/XLSX (Microsoft Excel formats)"
+  ],
+  "end_users": [
+    "Researcher",
+    "Student",
+    "Policy-maker",
+    "Farmer",
+    "Landowner",
+    "Farm advisor"
+  ],
+  "usages": {
+    "Forecasting": 1
+  },
+  "usages_most_relevant": [
+    "Planning/Design",
+    "Monitoring/Evaluating",
+    "Forecasting"
+  ],
+  "usages_least_relevant": [],
+  "languages": [
+    "English"
+  ],
+  "url_persistent": "Yes",
+  "access_barrier": "No, direct download/access through a web link",
+  "access_procedure": "",
+  "access_procedure_documentation": "Yes",
+  "listed_other_databases": "No",
+  "listed_other_databases_list": "",
+  "integrated_other_tools": "No",
+  "integrated_other_tools_list": "",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Yes",
+  "url_documentation": "https://doi.org/10.5281/zenodo.11060846",
+  "documentation_theoretical_background": "No",
+  "documentation_theoretical_background_list": "",
+  "data_provenance": "Yes",
+  "development_process": "No",
+  "training_materials": "Yes",
+  "url_training_materials": "It contains step by step guide to using the tool.",
+  "documentation_contribute": "No",
+  "digitaf_tool": "No",
+  "digitaf_tool_ll": [],
+  "digitaf_tool_demo_video": "",
+  "feedback_tool_info": ""
+}
