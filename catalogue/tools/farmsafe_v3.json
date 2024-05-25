@@ -9,7 +9,7 @@
     "Research"
   ],
   "description_brief": "Farm-SAFE (Financial and Resource use Model for Simulating AgroForestry in Europe) is a spreadsheet-based bio-economic model which has been developed in Microsoft® Excel® to compare the financial benefits and costs of crop-only, tree-only, and agroforestry system over tree rotations of up to 60 years (Graves et al., 2024a). The results are presented in both graphical and tabular form in terms of a net present value and equivalent annual values. A description and user guide is also available (Graves et al., 2024b).",
-  "logo_url": "https://mvarc.eu/tools/dev/AF-tools-database/img/farmsafe.png",
+  "logo_url": "https://mvarc.eu/tools/dev/AF_FAIRness/img/farmsafe.png",
   "keywords": [
     "Financial",
     "Cost-benefit analysis",
