@@ -122,6 +122,17 @@ module.exports = {
         }
         return true
     },
+    hasOther(question_code) {
+        var dependent_question = this.form.filter(question => question.id == question_code)[0]
+        if (dependent_question.type.includes('array')) {
+            if (question_code in this.formData) {
+                return this.formData[question_code].includes('Other')
+            }
+        } else {
+            return this.formData == 'Other'
+        }
+        return false
+    },
     save() {
         if (!this.verifyCompulsory()) {
             return
@@ -163,7 +174,7 @@ module.exports = {
         <div class="row form form-add">
             <div class="offset-2 col-8">
                 <div class="form-group" v-for="question in form" :key="question.id" :v-model="formData[question.id]">
-                    <input-text v-if="'for' in question" :question="question" :form-data="formData" v-show="formData[question.for] == 'Other'" class="question-conditional"></input-text>
+                    <input-text v-if="'for' in question" :question="question" :form-data="formData" v-show="hasOther(question.for)" class="question-conditional"></input-text>
                     <dropdown v-else-if="question.type == 'tag'" :question="question" :form-data="formData"></dropdown>
                     <checkbox v-else-if="question.type == 'array of tags'" :question="question" :form-data="formData"></checkbox>
                     <input-text v-else-if="question.type == 'string' || question.type == 'long string' || question.type == 'email'" :question="question" :form-data="formData"></input-text>
