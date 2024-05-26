@@ -103,7 +103,8 @@ p {
 .btn-livestock,
 .btn-people,
 .btn-natural,
-.btn-agroforestry {
+.btn-agroforestry,
+.btn-soil {
   color: #fff;
   font-size: 14px;
   font-weight: bold;
@@ -118,6 +119,7 @@ p {
 .btn-people { background-color: darkgray; }
 .btn-natural { background-color: gold; }
 .btn-agroforestry { background-color: yellowgreen; }
+.btn-soil { background-color: brown; }
 
 /* Fair score styles */
 .h-fair-container {

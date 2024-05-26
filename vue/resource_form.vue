@@ -129,7 +129,7 @@ module.exports = {
                 return this.formData[question_code].includes('Other')
             }
         } else {
-            return this.formData == 'Other'
+            return this.formData[question_code] == 'Other'
         }
         return false
     },
