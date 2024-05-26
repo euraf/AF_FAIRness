@@ -32,7 +32,7 @@
 	"year_release": 2011,
 	"year_lastupdate": 2020,
 	"access_barrier": "User registration needed",
-	"data_formats": "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)",
+	"data_formats": ["Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)", "Other"],
 	"data_formats_other": "GeoTIFF",
 	"data_relevant_attributes": "Yes",
 	"listed_other_databases": "Don't know",

@@ -31,7 +31,7 @@
 	"year_release": 1990,
 	"year_lastupdate": 2018,
 	"access_barrier": "User registration needed",
-	"data_formats": "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)",
+	"data_formats": [ "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)" ],
 	"data_formats_other": "Raster (Grid)",
 	"data_relevant_attributes": "Yes",
 	"listed_other_databases": "Yes",
