@@ -12,5 +12,8 @@
 	"common_bird_monitoring_schemes",
 	"emissions_report_unfccc",
 	"som_fractions",
-	"conservation_evidence_database"
+	"conservation_evidence_database",
+	"erosion-susceptibility-of-agricultural-lands-2m",
+	"erosion-susceptibility-of-agricultural-lands-10m",
+	"long-term-crop-yield-belgium"
 ]
