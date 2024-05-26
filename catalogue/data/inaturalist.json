@@ -32,7 +32,7 @@
 	"year_release": 2011,
 	"year_lastupdate": 2024,
 	"access_barrier": "No, direct download/access through a web link",
-	"data_formats": "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)",
+	"data_formats": ["Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)", "Other"],
 	"data_formats_other": "ATOM",
 	"data_relevant_attributes": "Yes",
 	"listed_other_databases": "Yes",

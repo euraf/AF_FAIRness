@@ -340,7 +340,7 @@
     "id": "license_url",
     "text": "Please indicate the URL to the license.",
     "type": "string",
-    "required": true
+    "required": false
   },
   {
     "id": "access_barrier",

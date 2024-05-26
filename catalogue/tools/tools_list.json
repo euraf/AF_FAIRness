@@ -21,6 +21,9 @@
 	"obsidentify",
 	"re-livestock_tool",
 	"sustainfarm_public_goods_tool",
+	"ukceh_countryside_survey_soil_health_webtool_soil_fundamentals_sod",
 	"woodland_carbon_code",
-	"yieldsafe_v2"
+	"yieldsafe_v2",
+	"eu_soil_observatory_soil_health_dashboard",
+	"ecological_site_classification_esc"
 ]

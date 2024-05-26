@@ -83,7 +83,7 @@
   },
   {
     "id": "keywords",
-    "text": "Which keywords best describe the tool?",
+    "text": "Which keywords best describe the tool? (comma-separated please)",
     "type": "array of strings",
     "required": true
   },
@@ -303,7 +303,8 @@
       "Crop",
       "Tree",
       "Livestock",
-      "People"
+      "People",
+      "Soil"
     ]
   },
   {

@@ -12,7 +12,9 @@ module.exports = {
 				}
 			},
 			set(newValue) {
-				this.$set(this.formData, this.question.id, newValue.split(','))
+				this.$set(this.formData, this.question.id, newValue.split(',').map(function(item) {
+					return item.trim();
+				}))
 			}
 		}
 	}
