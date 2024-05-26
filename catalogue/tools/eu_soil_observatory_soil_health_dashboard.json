@@ -1,0 +1,110 @@
+{
+  "timestamp_creation": 1712753211000,
+  "submitter_name": "Ermias Betemariam",
+  "submitter_email": "b.ermias@cifor-icraf.org",
+  "id": "eu_soil_observatory_soil_health_dashboard",
+  "name": "EU Soil Observatory Soil Health Dashboard",
+  "url": "https://esdac.jrc.ec.europa.eu/esdacviewer/euso-dashboard/",
+  "description_brief": "The EUSO dashboard, developed and maintained by the JRC’s soil team (JRC.D3), supports the policy case for an EU Soil Health Law and the EU Soil Strategy for 2030 by providing evidence about the extent of soil degradation in the EU.1nIt provides (i) SOIL DATA: European Soil Database & soil properties\n;soil functions; soil threats; point data; soil projects, maps, atlases & documents  and (ii) SOIL KNOWLEDGE: soil organic carbon, erosion, compaction, salinization, biodiversity, sealing, contamination, nutrients, pH, land degradation, desertification, hydraulic properties, soil sampling, soil modeling.",
+  "logo_url": "https://mvarc.eu/tools/dev/AF_FAIRness/img/euso_soilhealth.jpg",
+  "primary_purpose": [
+    "Research",
+    "Education and training",
+    "Decision support"
+  ],
+  "keywords": [
+    "Soil health",
+    "Soil organic carbon",
+    "Soil degradation",
+    "Erosion",
+    "Contamination"
+  ],
+  "developers": "EU JOINT RESEARCH CENTRE",
+  "organizations": "EU JOINT RESEARCH CENTRE",
+  "contact": "EU-SOIL-OBSERVATORY@ec.europa.eu",
+  "status": "Implemented",
+  "software_proglanguage": [
+    "HTML/CSS",
+    "Javascript"
+  ],
+  "minimum_req": [
+    "Internet connection",
+    "Desktop computer (e.g. optimized for wider screens)",
+    "Mobile phone (e.g. works on small screens; use the camera)"
+  ],
+  "license": "Don't know",
+  "year_release": "",
+  "year_lastupdate": 2024,
+  "previous_versions_available": "Don't know",
+  "systems": [
+    "Agriculture",
+    "Forestry",
+    "Agroforestry",
+    "Natural/Wild"
+  ],
+  "system_components": [
+    "Soil"
+  ],
+  "indicators": [
+    "Biodiversity",
+    "Suitability",
+    "Soil",
+    "Carbon",
+    "Nutrients"
+  ],
+  "spatial_scales": [
+    "Plot",
+    "Farm",
+    "Landscape",
+    "Catchment",
+    "Regional",
+    "National"
+  ],
+  "time_steps": [
+    "Not relevant"
+  ],
+  "input_data_protocols": [
+    "User enters the data directly manually"
+  ],
+  "input_data_formats": [],
+  "input_data_file_formats": [],
+  "output_data_formats": [],
+  "output_data_file_formats": [],
+  "end_users": [
+    "Researcher",
+    "Student",
+    "Policy-maker",
+    "Farmer",
+    "Landowner",
+    "Farm advisor"
+  ],
+  "usages_most_relevant": [],
+  "usages_least_relevant": [
+    "Forecasting"
+  ],
+  "languages": [
+    "English"
+  ],
+  "url_persistent": "No",
+  "access_barrier": "No, direct download/access through a web link",
+  "access_procedure": "",
+  "access_procedure_documentation": "",
+  "listed_other_databases": "Don't know",
+  "listed_other_databases_list": "",
+  "integrated_other_tools": "Don't know",
+  "integrated_other_tools_list": "",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Yes",
+  "url_documentation": "https://esdac.jrc.ec.europa.eu/esdacviewer/euso-dashboard/",
+  "documentation_theoretical_background": "Don't know",
+  "documentation_theoretical_background_list": "",
+  "data_provenance": "Don't know",
+  "development_process": "Not completely",
+  "training_materials": "Don't know",
+  "url_training_materials": "",
+  "documentation_contribute": "Don't know",
+  "digitaf_tool": "No",
+  "digitaf_tool_ll": [],
+  "digitaf_tool_demo_video": "",
+  "feedback_tool_info": ""
+}
