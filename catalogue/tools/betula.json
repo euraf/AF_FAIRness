@@ -1,104 +1,115 @@
 {
-  "id": "betula",
-  "timestamp_creation": 1703768821000,
-  "submitter_name": "Bert Reubens",
-  "submitter_email": "bert.reubens@ilvo.vlaanderen.be",
-  "name": "Betula",
-  "url": "https://bdbnet.bdb.be/pls/apex/f?p=147:11",
-  "description_brief": "This tool helps farmers & advisors to develop an agroforestry plan. Step by step, the user is guided through all aspects that need attention, from goal & species selection to planting & management issues. Betula is part of the Agroforestry Planner.",
-  "logo_url": "https://bdbnet.bdb.be/pls/apex/bdb/r/147/files/static/v71Y/image%20(6).png",
-  "primary_purpose": [
-    "Decision support"
-  ],
-  "keywords": [
-    "Context specific design",
-    "Interactive",
-    "Silvopastoral",
-    "Silvoarable",
-    "Tree species choice"
-  ],
-  "developers": "Bert Reubens (ILVO - https://www.linkedin.com/in/bertreubens/), Sarah Carton (ILVO), Paul Pardon (ILVO), Jolien Bracke (ILVO), Julian Rahahleh (BDB), Tom Coussement (BDB), Sander Van Daele (Bosplus)",
-  "organizations": "Flanders Research Institute for Agriculture, Fisheries and Food (ILVO), Bosplus vzw, Soil Service of Belgium (BDB)",
-  "contact": "info@agroforestryvlaanderen.be",
-  "status": "Implemented",
-  "software_proglanguage": [
-    "Oracle Apex"
-  ],
-  "minimum_req": [
-    "Internet connection"
-  ],
-  "license": "Not stated",
-  "year_release": 2018,
-  "year_lastupdate": 2023,
-  "previous_versions_available": "No",
-  "systems": [
-    "Agroforestry"
-  ],
-  "system_components": [
-    "Crop",
-    "Tree",
-    "Livestock"
-  ],
-  "indicators": [ "Suitability" ],
-  "indicators_comment": "It is a decision support tool to design and make choices, but there is no modelling/assessment related.",
-  "spatial_scales": [
-    "Plot",
-    "Farm"
-  ],
-  "time_steps": [
-    "Not relevant"
-  ],
-  "input_data_protocols": [
-    "User enters the data directly manually"
-  ],
-  "input_data_formats": [
-    ""
-  ],
-  "input_data_file_formats": [
-    ""
-  ],
-  "output_data_formats": [
-    "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
-  ],
-  "output_data_file_formats": [
-    "PDF"
-  ],
-  "end_users": [
-    "Farmer",
-    "Landowner",
-    "Farm advisor",
-    "Student"
-  ],
-  "usages_most_relevant": [
-    "Planning/Design"
-  ],
-  "usages_least_relevant": [
-    "Research",
-    "Monitoring/Evaluating",
-    "Forecasting"
-  ],
-  "languages": [
-    "Dutch"
-  ],
-  "url_persistent": "No",
-  "access_barrier": "No, direct download/access through a web link",
-  "access_procedure": "",
-  "access_procedure_documentation": "",
-  "listed_other_databases": "No",
-  "listed_other_databases_list": "",
-  "integrated_other_tools": "No",
-  "integrated_other_tools_list": "",
-  "documentation_available": "No",
-  "documentation_accessible": "Some of it",
-  "url_documentation": "",
-  "documentation_theoretical_background": "Incomplete",
-  "documentation_theoretical_background_list": "",
-  "data_provenance": "Incomplete",
-  "development_process": "Not completely",
-  "training_materials": "Yes",
-  "url_training_materials": "https://www.agroforestryvlaanderen.be/nl/nieuws?type=teaching-module&page=1",
-  "documentation_contribute": "No",
-  "digitaf_tool": "Yes",
-  "digitaf_tool_ll": ["Netherlands LL"],
-  "feedback_tool_info": ""
+	"id": "betula",
+	"timestamp_creation": 1703768821000,
+	"submitter_name": "Bert Reubens",
+	"submitter_email": "bert.reubens@ilvo.vlaanderen.be",
+	"name": "Betula",
+	"url": "https://bdbnet.bdb.be/pls/apex/f?p=147:11",
+	"description_brief": "This tool helps farmers & advisors to develop an agroforestry plan. Step by step, the user is guided through all aspects that need attention, from goal & species selection to planting & management issues. Betula is part of the Agroforestry Planner.",
+	"logo_url": "https://bdbnet.bdb.be/pls/apex/bdb/r/147/files/static/v71Y/image%20(6).png",
+	"primary_purpose": [
+		"Decision support",
+		"Education and training"
+	],
+	"keywords": [
+		"Context specific design",
+		"Interactive",
+		"Silvopastoral",
+		"Silvoarable",
+		"Tree species choice"
+	],
+	"developers": "Bert Reubens (ILVO - https://www.linkedin.com/in/bertreubens/), Sarah Carton (ILVO), Paul Pardon (ILVO), Jolien Bracke (ILVO), Julian Rahahleh (BDB), Tom Coussement (BDB), Sander Van Daele (Bosplus)",
+	"organizations": "Flanders Research Institute for Agriculture, Fisheries and Food (ILVO), Bosplus vzw, Soil Service of Belgium (BDB)",
+	"contact": "info@agroforestryvlaanderen.be",
+	"status": "Implemented",
+	"software_proglanguage": [
+		"Oracle Apex"
+	],
+	"minimum_req": [
+		"Internet connection"
+	],
+	"license": "Not stated",
+	"year_release": 2018,
+	"year_lastupdate": 2023,
+	"previous_versions_available": "No",
+	"systems": [
+		"Agroforestry"
+	],
+	"system_components": [
+		"Crop",
+		"Tree",
+		"Livestock",
+		"Soil"
+	],
+	"indicators": [
+		"Suitability",
+		"Other"
+	],
+	"indicators_comment": "It is a decision support tool to design and make choices, but there is no modelling/assessment related.",
+	"spatial_scales": [
+		"Plot",
+		"Farm"
+	],
+	"time_steps": [
+		"Not relevant"
+	],
+	"input_data_protocols": [
+		"User enters the data directly manually",
+		"Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)"
+	],
+	"input_data_formats": [
+		"Other"
+	],
+	"input_data_file_formats": [
+	],
+	"output_data_formats": [
+		"Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
+	],
+	"output_data_file_formats": [
+		"PDF"
+	],
+	"end_users": [
+		"Farmer",
+		"Landowner",
+		"Farm advisor",
+		"Student"
+	],
+	"usages_most_relevant": [
+		"Planning/Design"
+	],
+	"usages_least_relevant": [
+		"Research",
+		"Monitoring/Evaluating",
+		"Forecasting"
+	],
+	"languages": [
+		"Dutch"
+	],
+	"url_persistent": "No",
+	"access_barrier": "No, direct download/access through a web link",
+	"access_procedure": "",
+	"access_procedure_documentation": "",
+	"listed_other_databases": "Yes",
+	"listed_other_databases_list": "",
+	"integrated_other_tools": "No",
+	"integrated_other_tools_list": "",
+	"documentation_available": "No",
+	"documentation_accessible": "Some of it",
+	"url_documentation": "",
+	"documentation_theoretical_background": "Incomplete",
+	"documentation_theoretical_background_list": "",
+	"data_provenance": "Incomplete",
+	"development_process": "Not completely",
+	"training_materials": "Yes",
+	"url_training_materials": "https://www.agroforestryvlaanderen.be/nl/nieuws?type=teaching-module&page=1",
+	"documentation_contribute": "No",
+	"digitaf_tool": "Yes",
+	"digitaf_tool_ll": [
+		"Netherlands LL"
+	],
+	"feedback_tool_info": "",
+	"editor_name": "Bert Reubens",
+	"editor_email": "bert.reubens@ilvo.vlaanderen.be",
+	"input_data_formats_other": "geographic location layer for Flanders",
+	"timestamp_lastedit": 1716813156359
 }
