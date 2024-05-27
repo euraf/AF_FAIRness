@@ -133,7 +133,7 @@ app = new Vue({
 		loadData() {
       var _this = this
 
-			var baseurl = 'https://cdn.jsdelivr.net/gh/euraf/AF_FAIRness@main/'
+			var baseurl = 'https://cdn.jsdelivr.net/gh/euraf/AF_FAIRness@latest/'
 			//var baseurl = ''
 			
 			var tools_list = $.getJSON(baseurl + 'catalogue/tools/tools_list.json')
