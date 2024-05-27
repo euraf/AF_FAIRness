@@ -59,7 +59,7 @@ module.exports = {
       this.filteredTools = sorting_option.fn(this.filteredTools)
     },
     setupTools() {
-      this.filteredTools = this.tools.slice().sort((a, b) => a.name.localeCompare(b.name))
+      this.filteredTools = this.tools.slice().sort((a, b) => a.timestamp_creation > b.timestamp_creation ? -1 : 1)
     },
     updateFiltered() {
       if (!('filtering' in this.$refs)) {

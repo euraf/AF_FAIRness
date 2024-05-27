@@ -47,7 +47,7 @@ module.exports = {
       this.filteredDatasets = sorting_option.fn(this.filteredDatasets)
     },
     setupDatasets() {
-      this.filteredDatasets = this.datasets.slice().sort((a, b) => a.name.localeCompare(b.name))
+      this.filteredDatasets = this.datasets.slice().sort((a, b) => a.timestamp_creation > b.timestamp_creation ? -1 : 1)
     },
     updateFiltered() {
       if (!('filtering' in this.$refs)) {
