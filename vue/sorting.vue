@@ -4,6 +4,12 @@ module.exports = {
 	data() {
 		return {
 			sorting_options: {
+				last_added: {
+					name: "Last added",
+					fn: function(arr) {
+						return arr.sort((a, b) => a.timestamp_creation > b.timestamp_creation ? -1 : 1)
+					}
+				},
 				a_z: {
 					name: "A-Z",
 					fn: function(arr) {
@@ -41,7 +47,7 @@ module.exports = {
 					}
 				},
 			},
-			selected_option: "a_z"
+			selected_option: "last_added"
 		}
 	},
 	computed: {
