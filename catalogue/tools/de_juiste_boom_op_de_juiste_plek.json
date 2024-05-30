@@ -1,1 +1,89 @@
-{"primary_purpose": ["Decision support"], "software_proglanguage": ["Other"], "minimum_req": ["Internet connection", "Desktop computer (e.g. optimized for wider screens)"], "systems": ["Agroforestry"], "system_components": ["Tree"], "indicators": ["Water", "Soil"], "spatial_scales": ["National"], "time_steps": ["Not relevant"], "input_data_protocols": ["User enters the data directly manually"], "input_data_formats": [], "input_data_file_formats": [], "output_data_formats": [], "output_data_file_formats": [], "end_users": ["Farmer", "Student", "Researcher", "Farm advisor"], "usages_most_relevant": ["Planning/Design"], "usages_least_relevant": ["Research", "Education"], "languages": ["Dutch"], "digitaf_tool_ll": ["Netherlands LL"], "submitter_name": "Waas Thissen", "submitter_email": "w.thissen@louisbolk.nl", "name": "De Juiste Boom op de Juiste Plek", "url": "https://kennisbank.agroforestrynetwerk.nl/de-juiste-boom-op-de-juiste-plek/", "description_brief": "A decision making tool for tree and shrub species based on soil type and groundwater level", "logo_url": "https://kennisbank.agroforestrynetwerk.nl/wp-content/uploads/2024/05/juiste-boom-op-juiste-plaats-tool.webp", "keywords": ["Tool selection; Soil type; Groundwater;"], "organizations": "Agroforestry Netwerk Nederland; Rijksdienst voor Ondernemend Nederland", "developers": "Stichting ReGeneratie; Jade Reforestry; Aeres; Hogeschool Van Hall Larenstein; Louis Bolk Instituut", "contact": "agroforestrynetwerk@rvo.nl", "status": "Implemented", "software_proglanguage_other": "Excel", "license": "Don't know", "year_release": 2024, "year_lastupdate": 2024, "previous_versions_available": "Only one version exists", "input_data_formats_other": "", "url_persistent": "No", "access_barrier": "No, direct download/access through a web link", "listed_other_databases": "No", "integrated_other_tools": "No", "documentation_available": "Yes", "documentation_accessible": "Yes", "url_documentation": "https://kennisbank.agroforestrynetwerk.nl/de-juiste-boom-op-de-juiste-plek/", "documentation_theoretical_background": "No", "data_provenance": "Incomplete", "development_process": "No", "training_materials": "No", "documentation_contribute": "No", "digitaf_tool": "Yes", "feedback_tool_info": "The dataset is being planned to be integrated within the AgroforesTreeAdvice tool.", "id": "de_juiste_boom_op_de_juiste_plek", "timestamp_creation": 1716879056457}
+{
+	"primary_purpose": [
+		"Decision support"
+	],
+	"software_proglanguage": [
+		"Other"
+	],
+	"minimum_req": [
+		"Internet connection",
+		"Desktop computer (e.g. optimized for wider screens)"
+	],
+	"systems": [
+		"Agroforestry"
+	],
+	"system_components": [
+		"Tree"
+	],
+	"indicators": [
+		"Water",
+		"Soil"
+	],
+	"spatial_scales": [
+		"National"
+	],
+	"time_steps": [
+		"Not relevant"
+	],
+	"input_data_protocols": [
+		"User enters the data directly manually"
+	],
+	"input_data_formats": [],
+	"input_data_file_formats": [],
+	"output_data_formats": [],
+	"output_data_file_formats": [],
+	"end_users": [
+		"Farmer",
+		"Student",
+		"Researcher",
+		"Farm advisor"
+	],
+	"usages_most_relevant": [
+		"Planning/Design"
+	],
+	"usages_least_relevant": [
+		"Research",
+		"Education"
+	],
+	"languages": [
+		"Dutch"
+	],
+	"digitaf_tool_ll": [
+		"Netherlands LL"
+	],
+	"submitter_name": "Waas Thissen",
+	"submitter_email": "w.thissen@louisbolk.nl",
+	"name": "De Juiste Boom op de Juiste Plek",
+	"url": "https://kennisbank.agroforestrynetwerk.nl/de-juiste-boom-op-de-juiste-plek/",
+	"description_brief": "A decision making tool for tree and shrub species based on soil type and groundwater level",
+	"logo_url": "https://kennisbank.agroforestrynetwerk.nl/wp-content/uploads/2024/05/juiste-boom-op-juiste-plaats-tool.webp",
+	"keywords": [
+		"Tool selection", "Soil type", "Groundwater"
+	],
+	"organizations": "Agroforestry Netwerk Nederland; Rijksdienst voor Ondernemend Nederland",
+	"developers": "Stichting ReGeneratie; Jade Reforestry; Aeres; Hogeschool Van Hall Larenstein; Louis Bolk Instituut",
+	"contact": "agroforestrynetwerk@rvo.nl",
+	"status": "Implemented",
+	"software_proglanguage_other": "Excel",
+	"license": "Don't know",
+	"year_release": 2024,
+	"year_lastupdate": 2024,
+	"previous_versions_available": "Only one version exists",
+	"input_data_formats_other": "",
+	"url_persistent": "No",
+	"access_barrier": "No, direct download/access through a web link",
+	"listed_other_databases": "No",
+	"integrated_other_tools": "No",
+	"documentation_available": "Yes",
+	"documentation_accessible": "Yes",
+	"url_documentation": "https://kennisbank.agroforestrynetwerk.nl/de-juiste-boom-op-de-juiste-plek/",
+	"documentation_theoretical_background": "No",
+	"data_provenance": "Incomplete",
+	"development_process": "No",
+	"training_materials": "No",
+	"documentation_contribute": "No",
+	"digitaf_tool": "Yes",
+	"feedback_tool_info": "The dataset is being planned to be integrated within the AgroforesTreeAdvice tool.",
+	"id": "de_juiste_boom_op_de_juiste_plek",
+	"timestamp_creation": 1716879056457
+}
