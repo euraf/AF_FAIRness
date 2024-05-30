@@ -1,1 +1,54 @@
-{"data_type": ["Aggregated data"], "spatial_scales": ["Regional", "National", "Global"], "indicators": ["Biodiversity", "Species occurrence"], "time_steps": ["Not relevant"], "data_formats": ["Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"], "digitaf_data_ll": [], "digitaf_data_wp": [], "submitter_name": "Jari Vandendriessche", "submitter_email": "jari.vandendriessche@ugent.be", "url_persistent": "No", "description": "Observation.org is an EU-based platform for biodiversity citizen science and monitoring. It was founded in the Netherlands in 2004. Since its modest beginnings as a website, it has rapidly evolved into a global biodiversity data hub, amassing an impressive 230 million observations. Data quality is ensured by over 1,000 species experts working with smart technology to continuously validate the data. The platform is hosted in the Netherlands and adheres to European privacy regulations.\n\nObservation.org has seen technology change from the website and database era to the current world of apps, artificial intelligence and image recognition. We\u2019ve helped citizen scientists and professionals with access to new and sustainable technology. By using a single platform that can do it all, we\u2019ve changed organizations from moving from one piece of software for each project to working with a single long-term solution for all projects, reducing costs and increasing data integrity. Observation.org also shares data in the Global Biodiversity Information Facility (GBIF), where we publish the third largest open biodiversity dataset in the world.\n\nFrom entry-level apps to full-fledged monitoring projects for research institutes and governments, Observation.org is in active use by thousands of users. 32 million observations per year are being collected, validated and shared.\n\n32 million observations per year, that is close to 88,000 per day. With these numbers, we can monitor changes in biodiversity. Observation.org data is actively being used for early warning for invasive alien species, monitoring disease vectors, and tracking species distribution and climate change. We also work closely with regional partners.", "keywords": ["Biodiversity", "Citizen science"], "url": "https://observation.org/pages/about/", "name": "observation.org", "data_ownership": "Observation International", "data_contact": "info@observation.org", "data_project": "No, it has another source", "data_collection_country": "Global", "spatial_details": "Location polygons can be customized", "year_release": 2004, "year_lastupdate": 2024, "time_span_oldest": 1900, "time_span_newest": 2024, "data_confidentiality": "No, the data is public", "license": "Creative Commons BY-NC-ND", "license_url": "https://creativecommons.org/licenses/", "access_barrier": "User registration needed", "data_relevant_attributes": "Yes", "listed_other_databases": "Yes", "data_metadata": "No", "documentation_accessible": "Yes", "data_metadata_vocabulary": "No", "development_process": "Yes", "feedback_data_info": "Own observation data can de downloaded freely, data from other users has to be requested.", "id": "observationorg", "timestamp_creation": 1716878521482}
+{
+	"data_type": [
+		"Aggregated data"
+	],
+	"spatial_scales": [
+		"Regional",
+		"National",
+		"Global"
+	],
+	"indicators": [
+		"Biodiversity",
+		"Species occurrence"
+	],
+	"time_steps": [
+		"Not relevant"
+	],
+	"data_formats": [
+		"Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+	],
+	"digitaf_data_ll": [],
+	"digitaf_data_wp": [],
+	"submitter_name": "Jari Vandendriessche",
+	"submitter_email": "jari.vandendriessche@ugent.be",
+	"url_persistent": "No",
+	"description": "Observation.org is an EU-based platform for biodiversity citizen science and monitoring. It was founded in the Netherlands in 2004. Since its modest beginnings as a website, it has rapidly evolved into a global biodiversity data hub, amassing an impressive 230 million observations. Data quality is ensured by over 1,000 species experts working with smart technology to continuously validate the data. The platform is hosted in the Netherlands and adheres to European privacy regulations.\n\nObservation.org has seen technology change from the website and database era to the current world of apps, artificial intelligence and image recognition. We\u2019ve helped citizen scientists and professionals with access to new and sustainable technology. By using a single platform that can do it all, we\u2019ve changed organizations from moving from one piece of software for each project to working with a single long-term solution for all projects, reducing costs and increasing data integrity. Observation.org also shares data in the Global Biodiversity Information Facility (GBIF), where we publish the third largest open biodiversity dataset in the world.\n\nFrom entry-level apps to full-fledged monitoring projects for research institutes and governments, Observation.org is in active use by thousands of users. 32 million observations per year are being collected, validated and shared.\n\n32 million observations per year, that is close to 88,000 per day. With these numbers, we can monitor changes in biodiversity. Observation.org data is actively being used for early warning for invasive alien species, monitoring disease vectors, and tracking species distribution and climate change. We also work closely with regional partners.",
+	"keywords": [
+		"Biodiversity",
+		"Citizen science"
+	],
+	"url": "https://observation.org/pages/about/",
+	"name": "Observation.org",
+	"data_ownership": "Observation International",
+	"data_contact": "info@observation.org",
+	"data_project": "No, it has another source",
+	"data_collection_country": "Global",
+	"spatial_details": "Location polygons can be customized",
+	"year_release": 2004,
+	"year_lastupdate": 2024,
+	"time_span_oldest": 1900,
+	"time_span_newest": 2024,
+	"data_confidentiality": "No, the data is public",
+	"license": "Creative Commons BY-NC-ND",
+	"license_url": "https://creativecommons.org/licenses/",
+	"access_barrier": "User registration needed",
+	"data_relevant_attributes": "Yes",
+	"listed_other_databases": "Yes",
+	"data_metadata": "No",
+	"documentation_accessible": "Yes",
+	"data_metadata_vocabulary": "No",
+	"development_process": "Yes",
+	"feedback_data_info": "Own observation data can de downloaded freely, data from other users has to be requested.",
+	"id": "observationorg",
+	"timestamp_creation": 1716878521482
+}
