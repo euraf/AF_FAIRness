@@ -1,0 +1,74 @@
+{
+	"data_type": [
+		"Aggregated data"
+	],
+	"spatial_scales": [
+		"Plant/animal"
+	],
+	"indicators": [
+		"Growth",
+		"Yield / Biomass",
+		"Biodiversity",
+		"Suitability",
+		"Water",
+		"Meteorology",
+		"Soil",
+		"Carbon",
+		"Nutrients",
+		"Mechanization",
+		"Labour",
+		"Social",
+		"Pests and Diseases",
+		"Other"
+	],
+	"time_steps": [
+		"Not relevant"
+	],
+	"data_formats": [
+		"Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+	],
+	"digitaf_data_ll": [
+		"Czech Republic LL",
+		"Finland LL",
+		"Germany LL",
+		"Italy LL",
+		"Netherlands LL"
+	],
+	"digitaf_data_wp": [
+		"WP4 - LL and a common AF toolbox",
+		"WP2 - Tools for practitioners and farm advisors"
+	],
+	"submitter_name": "Marie Gosme",
+	"submitter_email": "marie.gosme@inrae.fr",
+	"name": "Background data for the AgroforesTreeAdvice tool for tree species/variety/rootstock selection for agroforestry",
+	"url": "https://github.com/euraf/agroforestreeadvice/tree/main/models",
+	"url_persistent": "No",
+	"description": "Set of csv files (starting with data_.....) with the description of tree species/variety/rootstock, one line per tree species, one column per characteristics. This is the basis of the AgroforesTreeAdvice tool (Decision Support System to help choose tree species/varieties/rootstocks for agroforestry systems the tool can be used here: https://agroforestreeadvice.sk8.inrae.fr/).",
+	"keywords": [
+		"Tree species", "Ecological traits", "Pedoclimatic conditions", "Suitability", "Ecosystem services", "System design"
+	],
+	"data_ownership": "ILVO (DENTRO dataset), CIRAD (ShadeTreeAdvice - STA - dataset), RegenFarmer (SCSM dataset), VUKOZ/Mendel university (Czech dataset)",
+	"data_contact": "marie.gosme@inrae.fr",
+	"data_project": "Yes",
+	"data_project_name": "DigitAF",
+	"data_project_url": "https://cordis.europa.eu/project/id/101059794",
+	"data_collection_country": "Other",
+	"data_collection_country_other": "Depending on the dataset",
+	"indicators_other": "Depending on the dataset",
+	"year_release": 2024,
+	"year_lastupdate": 2024,
+	"data_confidentiality": "No, the data is public",
+	"access_barrier": "No, direct download/access through a web link",
+	"data_relevant_attributes": "No",
+	"listed_other_databases": "No",
+	"data_metadata": "No",
+	"documentation_accessible": "No",
+	"data_metadata_vocabulary": "No",
+	"development_process": "Yes",
+	"digitaf_data_used": "The data is the underlying data of the AgroforesTreeAdvice tool developped within the project and outside.",
+	"feedback_data_info": "The dataset is unfinished, it will grow as more tools are integrated",
+	"license": "Creative Commons BY",
+	"documentation_list": "Oral at EURAF 2024 conference: AgroforesTreeAdvice: an advice aggregator for tree species selection for agroforestry systems, Marie Gosme, Kristoffer Ronn-Anderson, Birk Skyum, Cl\u00e9ment Rigal, Raphael Paut, Fran\u00e7ois Warlop, Sarah Carton, Paul Pardon, Jakub Houska, Jan Weger, Lubos \u00daradn\u00ed\u010dek, Anton\u00edn Martin\u00edk, Michael den Herder, Rico Hubner, Ana Tomas, Sonja Kay, Cecile Antin, Evert Prins, Bert Reubens",
+	"id": "background_data_for_the_agroforestreeadvice_tool",
+	"timestamp_creation": 1716880064501
+}
