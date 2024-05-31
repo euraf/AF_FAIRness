@@ -7,7 +7,8 @@ module.exports = {
   },
   data() {
     return {
-        formData: {}
+        formData: {},
+        isSaving: false
     }
   },
   mounted() {
@@ -134,7 +135,10 @@ module.exports = {
         return false
     },
     save() {
+        var _this = this
+        this.isSaving = true
         if (!this.verifyCompulsory()) {
+            this.isSaving = false
             return
         }
 
@@ -161,6 +165,7 @@ module.exports = {
             data: { action: action, resources: resources, data: JSON.stringify(databody, null, 4) },
             dataType: "json"
         }).always(function(response) {
+            _this.isSaving = false
             alert(response.responseText);
             console.log(response)
         })
@@ -181,7 +186,12 @@ module.exports = {
                     <keywords v-else-if="question.type == 'array of strings'" :question="question" :form-data="formData"></keywords>
                     <input-number v-else-if="question.type == 'integer'" :question="question" :form-data="formData"></input-number>
                 </div>
-                <p class="btn btn-primary pointer" @click="save()">Save</p>
+                <div class="d-flex">
+                    <button id="save" class="btn btn-primary mr-2" :class="{ pointer: !isSaving }" @click="save()" :disabled="isSaving">{{ isSaving? 'Saving...' : 'Save' }}</button>
+                    <div v-if="isSaving" class="spinner-border" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                </div>
             </div>
         </div>
         <!--div class="scoring-block">
