@@ -15,5 +15,11 @@
 	"conservation_evidence_database",
 	"erosion-susceptibility-of-agricultural-lands-2m",
 	"erosion-susceptibility-of-agricultural-lands-10m",
-	"long-term-crop-yield-belgium"
+	"long-term-crop-yield-belgium",
+	"observationorg",
+	"eu_national_landscape_feature_definitions",
+	"background_data_for_the_agroforestreeadvice_tool",
+	"mimosa_dataset_behind_the_interactive_tool",
+	"esa_worldcover_2021",
+	"bro_bodemkaart"
 ]

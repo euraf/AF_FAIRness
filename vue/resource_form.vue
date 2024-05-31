@@ -158,7 +158,7 @@ module.exports = {
         $.ajax({
             url: "https://mvarc.eu/tools/dev/AF_FAIRness_py",
             type: "post",
-            data: { action: action, resources: resources, data: JSON.stringify(databody) },
+            data: { action: action, resources: resources, data: JSON.stringify(databody, null, 4) },
             dataType: "json"
         }).always(function(response) {
             alert(response.responseText);
