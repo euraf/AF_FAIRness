@@ -1,1 +1,54 @@
-{"data_type": ["Spatial data"], "spatial_scales": ["National"], "indicators": ["Soil", "Other"], "time_steps": [], "data_formats": ["Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"], "digitaf_data_ll": ["Netherlands LL"], "digitaf_data_wp": ["WP4 - LL and a common AF toolbox", "WP2 - Tools for practitioners and farm advisors"], "submitter_name": "Waas Thissen", "submitter_email": "w.thissen@louisbolk.nl", "name": "BRO Bodemkaart", "url": "https://basisregistratieondergrond.nl/inhoud-bro/registratieobjecten/modellen/bodemkaart-sgm/", "url_persistent": "No", "description": "The \"Bodemkaart\" (soil map) describes the soil of the Netherlands to a depth of 1.2 meters, made for a scale of 1:50,000. This model provides information about the spatial distribution of soil types and important characteristics of the soil structure (the soil profile).", "keywords": ["Soil; soil type; Netherlands"], "data_ownership": "Ministerie van Landbouw, Natuur en Voedselkwaliteit", "data_contact": "Wageningen Environmental Research", "data_project": "No, it has another source", "data_project_url": "https://basisregistratieondergrond.nl/inhoud-bro/registratieobjecten/modellen/bodemkaart-sgm/", "data_collection_country": "Netherlands", "spatial_details": "1:50.000", "indicators_other": "Geomorphology", "year_lastupdate": 2023, "data_confidentiality": "No, the data is public", "license": "Don't know", "access_barrier": "No, direct download/access through a web link", "data_relevant_attributes": "Yes", "listed_other_databases": "Yes", "data_metadata": "Yes", "documentation_accessible": "Yes", "data_metadata_vocabulary": "Yes", "development_process": "Yes", "documentation_list": "https://www.broloket.nl/sites/default/files/2023-07/Documenten_SGM.zip", "digitaf_data_used": "The BRO (basisregistratie ondergrond) Bodemkaart is a soil map of the Netherlands describing the soil profile and geomorphology at a scale of 1:50.000. It is one of the two datasources for the tool \"De Juiste Boom op de Juiste Plek\" which uses soil characteristics and groundwater level for suggesting suitable tree or shrub species.", "feedback_data_info": "To which tool(s) does the dataset need to be linked?", "id": "bro_bodemkaart", "timestamp_creation": 1716881354417}
+{
+	"data_type": [
+		"Spatial data"
+	],
+	"spatial_scales": [
+		"National"
+	],
+	"indicators": [
+		"Soil",
+		"Other"
+	],
+	"time_steps": [],
+	"data_formats": [
+		"Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+	],
+	"digitaf_data_ll": [
+		"Netherlands LL"
+	],
+	"digitaf_data_wp": [
+		"WP4 - LL and a common AF toolbox",
+		"WP2 - Tools for practitioners and farm advisors"
+	],
+	"submitter_name": "Waas Thissen",
+	"submitter_email": "w.thissen@louisbolk.nl",
+	"name": "BRO Bodemkaart",
+	"url": "https://basisregistratieondergrond.nl/inhoud-bro/registratieobjecten/modellen/bodemkaart-sgm/",
+	"url_persistent": "No",
+	"description": "The \"Bodemkaart\" (soil map) describes the soil of the Netherlands to a depth of 1.2 meters, made for a scale of 1:50,000. This model provides information about the spatial distribution of soil types and important characteristics of the soil structure (the soil profile).",
+	"keywords": [
+		"Soil", "Soil type", "Netherlands"
+	],
+	"data_ownership": "Ministerie van Landbouw, Natuur en Voedselkwaliteit",
+	"data_contact": "Wageningen Environmental Research",
+	"data_project": "No, it has another source",
+	"data_project_url": "https://basisregistratieondergrond.nl/inhoud-bro/registratieobjecten/modellen/bodemkaart-sgm/",
+	"data_collection_country": "Netherlands",
+	"spatial_details": "1:50.000",
+	"indicators_other": "Geomorphology",
+	"year_lastupdate": 2023,
+	"data_confidentiality": "No, the data is public",
+	"license": "Don't know",
+	"access_barrier": "No, direct download/access through a web link",
+	"data_relevant_attributes": "Yes",
+	"listed_other_databases": "Yes",
+	"data_metadata": "Yes",
+	"documentation_accessible": "Yes",
+	"data_metadata_vocabulary": "Yes",
+	"development_process": "Yes",
+	"documentation_list": "https://www.broloket.nl/sites/default/files/2023-07/Documenten_SGM.zip",
+	"digitaf_data_used": "The BRO (basisregistratie ondergrond) Bodemkaart is a soil map of the Netherlands describing the soil profile and geomorphology at a scale of 1:50.000. It is one of the two datasources for the tool \"De Juiste Boom op de Juiste Plek\" which uses soil characteristics and groundwater level for suggesting suitable tree or shrub species.",
+	"feedback_data_info": "To which tool(s) does the dataset need to be linked?",
+	"id": "bro_bodemkaart",
+	"timestamp_creation": 1716881354417
+}
