@@ -12,9 +12,17 @@ module.exports = {
 				}
 			},
 			set(newValue) {
-				this.$set(this.formData, this.question.id, newValue.split(',').map(function(item) {
-					return item.trim();
-				}))
+				if (newValue.includes(',')) {
+					this.$set(this.formData, this.question.id, newValue.split(',').map(function(item) {
+						return item.trim();
+					}))
+				} else if (newValue.includes(';')) {
+					this.$set(this.formData, this.question.id, newValue.split(';').map(function(item) {
+						return item.trim();
+					}))
+				} else {
+					this.$set(this.formData, this.question.id, [newValue])
+				}
 			}
 		}
 	}
@@ -24,6 +32,7 @@ module.exports = {
 <template>
 	<div>
 		<label class="question-text">{{ question.text }} <template v-if="question.fair">[ {{ question.fair }} ]</template> <span class="compulsory" v-if="question.required">*</span></label>
-		<input type="text" class="form-control" v-model.trim="answer">
+		<small>{{ question.helper }}</small>
+		<input type="text" class="form-control" v-model.trim.lazy="answer">
 	</div>
 </template>

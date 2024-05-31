@@ -83,7 +83,8 @@
   },
   {
     "id": "keywords",
-    "text": "Which keywords best describe the tool? (comma-separated please)",
+    "text": "Which keywords best describe the tool?",
+    "helper": "Comma-separated words or expressions, please",
     "type": "array of strings",
     "required": true
   },
