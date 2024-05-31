@@ -1,0 +1,52 @@
+{
+	"data_type": [
+		"Spatial data"
+	],
+	"spatial_scales": [
+		"Global",
+		"Regional"
+	],
+	"indicators": [
+		"Land cover",
+		"Land use"
+	],
+	"time_steps": [
+		"Not relevant"
+	],
+	"data_formats": [
+		"Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+	],
+	"digitaf_data_ll": [],
+	"digitaf_data_wp": [],
+	"submitter_name": "Jari Vandendriessche",
+	"submitter_email": "jari.vandendriessche@ugent.be",
+	"name": "ESA Worldcover 2021",
+	"url": "https://worldcover2021.esa.int/",
+	"data_ownership": "The European Space Agency",
+	"data_contact": "due@esa.int",
+	"description": "This dataset contains spatial data about groundcover classes, based on a last update in 2021. The product map is viewable and downloadable on a 10m resolution. It is a fast generation and validation of a world land cover based on Sentinel-2 and Sentinel-1 constellations, contains 10 land cover classes and additionally mangroves, with 77% overall accuracy, independently validated.\nThe WorldCover products are delivered in a regular latitude/longitude grid (EPSG:4326) with the ellipsoid WGS 1984 (Terrestrial radius=6378 km). The legend includes 11 generic classes that appropriately describe the land surface at 10m: \"Tree cover\", \"Shrubland\", \"Grassland\", \"Cropland\", \"Built-up\", \"Bare / sparse vegetation\u201d, \u201cSnow and Ice\u201d, \u201cPermanent water bodies\u201d, \u201cHerbaceous Wetland\u201d, \u201cMangrove\u201d and \u201cMoss and lichen\".",
+	"keywords": [
+		"Spatial",
+		"Groundcover"
+	],
+	"data_project": "Don't know",
+	"data_collection_country": "Global",
+	"spatial_details": "10m resolution",
+	"year_release": 2022,
+	"year_lastupdate": 2021,
+	"time_span_oldest": 2021,
+	"time_span_newest": 2020,
+	"data_confidentiality": "No, the data is public",
+	"license": "Creative Commons BY",
+	"license_url": "https://creativecommons.org/licenses/by/4.0/",
+	"access_barrier": "No, direct download/access through a web link",
+	"data_relevant_attributes": "Yes",
+	"listed_other_databases": "Don't know",
+	"data_metadata": "No",
+	"documentation_accessible": "Yes",
+	"data_metadata_vocabulary": "Don't know",
+	"development_process": "Yes",
+	"url_persistent": "No",
+	"id": "esa_worldcover_2021",
+	"timestamp_creation": 1716880385669
+}
