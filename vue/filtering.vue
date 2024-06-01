@@ -5,7 +5,11 @@ module.exports = {
   data() {
     return {
 			search: {},
-			filters: {}
+			filters: {},
+			searchQuery: '',
+			searchInName: true,
+			searchInDescription: true,
+			searchInKeywords: true
 		}
 	},
 	mounted() {
@@ -15,6 +19,18 @@ module.exports = {
 		form: {
 			deep: true,
 			handler: this.updateFilters
+		},
+		searchQuery() {
+			VueBus.$emit('updateFiltered')
+		},
+		searchInName() {
+			VueBus.$emit('updateFiltered')
+		},
+		searchInDescription() {
+			VueBus.$emit('updateFiltered')
+		},
+		searchInKeywords() {
+			VueBus.$emit('updateFiltered')
 		}
 	},
 	methods: {
@@ -40,6 +56,24 @@ module.exports = {
 
 <template>
 	<div>
+		<div class="search-bar mb-4">
+			<div class="form-group"> <!-- Added mb-4 class for margin bottom -->
+				<label for="search">Search:</label>
+				<input type="text" v-model="searchQuery" id="search" class="form-control">
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" id="searchName" v-model="searchInName">
+				<label class="form-check-label" for="searchName">search in <em>name</em></label>
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" id="searchDescription" v-model="searchInDescription">
+				<label class="form-check-label" for="searchDescription">search in <em>description</em></label>
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" id="searchKeywords" v-model="searchInKeywords">
+				<label class="form-check-label" for="searchKeywords">search in <em>keywords</em></label>
+			</div>
+		</div>
 		<div class="accordion" id="accordionex">
 
 			<div class="card" v-for="(filter, key) in filterAndSort(filters)" :key="key">

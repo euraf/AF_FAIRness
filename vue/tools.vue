@@ -67,8 +67,44 @@ module.exports = {
       }
       var filters = this.$refs.filtering.$data.filters
       var search = this.$refs.filtering.$data.search
+      var searchQuery = this.$refs.filtering.$data.searchQuery
+      var searchInName = this.$refs.filtering.$data.searchInName
+      var searchInDescription = this.$refs.filtering.$data.searchInDescription
+      var searchInKeywords = this.$refs.filtering.$data.searchInKeywords
+
       this.filteredTools = Object.values(this.tools).filter(function(tool) {
         var yesOrNo = true
+
+        if (validString(searchQuery)) {
+          var inName = false
+          var inDescription = false
+          var inKeywords = false
+
+          if (searchInName) {
+            if (tool.name.toLowerCase().includes(searchQuery.toLowerCase().trim())) {
+              inName = true
+            }
+          }
+          if (searchInDescription) {
+            if (tool.description.toLowerCase().includes(searchQuery.toLowerCase().trim())) {
+              inDescription = true
+            }
+          }
+          if (searchInKeywords) {
+            if (tool.keywords.filter(function(keyword) {
+              return keyword.toLowerCase().includes(searchQuery.toLowerCase().trim())
+            }).length > 0) {
+              inKeywords = true
+            }
+          }
+          if (searchInName || searchInDescription || searchInKeywords) {
+            if (inName || inDescription || inKeywords) {
+              yesOrNo = yesOrNo && true
+            } else {
+              yesOrNo = yesOrNo && false
+            }
+          }
+        }
 
         for (const [filter_id, filter_value] of Object.entries(search)) {
 

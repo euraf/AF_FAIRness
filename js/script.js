@@ -213,3 +213,10 @@ function scoreColor(score) {
 		100: '#5aaf2b' // green
 	}[Math.round(score/10) * 10]
 }
+
+function validString(str) {
+	if (typeof str == 'String') {
+			str = str.trim()
+	}
+	return str !== null || str !== "null" || str !== "" || str !== undefined
+}
