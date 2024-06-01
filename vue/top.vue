@@ -30,10 +30,10 @@ module.exports = {
 
 <template>
   <div class="top row no-gutters text-left fixed-top">
-    <div class="logo col-1 text-center">
+    <!--div class="logo col-1 text-center">
       <router-link to="/"><img src="img/digitaf_logo.png" /></router-link>
-    </div>
-    <div class="title col-6">
+    </div-->
+    <div class="title col-7">
       <h1>{{ title }}</h1>
     </div>
 		<div class="col-5">

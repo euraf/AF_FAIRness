@@ -49,12 +49,19 @@ module.exports = {
       </div>
       <div class="col-12 about-digitaf">
         <h3><b>DigitAF</b> project</h3>
-        <p>The <b>DigitAF</b> research project (July 2022 - June 2026), funded by the European Commission, <span class="highlight">aims at a high quality implementation of agroforestry to foster climate change mitigation and adaptation in agriculture and to ensure sustainable management of natural resources. Our goal is to provide the main actor groups with tools answering their needs, in particular digital tools.</span> The three actors' groups that are target by DigitAF are:</p>
-        <ul>
-          <li><b>Policy actors</b>: policymakers and administrations concerned with applying agroforestry-related regulations, at regional, national and European levels, who set the scene for the adoption (or not) of agroforestry.</li>
-          <li><b>Practitioners</b>: farmers, landowners and by extension, farm advisers playing an active role in designing and managing AFS and whose choices determine the agronomic, economic, environmental, and social performance at farm-level and beyond.</li>
-          <li><b>Beneficiaries of AF products and services</b>: stakeholders in the value chain, including wholesalers, retailers, organisations trading the carbon sequestration and biodiversity benefits of AFS, and final consumers seeking verification of the benefits of AF in clear and accessible terms.</li>
-        </ul>
+        <div class="row">
+          <div class="col-2 logo text-center pt-4">
+            <router-link to="/"><img src="img/digitaf_logo.png" /></router-link>
+          </div>
+          <div class="col-10">
+            <p>The <b>DigitAF</b> research project (July 2022 - June 2026), funded by the European Commission, <span class="highlight">aims at a high quality implementation of agroforestry to foster climate change mitigation and adaptation in agriculture and to ensure sustainable management of natural resources. Our goal is to provide the main actor groups with tools answering their needs, in particular digital tools.</span> The three actors' groups that are target by DigitAF are:</p>
+            <ul>
+              <li><b>Policy actors</b>: policymakers and administrations concerned with applying agroforestry-related regulations, at regional, national and European levels, who set the scene for the adoption (or not) of agroforestry.</li>
+              <li><b>Practitioners</b>: farmers, landowners and by extension, farm advisers playing an active role in designing and managing AFS and whose choices determine the agronomic, economic, environmental, and social performance at farm-level and beyond.</li>
+              <li><b>Beneficiaries of AF products and services</b>: stakeholders in the value chain, including wholesalers, retailers, organisations trading the carbon sequestration and biodiversity benefits of AFS, and final consumers seeking verification of the benefits of AF in clear and accessible terms.</li>
+            </ul>
+          </div>
+        </div>
       </div>
       <div class="col-12 about-deliverables">
         <h3>Related deliverables</h3>
