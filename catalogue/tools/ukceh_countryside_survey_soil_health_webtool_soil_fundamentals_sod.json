@@ -5,7 +5,7 @@
   "id": "ukceh_countryside_survey_soil_health_webtool_soil_fundamentals_sod",
   "name": "UKCEH Countryside Survey Soil Health Webtool SOil funDamentals (SOD)",
   "url": "https://connect-apps.ceh.ac.uk/soilhealth/",
-  "description_brief": "The webtool allows comparison of the soil organic content, earthworm count, bulk density, and pH of your soil with soils with a similar land use, rainfall and general soil type within Great Britain.\nSoil health: the user can compare the measured soil organic content, pH, bulk density, and earthworm concentration of a known soil with the range of values for those attributes for a full range of soils with a similar land use (e.g. agriculture and horticulture), rainfall, and soil type (e.g. light coarse texture soils) in Great Britain. The primary limitation of the tool is its geographic extent.",
+  "description": "The webtool allows comparison of the soil organic content, earthworm count, bulk density, and pH of your soil with soils with a similar land use, rainfall and general soil type within Great Britain.\nSoil health: the user can compare the measured soil organic content, pH, bulk density, and earthworm concentration of a known soil with the range of values for those attributes for a full range of soils with a similar land use (e.g. agriculture and horticulture), rainfall, and soil type (e.g. light coarse texture soils) in Great Britain. The primary limitation of the tool is its geographic extent.",
   "logo_url": "https://connect-apps.ceh.ac.uk/soilhealth/_w_a8e17224/www/instructions.png",
   "primary_purpose": [
     "Decision support"

@@ -5,7 +5,7 @@
 	"submitter_email": "bert.reubens@ilvo.vlaanderen.be",
 	"name": "Betula",
 	"url": "https://bdbnet.bdb.be/pls/apex/f?p=147:11",
-	"description_brief": "This tool helps farmers & advisors to develop an agroforestry plan. Step by step, the user is guided through all aspects that need attention, from goal & species selection to planting & management issues. Betula is part of the Agroforestry Planner.",
+	"description": "This tool helps farmers & advisors to develop an agroforestry plan. Step by step, the user is guided through all aspects that need attention, from goal & species selection to planting & management issues. Betula is part of the Agroforestry Planner.",
 	"logo_url": "https://bdbnet.bdb.be/pls/apex/bdb/r/147/files/static/v71Y/image%20(6).png",
 	"primary_purpose": [
 		"Decision support",

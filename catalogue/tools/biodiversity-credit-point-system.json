@@ -5,7 +5,7 @@
   "submitter_email": "simon.birrer@vogelwarte.ch",
   "name": "Biodiversity Credit Point System (IP-Suisse)",
   "url": "https://admin.ipsuisse.ch/secret/frmMain.aspx",
-  "description_brief": "A point score system which is part of the label “IP-Suisse”. It can be used by farmers to review his effort to support biodiversity on his own farm. Farmers part of the label have to reach a minimum of 15 points.",
+  "description": "A point score system which is part of the label “IP-Suisse”. It can be used by farmers to review his effort to support biodiversity on his own farm. Farmers part of the label have to reach a minimum of 15 points.",
   "logo_url": "https://www.ipsuisse.ch/wp-content/uploads/Logo_ips_200px.png",
   "primary_purpose": [
     "Decision support"

@@ -5,7 +5,7 @@
   "submitter_email": "josmith@mvarc.eu",
   "name": "Re-Livestock tool",
   "url": "https://www.mvarc.eu/tools/dev/re-livestock_tool",
-  "description_brief": "The Re-Livestock tool is a sustainability assessment for farms covering 13 categories of sustainability, developed for the Horizon Europe project Re-Livestock and based on the Public Goods tool",
+  "description": "The Re-Livestock tool is a sustainability assessment for farms covering 13 categories of sustainability, developed for the Horizon Europe project Re-Livestock and based on the Public Goods tool",
   "logo_url": "https://re-livestock.eu/wp-content/uploads/2022/11/Relivestock_logo.svg",
   "primary_purpose": [
     "Decision support"

@@ -5,7 +5,7 @@
   "submitter_email": "w.thissen@louisbolk.nl",
   "name": "CarboCatch",
   "url": "https://carbocatch.space4good.com/",
-  "description_brief": "CarboCatch is an online interactive tool for agroforestry carbon sequestration projects. It's main functionality is aboveground biomass verification using high-resolution satellite data coupled with AI models.",
+  "description": "CarboCatch is an online interactive tool for agroforestry carbon sequestration projects. It's main functionality is aboveground biomass verification using high-resolution satellite data coupled with AI models.",
   "logo_url": "https://www.eurisy.eu/wp-content/uploads/2023/04/CarboCatch-Presentation_Promotion_English.jpg",
   "primary_purpose": [
     "Research",

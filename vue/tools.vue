@@ -149,7 +149,7 @@ module.exports = {
                     <h5 class="card-title text-center"><b><router-link :to="'/tools/tool/' + tool.id">{{ tool.name }}</router-link></b></h5>
                   </div>
                   <div class="col-12 text-center">
-                    <p class="card-text">{{ truncateDescription(tool.description_brief) }}</p>
+                    <p class="card-text">{{ truncateDescription(tool.description) }}</p>
                   </div>
                   <div class="col-12 text-center my-3">
                     <p><span class="btn-crop mr-1 px-3 py-1" v-if="tool.system_components.includes('Crop')">Crop</span> <span class="btn-tree mr-1 px-3 py-1" v-if="tool.system_components.includes('Tree')">Tree</span> <span class="btn-livestock mr-1 px-3 py-1" v-if="tool.system_components.includes('Livestock')">Livestock</span> <span class="btn-people mr-1 px-3 py-1" v-if="tool.system_components.includes('People')">People</span> <span class="btn-soil mr-1 px-3 py-1" v-if="tool.system_components.includes('Soil')">Soil</span></p>

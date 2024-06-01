@@ -78,7 +78,7 @@ module.exports = {
             <div class="col-12">
               <p class="btn-small-title">Description</p>
               <p v-if="tool.description_full">{{ tool.description_full }}</p>
-              <p v-else>{{ tool.description_brief }}</p>
+              <p v-else>{{ tool.description }}</p>
             </div>
             <div class="col-12">
               <p class="btn-small-title">Keywords</p>

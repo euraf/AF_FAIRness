@@ -5,7 +5,7 @@
   "id": "eu_soil_observatory_soil_health_dashboard",
   "name": "EU Soil Observatory Soil Health Dashboard",
   "url": "https://esdac.jrc.ec.europa.eu/esdacviewer/euso-dashboard/",
-  "description_brief": "The EUSO dashboard, developed and maintained by the JRC’s soil team (JRC.D3), supports the policy case for an EU Soil Health Law and the EU Soil Strategy for 2030 by providing evidence about the extent of soil degradation in the EU.1nIt provides (i) SOIL DATA: European Soil Database & soil properties\n;soil functions; soil threats; point data; soil projects, maps, atlases & documents  and (ii) SOIL KNOWLEDGE: soil organic carbon, erosion, compaction, salinization, biodiversity, sealing, contamination, nutrients, pH, land degradation, desertification, hydraulic properties, soil sampling, soil modeling.",
+  "description": "The EUSO dashboard, developed and maintained by the JRC’s soil team (JRC.D3), supports the policy case for an EU Soil Health Law and the EU Soil Strategy for 2030 by providing evidence about the extent of soil degradation in the EU.1nIt provides (i) SOIL DATA: European Soil Database & soil properties\n;soil functions; soil threats; point data; soil projects, maps, atlases & documents  and (ii) SOIL KNOWLEDGE: soil organic carbon, erosion, compaction, salinization, biodiversity, sealing, contamination, nutrients, pH, land degradation, desertification, hydraulic properties, soil sampling, soil modeling.",
   "logo_url": "https://mvarc.eu/tools/dev/AF_FAIRness/img/euso_soilhealth.jpg",
   "primary_purpose": [
     "Research",

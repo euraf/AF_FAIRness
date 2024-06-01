@@ -57,7 +57,7 @@
     "required": true
   },
   {
-    "id": "description_brief",
+    "id": "description",
     "text": "Describe it briefly",
     "type": "long string",
     "required": true
