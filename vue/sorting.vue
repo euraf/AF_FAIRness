@@ -10,6 +10,12 @@ module.exports = {
 						return arr.sort((a, b) => a.timestamp_creation > b.timestamp_creation ? -1 : 1)
 					}
 				},
+				last_updated: {
+					name: "Last updated",
+					fn: function(arr) {
+						return arr.sort((a, b) => a.timestamp_lastedit > b.timestamp_lastedit ? -1 : 1)
+					}
+				},
 				a_z: {
 					name: "A-Z",
 					fn: function(arr) {

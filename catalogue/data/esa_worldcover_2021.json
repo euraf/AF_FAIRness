@@ -48,5 +48,6 @@
 	"development_process": "Yes",
 	"url_persistent": "No",
 	"id": "esa_worldcover_2021",
-	"timestamp_creation": 1716880385669
+	"timestamp_creation": 1716880385669,
+	"timestamp_lastedit": 1716880385669
 }

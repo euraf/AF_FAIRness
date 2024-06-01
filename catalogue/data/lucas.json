@@ -1,6 +1,7 @@
 {
 	"id": "lucas",
 	"timestamp_creation": 1716192000000,
+	"timestamp_lastedit": 1716192000000,
 	"name": "Land use and coverage area frame survey (LUCAS)",
 	"url": "https://ec.europa.eu/eurostat/web/lucas/overview",
 	"submitter_name": "Michael den Herder",

@@ -50,5 +50,6 @@
 	"digitaf_data_used": "The BRO (basisregistratie ondergrond) Bodemkaart is a soil map of the Netherlands describing the soil profile and geomorphology at a scale of 1:50.000. It is one of the two datasources for the tool \"De Juiste Boom op de Juiste Plek\" which uses soil characteristics and groundwater level for suggesting suitable tree or shrub species.",
 	"feedback_data_info": "To which tool(s) does the dataset need to be linked?",
 	"id": "bro_bodemkaart",
-	"timestamp_creation": 1716881354417
+	"timestamp_creation": 1716881354417,
+	"timestamp_lastedit": 1716881354417
 }

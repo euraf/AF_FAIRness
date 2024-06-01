@@ -1,6 +1,7 @@
 {
 	"id": "inaturalist",
 	"timestamp_creation": 1716188400000,
+	"timestamp_lastedit": 1716188400000,
 	"name": "iNaturalist",
 	"url": "https://www.inaturalist.org",
 	"submitter_name": "Michael den Herder",

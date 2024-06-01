@@ -1,6 +1,7 @@
 {
 	"id": "corinelandcover",
 	"timestamp_creation": 1716188400000,
+	"timestamp_lastedit": 1716188400000,
 	"name": "CORINE Land Cover",
 	"url": "https://land.copernicus.eu/en/products/corine-land-cover?tab=main",
 	"submitter_name": "Michael den Herder",

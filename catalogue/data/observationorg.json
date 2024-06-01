@@ -50,5 +50,6 @@
 	"development_process": "Yes",
 	"feedback_data_info": "Own observation data can de downloaded freely, data from other users has to be requested.",
 	"id": "observationorg",
-	"timestamp_creation": 1716878521482
+	"timestamp_creation": 1716878521482,
+	"timestamp_lastedit": 1716878521482
 }

@@ -1,6 +1,7 @@
 {
 	"id": "conservation_evidence_database",
 	"timestamp_creation": 1716192000000,
+	"timestamp_lastedit": 1716192000000,
 	"name": "The Conservation Evidence database",
 	"url": "https://www.conservationevidence.com/",
 	"submitter_name": "Michael den Herder",

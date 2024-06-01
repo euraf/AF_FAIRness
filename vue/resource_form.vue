@@ -145,6 +145,7 @@ module.exports = {
         if (this.creating) {
             this.formData.id = this.sanitizeName(this.formData.name)
             this.formData.timestamp_creation = Date.now()
+            this.formData.timestamp_lastedit = Date.now()
 
         } else if (this.editing) {
             this.formData.timestamp_lastedit = Date.now()

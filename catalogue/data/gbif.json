@@ -1,6 +1,7 @@
 {
 	"id": "gbif",
 	"timestamp_creation": 1716188400000,
+	"timestamp_lastedit": 1716188400000,
 	"name": "Global Biodiversity Information Facility (GBIF)",
 	"url": "https://www.gbif.org/",
 	"submitter_name": "Michael den Herder",
