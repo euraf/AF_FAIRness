@@ -1,1 +1,66 @@
-{"data_type": ["Observational data", "Analysis data", "Experimental data"], "spatial_scales": ["Plant/animal", "Plot", "Leaf/stem (sub-individual)"], "indicators": ["Growth", "Yield / Biomass", "Soil", "Pests and Diseases", "Nutrients", "Other"], "time_steps": ["Yearly"], "data_formats": ["Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"], "digitaf_data_ll": [], "digitaf_data_wp": ["WP2 - Tools for practitioners and farm advisors"], "submitter_name": "Bert Reubens", "submitter_email": "bert.reubens@ilvo.vlaanderen.be", "name": "HAZEL.trial.ILVO", "url": "https://zenodo.org/records/11487442", "url_persistent": "Yes", "description": "In 2017, 168 hazel trees (Corylus avellana cvs.) of eight different varieties, were planted in a randomized design on an experimental plot at ILVO (coordinates: 50.976816, 3.778914). The eight cultivars selected were \u2018Emoa 1\u2019, \u2018Hall's Giant\u2019, \u2018Corabel\u2019, \u2018Gunslebert\u2019, \u2018Kentish cob\u2019, \u2018Gustav\u2019s Zeller\u2019, \u2018Cosford\u2019 and \u2018Tonda di Giffoni\u2019. They were planted in such a way that each cultivar was represented equally. The distance in the row (3 m) ensures an optimal light and water supply; the distance between the rows (7.5 m) allows machine mowing. This results in a planting density of 476 trees/hectare.\n\nThis hazelnut variety trial is incorporated within a silvopastoral experimental site, within which furthermore also short rotation coppice (with willows) is planted, and where impact of presence of chickens is also assessed.\n\nThe initial trial (with SRC and chickens) was installed in 2014, and several trials have been organized at the site since then. The measurements that took place include the monitoring of chicken presence (with tracking systems), chicken welfare (e.g. feather pecking, leg health, breastbone fractures,...), weather conditions (wind, temperature, rain), production of SRC (willow) and hazelnuts in relation to chicken pressure, monitoring of carbon, nitrogen (mineral and organic), phosphorus, potassium in the soil, \u2026\n\nAs for the hazelnut trial specifically, properties of the different hazelnut varieties (production, size, flavour, cracking yield, susceptibility to the hazelnut weevil, quality parameters, ...) have been assessed.", "keywords": ["silvopastoral", "variety trial", "hazelnut", "nut production"], "data_ownership": "ILVO", "data_contact": "jolien.bracke@ilvo.vlaanderen.be", "data_project": "Yes", "data_project_name": "LEGCOMBIO + VLAIO-LA Agroforestry 2025", "data_project_url": "https://www.agroforestryvlaanderen.be/en/projects/legcombio", "data_collection_country": "Belgium", "spatial_details": "Data was collected at the level of the plot (particularly soil parameters), the tree as well as individual nuts and nut kernels.", "indicators_other": "nut quality parameters", "year_lastupdate": 2023, "time_span_oldest": 2019, "time_span_newest": 2023, "data_confidentiality": "Data embargo, i.e there are rules or limits on using, sharing, or spreading it", "license": "Don't know", "access_barrier": "Access to the data needs to be granted (e.g. dataset owner needs to give permission after user registration; dataset owner sends data after receiving a request email)", "data_relevant_attributes": "Yes", "listed_other_databases": "No", "data_metadata": "Yes", "documentation_accessible": "Yes", "data_metadata_vocabulary": "No", "development_process": "Not completely", "documentation_list": "https://ilvo.vlaanderen.be/uploads/documents/Fiche-Silvopastoral-exp-site-ILVO_EN.pdf\nhttps://www.agroforestryvlaanderen.be/nl/nieuws/hazelaar-corylus-avellana", "id": "hazeltrialilvo", "timestamp_creation": 1717592521395, "timestamp_lastedit": 1717592521395}
+{
+	"data_type": [
+		"Observational data",
+		"Analysis data",
+		"Experimental data"
+	],
+	"spatial_scales": [
+		"Plant/animal",
+		"Plot",
+		"Leaf/stem (sub-individual)"
+	],
+	"indicators": [
+		"Growth",
+		"Yield / Biomass",
+		"Soil",
+		"Pests and Diseases",
+		"Nutrients",
+		"Other"
+	],
+	"time_steps": [
+		"Yearly"
+	],
+	"data_formats": [
+		"Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+	],
+	"digitaf_data_ll": [],
+	"digitaf_data_wp": [
+		"WP2 - Tools for practitioners and farm advisors"
+	],
+	"submitter_name": "Bert Reubens",
+	"submitter_email": "bert.reubens@ilvo.vlaanderen.be",
+	"name": "HAZEL.trial.ILVO",
+	"url": "https://zenodo.org/records/11487442",
+	"url_persistent": "Yes",
+	"description": "In 2017, 168 hazel trees (Corylus avellana cvs.) of eight different varieties, were planted in a randomized design on an experimental plot at ILVO (coordinates: 50.976816, 3.778914). The eight cultivars selected were \u2018Emoa 1\u2019, \u2018Hall's Giant\u2019, \u2018Corabel\u2019, \u2018Gunslebert\u2019, \u2018Kentish cob\u2019, \u2018Gustav\u2019s Zeller\u2019, \u2018Cosford\u2019 and \u2018Tonda di Giffoni\u2019. They were planted in such a way that each cultivar was represented equally. The distance in the row (3 m) ensures an optimal light and water supply; the distance between the rows (7.5 m) allows machine mowing. This results in a planting density of 476 trees/hectare.\n\nThis hazelnut variety trial is incorporated within a silvopastoral experimental site, within which furthermore also short rotation coppice (with willows) is planted, and where impact of presence of chickens is also assessed.\n\nThe initial trial (with SRC and chickens) was installed in 2014, and several trials have been organized at the site since then. The measurements that took place include the monitoring of chicken presence (with tracking systems), chicken welfare (e.g. feather pecking, leg health, breastbone fractures,...), weather conditions (wind, temperature, rain), production of SRC (willow) and hazelnuts in relation to chicken pressure, monitoring of carbon, nitrogen (mineral and organic), phosphorus, potassium in the soil, \u2026\n\nAs for the hazelnut trial specifically, properties of the different hazelnut varieties (production, size, flavour, cracking yield, susceptibility to the hazelnut weevil, quality parameters, ...) have been assessed.",
+	"keywords": [
+		"Silvopastoral",
+		"Variety trial",
+		"Hazelnut",
+		"Nut production"
+	],
+	"data_ownership": "ILVO",
+	"data_contact": "jolien.bracke@ilvo.vlaanderen.be",
+	"data_project": "Yes",
+	"data_project_name": "LEGCOMBIO + VLAIO-LA Agroforestry 2025",
+	"data_project_url": "https://www.agroforestryvlaanderen.be/en/projects/legcombio",
+	"data_collection_country": "Belgium",
+	"spatial_details": "Data was collected at the level of the plot (particularly soil parameters), the tree as well as individual nuts and nut kernels.",
+	"indicators_other": "Nut quality parameters",
+	"year_lastupdate": 2023,
+	"time_span_oldest": 2019,
+	"time_span_newest": 2023,
+	"data_confidentiality": "Data embargo, i.e there are rules or limits on using, sharing, or spreading it",
+	"license": "Don't know",
+	"access_barrier": "Access to the data needs to be granted (e.g. dataset owner needs to give permission after user registration; dataset owner sends data after receiving a request email)",
+	"data_relevant_attributes": "Yes",
+	"listed_other_databases": "No",
+	"data_metadata": "Yes",
+	"documentation_accessible": "Yes",
+	"data_metadata_vocabulary": "No",
+	"development_process": "Not completely",
+	"documentation_list": "https://ilvo.vlaanderen.be/uploads/documents/Fiche-Silvopastoral-exp-site-ILVO_EN.pdf\nhttps://www.agroforestryvlaanderen.be/nl/nieuws/hazelaar-corylus-avellana",
+	"id": "hazeltrialilvo",
+	"timestamp_creation": 1717592521395,
+	"timestamp_lastedit": 1717592521395
+}
