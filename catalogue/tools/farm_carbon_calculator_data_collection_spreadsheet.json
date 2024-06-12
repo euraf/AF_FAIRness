@@ -1,1 +1,107 @@
-{"primary_purpose": ["Decision support"], "software_proglanguage": ["Microsoft Excel"], "minimum_req": ["Desktop computer (e.g. optimized for wider screens)", "Internet connection"], "systems": ["Agriculture"], "system_components": ["Livestock", "Tree", "Crop", "Soil"], "indicators": ["Carbon", "Other"], "spatial_scales": ["Farm"], "time_steps": ["Yearly"], "input_data_protocols": ["User enters the data directly manually"], "input_data_formats": [], "input_data_file_formats": ["XLS/XLSX (Microsoft Excel formats)"], "output_data_formats": ["Widely used file formats (CSV, JSON, XML, etc.)"], "output_data_file_formats": ["XLS/XLSX (Microsoft Excel formats)", "CSV", "PDF"], "end_users": ["Landowner", "Farmer", "Farm advisor", "Carbon trader", "Researcher", "Student"], "usages_most_relevant": ["Management"], "usages_least_relevant": [], "languages": ["English"], "digitaf_tool_ll": ["United Kingdom LL", "Netherlands LL", "Italy LL", "Germany LL", "Finland LL", "Czech Republic LL"], "submitter_name": "Paul Burgess", "submitter_email": "p.burgess", "name": "Farm Carbon Calculator Data Collection Spreadsheet", "url": "https://calculator.farmcarbontoolkit.org.uk/resources/", "description": "The Farm Carbon Calculator provides a publicly available data collection spreadsheet which can be used to determine a farm-level greenhouse gas balance.  This allows recording of farm details, fuel, materials, inventory, fertility and cropping, inputs, livestock, waste, distribution, and sequestration for subsequent entry into an online tool", "logo_url": "https://calculator.farmcarbontoolkit.org.uk/", "keywords": ["Data collection spreadsheet to enable development of farm-level greenhouse gas balances"], "developers": "Farm Carbon Toolkit is a Community Interest Company", "organizations": "Farm Carbon Toolkit", "status": "Implemented", "contact": "info@farmcarbontoolkit.org.uk", "license": "Don't know", "year_lastupdate": 2024, "previous_versions_available": "Don't know", "indicators_other": "Greenhouse gases", "url_persistent": "No", "access_barrier": "No, direct download/access through a web link", "access_procedure_documentation": "Yes", "listed_other_databases": "Don't know", "integrated_other_tools": "Yes", "documentation_available": "Yes", "documentation_accessible": "Yes", "year_release": 2010, "integrated_other_tools_list": "The data collected in the data collection spreadsheet can be used to run the Farm Carbon Calculator", "url_documentation": "https://calculator.farmcarbontoolkit.org.uk/resources/", "documentation_theoretical_background": "Yes", "documentation_theoretical_background_list": "https://calculator.farmcarbontoolkit.org.uk/references-0", "data_provenance": "Yes", "development_process": "Not completely", "training_materials": "Yes", "documentation_contribute": "Don't know", "digitaf_tool": "Yes", "feedback_tool_info": "The plan is to use the data collection spreadsheet across the six living labs", "id": "farm_carbon_calculator_data_collection_spreadsheet", "timestamp_creation": 1718105935014, "timestamp_lastedit": 1718105935014}
+{
+	"primary_purpose": [
+		"Decision support"
+	],
+	"software_proglanguage": [
+		"Microsoft Excel"
+	],
+	"minimum_req": [
+		"Desktop computer (e.g. optimized for wider screens)",
+		"Internet connection"
+	],
+	"systems": [
+		"Agriculture"
+	],
+	"system_components": [
+		"Livestock",
+		"Tree",
+		"Crop",
+		"Soil"
+	],
+	"indicators": [
+		"Carbon",
+		"Other"
+	],
+	"spatial_scales": [
+		"Farm"
+	],
+	"time_steps": [
+		"Yearly"
+	],
+	"input_data_protocols": [
+		"User enters the data directly manually"
+	],
+	"input_data_formats": [],
+	"input_data_file_formats": [
+		"XLS/XLSX (Microsoft Excel formats)"
+	],
+	"output_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)"
+	],
+	"output_data_file_formats": [
+		"XLS/XLSX (Microsoft Excel formats)",
+		"CSV",
+		"PDF"
+	],
+	"end_users": [
+		"Landowner",
+		"Farmer",
+		"Farm advisor",
+		"Carbon trader",
+		"Researcher",
+		"Student"
+	],
+	"usages_most_relevant": [
+		"Management"
+	],
+	"usages_least_relevant": [],
+	"languages": [
+		"English"
+	],
+	"digitaf_tool_ll": [
+		"United Kingdom LL",
+		"Netherlands LL",
+		"Italy LL",
+		"Germany LL",
+		"Finland LL",
+		"Czech Republic LL"
+	],
+	"submitter_name": "Paul Burgess",
+	"submitter_email": "p.burgess@cranfield.ac.uk",
+	"name": "Farm Carbon Calculator Data Collection Spreadsheet",
+	"url": "https://calculator.farmcarbontoolkit.org.uk/resources/",
+	"description": "The Farm Carbon Calculator provides a publicly available data collection spreadsheet which can be used to determine a farm-level greenhouse gas balance.  This allows recording of farm details, fuel, materials, inventory, fertility and cropping, inputs, livestock, waste, distribution, and sequestration for subsequent entry into an online tool",
+	"logo_url": "https://calculator.farmcarbontoolkit.org.uk/themes/contrib/fcc/images/FCC_Logo_RGB.svg",
+	"keywords": [
+		"Data collection spreadsheet to enable development of farm-level greenhouse gas balances"
+	],
+	"developers": "Farm Carbon Toolkit is a Community Interest Company",
+	"organizations": "Farm Carbon Toolkit",
+	"status": "Implemented",
+	"contact": "info@farmcarbontoolkit.org.uk",
+	"license": "Don't know",
+	"year_lastupdate": 2024,
+	"previous_versions_available": "Don't know",
+	"indicators_other": "Greenhouse gases",
+	"url_persistent": "No",
+	"access_barrier": "No, direct download/access through a web link",
+	"access_procedure_documentation": "Yes",
+	"listed_other_databases": "Don't know",
+	"integrated_other_tools": "Yes",
+	"documentation_available": "Yes",
+	"documentation_accessible": "Yes",
+	"year_release": 2010,
+	"integrated_other_tools_list": "The data collected in the data collection spreadsheet can be used to run the Farm Carbon Calculator",
+	"url_documentation": "https://calculator.farmcarbontoolkit.org.uk/resources/",
+	"documentation_theoretical_background": "Yes",
+	"documentation_theoretical_background_list": "https://calculator.farmcarbontoolkit.org.uk/references-0",
+	"data_provenance": "Yes",
+	"development_process": "Not completely",
+	"training_materials": "Yes",
+	"documentation_contribute": "Don't know",
+	"digitaf_tool": "Yes",
+	"feedback_tool_info": "The plan is to use the data collection spreadsheet across the six living labs",
+	"id": "farm_carbon_calculator_data_collection_spreadsheet",
+	"timestamp_creation": 1718105935014,
+	"timestamp_lastedit": 1718105935014
+}
