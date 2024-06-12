@@ -220,3 +220,51 @@ function validString(str) {
 	}
 	return str !== null || str !== "null" || str !== "" || str !== undefined
 }
+
+function saveToolsCSV() {
+	var output = []
+	var tools = this.app.$root.$data.tools
+	var form = this.app.$root.$data.tools_form
+	var i = 0
+	for (var tool of tools) {
+		var headers = []
+		var row = []
+		for (var question of form) {
+			if (i == 0) {
+				var text = question.text
+				text = "\"" + text + "\""
+				text = text.replace(/(?:\r\n|\r|\n)/g, " ");
+				headers.push(text)
+			}
+			var value = tool[question.id]
+			if (question.id.includes('timestamp') && value) {
+				var date = (new Date(value))
+				value = Math.round(25569.0 + ((date.getTime() - (date.getTimezoneOffset() * 60 * 1000)) / (1000 * 60 * 60 * 24)), 0) // from js date to excel date
+			}
+			if (typeof value == 'object') {
+				value = value.join(", ")
+			}
+			if (typeof value == 'string') {
+				value = "\"" + value + "\""
+				value = value.replaceAll(/(?:\r\n|\r|\n)/g, " ");
+			}
+			row.push(value)
+		}
+		if (i == 0) {
+			output.push(headers)
+		}
+		output.push(row)
+		i++
+	}
+	console.log(output)
+
+	let csvContent = "data:text/csv;charset=utf-8," + output.map(e => e.join(",")).join("\n");
+
+	var encodedUri = encodeURI(csvContent);
+	var link = document.createElement("a");
+	link.setAttribute("href", encodedUri);
+	link.setAttribute("download", "AFCatalogue_Tools.csv");
+	document.body.appendChild(link); // Required for FF
+
+	link.click(); // This will download the data file named "my_data.csv".
+}
