@@ -25,11 +25,11 @@
 	"indicators": ["Biodiversity"],
 	"spatial_scales": ["Plot", "Farm", "One-hectare", "Landscape", "Catchment"],
 	"time_steps": ["Not relevant"],
-	"input_data_protocols": ["User enters the data directly manually"],
+	"input_data_protocols": ["User enters data manually"],
 	"input_data_formats": ["Widely used file formats (CSV, JSON, XML, etc.)"],
 	"input_data_file_formats": [ "Other" ],
 	"input_data_file_formats_other": "Habitat map layer, Habitat statistics",
-	"output_data_formats": [],
+	"output_data_formats": [ "Widely used file formats (CSV, JSON, XML, etc.)" ],
 	"output_data_file_formats": ["XLS/XLSX (Microsoft Excel formats)", "CSV"],
 	"end_users": ["Researcher", "Student", "Policy-maker", "Farm advisor", "Farmer"],
 	"usages_most_relevant": [

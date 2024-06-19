@@ -25,8 +25,11 @@
 	"indicators": [ "Yield", "Suitability", "Mechanization", "Economics", "Labour", "Carbon"],
 	"spatial_scales": [ "Plot", "Farm" ],
 	"time_steps": [ "Not relevant" ],
-	"input_data_protocols": [ "User enters the data directly manually" ],
-	"input_data_formats": [],
+	"input_data_protocols": [ "User enters data manually" ],
+	"input_data_formats": [
+		"Other"
+	],
+	"input_data_formats_other": "User enters data manually",
 	"input_data_file_formats": [],
 	"output_data_formats": [
 		"Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"

@@ -59,7 +59,7 @@
     "Not relevant"
   ],
   "input_data_protocols": [
-    "User enters the data directly manually",
+    "User enters data manually",
     "Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)"
   ],
   "input_data_formats": [

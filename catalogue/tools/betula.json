@@ -54,7 +54,7 @@
 		"Not relevant"
 	],
 	"input_data_protocols": [
-		"User enters the data directly manually",
+		"User enters data manually",
 		"Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)"
 	],
 	"input_data_formats": [
@@ -110,6 +110,6 @@
 	"feedback_tool_info": "",
 	"editor_name": "Bert Reubens",
 	"editor_email": "bert.reubens@ilvo.vlaanderen.be",
-	"input_data_formats_other": "geographic location layer for Flanders",
+	"input_data_formats_other": "Geographic location layer for Flanders",
 	"timestamp_lastedit": 1716813156359
 }

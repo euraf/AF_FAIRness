@@ -53,21 +53,19 @@
     "Not relevant"
   ],
   "input_data_protocols": [
-    "User enters the data directly manually"
+    "User enters data manually"
   ],
-  "input_data_formats": [
-    ""
-  ],
+	"input_data_formats": [
+		"Other"
+	],
+	"input_data_formats_other": "User enters data manually",
   "input_data_file_formats": [
     "Images (e.g. png, jpg, tiff, etc)",
     "Other"
   ],
   "input_data_file_formats_other": "MP3",
-  "output_data_formats": [
-    ""
-  ],
+  "output_data_formats": [ "Other" ],
   "output_data_file_formats": [
-    ""
   ],
   "end_users": [
     "Researcher",
@@ -117,7 +115,6 @@
   "documentation_contribute": "Yes",
   "digitaf_tool": "No",
   "digitaf_tool_ll": [
-    ""
   ],
   "digitaf_tool_demo_video": "",
   "feedback_tool_info": ""

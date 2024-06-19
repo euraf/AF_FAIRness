@@ -62,6 +62,11 @@
     "type": "tag",
     "required": true,
     "fair": "F1",
+    "fair_text": "Identifiers consist of an internet link created through registry services. Many repositories will automatically generate globally unique (i.e., someone else could not reuse/reassign the same identifier without referring to your data) and persistent (it should be kept active into the future, at least to some degree) identifiers to deposited documents, tools, or datasets. Identifiers also help others to properly, and unambiguously, cite the dataset. DOIs are an example, available through e.g. institutional repositories, Zenodo or OpenAIRE.",
+    "fair_score": [
+      1,
+      0
+    ],
     "answers": [
       "Yes",
       "No"
@@ -313,6 +318,22 @@
     "type": "tag",
     "required": true,
     "fair": "R2",
+    "fair_text": "What usage rights are attached to the data? This should be described clearly. Ambiguity could severely limit the reuse of the data by organisations that struggle to comply with licensing restrictions. Clarity of licensing status will become more important with automated searches involving more licensing considerations. The conditions under which the data can be used should be clear to machines and humans.",
+    "fair_score": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.5,
+      0.5,
+      0.2,
+      0.2,
+      1,
+      0,
+      0,
+      0.2
+    ],
     "answers": [
       "MIT License",
       "Apache License 2.0",
@@ -349,6 +370,13 @@
     "type": "tag",
     "required": true,
     "fair": "A1",
+    "fair_text": "Data access should be mediated without relying on specialized or proprietary tools or communication methods. Ensuring that retrieval protocols are free allows equitable access for those without financial resources. Universal implementability of these protocols ensures accessibility for everyone, without restrictions based on location or community. However, fully mechanized protocols might not provide secure access for highly sensitive data. Ethical, legal, or contractual constraints may necessitate additional measures. In such cases, it is acceptable to provide contact information, such as an email or telephone number, for the responsible person to discuss access. This contact protocol must be clearly and explicitly documented.",
+    "fair_score": [
+      1,
+      1,
+      0.5,
+      0.8
+    ],
     "answers": [
       "No, direct download/access through a web link",
       "User registration needed",
@@ -362,6 +390,13 @@
     "type": "array of tags",
     "required": true,
     "fair": "I1",
+    "fair_text": "The critical part of FAIR data is that both humans and computers should be able to exchange and interpret each other's data without requiring specialized programs, translators or mappings. For computers, interoperability means that each computer system knows the other system's data exchange formats. For this to happen — and to ensure automatic findability and interoperability of datasets — one crucial aspect is to use open file formats.",
+    "fair_score": [
+      1,
+      0,
+      0,
+      0.2
+    ],
     "answers": [
       "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)",
       "Custom file formats (database specific, not widely used)",
@@ -378,10 +413,17 @@
   },
   {
     "id": "data_relevant_attributes",
-    "text": "The data is accurate and well described with many relevant attributes?",
+    "text": "The data (or its metadata) is accurate and well described with many relevant attributes?",
     "type": "tag",
     "required": true,
     "fair": "R1",
+    "fair_text": "The data publisher should provide comprehensive metadata that not only enables discovery but also richly describes the context in which the data was generated. Metadata should be detailed and inclusive, even if some information seems irrelevant. Key details to include are: the purpose for which the data was generated or collected; any particularities or limitations of the data; the date of data generation/collection, field conditions, data preparers, parameter settings, and software details; explanations for all variable names or ensuring they are self-explanatory; clear documentation of the version of the archived and/or reused data.",
+    "fair_score": [
+      1,
+      0.5,
+      0,
+      0
+    ],
     "answers": [
       "Yes",
       "Not completely",
@@ -395,6 +437,12 @@
     "type": "tag",
     "required": true,
     "fair": "F3",
+    "fair_text": "Identifiers and metadata alone will not ensure ‘findability’ on the internet. Perfectly good data resources may go unused simply because no one knows they exist. If the availability of a dataset is not known, then nobody (and no computer) can discover it. Indexing the dataset within multiple databases might help reach a wider audience and hence, increase the dataset usage and dissemination.",
+    "fair_score": [
+      1,
+      0,
+      0
+    ],
     "answers": [
       "Yes",
       "No",
@@ -402,14 +450,27 @@
     ]
   },
   {
+    "id": "listed_other_databases_list",
+    "text": "If applicable and known, in which databases is it listed?",
+    "type": "string",
+    "required": false
+  },
+  {
     "id": "data_metadata",
     "text": "The dataset has an associated metadata file (e.g. XML, md), where the dataset details are described?",
     "type": "tag",
     "required": true,
     "fair": "F2",
+    "fair_text": "Metadata is a description of a resource that enhances its findability, reusability, interpretation, and assessment. Typically, metadata and the dataset it describes are separate files. Metadata acts as a descriptor, while the data is what is being described. The connection between them should be clear by including the dataset's unique and persistent identifier in the metadata. Comprehensive metadata should include details about the context, quality, condition, and characteristics of the data. While it's hard to define a minimal standard for metadata richness, more detailed metadata improves search accuracy for both humans and computers. A digital resource that is not well-described cannot be accurately discovered.",
+    "fair_score": [
+      1,
+      0,
+      0
+    ],
     "answers": [
       "Yes",
-      "No"
+      "No",
+      "Don't know"
     ]
   },
   {
@@ -418,6 +479,13 @@
     "type": "tag",
     "required": true,
     "fair": "A2",
+    "fair_text": "It is important that users have, at the very least, access to high quality metadata, or complete and organized documentation, that describes digital resources sufficiently to minimally understand their nature and their provenance, even when the relevant data is not publicly available, or not available anymore.",
+    "fair_score": [
+      1,
+      0.5,
+      0,
+      0
+    ],
     "answers": [
       "Yes",
       "Some of it",
@@ -431,6 +499,12 @@
     "type": "tag",
     "required": true,
     "fair": "I2",
+    "fair_text": "\"Vocabularies\" refer to methods that clearly represent concepts within a specific domain. Using shared, formally structured sets of terms is a crucial aspect of FAIR principles. Terminology systems, including flat \"vocabularies\", hierarchical \"thesauri\", and more detailed knowledge specifications like data models and ontologies, are vital for establishing community standards. For example, simply using a label like \"temperature\" is not enough for a machine to understand its intent (e.g., air temperature or body temperature) and the appropriate contexts for linking it with other similarly labeled data.",
+    "fair_score": [
+      1,
+      0,
+      0
+    ],
     "answers": [
       "Yes",
       "No",
@@ -443,6 +517,13 @@
     "type": "tag",
     "required": true,
     "fair": "R3",
+    "fair_text": "For others to reuse the data, they need to know its origin, who to cite, and how you wish to be acknowledged. Provide a detailed description of the workflow that led to your data, including who generated or collected it, how it was processed, whether it has been previously published, and if it includes data from others that you have transformed or supplemented. Ideally, this workflow should be described in a machine-readable format.",
+    "fair_score": [
+      1,
+      0.5,
+      0,
+      0
+    ],
     "answers": [
       "Yes",
       "Not completely",

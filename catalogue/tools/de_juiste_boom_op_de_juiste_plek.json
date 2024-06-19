@@ -3,7 +3,7 @@
 		"Decision support"
 	],
 	"software_proglanguage": [
-		"Other"
+		"Microsoft Excel"
 	],
 	"minimum_req": [
 		"Internet connection",
@@ -26,11 +26,14 @@
 		"Not relevant"
 	],
 	"input_data_protocols": [
-		"User enters the data directly manually"
+		"User enters data manually"
 	],
-	"input_data_formats": [],
+	"input_data_formats": [
+		"Other"
+	],
+	"input_data_formats_other": "User enters data manually",
 	"input_data_file_formats": [],
-	"output_data_formats": [],
+	"output_data_formats": [ "Other" ],
 	"output_data_file_formats": [],
 	"end_users": [
 		"Farmer",
@@ -64,12 +67,10 @@
 	"developers": "Stichting ReGeneratie; Jade Reforestry; Aeres; Hogeschool Van Hall Larenstein; Louis Bolk Instituut",
 	"contact": "agroforestrynetwerk@rvo.nl",
 	"status": "Implemented",
-	"software_proglanguage_other": "Excel",
 	"license": "Don't know",
 	"year_release": 2024,
 	"year_lastupdate": 2024,
 	"previous_versions_available": "Only one version exists",
-	"input_data_formats_other": "",
 	"url_persistent": "No",
 	"access_barrier": "No, direct download/access through a web link",
 	"listed_other_databases": "No",

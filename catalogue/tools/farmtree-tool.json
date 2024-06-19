@@ -72,7 +72,7 @@
     "Monthly"
   ],
   "input_data_protocols": [
-    "User enters the data directly manually",
+    "User enters data manually",
     "Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)",
     "Data entry can be fully automated programmatically (e.g. automatically run a script for multiple scenarios)"
   ],
@@ -115,9 +115,10 @@
     "English",
     "French",
     "German",
+    "Spanish",
     "Other"
   ],
-  "languages_other": "Spanish, Bahasa Indonesia",
+  "languages_other": "Bahasa Indonesia",
   "url_persistent": "No",
   "access_barrier": "User registration needed",
   "access_procedure": "You can access a Demo version. Specific Regional versions require a license agreement. Contact through https://www.farmtree.earth/contactus",
