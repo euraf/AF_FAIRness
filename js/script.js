@@ -23,7 +23,7 @@ Object.filter = function(obj, predicate) {
 
 const router = new VueRouter({
 	mode: 'history',
-	base: '/tools/dev/AF_FAIRness',
+	base: window.location.pathname.substring(0, window.location.pathname.indexOf("AF_FAIRness")) + "AF_FAIRness/",
 	routes: [
 		{
 			path: '/',
