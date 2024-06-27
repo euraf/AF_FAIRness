@@ -47,6 +47,13 @@ function Tools_FAIRness_scoring() {
     }
 
     function score_f(tool) {
+        /**
+         * FINDABILITY
+         * 
+         * The assets should be easy to find, both for humans and for computers.
+         * @param {object} - Tool information
+         * @returns {number} - Value of the Findability scoring
+         */
 
         var F1 = tool.url_persistent == "Yes" ? 1 : 0
         var F2 = tool.documentation_available == "Yes" ? 1 : 0
@@ -56,6 +63,13 @@ function Tools_FAIRness_scoring() {
     }
 
     function score_a(tool) {
+        /**
+         * ACCESSIBILITY
+         * 
+         * Once users find the digital tool assets, they need to know how they can be accessed, possibly including authentication and authorization. Protocols for retrieving those assets should be made explicit, for both humans and computers.
+         * @param {object} - Tool information
+         * @returns {number} - Value of the Accessibility scoring
+         */
 
         var A1 = 0
         if (tool.access_barrier) {
@@ -152,6 +166,13 @@ function Tools_FAIRness_scoring() {
     }
 
     function score_i(tool) {
+        /**
+         * INTEROPERABILITY
+         * 
+         * Interoperability core resides in facilitating the input and output of data from one tool to the next. When these mechanisms are facilitated, through modern exchange protocols and widely used file formats, these interchanges are made easier, and the tool environment enhanced by having different tools and models working together.
+         * @param {object} - Tool information
+         * @returns {number} - Value of the Interoperability scoring
+         */
 
         var subcriteria_count = 6
 
@@ -177,7 +198,7 @@ function Tools_FAIRness_scoring() {
         if (tool.input_data_protocols && tool.input_data_protocols.length > 0) {
             var I2_score = []
             var data_protocols = {
-                "User enters the data directly manually": 0,
+                "User enters data manually": 0,
                 "Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)": 0.5,
                 "Data entry can be fully automated programmatically (e.g. automatically run a script for multiple scenarios)": 1
             }
@@ -194,7 +215,7 @@ function Tools_FAIRness_scoring() {
             var I3_score = []
             var scores = {
                 "Widely used file formats (CSV, JSON, XML, etc.)": 1,
-                "Custom file formats": 0,
+                "Custom file formats": 0.2,
                 "HTTP (query string parameters, data in request body & file uploads)": 1,
                 "Other": DEFAULT_SCORE_FOR_OTHER_ANSWERS
             }
@@ -216,7 +237,7 @@ function Tools_FAIRness_scoring() {
             var I4_score = []
             var scores = {
                 "Widely used file formats (CSV, JSON, XML, etc.)": 1,
-                "Custom file formats": 0,
+                "Custom file formats": 0.2,
                 "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)": 0,
                 "Other": DEFAULT_SCORE_FOR_OTHER_ANSWERS
             }
@@ -273,6 +294,14 @@ function Tools_FAIRness_scoring() {
     }
 
     function score_r(tool) {
+        /**
+         * REUSABILITY
+         * 
+         * Reusability implies that several questions are addressed. Should a tool be reused? That is, if it makes sense to use it in some situation, if it is relevant for the task at hand, if its developing development assumptions fit the new project. Can a tool be reused and under what conditions? For this, knowing the usage rights licence is essential, and all the implications that it implies.
+         * @param {object} - Tool information
+         * @returns {number} - Value of the Reusability scoring
+         */
+        
         var R1 = 0
         if (tool.license) {
             var scores = {

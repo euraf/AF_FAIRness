@@ -70,7 +70,7 @@
   },
   {
     "id": "primary_purpose",
-    "text": "What is the primary purpose of tool?",
+    "text": "What is the primary purpose of the tool?",
     "short_text": "Primary purpose",
     "type": "array of tags",
     "filter": 2,
@@ -107,6 +107,29 @@
     "required": false
   },
   {
+    "id": "tool_project",
+    "text": "Was the tool developed/improved during a project?",
+    "type": "tag",
+    "required": true,
+    "answers": [
+      "Yes",
+      "No, it has another source",
+      "Don't know"
+    ]
+  },
+  {
+    "id": "tool_project_name",
+    "text": "If yes, what was the name of the project(s)?",
+    "type": "string",
+    "required": false
+  },
+  {
+    "id": "tool_project_url",
+    "text": "If yes, please provide the project's URL (preferrably of CORDIS if available)",
+    "type": "string",
+    "required": false
+  },
+  {
     "id": "status",
     "text": "What is the current status of the tool?",
     "short_text": "Status",
@@ -126,6 +149,8 @@
     "type": "array of tags",
     "required": true,
     "fair": "I1",
+    "fair_text": "Humans and computers must be able to interpret tools and exchange data. In order to facilitate these actions, tools should be developed in software or programming languages that a large number of users understand and know how to use. The use of legacy or niche software/programming languages should be avoided. This is particularly relevant when considering interoperability with other tools, or their future collaborative development. The ranking of technologies for scoring purposes follows the yearly «Stack Overflow Developer Survey». The current 2023 programming languages ranking is available at https://survey.stackoverflow.co/2023/#technology-most-popular-technologies.",
+    "fair_score_comments": "Average of the individual scoring of each technology, evaluated through https://github.com/euraf/AF_FAIRness/blob/main/catalogue/tools/scoring/techonology_ranking.js.",
     "answers": [
       "APL",
       "Ada",
@@ -199,6 +224,19 @@
     "type": "array of tags",
     "required": true,
     "fair": "A3",
+    "fair_text": "The more limitations or requirements needed to use a tool, the less universal and equitable its use will be. Examples of requirements that could limit the use and dissemination of a tool include: the use of licensed software (e.g. Microsoft Excel, which, although in widespread use, is still licensed and paid for); the use of specific devices that are not in widespread use (e.g. virtual reality headset); operation limited to one type of operating system. Alternatively, open tools that work on all platforms tend to be more widely used and disseminated, as well as facilitating interoperability with other tools.",
+    "fair_score": [
+      0.5,
+      1,
+      1,
+      1,
+      0,
+      0.2,
+      1,
+      0.5,
+      0.2
+    ],
+    "fair_score_comments": "Average of the individual answer scores",
     "answers": [
       "Internet connection",
       "Desktop computer (e.g. optimized for wider screens)",
@@ -228,6 +266,22 @@
     "type": "tag",
     "required": true,
     "fair": "R1",
+    "fair_text": "What usage rights are attached to the tool? This should be described clearly. Ambiguity could severely limit the reuse of the tool and its data by organisations that struggle to comply with licensing restrictions. Clarity of licensing status will become more important with automated searches involving more licensing considerations. The conditions under which the data can be used should be clear to machines and humans.",
+    "fair_score": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.5,
+      0.5,
+      0.2,
+      0.2,
+      1,
+      0,
+      0,
+      0.2
+    ],
     "answers": [
       "MIT License",
       "Apache License 2.0",
@@ -244,6 +298,12 @@
       "Don't know",
       "Other"
     ]
+  },
+  {
+    "id": "license_url",
+    "text": "Please indicate the URL to the license.",
+    "type": "string",
+    "required": false
   },
   {
     "id": "license_other",
@@ -271,6 +331,13 @@
     "type": "tag",
     "required": true,
     "fair": "I5",
+    "fair_text": "Keeping a record of the different versions of a tool, and the respective changes implemented in each new version, allows users to choose to continue with the version in use - knowing in advance its limitations/problems - or to continue or consciously opt for a different updated version.",
+    "fair_score": [
+      1,
+      0,
+      null,
+      0
+    ],
     "answers": [
       "Yes",
       "No",
@@ -401,19 +468,34 @@
     "type": "array of tags",
     "required": true,
     "fair": "I2",
+    "fair_text": "Manual data input may be slow and time-consuming. Automating this process saves time on repetitive tasks and increases productivity. This also allows the tool to be used, for example, to analyse a large number of scenarios, enabling complex analysis of the generated outputs.",
+    "fair_score": [
+      0,
+      0.5,
+      1
+    ],
+    "fair_score_comments": "Maximum value between the individual scores.",
     "answers": [
-      "User enters the data directly manually",
+      "User enters data manually",
       "Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)",
       "Data entry can be fully automated programmatically (e.g. automatically run a script for multiple scenarios)"
     ]
   },
   {
     "id": "input_data_formats",
-    "text": "If applicable, what kind of input data formats does the tool accept?",
+    "text": "What kind of input data formats does the tool accept?",
     "filter": 0,
     "type": "array of tags",
-    "required": false,
+    "required": true,
     "fair": "I3",
+    "fair_text": "Inputs should be readable by computers without the need for specialised or ad hoc algorithms, translators, or mappings. Having files in widely used types and with known file formats greatly facilitates this Input-Output processing.",
+    "fair_score": [
+      1,
+      0.2,
+      1,
+      0.2
+    ],
+    "fair_score_comments": "Maximum value between the individual scores.",
     "answers": [
       "Widely used file formats (CSV, JSON, XML, etc.)",
       "Custom file formats",
@@ -461,8 +543,16 @@
     "text": "What kind of output data formats does the tool generate?",
     "filter": 0,
     "type": "array of tags",
-    "required": false,
+    "required": true,
     "fair": "I4",
+    "fair_text": "Outputs should be readable by computers without the need for specialised or ad hoc algorithms, translators, or mappings. Having files in widely used types and with known file formats greatly facilitates this input-output processing.",
+    "fair_score": [
+      1,
+      0.2,
+      0,
+      0.2
+    ],
+    "fair_score_comments": "Maximum value between the individual scores.",
     "answers": [
       "Widely used file formats (CSV, JSON, XML, etc.)",
       "Custom file formats",
@@ -567,14 +657,21 @@
     "type": "array of tags",
     "required": true,
     "fair": "A4",
+    "fair_text": "Making the tools available in different languages helps them reach a wider audience, which is crucial for universal access and use of the tool. It also helps the tool to be used in contexts other than those in which it was created, and to obtain a better search ranking in search engines.",
+    "fair_score_comments": "Count the number of languages; if one language, score 0; if two languages, score 0.5; if three languages, score 0.8; if more than three languages, score 1.",
     "answers": [
       "Czech",
+      "Danish",
       "Dutch",
       "English",
       "Finish",
       "French",
       "German",
       "Italian",
+      "Polish",
+      "Russian",
+      "Spanish",
+      "Swedish",
       "Other"
     ]
   },
@@ -592,6 +689,11 @@
     "type": "tag",
     "required": true,
     "fair": "F1",
+    "fair_text": "Identifiers consist of an internet link created through registry services. Many repositories will automatically generate globally unique (i.e., someone else could not reuse/reassign the same identifier without referring to your data) and persistent (it should be kept active into the future, at least to some degree) identifiers to deposited documents, tools, or datasets. Identifiers also help others to properly, and unambiguously, cite the tool. DOI[https://www.doi.org/] are an example, automatically generated for peer-reviewed publications, some repositories (Zenodo[https://zenodo.org/], OpenAIRE[https://www.openaire.eu/]), and Github[https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content] code repositories integrated into Zenodo. PURL[https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator] are another example.",
+    "fair_score": [
+      1,
+      0
+    ],
     "answers": [
       "Yes",
       "No"
@@ -604,6 +706,14 @@
     "type": "tag",
     "required": true,
     "fair": "A1",
+    "fair_text": "Tool access should be mediated without specialised or proprietary tools or communication methods. That the retrieval protocols are free ensures that those lacking monetary means can equitably access the resource. That they are universally implementable ensures that the technology is available to all (and not restricted, for instance, by country or a sub-community). However, it may not be possible to provide secure access through a fully mechanised protocol, for example for highly sensitive data. There may be access restrictions based on ethical, legal, or contractual constraints, which require additional measures. In such cases, it is perfectly FAIR to provide an email, telephone number, or other means to contact the responsible person who can discuss access to the tool/data. This contact protocol must be clear and explicit in the documentation.",
+    "fair_score": [
+      1,
+      1,
+      0.5,
+      0.8,
+      0
+    ],
     "answers": [
       "No, direct download/access through a web link",
       "User registration needed",
@@ -636,6 +746,12 @@
     "type": "tag",
     "required": true,
     "fair": "F3",
+    "fair_text": "Identifiers and documentation descriptions alone will not ensure ‘findability’ on the internet. Perfectly good data resources may go unused simply because no one knows they exist. If the availability of a digital resource such as a dataset, service or repository is not known, then nobody (and no computer) can discover it. Indexing the tool within multiple databases might help reach a wider audience and hence, increase the tools usage and dissemination.",
+    "fair_score": [
+      1,
+      0,
+      0
+    ],
     "answers": [
       "Yes",
       "No",
@@ -655,6 +771,12 @@
     "type": "tag",
     "required": true,
     "fair": "I6",
+    "fair_text": "Examples of tool integrations include automatically retrieving climatic data from climate databases, using aerial photo layers from external providers, outputting growth values as input to another model, etc.",
+    "fair_score": [
+      1,
+      0,
+      0
+    ],
     "answers": [
       "Yes",
       "No",
@@ -675,6 +797,11 @@
     "type": "tag",
     "required": true,
     "fair": "F2",
+    "fair_text": "This refers to the collection of articles, documents, manuals, and code comments explaining how the tool and/or the code works and how to use it. It should be extensive, including descriptive information about the context and characteristics of the tool. A fully available documentation helps people locate the tool, and increases its use, re-use and citations.",
+    "fair_score": [
+      1,
+      0
+    ],
     "answers": [
       "Yes",
       "No"
@@ -687,6 +814,13 @@
     "type": "tag",
     "required": true,
     "fair": "A2",
+    "fair_text": "Documentation is the collection of articles, documents, manuals, and code comments explaining how the tool and/or the code works and how to use it. An accessible documentation should be aggregated and properly summarised in one place, rather than missing, disorganised, or scattered. It is undesirable for part of the documents to not be open access or to not be available through other means other than institutional journal subscription. Physical documents that can only be consulted in person represent another constraint.",
+    "fair_score": [
+      1,
+      0.5,
+      0,
+      0
+    ],
     "answers": [
       "Yes",
       "Some of it",
@@ -726,6 +860,13 @@
     "type": "tag",
     "required": true,
     "fair": "R2",
+    "fair_text": "This ensures that the origin of the data used in the tool is mentioned, and has the correct licensing to be reused, within this tool or in other future tools.",
+    "fair_score": [
+      1,
+      0.5,
+      0,
+      0
+    ],
     "answers": [
       "Yes",
       "Incomplete",
@@ -740,6 +881,13 @@
     "type": "tag",
     "required": true,
     "fair": "R3",
+    "fair_text": "Essentially, it ensures that the development assumptions are clearly stated and described, allowing other users to evaluate if it properly fits a new project, or even mimic some parts of the process into a new tool.",
+    "fair_score": [
+      1,
+      0.5,
+      0,
+      0
+    ],
     "answers": [
       "Yes",
       "Not completely",
@@ -753,6 +901,12 @@
     "type": "tag",
     "required": true,
     "fair": "A5",
+    "fair_text": "Besides tool and documentation availability, having extensive training material enhances usability and ease of use. Providing case studies, tutorials, how-to's and usage examples opens possibilities for users that might not have been considered. Previously recorded webinars may introduce answers to common usage questions, and further insights about the generated outputs. Different kinds of materials may benefit different types of users. On another hand, the absence of any sort of training material for a possibly complex tool may hinder its use and acceptability.",
+    "fair_score": [
+      1,
+      0,
+      0
+    ],
     "answers": [
       "Yes",
       "No",
@@ -772,6 +926,12 @@
     "type": "tag",
     "required": true,
     "fair": "R4",
+    "fair_text": "Reusability may imply enhancing or improving the original tool. It is essential to know how to do it, and ways to integrate those changes into the original tool or to make them available and linked to the original resource, for other users to take advantage of those improvements.",
+    "fair_score": [
+      1,
+      0,
+      0
+    ],
     "answers": [
       "Yes",
       "No",
@@ -780,7 +940,7 @@
   },
   {
     "id": "digitaf_tool",
-    "text": "Is this tool being co-developed or improved within DigitAF activities?",
+    "text": "For DigitAF participants, is this tool being co-developed or improved within DigitAF activities?",
     "short_text": "Is a DigitAF tool",
     "filter": 3,
     "type": "tag",
@@ -793,7 +953,7 @@
   },
   {
     "id": "digitaf_tool_ll",
-    "text": "If applicable, in which Living Labs is it being tested?",
+    "text": "For DigitAF participants, if applicable, in which Living Labs is it being tested?",
     "short_text": "Tested in DigitAF Living Labs",
     "filter": 3,
     "type": "array of tags",
@@ -809,7 +969,8 @@
   },
   {
     "id": "digitaf_tool_demo_video",
-    "text": "If available, what is the link to this tool's demonstration video produced as part of the DigitAF project?",
+    "text": "For DigitAF participants, if available, what is the link to this tool's DigitAF demonstration video?",
+    "helper": "From the ones available at https://www.youtube.com/watch?v=ld_ZkJnwnv4",
     "type": "string",
     "required": false
   },

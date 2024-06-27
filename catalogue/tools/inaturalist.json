@@ -52,7 +52,7 @@
     "Not relevant"
   ],
   "input_data_protocols": [
-    "User enters the data directly manually"
+    "User enters data manually"
   ],
   "input_data_formats": [
     "Widely used file formats (CSV, JSON, XML, etc.)"

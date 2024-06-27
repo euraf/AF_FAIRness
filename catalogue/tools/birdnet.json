@@ -52,11 +52,12 @@
     "Not relevant"
   ],
   "input_data_protocols": [
-    "User enters the data directly manually"
+    "User enters data manually"
   ],
-  "input_data_formats": [
-    ""
-  ],
+	"input_data_formats": [
+		"Other"
+	],
+	"input_data_formats_other": "User enters data manually",
   "input_data_file_formats": [
     "Other"
   ],
@@ -65,7 +66,6 @@
     "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
   ],
   "output_data_file_formats": [
-    ""
   ],
   "end_users": [
     "Researcher",

@@ -52,13 +52,13 @@
 	],
 	"time_steps_comment": "once for tree choice",
 	"input_data_protocols": [
-		"User enters the data directly manually"
+		"User enters data manually"
 	],
 	"input_data_formats": [
-		""
+		"Other"
 	],
+	"input_data_formats_other": "User enters data manually",
 	"input_data_file_formats": [
-		""
 	],
 	"output_data_formats": [
 		"Widely used file formats (CSV, JSON, XML, etc.)"

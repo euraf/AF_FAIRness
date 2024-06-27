@@ -61,7 +61,7 @@
     "Not relevant"
   ],
   "input_data_protocols": [
-    "User enters the data directly manually",
+    "User enters data manually",
     "Data entry can be fully automated programmatically (e.g. automatically run a script for multiple scenarios)"
   ],
   "input_data_formats": [
@@ -115,9 +115,8 @@
     "English",
     "French",
     "German",
-    "Other"
+    "Spanish"
   ],
-  "languages_other": "Spanish",
   "url_persistent": "Yes",
   "access_barrier": "No, direct download/access through a web link",
   "access_procedure": "Simply download the free-to-use app in the appstore or playstore https://observation.org/apps/obsidentify/install/",

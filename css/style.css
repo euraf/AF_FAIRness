@@ -427,6 +427,10 @@ a:focus {
   margin-bottom: 30px;
 }
 
+.form-group p {
+  margin-bottom: 0.5rem;
+}
+
 .question-text {
   font-weight: bold;
 }
@@ -521,4 +525,26 @@ span.compulsory {
 
 .highlight {
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.link {
+  cursor: pointer;
+  color: green;
+  margin-left: 5px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.badge-FAIR {
+  color: white;
+  background-color: green;
+  font-weight: normal;
+}
+
+.fair-text {
+  color: green;
+  padding-left: 20px;
+  text-align: justify;
 }

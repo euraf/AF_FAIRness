@@ -23,7 +23,7 @@ Object.filter = function(obj, predicate) {
 
 const router = new VueRouter({
 	mode: 'history',
-	base: '/tools/dev/AF_FAIRness',
+	base: window.location.pathname.substring(0, window.location.pathname.indexOf("AF_FAIRness")) + "AF_FAIRness/",
 	routes: [
 		{
 			path: '/',
@@ -133,8 +133,8 @@ app = new Vue({
 		loadData() {
       var _this = this
 
-			var baseurl = 'https://cdn.jsdelivr.net/gh/euraf/AF_FAIRness@latest/'
-			//var baseurl = ''
+			//var baseurl = 'https://cdn.jsdelivr.net/gh/euraf/AF_FAIRness@main/'
+			var baseurl = ''
 			
 			var tools_list = $.getJSON(baseurl + 'catalogue/tools/tools_list.json')
 			var datasets_list = $.getJSON(baseurl + 'catalogue/data/datasets_list.json')
