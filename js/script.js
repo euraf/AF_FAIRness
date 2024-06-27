@@ -129,6 +129,11 @@ app = new Vue({
 	created() {
 		this.loadData()
 	},
+	watch: {
+    $route (to, from) {
+			window.top.postMessage({ af_fairness_url: to.fullPath }, '*')
+    }
+	},
 	methods: {
 		loadData() {
       var _this = this
