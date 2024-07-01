@@ -1,10 +1,16 @@
 :root {
-  --orange: #ea9010;
-  --light-orange: #f1c88e;
-  --dark-orange: #da8813;
-  --light-green: #bacdb0;
+  --primary: #ea9010;
+  --primary-light: #f1c88e;
+  --primary-dark: #da8813;
+
+  --secondary: green;
+  --secondary-light: #bacdb0;
+
   --dark-grey: #67697c;
   --light-grey: #cccdd6;
+
+  --background-color: #fffbf6;
+  --text-color: black;
 }
 
 /* Fonts */
@@ -12,38 +18,34 @@
 	font-family: 'Segoe UI';
 	src: url('fonts/segoeui.ttf') format('truetype');
 }
-@font-face {
-	font-family: 'Segoe UI Bold';
-	src: url('fonts/segoeuib.ttf') format('truetype');
-}
 
 /* Body and general text styles */
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fffbf6;
+  background-color: var(--background-color);
   font-size: 14px;
-  color: black;
+  color: var(--text-color);
 }
 
 input,
 select {
   font-size: 14px!important;
-  color: black!important;
+  color: var(--text-color)!important;
 }
 input[type=checkbox] {
   accent-color: var(--dark-grey);
 }
 p {
   font-size: 14px;
-  color: black;
+  color: var(--text-color);
 }
 .pointer {
   cursor: pointer;
 }
 
 .btn.btn-primary {
-  background-color: var(--orange);
-  border-color: var(--orange);
+  background-color: var(--primary);
+  border-color: var(--primary);
 }
 .btn.btn-primary a {
   color: white;
@@ -51,8 +53,8 @@ p {
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-  background-color: var(--dark-orange);
-  border-color: var(--dark-orange);
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
 }
 .btn.btn-primary:focus {
   box-shadow: 0 0 0 .2rem rgba(234, 144, 16, 0.5);
@@ -81,7 +83,7 @@ p {
 .card.tool .card-title {
   margin-top: -27px;
   margin-bottom: 20px;
-  color: green;
+  color: var(--secondary);
   font-size: 18px; /* Adjusted tool name font size */
   background-color: white;
   padding: 10px 30px;
@@ -147,7 +149,12 @@ p {
   color: white;
 }
 
-/* Image styles */
+.vertical-helper {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
 .card.tool .card-img-top.tool-cover {
   width: 100%;
   height: 200px; /* Adjusted tool cover image height */
@@ -174,7 +181,6 @@ p {
 
 /* Button hover styles */
 .btn-digitaf {
-  font-family: 'Segoe UI Bold';
   color: #253d5b;
   font-size: 18px;
   transition: text-decoration 0.3s;
@@ -213,7 +219,7 @@ table.fair-score, table.fair-score tr, table.fair-score td {
 /* Filtering */
 
 .card-header .btn-link {
-  color: green;
+  color: var(--secondary);
   text-transform: uppercase;
   font-size: 60%;
   font-weight: bold;
@@ -221,13 +227,13 @@ table.fair-score, table.fair-score tr, table.fair-score td {
 
 .card-title {
   margin-bottom: 1.25rem;
-  color: green;
+  color: var(--secondary);
 }
 .card-title a,
 .card-title a:hover,
 .card-title a:active,
 .card-title a:visited {
-  color: green;
+  color: var(--secondary);
 }
 .card-text {
   font-size: 70%;
@@ -264,7 +270,7 @@ table.fair-score, table.fair-score tr, table.fair-score td {
   padding-left: 2.25rem;
 }
 .search-bar label[for=search] {
-  color: green;
+  color: var(--secondary);
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -326,7 +332,7 @@ a,
 a:hover,
 a:visited,
 a:focus {
-  color: green;
+  color: var(--secondary);
 }
 
 .youtube-video {
@@ -374,7 +380,7 @@ a:focus {
 
 .top {
   height: 60px;
-  background-color: var(--orange);
+  background-color: var(--primary);
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
   padding-right: 20px;
 }
@@ -460,7 +466,7 @@ a:focus {
 }
 
 .initial-screen a {
-  color: var(--orange);
+  color: var(--primary);
 }
 
 .question-conditional {
@@ -501,10 +507,10 @@ span.compulsory {
   background-color: var(--dark-grey);
 }
 .about-fair {
-  background-color: var(--light-orange);
+  background-color: var(--primary-light);
 }
 .about-this {
-  background-color: var(--light-green);
+  background-color: var(--secondary-light);
 }
 .about-this,
 .about-fair,
@@ -529,7 +535,7 @@ span.compulsory {
 
 .link {
   cursor: pointer;
-  color: green;
+  color: var(--secondary);
   margin-left: 5px;
 }
 
@@ -539,12 +545,12 @@ span.compulsory {
 
 .badge-FAIR {
   color: white;
-  background-color: green;
+  background-color: var(--secondary);
   font-weight: normal;
 }
 
 .fair-text {
-  color: green;
+  color: var(--secondary);
   padding-left: 20px;
   text-align: justify;
 }
