@@ -50,19 +50,14 @@ module.exports = {
         return count > 0;
     },
     scoreColor: scoreColor,
-    updateSorting() {
-      if (!('sorting' in this.$refs)) {
-        return
-      }
-      var sorting_data = this.$refs.sorting.$data
-      var sorting_option = sorting_data.sorting_options[sorting_data.selected_option]
+    updateSorting(sorting_option) {
       this.filteredTools = sorting_option.fn(this.filteredTools)
     },
     setupTools() {
       this.filteredTools = this.tools.slice().sort((a, b) => a.timestamp_creation > b.timestamp_creation ? -1 : 1)
     },
     updateFiltered() {
-      if (!('filtering' in this.$refs)) {
+      if (!('filtering' in this.$refs && this.$refs.filtering)) {
         return
       }
       var filters = this.$refs.filtering.$data.filters

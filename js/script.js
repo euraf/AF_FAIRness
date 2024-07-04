@@ -32,6 +32,33 @@ const router = new VueRouter({
 			meta: { title: "Agroforestry Tools & Data FAIRness"}
 		},
 		{
+			path: '/projects',
+			name: 'projects',
+			component: httpVueLoader('vue/projects.vue'),
+			meta: { title: "Agroforestry Projects Catalogue"}
+		},
+		{
+			path: '/projects/add',
+			name: 'project_add',
+			component: httpVueLoader('vue/resource_form.vue'),
+			props: { projects: true },
+			meta: { title: "New Agroforestry Project"}
+		},
+		{
+			path: '/projects/project/:id',
+			name: 'project_page',
+			props: { projects: true },
+			component: httpVueLoader('vue/projectpage.vue'),
+			meta: { title: "Agroforestry Projects Catalogue" } // TODO add tool name to the page title
+		},
+		{
+			path: '/projects/project/:id/edit',
+			name: 'project_edit',
+			props: { projects: true },
+			component: httpVueLoader('vue/resource_form.vue'),
+			meta: { title: "Editing Agroforestry Project" } // TODO add project name to the page title
+		},
+		{
 			path: '/data',
 			name: 'datasets',
 			component: httpVueLoader('vue/datasets.vue'),
@@ -125,7 +152,9 @@ app = new Vue({
 		datasets_form: [],
 		datasets_scoring: new Data_FAIRness_scoring(),
 		tools_scoring: new Tools_FAIRness_scoring(),
-		updatedStyling: false
+		updatedStyling: false,
+		projects: [],
+		projects_form: []
 	},
 	created() {
 		this.loadData()
@@ -145,10 +174,12 @@ app = new Vue({
 			
 			var tools_list = $.getJSON(baseurl + 'catalogue/tools/tools_list.json')
 			var datasets_list = $.getJSON(baseurl + 'catalogue/data/datasets_list.json')
+			var projects_list = $.getJSON(baseurl + 'catalogue/projects/projects_list.json')
 
-			Promise.allSettled([tools_list, datasets_list]).then(function(list) {
+			Promise.allSettled([tools_list, datasets_list, projects_list]).then(function(list) {
 				var tools = list[0].value
 				var datasets = list[1].value
+				var projects = list[2].value
 
 				var requests = []
 
@@ -160,6 +191,11 @@ app = new Vue({
 				requests.push($.getJSON(baseurl + 'catalogue/data/datasets_form.json', 
 				function (form) {
 					_this.datasets_form = form
+				}))
+
+				requests.push($.getJSON(baseurl + 'catalogue/projects/projects_form.json', 
+				function (form) {
+					_this.projects_form = form
 				}))
 
 				for (var i = 0; i < tools.length; i++) {
@@ -180,6 +216,11 @@ app = new Vue({
 							dataset.interoperability_score = score.I
 							dataset.reusability_score = score.R
 							_this.datasets.push(dataset)
+					}))
+				}
+				for (var i = 0; i < projects.length; i++) {
+					requests.push($.getJSON(baseurl + 'catalogue/projects/' + projects[i] + '.json', function (project) {
+							_this.projects.push(project)
 					}))
 				}
 

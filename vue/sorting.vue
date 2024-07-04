@@ -1,6 +1,10 @@
 <script>
 module.exports = {
   name: "sorting",
+	props: {
+		sorting_options_remove: Array,
+		sorting_options_update: Object
+	},
 	data() {
 		return {
 			sorting_options: {
@@ -64,9 +68,22 @@ module.exports = {
 			set(newValue) {
 				if (newValue != this.selected_option) {
 					this.selected_option = newValue
-					VueBus.$emit("updateSorting")
+					VueBus.$emit("updateSorting", this.sorters[newValue])
 				}
 			}
+		},
+		sorters() {
+			var _this = this
+			var options = Object.assign({}, this.sorting_options)
+			if (this.sorting_options_remove && this.sorting_options_remove.length > 1) {
+				options = filterObject(this.sorting_options, function(val, key) {
+					return !_this.sorting_options_remove.includes(key)
+				})
+			}
+			if (this.sorting_options_update) {
+				options = Object.assign(options, this.sorting_options_update)
+			}
+			return options
 		}
 	}
 }
@@ -76,7 +93,7 @@ module.exports = {
 	<div class="row no-gutters">
 		<div class="col"><p class="text-right pr-2">Sort by</p></div>
 		<div class="col"><select class="form-control" v-model="answer">
-			<option v-for="option, option_value in sorting_options" :value="option_value" :key="option_value">{{ option.name }}</option>
+			<option v-for="option, option_value in sorters" :value="option_value" :key="option_value">{{ option.name }}</option>
 		</select></div>
 	</div>
 </template>

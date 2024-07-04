@@ -22,7 +22,7 @@ module.exports = {
 	},
 	methods: {
 		removeOther(arr) {
-			if (arr[arr.length-1] == "Other...") {
+			if (arr[arr.length-1] == "Other") {
 				return arr.slice(0, -1) //this.orderByFrequency(arr.slice(0, -1))
 			} else {
 				return arr //this.orderByFrequency(arr)
@@ -33,12 +33,15 @@ module.exports = {
 		},*/
 		numberAvailable(answer) {
 			var filter_id = this.filter.id
+			var filter_custom_fn = this.filter.custom_fn
 
 			return this.elements.filter(function(element) {
 				var elementAnswer = element[filter_id]
 				if (Array.isArray(elementAnswer)) {
 					return elementAnswer.includes(answer)
-				} else {
+				} else if (filter_custom_fn) {
+					return filter_custom_fn(elementAnswer, answer)
+			 	} else {
 					return element[filter_id] == answer
 				}
 			}).length

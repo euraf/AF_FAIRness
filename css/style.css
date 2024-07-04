@@ -161,7 +161,10 @@ p {
   object-fit: cover;
   border-bottom: 1px solid #ccc;
 }
-
+.project-cover img.mini {
+  max-height: 120px;
+  vertical-align: middle;
+}
 .details-block {
   margin-bottom: 5px;
 }
@@ -258,6 +261,19 @@ table.fair-score, table.fair-score tr, table.fair-score td {
     rgba(0, 128, 0, 0.07) 20px,
     rgba(0, 128, 0, 0.07) 40px
   );
+}
+
+.project-cover {
+  background-color: var(--secondary-light);
+}
+
+.projects .card-body {
+  padding: 0;
+}
+
+.project-cover,
+.projects .details {
+  padding: 15px!important;
 }
 
 .search-bar {
@@ -397,13 +413,25 @@ a:focus {
   color: white;
   font-weight: bold;
   margin-bottom: 0;
+  padding-top: 11px;
 }
-.title h1,
-.menu div {
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:60px;
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* remove the gap so it doesn't close */
+}
+.menu .dropdown button.dropdown-toggle,
+.menu .home.btn {
+  margin-top: 11px;
+  background-color: var(--primary);
+  border: none!important;
+}
+.menu .dropdown button.dropdown-toggle:focus,
+.menu .home.btn {
+  box-shadow: none!important;
+  border: none!important;
+}
+.menu .dropdown button.dropdown-item:hover {
+  background-color: var(--primary-light);
 }
 .top .menu a {
   color: white;
@@ -488,16 +516,19 @@ span.compulsory {
   color: red;
 }
 .about-tools,
-.about-data {
+.about-data,
+.about-projects {
   padding: 25px 0;
 }
 .about-data .btn,
-.about-tools .btn {
+.about-tools .btn,
+.about-projects .btn {
   margin-top: 15px;
   margin-bottom: 5px;
 }
 .about-tools .nr,
-.about-data .nr {
+.about-data .nr,
+.about-projects .nr {
   font-size: 130%;
 }
 .about-digitaf {
@@ -542,6 +573,19 @@ span.compulsory {
 .link:hover {
   text-decoration: underline;
 }
+
+.badge-project {
+  color: white;
+  background-color: var(--secondary);
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.badge-h2020 { background-color: #024d8a; }
+.badge-horizon_europe { background-color: #5fadc3; }
+.badge-prima { background-color: #89c03f; }
+.badge-life { background-color: #cab903; }
+.badge-interreg { background-color: #8595d2; }
 
 .badge-FAIR {
   color: white;

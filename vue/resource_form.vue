@@ -3,7 +3,8 @@ module.exports = {
   name: "resource_form",
   props: {
     tools: Boolean,
-    data: Boolean
+    data: Boolean,
+    projects: Boolean
   },
   data() {
     return {
@@ -34,8 +35,10 @@ module.exports = {
     resources() {
         if (this.tools) {
             return this.$root.$data.tools
-        } else {
+        } else if (this.data) {
             return this.$root.$data.datasets
+        } else if (this.projects) {
+            return this.$root.$data.projects
         }
     },
     tools_form() {
@@ -44,12 +47,17 @@ module.exports = {
     datasets_form() {
       return this.$root.$data.datasets_form
     },
+    projects_form() {
+      return this.$root.$data.projects_form
+    },
     form() {
         var obj = {}
         if (this.tools) {
             obj = this.$root.$data.tools_form.filter(question => question.id !== 'id')
         } else if (this.data) {
             obj = this.$root.$data.datasets_form.filter(question => question.id !== 'id')
+        } else if (this.projects) {
+            obj = this.$root.$data.projects_form.filter(question => question.id !== 'id')
         }
         if (this.creating) {
             obj = obj.filter(question => question.id !== 'editor_name' && question.id !== 'editor_email' )
@@ -98,8 +106,8 @@ module.exports = {
     isValid(answer) {
         return answer !== null && answer !== "null" && answer !== undefined && answer !== ""
     },
-    sanitizeName(dataset_name) {
-        return dataset_name.replaceAll(/[^a-z0-9 ]/gi, '').replaceAll(' ', '_').toLowerCase();
+    sanitizeName(name) {
+        return name.replaceAll(/[^a-z0-9 ]/gi, '').replaceAll(' ', '_').toLowerCase();
     },
     verifyCompulsory() {
         var ignore_list = []
@@ -157,7 +165,7 @@ module.exports = {
         delete this.formData.reusability_score
 
         var action = this.creating ? "create" : "update"
-        var resources = this.data ? "data" : "tools"
+        var resources = this.data ? "data" : (this.tools ? "tools" : "projects")
         var databody = this.formData
         
         $.ajax({

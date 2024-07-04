@@ -33,16 +33,42 @@ module.exports = {
     <!--div class="logo col-1 text-center">
       <router-link to="/"><img src="img/digitaf_logo.png" /></router-link>
     </div-->
-    <div class="title col-7">
+    <div class="title col-7 text-center">
       <h1>{{ title }}</h1>
     </div>
 		<div class="col-5">
 			<div class="menu row text-center">
-				<div class="col"><router-link to="/">About</router-link></div>
-				<div class="col"><router-link :to="{ name: 'tools' }">Tools Catalogue</router-link></div>
-				<div class="col"><router-link :to="{ name: 'tools_self_assessment' }">Tools FAIRness Self-Assessment</router-link></div>
-				<div class="col"><router-link :to="{ name: 'datasets' }">Data Catalogue</router-link></div>
-				<div class="col"><router-link :to="{ name: 'datasets_self_assessment' }">Data FAIRness Self-Assessment</router-link></div>
+				<div class="col"><router-link tag="button" class="home btn btn-secondary" to="/">About</router-link></div>
+				<div class="col dropdown">
+					<button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
+						Tools
+					</button>
+					<div class="dropdown-menu dropdown-menu-right text-center">
+						<router-link tag="button" class="dropdown-item" :to="{ name: 'tool_add' }">Add New Tool</router-link>
+						<router-link tag="button" class="dropdown-item" :to="{ name: 'tools' }">Catalogue</router-link>
+						<router-link tag="button" class="dropdown-item" :to="{ name: 'tools_self_assessment' }">FAIRness Self-Assessment</router-link>
+					</div>
+				</div>
+				<div class="col dropdown">
+					<button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
+						Data
+					</button>
+					<div class="dropdown-menu dropdown-menu-right text-center">
+						<router-link tag="button" class="dropdown-item" :to="{ name: 'dataset_add' }">Add New Dataset</router-link>
+						<router-link tag="button" class="dropdown-item" :to="{ name: 'datasets' }">Catalogue</router-link>
+						<router-link tag="button" class="dropdown-item" :to="{ name: 'datasets_self_assessment' }">FAIRness Self-Assessment</router-link>
+					</div>
+				</div>
+				
+				<div class="col dropdown">
+					<button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
+						Projects
+					</button>
+					<div class="dropdown-menu dropdown-menu-right text-center">
+						<router-link tag="button" class="dropdown-item" :to="{ name: 'project_add' }">Add New Project</router-link>
+						<router-link tag="button" class="dropdown-item" :to="{ name: 'projects' }">Catalogue</router-link>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

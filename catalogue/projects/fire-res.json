@@ -1,0 +1,31 @@
+{
+	"programme": "H2020",
+	"acronym": "FIRE-RES",
+	"name": "Innovative technologies and socio-ecological-economic solutions for fire resilient territories in Europe",
+	"logo_url": "https://fire-res.eu/wp-content/uploads/2022/01/FireRes_logo_LOW_color_transparent-e1643376185656.png",
+	"code": "101037419",
+	"lead": "Centre de Ciència i Tecnologia Forestal de Catalunya",
+	"project_funding_programme_listing": "https://cordis.europa.eu/project/id/101037419",
+	"project_url": "https://fire-res.eu/",
+	"start_date": "01/12/2021",
+	"end_date": "30/11/2025",
+	"contact": "fire-res@ctfc.cat",
+	"description": "There is a need to develop novel approaches that shift emphasis to the root causes and impacts of extreme wildfire events. To that end, the EU-funded FIRE-RES project will promote the implementation of a more holistic fire management approach and support the transition towards more resilient landscapes and communities. By integrating research, technology, civil protection, policy and governance spheres related to wildfires, the project will generate new knowledge about sustainable integrated fire management models. Moreover, it will deploy innovations at the technological, social, health, safety, administrative, ecological and economic levels to define how future policies in this area may be achieved in the EU",
+	"keywords": [
+		"Systemic Territorial Management",
+		"Landscape design",
+		"post-fire restoration",
+		"Interoperability",
+		"Bioeconomy",
+		"Proactive governance",
+		"Real-time fire simulation",
+		"Fire education and training"
+	],
+	"id": "fire-res",
+	"timestamp_creation": "1719565710559",
+	"timestamp_lastedit": "1719565710559",
+	"submitter_name": "Gerry Lawson",
+	"submitter_email": "gerry@euraf.pt",
+	"project_url_other": "",
+	"feedback_data_info": ""
+}

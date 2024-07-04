@@ -1,7 +1,7 @@
 <script>
 module.exports = {
   name: "filtering",
-	props: [ "elements", "form" ],
+	props: [ "elements", "form", "custom_filters" ],
   data() {
     return {
 			search: {},
@@ -41,6 +41,12 @@ module.exports = {
 					this.$set(this.search, question.id, [])
 				}
 			}
+			if (this.custom_filters) {
+				for (custom_filter of this.custom_filters) {
+					this.$set(this.filters, custom_filter.id, custom_filter)
+					this.$set(this.search, custom_filter.id, [])
+				}
+			}
 		},
 		filtered(list, key) {
 			var word = this.search[key].toLowerCase()
@@ -49,7 +55,6 @@ module.exports = {
 		filterAndSort(list) {
 			return Object.values(list).sort((a, b) => a.filter > b.filter ? -1 : 1)
 		},
-
 	}
 }
 </script>
