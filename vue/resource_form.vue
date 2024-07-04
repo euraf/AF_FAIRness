@@ -151,7 +151,11 @@ module.exports = {
         }
 
         if (this.creating) {
-            this.formData.id = this.sanitizeName(this.formData.name)
+            if (this.projects) {
+                this.formData.id = this.sanitizeName(this.formData.acronym)
+            } else {
+                this.formData.id = this.sanitizeName(this.formData.name)
+            }
             this.formData.timestamp_creation = Date.now()
             this.formData.timestamp_lastedit = Date.now()
 
