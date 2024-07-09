@@ -598,3 +598,7 @@ span.compulsory {
   padding-left: 20px;
   text-align: justify;
 }
+
+#saveSuccess .modal-title {
+  color: var(--secondary);
+}
