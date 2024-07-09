@@ -1,0 +1,32 @@
+{
+	"programme": "H2020",
+	"acronym": "Trees4Clima",
+	"name": "Enabling carbon accounting of trees on farms for agroforestry-based climate action (Marie Curie Action)",
+	"logo_url": "",
+	"code": "896512",
+	"lead": "Copenhagen University",
+	"project_funding_programme_listing": "https://cordis.europa.eu/project/id/896512",
+	"project_url": "",
+	"start_date": "01/09/2021",
+	"end_date": "31/08/2024",
+	"contact": "",
+	"description": "Agriculture is a major driver of deforestation and greenhouse gas (GHG) emissions. Meeting the increasing demand for land and agricultural products, without compromising the Sustainable Development Goals (SDGs) agenda, will require a sustainable transformation of agricultural systems. Among the solutions, agroforestry systems which integrate trees, crops and livestock on farms, without requiring additional agricultural land, provide adaptation and mitigation to climate change and improve livelihoods. Despite its benefits, agroforestry is often not accounted for in measurement, reporting and verification (MRV) systems, which are a requirement for fulfilling countries’ climate goals under the Paris Agreement. If agroforestry is not included, incentives for leveraging on-farm trees for addressing climate change will be limited. Three scientific and technical gaps prevent the access of agroforestry to climate-finance: 1) Lack of accessible approaches for the representation of agroforestry in MRV systems, 2) Shortfall of data and tailored methods for carbon accounting in agroforestry systems, 3) Institutional barriers that withhold agroforestry from access to MRV and climate finance. The aim of this project is to develop and field-test robust, cost-effective approaches to account for carbon in agroforestry systems and enable innovative environments for climate finance. Three working packages (WP) will contribute to fill the existing gaps: WP1) Accessible detection, classification and representation of agroforestry systems, WP2) Development of methods for rapid, non-destructive quantification of carbon in agroforestry, WP3) Enablement of novel environments for agroforestry-based climate finance. The project outcomes will provide not only accessible tools and robust methods to facilitate carbon accounting in agroforestry, but also a link to climate finance. This combination will generate a multidisciplinary approach to catalyse agroforestry-based climate action",
+	"keywords": [
+		"Agroforestry",
+		"Carbon sequestration",
+		"Climate change",
+		"Measurement",
+		"reporting and verification (MRV) systems",
+		"Remote sensing",
+		"Deep learning",
+		"Machine learning",
+		"Distributed ledger technologies (DLTs)"
+	],
+	"id": "trees4clima",
+	"timestamp_creation": "1719565710559",
+	"timestamp_lastedit": "1719565710559",
+	"submitter_name": "Gerry Lawson",
+	"submitter_email": "gerry@euraf.pt",
+	"project_url_other": "",
+	"feedback_data_info": ""
+}

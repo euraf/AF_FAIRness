@@ -1,0 +1,29 @@
+{
+	"programme": "Horizon Europe",
+	"acronym": "RhECAST",
+	"name": "Rural landscape hEritage and CArbon sequeSTration",
+	"logo_url": "",
+	"code": "101105219",
+	"lead": "Università degli Studi di Milano",
+	"project_funding_programme_listing": "https://cordis.europa.eu/project/id/101105219",
+	"project_url": "",
+	"start_date": "01/01/2024",
+	"end_date": "31/12/2026",
+	"contact": "andrea.zerboni@unimi.it",
+	"description": "With the ongoing climate emergency and nations’ commitments to meet net-zero carbon emissions by 2050, there is a heightened need to contrast climate change through sustainable land-use (LU) strategies. agroforestry (AF) has existed since ancient times in European countries, and it has been recognised as one of the most beneficial rural LU systems. The RhECAST (Rural landscape hEritage and CArbon sequeSTration) project aims to develop a new interdisciplinary approach to investigate the interactions between sustainability and rural landscape heritage with particular reference to CO2 sequestration over the long term. The project will take an interdisciplinary approach that combines landscape archaeology (HLC - Historical Landscape Characterisation), computer-based modelling (MSD - Multi-Sector Dynamics) and archaeological soil geochemistry (ASG), and it will focus on one of the main European hot spots of atmospheric pollution, the Po - Venetian Plain (PVP - Italy). The main project innovation will be to develop an MSD model using HLC data to determine which would be the effect on climate change mitigation by recasting the current PVP’s industrial agriculture with historical AF. ASG will be essential to constrain the MSD model results leading to significatively more precise outcomes of past and potential future CO2 sequestration. Thus, the RhECAST project aims at modelling CO2 sequestration rate of historical AF to inform sustainable landscape management plans that will maximise climate change mitigation whilst preserving the regional cultural identity. By applying a range of innovative and interdisciplinary techniques, the project will be able to develop a model that could be potentially extended in other European regions with similar historical and environmental characteristics",
+	"keywords": [
+		"Agroforestry",
+		"Multi-Sector Dynamics",
+		"Carbon Sequestration",
+		"Rural Landscape Heritage",
+		"Archaeological Soil Geochemistry",
+		"Historic Landscape Characterisation"
+	],
+	"id": "rhecast",
+	"timestamp_creation": "1719565710559",
+	"timestamp_lastedit": "1719565710559",
+	"submitter_name": "Gerry Lawson",
+	"submitter_email": "gerry@euraf.pt",
+	"project_url_other": "https://distad.unimi.it/it/rural-landscape-heritage-and-carbon-sequestration-rhecast",
+	"feedback_data_info": ""
+}

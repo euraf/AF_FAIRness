@@ -1,11 +1,6 @@
 <script>
 module.exports = {
   name: "contents",
-  data() {
-    return {
-      tool: null
-    }
-  },
   created() {
 	},
   computed: {
@@ -14,6 +9,9 @@ module.exports = {
     },
     nr_datasets() {
       return this.$root.$data.datasets.length
+    },
+    nr_projects() {
+      return this.$root.$data.projects.length
     }
   },
 }
@@ -22,22 +20,28 @@ module.exports = {
 <template>
   <div>
     <div class="row">
-      <div class="col-6 about-tools text-center">
-        <h3>Catalogue of</h3>
-        <h1><router-link to="/tools">Agroforestry <b>Tools</b></router-link></h1>
+      <div class="col-4 about-tools text-center">
+        <h3>Catalogue of Agroforestry</h3>
+        <h1><router-link to="/tools"><b>Tools</b></router-link></h1>
         <h3><b class="nr">{{ nr_tools }}</b> tools currently available</h3>
         <p class="btn btn-primary pointer"><router-link :to="{ name: 'tool_add' }">Add yours here</router-link></p>
       </div>
-      <div class="col-6 about-data text-center">
-        <h3>Catalogue of</h3>
-        <h1><router-link to="/data">Agroforestry <b>Data</b></router-link></h1>
+      <div class="col-4 about-data text-center">
+        <h3>Catalogue of Agroforestry</h3>
+        <h1><router-link to="/data"><b>Data</b></router-link></h1>
         <h3><b class="nr">{{ nr_datasets }}</b> datasets currently available</h3>
         <p class="btn btn-primary pointer"><router-link :to="{ name: 'dataset_add' }">Contribute here</router-link></p>
+      </div>
+      <div class="col-4 about-projects text-center">
+        <h3>Catalogue of Agroforestry</h3>
+        <h1><router-link to="/data"><b>Projects</b></router-link></h1>
+        <h3><b class="nr">{{ nr_projects }}</b> projects currently available</h3>
+        <p class="btn btn-primary pointer"><router-link :to="{ name: 'project_add' }">Expand the catalogue</router-link></p>
       </div>
       <div class="col-12 about-this">
         <h3>Purpose of this catalogue</h3>
         <p>Digital technologies offer unprecedented capacities to collect data and synthesise knowledge to support decision-making, as well as to reach out to a targeted audience, improve communication, and boost networking. Amongst initial interactions within the consortium, arose the suggestion of creating a catalogue of agroforestry related tools and datasets. Which components of agroforestry systems are least explored in these tools? Which indicators are analysed the most, or conversely, what are the knowledge gaps? Which tools and datasets could work together to generate more complete and meaningful outputs? These are all questions that could be addressed with a complete, diverse, and detailed database of the current digital agroforestry environment.</p>
-        <p><span class="highlight">This <b>Online Agroforestry Tools and Data Catalogue</b> gathers tools and datasets in one place to ease their access.</span> Available filters allow users to search for resources depending on different criteria, depending on the user needs. A quick FAIRness score is available for each resource to enable an assessment preview of the easiness of their findability, accessibility, interoperability and reusability.</p>
+        <p><span class="highlight">This <b>Online Agroforestry Tools, Data and Projects Catalogue</b> gathers tools and datasets in one place to ease their access.</span> Available filters allow users to search for resources depending on different criteria, depending on the user needs. A quick FAIRness score is available for each resource to enable an assessment preview of the easiness of their findability, accessibility, interoperability and reusability.</p>
         <p><span class="highlight">This is also part of the <b>Agroforestry Virtual Space</b>, together with the <a href="https://digitaf.eu/questions-answers/" target="_blank">AF Questions & Answers</a>, <a href="https://github.com/euraf" target="_blank">AF Code Github</a>, <a href="https://www.youtube.com/channel/UC-CqJO8goJC6MnpzClrDlYg" target="_blank">AF Tools Demo Videos</a> and <a href="https://zenodo.org/communities/euraf" target="_blank">AF Open Pub Zenodo</a>.</span></p>
       </div>
       <div class="col-12 about-fair text-justify">

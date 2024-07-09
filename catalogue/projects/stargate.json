@@ -1,0 +1,27 @@
+{
+	"programme": "H2020",
+	"acronym": "​Stargate",
+	"name": "ReSilienT fARminG by Adaptive microclimaTe managEment",
+	"logo_url": "https://www.stargate-h2020.eu/wp-content/uploads/2018/06/logo-2.png",
+	"code": "818187",
+	"lead": "ETHNIKO KENTRO EREVNAS KAI TECHNOLOGIKIS ANAPTYXIS",
+	"project_funding_programme_listing": "https://cordis.europa.eu/project/id/818187",
+	"project_url": "https://www.stargate-h2020.eu/",
+	"start_date": "01/10/2019",
+	"end_date": "30/09/2023",
+	"contact": "d.bochtis@certh.gr",
+	"description": "STARGATEs contribution in applied climatic data solutions is the implementation of analytical models to support local and regional policy formulation and implementation related to mitigation on microclimate changes. Currently, policy making organisations predominantly utilise their own data, typically limited to their own jurisdiction/administrative area. However, once the policy development process expands the evidence base and data sources beyond the traditional approach, there is a need for global data. The addition of national, European and even global reference data sets for comparative analysis — including meteorological, climatic analysis, satellite data sources to improve decision making processes. The studies at landscape scale are required to understand leading ecological processes. The focus will be on Climate Smart Agriculture (CSA) and will extensively study the benefits of applying agri-environment-climate technical solutions to achieve sustainable agricultural development at landscape level. It means to support farm management modernization and at the same time get to know the underlying ecological factors that shape the farming landscape. STARGATE will leverage access to this data and also STARGATE climatic platform including developed models platforms to foster easy and affordable adoption by policy making bodies. The simplest approach to decision support in policy development is effective visualisation of data. Good visualisation supports the policy developers’ in modelling sustainable policies and decisions. Unlike algorithmic simulation and modelling, visualisation leaves the actual decision and assessment to a human user and thus provides an extra quality assurance before actual policy decisions are made. STARGATE provides innovative components for visualisation of big data with a particular emphasis on geospatial visualisation and advanced, dynamic charting",
+	"keywords": [
+		"Sustainable productivity",
+		"Microclimate",
+		"Modelling",
+		"Data"
+	],
+	"id": "​stargate",
+	"timestamp_creation": "1719565710559",
+	"timestamp_lastedit": "1719565710559",
+	"submitter_name": "Gerry Lawson",
+	"submitter_email": "gerry@euraf.pt",
+	"project_url_other": "",
+	"feedback_data_info": ""
+}

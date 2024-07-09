@@ -1,0 +1,138 @@
+[
+  {
+    "id": "id",
+    "text": "ID",
+    "helper": "string slug - exactly the same used to name the .json file",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "timestamp_creation",
+    "text": "Creation date",
+    "type": "date",
+    "required": true
+  },
+  {
+    "id": "timestamp_lastedit",
+    "text": "Last edited date",
+    "type": "date",
+    "required": true
+  },
+  {
+    "id": "submitter_name",
+    "text": "Your name",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "submitter_email",
+    "text": "Your email",
+    "helper": "This information allows us to contact you in case there is something that needs clarifying.",
+    "type": "email",
+    "required": true
+  },
+  {
+    "id": "editor_name",
+    "text": "Your name",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "editor_email",
+    "text": "Your email",
+    "helper": "This information allows us to contact you in case there is something that needs clarifying.",
+    "type": "email",
+    "required": true
+  },
+  {
+    "id": "acronym",
+    "text": "Project acronym",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "name",
+    "text": "Project name",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "code",
+    "text": "Project identifier",
+		"helper": "Project number (e.g. LIFE20 CCA/ES/001682), grant agreement number (e.g. 101059794), etc.",
+    "type": "string",
+    "required": false
+  },
+  {
+    "id": "logo_url",
+    "text": "Project logo",
+    "type": "string",
+    "required": false
+  },
+  {
+    "id": "programme",
+    "text": "Funding programme",
+		"helper": "Preferably search the existing list, add only if it doesn't exist yet.",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "description",
+    "text": "Project description",
+    "type": "long string",
+    "required": true
+  },
+  {
+    "id": "lead",
+    "text": "Project leader",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "contact",
+    "text": "Contact information regarding the project",
+    "type": "string",
+    "required": false
+  },
+  {
+    "id": "project_url",
+    "text": "Project website, if available",
+		"helper": "The official website of the research project (e.g., https://digitaf.eu).",
+    "type": "string",
+    "required": false
+  },
+  {
+    "id": "project_funding_programme_listing",
+    "text": "Funding programme listing, if available",
+		"helper": "The entry on the database of the funding programme (e.g., https://cordis.europa.eu/project/id/101059794). CORDIS is the database on EU Research & Development projects, available at https://cordis.europa.eu/. The LIFE Public Database is available at https://webgate.ec.europa.eu/life/publicWebsite/search.",
+    "type": "string",
+    "required": false
+  },
+  {
+    "id": "project_url_other",
+    "text": "Other relevant project link, if available",
+		"helper": "Other significant website such as an important news article, a deliverable, and other relevant links.",
+    "type": "string",
+    "required": false
+  },
+  {
+    "id": "start_date",
+    "text": "Start date",
+		"help": "Please, use the format DD/MM/YYYY. If the full date is not known, add at least the year YYYY.",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "end_date",
+    "text": "End date",
+		"help": "Please, use the format DD/MM/YYYY. If the full date is not known, add at least the year YYYY.",
+    "type": "string",
+    "required": true
+  },
+  {
+    "id": "feedback_data_info",
+    "text": "Is there any relevant information about the project that hasn't been collected in the previous questions?",
+    "type": "string",
+    "required": false
+  }
+]

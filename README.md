@@ -74,6 +74,107 @@ Additionally, a self-assessment scoring verification was developed for tool deve
 - **Tools FAIRness Self-Assessment:** https://euraf.github.io/AF_FAIRness/tools/fairness_self_assessment
 - **Data FAIRness Self-Assessment:** https://euraf.github.io/AF_FAIRness/data/fairness_self_assessment
 
-## Acknowledgements
 
-This database was developed within the [DigitAF](https://digitaf.eu/) project. The DigitAF project has received funding from the European Union’s Horizon Europe research and innovation programme under Grant Agreement n.° 101059794.
+## How to integrate into other websites
+In order to contribute to the dissemination, use and legacy of the catalogues, this project can be easily integrated into other websites (e.g. the EURAF website, those of other projects or institutions embracing agroforestry systems).
+
+Although the catalogues are prepared to be shown in different locations and having different color schemes, its operation of update and, more importantly, its database, will be centralised and unique (in the EURAF GitHub repository). 
+
+### Via iFrame
+Since the catalogues are available in Github, it is possible to take advantage of the Github Pages functionality, through the Github-hosted link https://euraf.github.io/AF_FAIRness. The catalogue integration is possible via an iFrame to embed under the target website.
+
+```<iframe src="https://euraf.github.io/AF_FAIRness" title="AF FAIRness"></iframe>```
+
+### Customize the iFrame
+It is customisable, making it fit the identity of the website itself. This is possible by adding a query to the URL integration string.
+
+| Parameter | Value | Description |
+| --------- | ----- | ----------- |
+| **font-family** | String <br>*ex. "Ga+Maamli"* | Font family name |
+| **font-url** | URL String <br>*ex. "https://fonts.googleapis.com/css2?family=Ga+Maamli"* | [Google Fonts](https://fonts.google.com/) embed URL |
+| **color-primary** | HEX color (without #) <br>*ex. "b4d465"* | Main website color (headers, buttons, etc.) |
+| **color-secondary** | HEX color (without #) <br>*ex. "5a9d43"* | Secondary website color (titles, labels) |
+| **color-text** | HEX color (without #) <br>*ex. "000000"* | Website text color |
+| **color-background** | HEX color (without #) <br>*ex. "f1f6f2"* | Website background color |
+
+Following the above parameter examples, a full integration URL would be:
+
+```<iframe src="https://euraf.github.io/AF_FAIRness?color-secondary=5a9d43&color-background=f1f6f2&color-primary=b4d465&font-url=https://fonts.googleapis.com/css2?family=Ga+Maamli&font-family=Ga+Maamli" title="AF FAIRness"></iframe>```
+
+### Update URL of parent window (Wordpress example)
+Updating the URL of the parent window is important for two reasons: (1) it makes it possible to share links to one of the catalogues or specific resources while maintaining the main address and (2) it improves the SEO of the pages where the iFrame is integrated.
+
+Technically, this is possible by listening to a [postMessage](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) that is sent whenever the route is updated, that holds the object `{ af_fairness_url: NEW_PATH }` with the new path string (ex. /tools/tool/open_farm_carbon_tracker).
+
+For example, the iFrame integration on the DigitAF project website is set up to accompany the navigation within the catalogue. If you want to share a specific link, it goes directly to the resource. So, both of the following URLs are directing to the same resource/page:
+https://euraf.github.io/AF_FAIRness/tools/tool/open_farm_carbon_tracker
+https://digitaf.eu/tools-and-data-catalogue/tools/tool/open_farm_carbon_tracker
+
+### Wordpress URL update example
+
+  1. Create a page and add the catalogues iFrame. Save the iFrame (ex. #catalogue) and page (ex. 2345) IDs and the page slug (short url path, ex. /tools-and-data-catalogue).
+  2. Copy the functions below to the functions.php: Admin menu > Appearance > Theme File Editor > Theme Functions
+  3. Update the variables with "// UPDATE THIS" with your specific settings.
+  4. Save changes.
+  5. Update the permalinks: Admin menu > Settings > Permalinks > without changing anything, just click "Save".
+
+```
+/**
+ *  AGROFORESTRY TOOLS AND DATA CATALOGUES INTEGRATION [WORDPRESS]
+ */
+function AF_FAIRness_integration() {
+	
+$AF_CATALOGUES_PAGE_ID = 2345; // UPDATE THIS
+if (is_page ($AF_CATALOGUES_PAGE_ID)) {
+    ?>
+    <script>
+		var AF_CATALOGUES_IFRAME_ID = '#catalogue' // UPDATE THIS
+		var AF_CATALOGUES_PAGE_SLUG = '/tools-and-data-catalogue' // UPDATE THIS
+
+		// query string for website customization
+		var AF_CATALOGUES_QUERY = '?color-primary=b4d465&color-secondary=5a9d43&color-background=f1f6f2&color-text=f1f6f2&font-family=Ga+Maamli&font-url=https://fonts.googleapis.com/css2?family=Ga+Maamli' // UPDATE THIS
+		
+    var iFrame = jQuery(AF_CATALOGUES_IFRAME_ID);
+		var currentPath = window.location.pathname.substring(AF_CATALOGUES_PAGE_SLUG.length)
+		
+		iFrame.attr('src', 'https://euraf.github.io/AF_FAIRness' + currentPath + AF_CATALOGUES_QUERY)
+		iFrame.attr('data-src', 'https://euraf.github.io/AF_FAIRness' + currentPath + AF_CATALOGUES_QUERY)
+		
+		var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+		var eventer = window[eventMethod];
+		var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+
+		// listen to postMessage from child window
+		eventer(messageEvent, function(e) {
+			var key = e.message ? "message" : "data";
+			var data = e[key];
+			if (typeof data === 'object' && !Array.isArray(data) && data !== null) {
+				if (data.hasOwnProperty('af_fairness_url')) {
+					if (currentPath !== data.af_fairness_url) {
+						// removing query
+						const clean_url = data.af_fairness_url.split("?")[0];
+						history.replaceState(null, null, AF_CATALOGUES_PAGE_SLUG + clean_url)
+					}
+				}
+			}
+		}, false);
+    </script>
+    <?php
+   }
+}
+add_action('wp_footer', 'AF_FAIRness_integration');
+
+function AF_FAIRness_integration_rewrite() {
+$AF_CATALOGUES_PAGE_ID = 3901; // UPDATE THIS
+$AF_CATALOGUES_PAGE_SLUG = '/tools-and-data-catalogue'; // UPDATE THIS
+add_rewrite_rule(substr($AF_CATALOGUES_PAGE_SLUG, 1).'/(.+)', "index.php?page_id={$AF_CATALOGUES_PAGE_ID}", 'top');
+}
+add_action('init', 'AF_FAIRness_integration_rewrite');
+/**
+ * 	END OF AGROFORESTRY TOOLS AND DATA CATALOGUES INTEGRATION [WORDPRESS]
+ * /
+```
+
+# Acknowledgements
+
+These catalogues were developed within the [DigitAF](https://digitaf.eu/) project. The DigitAF project has received funding from the European Union’s Horizon Europe research and innovation programme under Grant Agreement n.° 101059794.
