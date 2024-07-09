@@ -7,7 +7,7 @@
   "name": "TWECOM Hedgerow Biodiversity Assessment Tool v1.0",
   "url": "https://zenodo.org/records/11061129",
   "description": "This protocol aims to assess the likely impacts on biodiversity from managing hedgerows for woodfuel and help guide management decisions. The assessment tool is a Microsoft Excel based tool which is made up of a number of sheets for data entry and a results page.",
-  "logo_url": "https://mvarc.eu/tools/dev/AF_FAIRness/img/hedgerowprotocol.png",
+  "logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/hedgerowprotocol.png",
   "primary_purpose": [
     "Decision support"
   ],

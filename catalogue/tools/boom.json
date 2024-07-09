@@ -7,7 +7,7 @@
   "name": "BOOM",
   "url": "https://www.notenteelt.com/shop/categorie/20-registratie-programma-bomen",
   "description": "BOOM is an online GIS based registration and evaluation programm for (fruit)trees, their characters and registrate cultivation operations and monitoring diseases, pest and yield, etc.  ",
-  "logo_url": "https://mvarc.eu/tools/dev/AF_FAIRness/img/boom.jpg",
+  "logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/boom.jpg",
   "primary_purpose": [
     "Research",
     "Decision support"

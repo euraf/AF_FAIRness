@@ -1,0 +1,26 @@
+{
+	"programme": "INTERREG",
+	"acronym": "SIAPD",
+	"name": "Integrated trans-regional support system to combat pests and diseases in agriculture",
+	"logo_url": "https://siapd.utad.pt/img/apoios/SIAPD-09.png",
+	"code": "0655_SIAPD_6_P",
+	"lead": "Universidade de Trás-os-Montes e Alto Douro (UTAD)",
+	"project_funding_programme_listing": "https://keep.eu/projects/26066/Sistema-integrado-transregi-PT",
+	"project_url": "https://siapd.utad.pt/pt/",
+	"start_date": "01/01/2018",
+	"end_date": "05/04/2022",
+	"contact": "rmorais@utad.pt",
+	"description": "The main objective of the SIAPD project is the adoption of innovative technologies for the most effective prediction, detection, monitoring and fight against some of the most harmful pests and diseases in crops of greater socio-economic importance in the geographical areas of influence of the partners, while promoting the exchange of knowledge and experience among its technicians and researchers. The SIAPD project is a platform for integrating data from various types of observations on the ground, becoming a data source for the creation of an intelligence layer, which incorporates prediction models, with careful validation in the field and in the laboratory and produces, through web-based and smartphone-compatible technological tools, a set of warnings and notifications to agroforestry communities",
+	"keywords": [
+		"Crop pests and diseases",
+		"Data",
+		"Warnings network"
+	],
+	"id": "siapd",
+	"timestamp_creation": "1719565710559",
+	"timestamp_lastedit": "1719565710559",
+	"submitter_name": "Gerry Lawson",
+	"submitter_email": "gerry@euraf.pt",
+	"project_url_other": "",
+	"feedback_data_info": ""
+}

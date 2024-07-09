@@ -1,0 +1,28 @@
+{
+	"programme": "LIFE",
+	"acronym": "AgroForAdapt",
+	"name": "Agroforestry systems for climate change adaptation of Mediterranean agricultural and forest areas",
+	"logo_url": "https://agroforadapt.eu/wp-content/uploads/2022/12/MicrosoftTeams-image1.png",
+	"code": "LIFE20 CCA/ES/001682",
+	"lead": "Consorci Centre de Ciencia Tecnologia Forestal de Calayunya. France & Spain",
+	"project_funding_programme_listing": "https://webgate.ec.europa.eu/life/publicWebsite/project/details/5524",
+	"project_url": "https://agroforadapt.eu/en/home-eng/",
+	"start_date": "01/10/2021",
+	"end_date": "30/09/2026",
+	"contact": "contacto@agroforadapt.eu",
+	"description": "The objective of the LIFE AgroForAdapt project is to promote agroforestry systems for climate change adaptation of the agrarian and forestry sectors in the Mediterranean. In particular the project aims to increase the Mediterranean demonstrative agroforestry area by installing or improving the management of 291 ha of silvoarable systems and 511 ha of silvopastoral systems and inducing the replication of additional 300 and 1,075 ha, respectively. In the project two types of agroforestry systems are implemented: a) Silvoarable: woody vegetation combined with crops, b) Silvopastoral: woody vegetation combined with livestock grazing. In both cases, the aim is to obtain benefits resulting from the interactions between the trees and the crops or livestock. The performance of these demonstrative agroforestry systems, compared to conventional agriculture, is assessed by evaluating ecosystem services, vulnerability to climate change, as well as their long term performance",
+	"keywords": [
+		"Agroforestry",
+		"Climate change adaptation",
+		"Silvoarable",
+		"Silvopastoral",
+		"Mediterranean"
+	],
+	"id": "agroforadapt",
+	"timestamp_creation": "1719565710559",
+	"timestamp_lastedit": "1719565710559",
+	"submitter_name": "Gerry Lawson",
+	"submitter_email": "gerry@euraf.pt",
+	"project_url_other": "https://climate-adapt.eea.europa.eu/en/metadata/projects/agroforestry-systems-for-climate-change-adaptation-of-mediterranean-agricultural-and-forest-areas",
+	"feedback_data_info": ""
+}

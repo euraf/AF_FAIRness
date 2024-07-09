@@ -1,0 +1,28 @@
+{
+	"programme": "H2020",
+	"acronym": "AFINET",
+	"name": "Agroforestry Innovation Networks",
+	"logo_url": "https://agroforestrynet.eu/afinet/wp-content/uploads/2020/01/afinetLogo-300x250.png",
+	"code": "727872",
+	"lead": "University Santiago de Compostela",
+	"project_funding_programme_listing": "https://cordis.europa.eu/project/id/727872",
+	"project_url": "https://agroforestrynet.eu/afinet",
+	"start_date": "01/01/2017",
+	"end_date": "31/12/2019",
+	"contact": "mrosa.mosquera.losada@usc.es",
+	"description": "Agroforestry (AF) is the practice of deliberately integrating woody vegetation (trees or shrubs) with crop and/or animal systems to benefit from the resulting ecological and economic interactions. Research activities developed by AFINET partners indicates that appropriate application of AF principles and practices is a key avenue to help the European Union to achieve more sustainable methods of food and fibre production, producing both profits for farmers and environmental benefits. However up to now exists a lack of AF knowledge among end-users that prevent the correct implementation of these practices. In this sense AFINET will act at EU level in order to take up research results into agricultural practice, improving knowledge exchange between scientists and practitioners on AF activities, with a special focus on silvoarable and silvopastoral systems design, management, and production and profitability. To achieve this objective AFINET consortium proposes an innovative methodology based on: (i) The creation of a EU reservoir of scientific and practical knowledge of AF with an end-user-friendly access (the “Knowledge Cloud”). (ii) The creation of a European Interregional network (composed of “Regional agroforestry Innovation Networks” - RAINs) considering a multi-actor approach (including farmers, policy makers, advisory services, extension services, etc.), and articulated through the figure of the “Innovation Broker”. These RAINs groups will be interconnected in nine strategic regions of Europe from Spain, UK, Belgium, Portugal, Italy, Hungary, Poland, France and Finland, representing different climatic, geographical, social, and cultural conditions at European level. In addition, to create a greater user acceptance of the collected solutions and an intensive dissemination to end-users, AFINET will be linked to other networks, initiatives and policy instruments at regional, national and European level with a specific focus on the EIP-AGRI implementation",
+	"keywords": [
+		"Agroforestry",
+		"Thematic network",
+		"Knowledge exchange",
+		"Knowledge Cloud",
+		"Regional Agroforestry Innovation Networks"
+	],
+	"id": "afinet",
+	"timestamp_creation": "1719565710559",
+	"timestamp_lastedit": "1719565710559",
+	"submitter_name": "Gerry Lawson",
+	"submitter_email": "gerry@euraf.pt",
+	"project_url_other": "https://euraf.isa.utl.pt/afinet",
+	"feedback_data_info": ""
+}

@@ -32,6 +32,33 @@ const router = new VueRouter({
 			meta: { title: "Agroforestry Tools & Data FAIRness"}
 		},
 		{
+			path: '/projects',
+			name: 'projects',
+			component: httpVueLoader('vue/projects.vue'),
+			meta: { title: "Agroforestry Projects Catalogue"}
+		},
+		{
+			path: '/projects/add',
+			name: 'project_add',
+			component: httpVueLoader('vue/resource_form.vue'),
+			props: { projects: true },
+			meta: { title: "New Agroforestry Project"}
+		},
+		{
+			path: '/projects/project/:id',
+			name: 'project_page',
+			props: { projects: true },
+			component: httpVueLoader('vue/projectpage.vue'),
+			meta: { title: "Agroforestry Projects Catalogue" } // TODO add tool name to the page title
+		},
+		{
+			path: '/projects/project/:id/edit',
+			name: 'project_edit',
+			props: { projects: true },
+			component: httpVueLoader('vue/resource_form.vue'),
+			meta: { title: "Editing Agroforestry Project" } // TODO add project name to the page title
+		},
+		{
 			path: '/data',
 			name: 'datasets',
 			component: httpVueLoader('vue/datasets.vue'),
@@ -124,10 +151,19 @@ app = new Vue({
 		datasets: [],
 		datasets_form: [],
 		datasets_scoring: new Data_FAIRness_scoring(),
-		tools_scoring: new Tools_FAIRness_scoring()
+		tools_scoring: new Tools_FAIRness_scoring(),
+		updatedStyling: false,
+		projects: [],
+		projects_form: []
 	},
 	created() {
 		this.loadData()
+	},
+	watch: {
+    $route (to, from) {
+			this.checkStyling(to)
+			window.top.postMessage({ af_fairness_url: to.fullPath }, '*')
+    }
 	},
 	methods: {
 		loadData() {
@@ -138,10 +174,12 @@ app = new Vue({
 			
 			var tools_list = $.getJSON(baseurl + 'catalogue/tools/tools_list.json')
 			var datasets_list = $.getJSON(baseurl + 'catalogue/data/datasets_list.json')
+			var projects_list = $.getJSON(baseurl + 'catalogue/projects/projects_list.json')
 
-			Promise.allSettled([tools_list, datasets_list]).then(function(list) {
+			Promise.allSettled([tools_list, datasets_list, projects_list]).then(function(list) {
 				var tools = list[0].value
 				var datasets = list[1].value
+				var projects = list[2].value
 
 				var requests = []
 
@@ -153,6 +191,11 @@ app = new Vue({
 				requests.push($.getJSON(baseurl + 'catalogue/data/datasets_form.json', 
 				function (form) {
 					_this.datasets_form = form
+				}))
+
+				requests.push($.getJSON(baseurl + 'catalogue/projects/projects_form.json', 
+				function (form) {
+					_this.projects_form = form
 				}))
 
 				for (var i = 0; i < tools.length; i++) {
@@ -175,12 +218,61 @@ app = new Vue({
 							_this.datasets.push(dataset)
 					}))
 				}
+				for (var i = 0; i < projects.length; i++) {
+					requests.push($.getJSON(baseurl + 'catalogue/projects/' + projects[i] + '.json', function (project) {
+							_this.projects.push(project)
+					}))
+				}
 
 				Promise.allSettled(requests).then(function() {
 					_this.loaded = true
 				})
 			})
 		},
+		checkStyling(to) {
+			var query = to.query
+			if (!this.updatedStyling && Object.keys(query).length > 0) {
+
+				if ('font-family' in query && 'font-url' in query) {
+					var link = document.createElement('link');
+					link.type = 'text/css';
+					link.rel = 'stylesheet';
+					document.head.appendChild(link);
+					link.href = query['font-url'];
+					document.body.style.fontFamily = query['font-family'];
+				}
+
+				if ('color-primary' in query) {
+					console.log(query['color-primary'])
+					var primary = query['color-primary']
+					document.documentElement.style.setProperty('--primary', '#' + primary);
+					document.documentElement.style.setProperty('--primary-light', lightenColor('#' + primary, 0.5));
+					document.documentElement.style.setProperty('--primary-dark', darkenColor('#' + primary, 0.2));
+				}
+
+				if ('color-secondary' in query) {
+					console.log(query['color-secondary'])
+					var secondary = query['color-secondary']
+					document.documentElement.style.setProperty('--secondary', '#' + secondary);
+					document.documentElement.style.setProperty('--secondary-light', lightenColor('#' + secondary, 0.5));
+					document.documentElement.style.setProperty('--secondary-dark', darkenColor('#' + secondary, 0.2));
+				}
+
+				if ('color-text' in query) {
+					console.log(query['color-text'])
+					var text = query['color-text']
+					document.documentElement.style.setProperty('--text-color', '#' + text);
+				}
+
+				if ('color-background' in query) {
+					console.log(query['color-background'])
+					var background = query['color-background']
+					document.documentElement.style.setProperty('--background-color', '#' + background);
+				}
+
+				this.updatedStyling = true
+			}
+		}
 	}
 });
 
@@ -267,4 +359,44 @@ function saveToolsCSV() {
 	document.body.appendChild(link); // Required for FF
 
 	link.click(); // This will download the data file named "my_data.csv".
+}
+
+function darkenColor(hex, percent) {
+	// Remove the hash at the start if it's there
+	hex = hex.replace(/^#/, '');
+
+	// Convert hex to RGB
+	let r = parseInt(hex.substring(0, 2), 16);
+	let g = parseInt(hex.substring(2, 4), 16);
+	let b = parseInt(hex.substring(4, 6), 16);
+
+	// Calculate the darker color
+	r = Math.max(0, Math.floor(r * (1 - percent)));
+	g = Math.max(0, Math.floor(g * (1 - percent)));
+	b = Math.max(0, Math.floor(b * (1 - percent)));
+
+	// Convert RGB back to hex
+	const darkerHex = `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+
+	return darkerHex;
+}
+
+function lightenColor(hex, percent) {
+	// Remove the hash at the start if it's there
+	hex = hex.replace(/^#/, '');
+
+	// Convert hex to RGB
+	let r = parseInt(hex.substring(0, 2), 16);
+	let g = parseInt(hex.substring(2, 4), 16);
+	let b = parseInt(hex.substring(4, 6), 16);
+
+	// Calculate the lighter color
+	r = Math.min(255, Math.floor(r + (255 - r) * percent));
+	g = Math.min(255, Math.floor(g + (255 - g) * percent));
+	b = Math.min(255, Math.floor(b + (255 - b) * percent));
+
+	// Convert RGB back to hex
+	const lighterHex = `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+
+	return lighterHex;
 }
