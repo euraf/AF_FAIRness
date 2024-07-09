@@ -1,0 +1,28 @@
+{
+	"programme": "H2020",
+	"acronym": "​NextLand",
+	"name": "Next Generation Land Management services for Agriculture and Forestry",
+	"logo_url": "https://nextland.services4eo.com/assets/img/logos/logo-navbar.svg",
+	"code": "869520",
+	"lead": "Deimos Engenharia, Portugal",
+	"project_funding_programme_listing": "https://cordis.europa.eu/project/id/869520",
+	"project_url": "https://ec-nextland.eu/",
+	"start_date": "01/06/2020",
+	"end_date": "31/05/2023",
+	"contact": "",
+	"description": "NextLand aims to develop a set of 15 operational commercial midstream agriculture and forestry EO based services under a common service delivery platform, leveraging on GEOSS and Copernicus data and products and complemented by the assimilation of other very high resolution EO and in-situ data streams. This set of services will be co-designed together with downstream service providers, such as agronomy or forestry consultancy companies, and farmers and forest producers interface institutions, in the scope of 7 use cases. This will create an ecosystem that demonstrates the strengths of European service providers throughout the whole value chain of the hi-tech agroforestry sector. The codesigning approach aims to break the cycle of developing services only with a limited group of end-users from the same region, often leading to solutions tailored to the needs of one specific downstream service provider, usually with a strong regional bias and therefore less easily scalable to other regions. This approach will ensure the scalability of the services at a more global scale, and consequently it is expected that it will substantially increase the uptake of EO based midstream services by downstream providers. The involvement of the alpha and beta users in the service design is key to enhance the applicability and the reliability of the services to the potential customers worldwide",
+	"keywords": [
+		"Agriculture",
+		"Forestry",
+		"Commercial EO services",
+		"Co-design",
+		"Sustainable Development Goals"
+	],
+	"id": "​nextland",
+	"timestamp_creation": "1719565710559",
+	"timestamp_lastedit": "1719565710559",
+	"submitter_name": "Gerry Lawson",
+	"submitter_email": "gerry@euraf.pt",
+	"project_url_other": "",
+	"feedback_data_info": ""
+}

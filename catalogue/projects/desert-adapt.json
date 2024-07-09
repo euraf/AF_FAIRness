@@ -1,0 +1,27 @@
+{
+	"programme": "LIFE",
+	"acronym": "Desert-Adapt",
+	"name": "Preparing desertification areas for increased climate change",
+	"logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/desert_adapt_logo.gif",
+	"code": "LIFE16 CCA/IT/000011",
+	"lead": "Universit degli Studi della Campania 'Luigi Vanvitelli'",
+	"project_funding_programme_listing": "https://webgate.ec.europa.eu/life/publicWebsite/project/details/4672",
+	"project_url": "http://www.desert-adapt.it/",
+	"start_date": "01/09/2017",
+	"end_date": "01/09/2023",
+	"contact": "simona.castaldi@unicampania.it",
+	"description": "The project aims to demonstrate the positive effect of an integrated ecosystems approach that combines climate change adaptation and mitigation targets with improved socioeconomic development opportunities in areas subjected to land degradation and desertification. It will: a) Demonstrate Desertification Adaptation Models (DAMs), aimed at countering aridification and subsequent land desertification in one region of Italy, of Spain and of Portugal. These DAMs will include innovative adaptation technologies concerning land use, soil conservation and plant support – they will demonstrate combinations of techniques and species variations with regard to soil, plants and seeds, growing aids, mycorrhizae and facilities for ecosystem services. By incorporating climate change variables and structural and functional landscape complexity they seek to optimise resilience and adaptation to climate change, targeting the improvement of ecosystems and the socioeconomic system. b) Develop a farmer adoption system – a commercial approach with short supply chains providing economic incentives for farmers to adopt DAM land use systems – to maximise outreach to farming communities. c) Promote and replicate the DAMs and the project’s unique combinations of techniques and income sources from products and services among different stakeholders. In particular, local farmers seeking opportunities from climate resilient and profitable land use and policy-makers, to enable upscaling in the project’s regions and beyond. d) Contribute to climate change mitigation through the climate-resilient land use systems introduced to enable the recovery of vulnerable and desertified land areas. These will lead to an increase in overall carbon sequestration in the soil and in above-ground vegetation and lower the carbon footprint of the farmed products",
+	"keywords": [
+		"Climate change adaptation",
+		"Climate change mitigation",
+		"Land degradation",
+		"Desertification"
+	],
+	"id": "desert-adapt",
+	"timestamp_creation": "1719565710559",
+	"timestamp_lastedit": "1719565710559",
+	"submitter_name": "Gerry Lawson",
+	"submitter_email": "gerry@euraf.pt",
+	"project_url_other": "",
+	"feedback_data_info": ""
+}

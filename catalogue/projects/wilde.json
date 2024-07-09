@@ -1,0 +1,32 @@
+{
+	"programme": "Horizon Europe",
+	"acronym": "Wilde",
+	"name": "Climate-smart rewilding: ecological restoration for climate change mitigation, adaptation and biodiversity support in Europe",
+	"logo_url": "https://images.squarespace-cdn.com/content/v1/63f33131ba8ac514bd998120/019e011d-4aca-463a-864e-266ab314910e/wildE-Logo-FINAL-Colour.png",
+	"code": "101081251",
+	"lead": "INRAE",
+	"project_funding_programme_listing": "https://cordis.europa.eu/project/id/101081251",
+	"project_url": "https://www.wilde-project.eu/",
+	"start_date": "01/01/2023",
+	"end_date": "31/12/2026",
+	"contact": "arndt.hampe@inrae.fr",
+	"description": "The European Union aims to reduce net carbon emissions by 55% in 2030, and become climate neutral by 2050. These goals can only be met if it boosts carbon storage in terrestrial ecosystems, preferably while fostering socio-environmental co-benefits such as conserving biodiversity, adapting to climate change, and safeguarding socio-economic and cultural values. Both the IPCC and the IPBES have emphasised the great potential of ecosystem restoration and related nature-based solutions (NbS) for addressing the challenge. wildE introduces ‘climate-smart rewilding’ as an innovative restoration approach to create climate benefits while also addressing other socio-environmental needs. The project gathers a multi-disciplinary team of leading European experts to develop a research and innovation programme addressing the climate-biodiversity nexus in tight association with the socio-economic dimension of large-scale restoration. The team will also project scenarios to assess Europe’s rewilding potentials under diverse land-use and climate change futures. wildE will (i) generate comprehensive case-comparative data on European rewilding trends and outcomes, (ii) quantify the net social, economic and environmental benefits, synergies and trade-offs related to rewilding and alternative land-use options, (iii) develop cutting-edge projections for future land use and climate scenarios, and (iv) develop tangible and readily accessible decision-support and management guidelines to enable policymakers, conservation managers, communities, and the private sector to co-construct climate-smart rewilding strategies as effective NbS for meeting the EU’s climate and biodiversity targets. Embedded within an ambitious stakeholder engagement, communications programme, wildE research will enable climate-smart rewilding as operational large-scale NbS to effectively foster the natural capacity of Europe’s ecosystems for climate change mitigation, adaptation and biodiversity support",
+	"keywords": [
+		"carbon sequestration",
+		"ecosystem services",
+		"land abandonment",
+		"land-use and climate scenarios",
+		"nature-based solutions",
+		"social perception",
+		"stakeholder engagement",
+		"trophic rewilding",
+		"wildfires"
+	],
+	"id": "wilde",
+	"timestamp_creation": "1719565710559",
+	"timestamp_lastedit": "1719565710559",
+	"submitter_name": "Gerry Lawson",
+	"submitter_email": "gerry@euraf.pt",
+	"project_url_other": "",
+	"feedback_data_info": ""
+}

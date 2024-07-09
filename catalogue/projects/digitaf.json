@@ -1,0 +1,22 @@
+{
+	"programme": "Horizon Europe",
+	"acronym": "DigitAF",
+	"logo_url": "https://digitaf.eu/wp-content/uploads/2022/10/logoDigitAF_HR.png.webp",
+	"name": "DIGItal Tools to help AgroForestry meet climate, biodiversity and farming sustainability goals: linking field and cloud",
+	"code": "101059794",
+	"lead": "INRAE",
+	"project_funding_programme_listing": "https://cordis.europa.eu/project/id/101059794",
+	"project_url": "https://digitaf.eu/",
+	"start_date": "01/07/2022",
+	"end_date": "30/06/2026",
+	"contact": "contact@digitaf.eu",
+	"description": "Agroforestry has many advantages for sustainability, climate change mitigation/adaptation, biodiversity preservation, and soil conservation. However, its success depends on where it is used and many barriers hinder its adoption. These include a lack of tools for decision-making and evaluation of its economic, environmental and social benefits, and of policy interactions. DigitAF brings together 25 partners from 20 countries from the EU, Associated Countries and beyond, composed of RTOs (9), universities (5), SMEs (6), European and international organisations (4), NGOs and cooperatives (1). It will: a) support policy-actors at various scales to design more efficient support for agroforestry and carbon farming, including though the value-chain, b) provide tools for farmers and foresters to help deal with the complexity of AF systems, and allow them to design and manage agroforestry systems at field and farm scale in conjunction with end users in Living labs in Italy, Germany, Netherland, United Kingdom, Finland and the Czech Republic, together with existing farm networks in Spain and France, c) develop open-source modelling tools based on practical knowledge and scientific evidence, which will be tested and improved through user feedback, d) dissemination to target groups will be ensured through a range of networks and partnerships in the EU",
+	"keywords": [ "Tools", "Data", "Living Labs", "Open source", "Models" ],
+	"id": "digitaf",
+	"timestamp_creation": "1719565710559",
+	"timestamp_lastedit": "1719565710559",
+	"submitter_name": "Gerry Lawson",
+	"submitter_email": "gerry@euraf.pt",
+	"project_url_other": "",
+	"feedback_data_info": ""
+}
