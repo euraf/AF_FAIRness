@@ -1,1 +1,20 @@
-{"submitter_name": "Ana Tom\u00e1s", "submitter_email": "anatomas@mvarc.eu", "acronym": "MySOIL", "name": "A step further in bioremediation: mycoremediation for soil recovery", "code": "LIFE20 ENV/ES/000416", "logo_url": "https://lifemysoil.eu/wp-content/uploads/2023/01/MySOIL_LIFE_3.png", "programme": "LIFE", "description": "The LIFE MySOIL project aims to push forward the use of an emerging on site/ex-situ bioremediation technology: novel biopiling structure inoculated with specific fungal inoculum (mycoremediation). The project will develop a competitive technology to achieve recalcitrant TPH removal percentages near those currently achieved with thermal treatments, but with reduced energy requirements, lower GHG emissions, reduced costs, and limited reagents to nutrient addition. The process will also enable the valorisation of an abundant agricultural waste (spent mushroom substrate).\\The objectives of the project are fully in line with the current and the upcoming EU Soil Strategy, aiming to remediate contaminated sites so that by 2050 soil pollution will no longer pose a health or environmental risk. The project will also contribute to European policies dealing with efficient resource management, as it foresees the use of spent mushroom substrate and other agroforestry wastes as bulking agents in the biopiles.", "lead": "EURECAT - Centre Tecnol\u00f2gic De Catalunya", "contact": "https://lifemysoil.eu/contact-feedback/", "project_url": "https://lifemysoil.eu/", "project_funding_programme_listing": "https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE20-ENV-ES-000416/a-step-further-in-bioremediation-mycoremediation-for-soil-recovery", "start_date": "01/09/2021", "end_date": "30/06/2025", "id": "mysoil", "timestamp_creation": 1720538553361, "timestamp_lastedit": 1720538553361}
+{
+	"submitter_name": "Ana Tom\u00e1s",
+	"submitter_email": "anatomas@mvarc.eu",
+	"acronym": "MySOIL",
+	"name": "A step further in bioremediation: mycoremediation for soil recovery",
+	"code": "LIFE20 ENV/ES/000416",
+	"logo_url": "https://lifemysoil.eu/wp-content/uploads/2023/01/MySOIL_LIFE_3.png",
+	"programme": "LIFE",
+	"description": "The LIFE MySOIL project aims to push forward the use of an emerging on site/ex-situ bioremediation technology: novel biopiling structure inoculated with specific fungal inoculum (mycoremediation). The project will develop a competitive technology to achieve recalcitrant TPH removal percentages near those currently achieved with thermal treatments, but with reduced energy requirements, lower GHG emissions, reduced costs, and limited reagents to nutrient addition. The process will also enable the valorisation of an abundant agricultural waste (spent mushroom substrate).\\The objectives of the project are fully in line with the current and the upcoming EU Soil Strategy, aiming to remediate contaminated sites so that by 2050 soil pollution will no longer pose a health or environmental risk. The project will also contribute to European policies dealing with efficient resource management, as it foresees the use of spent mushroom substrate and other agroforestry wastes as bulking agents in the biopiles.",
+	"keywords": [ "waste recycling", "contaminated area", "decontamination", "biodegradability" ],
+	"lead": "EURECAT - Centre Tecnol\u00f2gic De Catalunya",
+	"contact": "https://lifemysoil.eu/contact-feedback/",
+	"project_url": "https://lifemysoil.eu/",
+	"project_funding_programme_listing": "https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE20-ENV-ES-000416/a-step-further-in-bioremediation-mycoremediation-for-soil-recovery",
+	"start_date": "01/09/2021",
+	"end_date": "30/06/2025",
+	"id": "mysoil",
+	"timestamp_creation": 1720538553361,
+	"timestamp_lastedit": 1720538553361
+}

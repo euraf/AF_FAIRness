@@ -1,1 +1,20 @@
-{"submitter_name": "Ana Tom\u00e1s", "submitter_email": "anatomas@mvarc.eu", "acronym": "MARONESA", "name": "Market Awareness Raising for Opportunities in Needed Extensification and Soil-friendly Agriculture", "code": "LIFE19 GIC/PT/001285", "logo_url": "https://www.lifemaronesa.eu/wp-content/uploads/2022/01/cropped-Logo_LF.png", "programme": "LIFE", "description": "The LIFE MARONESA project will tackle the abandonment of mountain pasture areas for Maronesa cattle on common land. It will set up an integrated framework to encourage climate action in the project area.", "lead": "AguiarFloresta - Associa\u00e7\u00e3o Florestal e Ambiental de Vila Pouca de Aguiar", "contact": "geral@lifemaronesa.eu", "project_url": "https://www.lifemaronesa.eu/", "project_funding_programme_listing": "https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE19-GIC-PT-001285/maronesa-market-awareness-raising-for-opportunities-in-needed-extensification-and-soil-friendly-agriculture", "start_date": "01/10/2020", "end_date": "30/09/2025", "id": "maronesa", "timestamp_creation": 1720552165017, "timestamp_lastedit": 1720552165017}
+{
+	"submitter_name": "Ana Tom\u00e1s",
+	"submitter_email": "anatomas@mvarc.eu",
+	"acronym": "MARONESA",
+	"name": "Market Awareness Raising for Opportunities in Needed Extensification and Soil-friendly Agriculture",
+	"code": "LIFE19 GIC/PT/001285",
+	"logo_url": "https://www.lifemaronesa.eu/wp-content/uploads/2022/01/cropped-Logo_LF.png",
+	"programme": "LIFE",
+	"description": "The LIFE MARONESA project will tackle the abandonment of mountain pasture areas for Maronesa cattle on common land. It will set up an integrated framework to encourage climate action in the project area.",
+	"keywords": [ "grazing", "agriculture", "environmental awareness", "rural area", "mountainous area", "animal husbandry", "fire protection", "carbon capture and storage", "climate change adaptation", "climate change mitigation", "land use" ],
+	"lead": "AguiarFloresta - Associa\u00e7\u00e3o Florestal e Ambiental de Vila Pouca de Aguiar",
+	"contact": "geral@lifemaronesa.eu",
+	"project_url": "https://www.lifemaronesa.eu/",
+	"project_funding_programme_listing": "https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE19-GIC-PT-001285/maronesa-market-awareness-raising-for-opportunities-in-needed-extensification-and-soil-friendly-agriculture",
+	"start_date": "01/10/2020",
+	"end_date": "30/09/2025",
+	"id": "maronesa",
+	"timestamp_creation": 1720552165017,
+	"timestamp_lastedit": 1720552165017
+}

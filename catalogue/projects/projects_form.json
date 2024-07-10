@@ -83,6 +83,13 @@
     "required": true
   },
   {
+    "id": "keywords",
+    "text": "Which keywords best describe the project?",
+    "helper": "Comma-separated words or expressions, please",
+    "type": "array of strings",
+    "required": true
+  },
+  {
     "id": "lead",
     "text": "Project leader",
     "type": "string",

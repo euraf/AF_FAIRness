@@ -1,1 +1,20 @@
-{"submitter_name": "Ana Tom\u00e1s", "submitter_email": "anatomas@mvarc.eu", "acronym": "Polyfarming", "name": "Demonstration of a new agro-silvo-pastoral land use to improve farm profitability in mountain areas", "code": "LIFE15 ENV/ES/000506", "logo_url": "https://polyfarming.eu/wp-content/uploads/2017/01/polyfarming-logo_vertical-300x300.png", "programme": "LIFE", "description": "The objective of the project is to demonstrate the interest of a new plurifunctional agro-silva-pastoral integrated management system as an alternative of profitable management to fight against the problem of the abandonment of agriculture in Mediterranean mountain areas and the environmental (soil degradation, vulnerability to climate change, loss of biodiversity) and socio-economic consequences (territorial imbalances, loss of productive capacity of the territory) that this abandonment is producing.", "lead": "Centro de Investigacin Ecolgica y Aplicaciones Forestales", "contact": "a.justamante@creaf.uab.cat", "project_url": "a.justamante@creaf.uab.cat", "project_funding_programme_listing": "https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE15-ENV-ES-000506/demonstration-of-a-new-agro-silvo-pastoral-land-use-to-improve-farm-profitability-in-mountain-areas", "start_date": "01/07/2016", "end_date": "31/12/2021", "id": "polyfarming", "timestamp_creation": 1720451078237, "timestamp_lastedit": 1720451078237}
+{
+	"submitter_name": "Ana Tom\u00e1s",
+	"submitter_email": "anatomas@mvarc.eu",
+	"acronym": "Polyfarming",
+	"name": "Demonstration of a new agro-silvo-pastoral land use to improve farm profitability in mountain areas",
+	"code": "LIFE15 ENV/ES/000506",
+	"logo_url": "https://polyfarming.eu/wp-content/uploads/2017/01/polyfarming-logo_vertical-300x300.png",
+	"programme": "LIFE",
+	"description": "The objective of the project is to demonstrate the interest of a new plurifunctional agro-silva-pastoral integrated management system as an alternative of profitable management to fight against the problem of the abandonment of agriculture in Mediterranean mountain areas and the environmental (soil degradation, vulnerability to climate change, loss of biodiversity) and socio-economic consequences (territorial imbalances, loss of productive capacity of the territory) that this abandonment is producing.",
+	"keywords": [ "agriculture", "forestry", "agroforestry", "agricultural method" ],
+	"lead": "Centro de Investigacin Ecolgica y Aplicaciones Forestales",
+	"contact": "a.justamante@creaf.uab.cat",
+	"project_url": "a.justamante@creaf.uab.cat",
+	"project_funding_programme_listing": "https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE15-ENV-ES-000506/demonstration-of-a-new-agro-silvo-pastoral-land-use-to-improve-farm-profitability-in-mountain-areas",
+	"start_date": "01/07/2016",
+	"end_date": "31/12/2021",
+	"id": "polyfarming",
+	"timestamp_creation": 1720451078237,
+	"timestamp_lastedit": 1720451078237
+}
