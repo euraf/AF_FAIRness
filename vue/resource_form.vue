@@ -9,7 +9,8 @@ module.exports = {
   data() {
     return {
         formData: {},
-        isSaving: false
+        isSaving: false,
+        pr_number: null
     }
   },
   mounted() {
@@ -72,6 +73,12 @@ module.exports = {
     },
     creating() {
         return !this.editing
+    },
+    modalMessageSuccess() {
+        return "The " + (this.tools ? "tool" : (this.data ? "dataset" : "project")) + " was sucessfully " + (this.editing ? "edited." : "created.") + " A Pull Request was created in the EURAF/AF_FAIRness repository. You can follow it at <a target='_blank' href='https://github.com/euraf/AF_FAIRness/pull/" + this.pr_number + "'>https://github.com/euraf/AF_FAIRness/pull/" + this.pr_number +"</a>."
+    },
+    modalMessageError() {
+        return "An error occurred while performing this action. Please try again and, if the error persists, <a href='mailto:anatomas@mvarc.eu'>let us know</a>."
     }
   },
   methods: {
@@ -177,10 +184,24 @@ module.exports = {
             type: "post",
             data: { action: action, resources: resources, data: JSON.stringify(databody, null, 4) },
             dataType: "json"
-        }).always(function(response) {
+
+        }).always(function(data, textStatus, response) {
             _this.isSaving = false
-            alert(response.responseText);
+            console.log(data)
             console.log(response)
+
+            if (response.status == 200) {
+                _this.pr_number = data.pr_number
+                $('#saveSuccess').modal('show')
+                _this.formData = {}
+
+            } else if (response.status == 400) {
+                _this.pr_number = null
+                $('#saveError').modal('show')
+
+            } else {
+                alert(response.responseText);
+            }
         })
     }
   }
@@ -207,36 +228,35 @@ module.exports = {
                 </div>
             </div>
         </div>
-        <!--div class="scoring-block">
-            <p class="small-title"><b>FAIRness score</b></p>
-            <div class="score-bar">
-                <p class="label">F</p>
-                <div class="bar">
-                    <div :style="'width:' + formData.findability_score*0.75 + '%; background-color: ' + scoreColor(formData.findability_score) + ';'"></div>
-                    <p :class="{ 'ml-0': formData.findability_score == 0 }">{{ formData.findability_score }}%</p>
+        <div class="modal" tabindex="-1" id="saveSuccess">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h5 class="modal-title w-100"><i class="fas fa-check-circle"></i> Success</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p v-html="modalMessageSuccess"></p>
+                    </div>
                 </div>
             </div>
-            <div class="score-bar">
-                <p class="label">A</p>
-                <div class="bar">
-                    <div :style="'width:' + formData.accessibility_score*0.75 + '%; background-color: ' + scoreColor(formData.accessibility_score) + ';'"></div>
-                    <p :class="{ 'ml-0': formData.accessibility_score == 0 }">{{ formData.accessibility_score }}%</p>
+        </div>
+        <div class="modal" tabindex="-1" id="saveError">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h5 class="modal-title w-100"><i class="far fa-question-circle"></i> Something didn't work</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p v-html="modalMessageError"></p>
+                    </div>
                 </div>
             </div>
-            <div class="score-bar">
-                <p class="label">I</p>
-                <div class="bar">
-                    <div :style="'width:' + formData.interoperability_score*0.75 + '%; background-color: ' + scoreColor(formData.interoperability_score) + ';'"></div>
-                    <p :class="{ 'ml-0': formData.interoperability_score == 0 }">{{ formData.interoperability_score }}%</p>
-                </div>
-            </div>
-            <div class="score-bar">
-                <p class="label">R</p>
-                <div class="bar">
-                    <div :style="'width:' + formData.reusability_score*0.75 + '%; background-color: ' + scoreColor(formData.reusability_score) + ';'"></div>
-                    <p :class="{ 'ml-0': formData.reusability_score == 0 }">{{ formData.reusability_score }}%</p>
-                </div>
-            </div>
-        </div-->
+        </div>
     </div>
 </template>

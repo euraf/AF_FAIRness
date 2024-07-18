@@ -22,7 +22,27 @@ module.exports = {
 					fn: function(arr) {
 						return arr.sort((a, b) => -a.acronym.localeCompare(b.acronym))
 					}
-				}
+				},
+        oldest: {
+          name: "Oldest",
+          fn: function(arr) {
+            return arr.sort(function(a, b) {
+              var a_arr = a.start_date.split('/')
+              var b_arr = b.start_date.split('/')
+              return new Date(a_arr[2], a_arr[1]-1, a_arr[0]).getTime() < new Date(b_arr[2], b_arr[1]-1, b_arr[0]).getTime() ? -1 : 1
+            })
+          }
+        },
+        newest: {
+          name: "Newest",
+          fn: function(arr) {
+            return arr.sort(function(a, b) {
+              var a_arr = a.start_date.split('/')
+              var b_arr = b.start_date.split('/')
+              return new Date(a_arr[2], a_arr[1]-1, a_arr[0]).getTime() < new Date(b_arr[2], b_arr[1]-1, b_arr[0]).getTime() ? 1 : -1
+            })
+          }
+        }
       }
     }
   },

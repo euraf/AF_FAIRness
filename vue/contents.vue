@@ -34,7 +34,7 @@ module.exports = {
       </div>
       <div class="col-4 about-projects text-center">
         <h3>Catalogue of Agroforestry</h3>
-        <h1><router-link to="/data"><b>Projects</b></router-link></h1>
+        <h1><router-link to="/projects"><b>Projects</b></router-link></h1>
         <h3><b class="nr">{{ nr_projects }}</b> projects currently available</h3>
         <p class="btn btn-primary pointer"><router-link :to="{ name: 'project_add' }">Expand the catalogue</router-link></p>
       </div>
