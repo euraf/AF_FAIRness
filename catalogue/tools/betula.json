@@ -4,9 +4,9 @@
 	"submitter_name": "Bert Reubens",
 	"submitter_email": "bert.reubens@ilvo.vlaanderen.be",
 	"name": "Betula",
-	"url": "https://bdbnet.bdb.be/pls/apex/f?p=147:11",
-	"description": "This tool helps farmers & advisors to develop an agroforestry plan. Step by step, the user is guided through all aspects that need attention, from goal & species selection to planting & management issues. Betula is part of the Agroforestry Planner.",
-	"logo_url": "https://bdbnet.bdb.be/pls/apex/bdb/r/147/files/static/v71Y/image%20(6).png",
+	"url": "https://www.agroforestryvlaanderen.be/en/agroforestry-planner-2",
+	"description": "This tool helps farmers & advisors to develop an agroforestry plan. Step by step, the user is guided through all aspects that need attention, from goal & species selection to planting & management issues. Betula is part of the overarching \"Agroforestry Planner\" set of digital tools for agroforestry in Flanders.",
+	"logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/BETULAverkleind.png",
 	"primary_purpose": [
 		"Decision support",
 		"Education and training"
@@ -18,7 +18,7 @@
 		"Silvoarable",
 		"Tree species choice"
 	],
-	"developers": "Bert Reubens (ILVO - https://www.linkedin.com/in/bertreubens/), Sarah Carton (ILVO), Paul Pardon (ILVO), Jolien Bracke (ILVO), Julian Rahahleh (BDB), Tom Coussement (BDB), Sander Van Daele (Bosplus)",
+	"developers": "Bert Reubens (ILVO - https://www.linkedin.com/in/bertreubens/), Sarah Carton (ILVO), Paul Pardon (ILVO), Jolien Bracke (ILVO), Julian Rahahleh (BDB), Tom Coussement (BDB), Sander Van Daele (Bos+)",
 	"organizations": "Flanders Research Institute for Agriculture, Fisheries and Food (ILVO), Bosplus vzw, Soil Service of Belgium (BDB)",
 	"contact": "info@agroforestryvlaanderen.be",
 	"status": "Implemented",
@@ -60,8 +60,7 @@
 	"input_data_formats": [
 		"Other"
 	],
-	"input_data_file_formats": [
-	],
+	"input_data_file_formats": [],
 	"output_data_formats": [
 		"Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
 	],
@@ -107,9 +106,13 @@
 	"digitaf_tool_ll": [
 		"Netherlands LL"
 	],
-	"feedback_tool_info": "",
+	"feedback_tool_info": "No",
 	"editor_name": "Bert Reubens",
 	"editor_email": "bert.reubens@ilvo.vlaanderen.be",
 	"input_data_formats_other": "Geographic location layer for Flanders",
-	"timestamp_lastedit": 1716813156359
+	"timestamp_lastedit": 1731580666073,
+	"tool_project": "Yes",
+	"tool_project_name": "VLAIO LA project \"Agroforestry in Flanders\"",
+	"tool_project_url": "https://www.agroforestryvlaanderen.be/nl/projecten/agroforestry-in-vlaanderen",
+	"indicators_other": "subsidies and regulation"
 }

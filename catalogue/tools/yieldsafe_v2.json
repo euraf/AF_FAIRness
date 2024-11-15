@@ -5,7 +5,7 @@
   "submitter_name": "Paul Burgess",
   "submitter_email": "p.burgess@cranfield.ac.uk",
   "name": "Yield-SAFE v2",
-  "url": "https://doi.org/10.17862/cranfield.rd.24250549.v2",
+  "url": "https://dspace.lib.cranfield.ac.uk/handle/1826/22344",
   "description": "Yield-SAFE v2 is a spreadsheet-based biophysical model which has been developed in Microsoft® Excel® for Microsoft 365 MSO (Version 2301 Build 16.0.16026.20214) 64-bit.  The memory requirement for storing Yield-SAFE primarily depends on the number of days of tree and crop growth that are simulated.  For example, 21900 days of analysis (60 years) requires around 67 MB.\n\nYield-SAFE v2 is recommended to be run with a computer using Windows 7 (or a more recent version: Windows 10, etc.) and Excel® 2010 or a more recent version (Excel® 2013 or Excel® 2016). The worksheets of Yield-SAFE have been developed at a screen resolution of 1920 x 1080.\n\nThe model predicts the biomass accumulation and yield of tree and crops in response to competition for light and water.  It operates on a daily time-step.  The recommended practice is to calibrate the models for tree growth and crop growth using local data.  The model can then be used to predict the yields of trees and crops within an agroforestry system.",
   "logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/yieldsafe_v2.png",
   "primary_purpose": [
