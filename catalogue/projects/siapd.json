@@ -1,8 +1,8 @@
 {
-	"programme": "INTERREG",
+	"programme": "Interreg España-Portugal",
 	"acronym": "SIAPD",
 	"name": "Integrated trans-regional support system to combat pests and diseases in agriculture",
-	"logo_url": "https://siapd.utad.pt/img/apoios/SIAPD-09.png",
+	"logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/siapd.png",
 	"code": "0655_SIAPD_6_P",
 	"lead": "Universidade de Trás-os-Montes e Alto Douro (UTAD)",
 	"project_funding_programme_listing": "https://keep.eu/projects/26066/Sistema-integrado-transregi-PT",
