@@ -1,1 +1,126 @@
-{"primary_purpose": ["Decision support", "Education and training"], "software_proglanguage": ["SQL", "Python"], "minimum_req": ["Internet connection", "Open source software/programming language"], "systems": ["Agriculture", "Agroforestry", "Forestry"], "system_components": ["Crop", "Tree", "Livestock", "Soil"], "indicators": ["Suitability", "Water", "Pests and Diseases", "Mechanization"], "spatial_scales": ["Plant/animal", "Plot", "One-hectare", "Farm", "Landscape"], "time_steps": ["Not relevant"], "input_data_protocols": ["Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)", "User enters data manually"], "input_data_formats": ["Widely used file formats (CSV, JSON, XML, etc.)"], "input_data_file_formats": ["Shapefile", "GeoJSON"], "output_data_formats": ["Widely used file formats (CSV, JSON, XML, etc.)"], "output_data_file_formats": ["XLS/XLSX (Microsoft Excel formats)", "CSV", "JSON", "Shapefile", "Images (e.g. png, jpg, tiff, etc)", "PDF"], "end_users": ["Researcher", "Student", "Policy-maker", "Farmer", "Landowner", "Farm advisor", "Carbon trader"], "usages_most_relevant": ["Planning/Design", "Implementation", "Management"], "usages_least_relevant": ["Research"], "languages": ["English"], "digitaf_tool_ll": [], "submitter_name": "Dan Geerah", "submitter_email": "dan@thelandapp.com", "name": "Land App", "url": "https://thelandapp.com/", "keywords": ["Mapping", "easy to use", "initial designs", "collaboration"], "developers": "DIGITALLANDSOLUTIONS Ltd", "organizations": "Woodland Trust, Forestry Commission, Shropshire Council and Tree's Outside Woodland Project (Defra)", "contact": "support@thelandapp.com", "tool_project": "Yes", "tool_project_name": "Tree's Outside Woodland", "tool_project_url": "https://www.forestresearch.gov.uk/tools-and-resources/national-forest-inventory/trees-outside-woodland-tow/#:~:text=The%20Trees%20Outside%20Woodland%20%E2%80%93%20TOW,interact%20with%20non%2Dwoodland%20ecosystems.", "status": "Implemented", "license": "Proprietary", "year_release": 2024, "year_lastupdate": 2024, "previous_versions_available": "Only one version exists", "url_persistent": "No", "access_barrier": "User registration needed", "access_procedure": "Sign up for free here: https://go.thelandapp.com/register?_gl=1*1xtdeh7*_ga*MTA5NzQ1OTE2Ni4xNzMyMTkyMzI2*_ga_H5LQW2WQZL*MTczNTgzMzkwMC4xMDIuMC4xNzM1ODMzOTAwLjAuMC4w&_ga=2.154389052.582176479.1735833902-1097459166.1732192326", "access_procedure_documentation": "Yes", "listed_other_databases": "Don't know", "integrated_other_tools": "No", "documentation_available": "Yes", "documentation_accessible": "Yes", "url_documentation": "https://help.thelandapp.com/en/articles/9716790-data-download-how-to-use-the-agroforestry-designer-data-download", "documentation_theoretical_background": "Yes", "data_provenance": "Yes", "development_process": "Not completely", "training_materials": "Yes", "url_training_materials": "https://help.thelandapp.com/en/articles/9716790-data-download-how-to-use-the-agroforestry-designer-data-download", "documentation_contribute": "Yes", "digitaf_tool": "No", "description": "A brand-new free digital agroforestry designer toolkit is being launched by cloud-based mapping software company Land App and partners. \n\nAimed at farmers, estate managers and land agents across the UK, Land App\u2019s ground-breaking new Agroforestry Designer Toolkit aims to platform agroforestry \u2013 the intentional integration of trees into farms \u2013 and its many benefits to farmers, their livestock and nature.", "logo_url": "https://www.google.com/imgres?q=land%20app%20logo&imgurl=https%3A%2F%2Fthelandapp.com%2Fwp-content%2Fuploads%2F2022%2F02%2FLA_Black-Fill-Inline.png&imgrefurl=https%3A%2F%2Fthelandapp.com%2F&docid=l6T3Jzw3sLrtDM&tbnid=BrLL2xrtpVdz0M&vet=12ahUKEwiyvNmfudeKAxVtnokEHRqPBGAQM3oECBcQAA..i&w=1261&h=257&hcb=2&ved=2ahUKEwiyvNmfudeKAxVtnokEHRqPBGAQM3oECBcQAA", "id": "land_app", "timestamp_creation": 1735835005746, "timestamp_lastedit": 1735835005746}
+{
+	"primary_purpose": [
+		"Decision support",
+		"Education and training"
+	],
+	"software_proglanguage": [
+		"SQL",
+		"Python"
+	],
+	"minimum_req": [
+		"Internet connection",
+		"Open source software/programming language"
+	],
+	"systems": [
+		"Agriculture",
+		"Agroforestry",
+		"Forestry"
+	],
+	"system_components": [
+		"Crop",
+		"Tree",
+		"Livestock",
+		"Soil"
+	],
+	"indicators": [
+		"Suitability",
+		"Water",
+		"Pests and Diseases",
+		"Mechanization"
+	],
+	"spatial_scales": [
+		"Plant/animal",
+		"Plot",
+		"One-hectare",
+		"Farm",
+		"Landscape"
+	],
+	"time_steps": [
+		"Not relevant"
+	],
+	"input_data_protocols": [
+		"Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)",
+		"User enters data manually"
+	],
+	"input_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)"
+	],
+	"input_data_file_formats": [
+		"Shapefile",
+		"GeoJSON"
+	],
+	"output_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)"
+	],
+	"output_data_file_formats": [
+		"XLS/XLSX (Microsoft Excel formats)",
+		"CSV",
+		"JSON",
+		"Shapefile",
+		"Images (e.g. png, jpg, tiff, etc)",
+		"PDF"
+	],
+	"end_users": [
+		"Researcher",
+		"Student",
+		"Policy-maker",
+		"Farmer",
+		"Landowner",
+		"Farm advisor",
+		"Carbon trader"
+	],
+	"usages_most_relevant": [
+		"Planning/Design",
+		"Implementation",
+		"Management"
+	],
+	"usages_least_relevant": [
+		"Research"
+	],
+	"languages": [
+		"English"
+	],
+	"digitaf_tool_ll": [],
+	"submitter_name": "Dan Geerah",
+	"submitter_email": "dan@thelandapp.com",
+	"name": "Land App",
+	"url": "https://thelandapp.com/",
+	"keywords": [
+		"Mapping",
+		"Easy to use",
+		"Initial designs",
+		"Collaboration"
+	],
+	"developers": "DIGITALLANDSOLUTIONS Ltd",
+	"organizations": "Woodland Trust, Forestry Commission, Shropshire Council and Tree's Outside Woodland Project (Defra)",
+	"contact": "support@thelandapp.com",
+	"tool_project": "Yes",
+	"tool_project_name": "Tree's Outside Woodland",
+	"tool_project_url": "https://www.forestresearch.gov.uk/tools-and-resources/national-forest-inventory/trees-outside-woodland-tow/#:~:text=The%20Trees%20Outside%20Woodland%20%E2%80%93%20TOW,interact%20with%20non%2Dwoodland%20ecosystems.",
+	"status": "Implemented",
+	"license": "Proprietary",
+	"year_release": 2024,
+	"year_lastupdate": 2024,
+	"previous_versions_available": "Only one version exists",
+	"url_persistent": "No",
+	"access_barrier": "User registration needed",
+	"access_procedure": "Sign up for free here: https://go.thelandapp.com/register?_gl=1*1xtdeh7*_ga*MTA5NzQ1OTE2Ni4xNzMyMTkyMzI2*_ga_H5LQW2WQZL*MTczNTgzMzkwMC4xMDIuMC4xNzM1ODMzOTAwLjAuMC4w&_ga=2.154389052.582176479.1735833902-1097459166.1732192326",
+	"access_procedure_documentation": "Yes",
+	"listed_other_databases": "Don't know",
+	"integrated_other_tools": "No",
+	"documentation_available": "Yes",
+	"documentation_accessible": "Yes",
+	"url_documentation": "https://help.thelandapp.com/en/articles/9716790-data-download-how-to-use-the-agroforestry-designer-data-download",
+	"documentation_theoretical_background": "Yes",
+	"data_provenance": "Yes",
+	"development_process": "Not completely",
+	"training_materials": "Yes",
+	"url_training_materials": "https://help.thelandapp.com/en/articles/9716790-data-download-how-to-use-the-agroforestry-designer-data-download",
+	"documentation_contribute": "Yes",
+	"digitaf_tool": "No",
+	"description": "A brand-new free digital agroforestry designer toolkit is being launched by cloud-based mapping software company Land App and partners. \n\nAimed at farmers, estate managers and land agents across the UK, Land App\u2019s ground-breaking new Agroforestry Designer Toolkit aims to platform agroforestry \u2013 the intentional integration of trees into farms \u2013 and its many benefits to farmers, their livestock and nature.",
+	"logo_url": "https://thelandapp.com/wp-content/uploads/2022/02/LA_Black-Fill-Inline.png",
+	"id": "land_app",
+	"timestamp_creation": 1735835005746,
+	"timestamp_lastedit": 1735835005746
+}
