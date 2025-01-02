@@ -206,7 +206,7 @@ add_rewrite_rule(substr($AF_CATALOGUES_PAGE_SLUG, 1).'/(.+)', "index.php?page_id
 add_action('init', 'AF_FAIRness_integration_rewrite');
 /**
  * 	END OF AGROFORESTRY TOOLS AND DATA CATALOGUES INTEGRATION [WORDPRESS]
- * /
+ */
 ```
 
 # Acknowledgements
