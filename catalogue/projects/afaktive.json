@@ -1,1 +1,33 @@
-{"submitter_name": "Erica Tettamanti", "submitter_email": "e.tettamanti@umwelt-campus.de", "acronym": "AFaktive", "name": "Agroforestry as a Key to Improve Water Management and Adaptation to Extreme Weather Events", "code": "LIFE22-CCA-DE-LIFE-AFaktive", "logo_url": "I see no way of uploading the project logo. Please contact me and I will send you the logo via email", "programme": "EU LIFE", "description": "AFaktive develops, tests and disseminates new approaches for improved water management in the landscape through the implementation of agroforestry systems. As a nature-based solution, agroforestry can help improve water retention in the landscape and protect against drought, erosion and flooding. \nThe project will massively promote the implementation of agroforestry systems for improved water management at farm and regional level at model and demonstration sites in Germany, Belgium and the Netherlands. Furthermore, AFaktive will develop planning tools and support political decision-makers in improving the political framework conditions for the implementation of agroforestry systems. Based on pilot farms that already have initial experience with agroforestry, new, hydrologically optimised plantations are to be implemented as a first step. Other practical farms, for which the topic is still new, are to be developed and supported as multipliers, in order to finally plan a second upscaling phase at regional level \u2013 from the municipal level to the water catchment area.", "keywords": ["agroforestry", "water management", "flood protection", "erosion protection", "drought prevention", "water retention", "water balance in the landscape", "adaptation to extreme weather events", "nature-based solutions", "trees outside of forests", "trees in agriculture"], "lead": "Institute for Applied Material Flow Management - IfaS (Trier university of Applied Sciences)", "contact": "Erica Tettamanti - e.tettamanti@umwelt-campus.de (+49 (0) 6782 17 \u2013 1569); J\u00f6rg B\u00f6hmer - j.boemer@umwelt-campus.de (+49 (0) 6782/17-2626)", "project_url": "https://afaktive.stoffstrom.org/en/", "project_funding_programme_listing": "https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE22-CCA-DE-LIFE-AFaktive-101113703/agroforestry-as-a-key-to-improve-water-management-adaptation-to-extreme-weather-events", "project_url_other": "https://afaktive.stoffstrom.org/?mailpoet_router&endpoint=view_in_browser&action=view&data=WzQsImUxODBlMWFmZjUxMyIsMCwwLDAsMV0", "start_date": "01.10.2023", "end_date": "30.09.2028", "id": "afaktive", "timestamp_creation": 1735311103086, "timestamp_lastedit": 1735311103086}
+{
+	"submitter_name": "Erica Tettamanti",
+	"submitter_email": "e.tettamanti@umwelt-campus.de",
+	"acronym": "AFaktive",
+	"name": "Agroforestry as a Key to Improve Water Management and Adaptation to Extreme Weather Events",
+	"code": "LIFE22-CCA-DE-LIFE-AFaktive",
+	"logo_url": "https://afaktive.stoffstrom.org/wp-content/uploads/2024/04/AFaktive_L-1.png",
+	"programme": "EU LIFE",
+	"description": "AFaktive develops, tests and disseminates new approaches for improved water management in the landscape through the implementation of agroforestry systems. As a nature-based solution, agroforestry can help improve water retention in the landscape and protect against drought, erosion and flooding. \nThe project will massively promote the implementation of agroforestry systems for improved water management at farm and regional level at model and demonstration sites in Germany, Belgium and the Netherlands. Furthermore, AFaktive will develop planning tools and support political decision-makers in improving the political framework conditions for the implementation of agroforestry systems. Based on pilot farms that already have initial experience with agroforestry, new, hydrologically optimised plantations are to be implemented as a first step. Other practical farms, for which the topic is still new, are to be developed and supported as multipliers, in order to finally plan a second upscaling phase at regional level \u2013 from the municipal level to the water catchment area.",
+	"keywords": [
+		"agroforestry",
+		"water management",
+		"flood protection",
+		"erosion protection",
+		"drought prevention",
+		"water retention",
+		"water balance in the landscape",
+		"adaptation to extreme weather events",
+		"nature-based solutions",
+		"trees outside of forests",
+		"trees in agriculture"
+	],
+	"lead": "Institute for Applied Material Flow Management - IfaS (Trier university of Applied Sciences)",
+	"contact": "Erica Tettamanti - e.tettamanti@umwelt-campus.de (+49 (0) 6782 17 \u2013 1569); J\u00f6rg B\u00f6hmer - j.boemer@umwelt-campus.de (+49 (0) 6782/17-2626)",
+	"project_url": "https://afaktive.stoffstrom.org/en/",
+	"project_funding_programme_listing": "https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE22-CCA-DE-LIFE-AFaktive-101113703/agroforestry-as-a-key-to-improve-water-management-adaptation-to-extreme-weather-events",
+	"project_url_other": "https://afaktive.stoffstrom.org/?mailpoet_router&endpoint=view_in_browser&action=view&data=WzQsImUxODBlMWFmZjUxMyIsMCwwLDAsMV0",
+	"start_date": "01/10/2023",
+	"end_date": "30/09/2028",
+	"id": "afaktive",
+	"timestamp_creation": 1735311103086,
+	"timestamp_lastedit": 1735311103086
+}
