@@ -1,0 +1,59 @@
+{
+	"data_type": [
+		"Aggregated data",
+		"Observational data"
+	],
+	"spatial_scales": [
+		"Plot"
+	],
+	"indicators": [
+		"Land use",
+		"Soil",
+		"Carbon",
+		"Water"
+	],
+	"time_steps": [
+		"Yearly"
+	],
+	"data_formats": [
+		"Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+	],
+	"digitaf_data_ll": [],
+	"digitaf_data_wp": [],
+	"submitter_name": "Rico H\u00fcbner",
+	"submitter_email": "huebner@defaf.de",
+	"name": "Data for: Soil carbon sequestration by agroforestry systems in China: A meta-analysis",
+	"url": "https://dataserv.ub.tum.de/index.php/s/m1601286",
+	"url_persistent": "Yes",
+	"description": "Data on soil organic carbon (SOC) storage in agroforestry systems (AFS) in China were gathered in February 2016 from publications in English and Chinese from five academic databases, namely Web of Science, China National Knowledge Infrastructure (CNKI), Springer, Elsevier\u2019s Scopus, and Wiley. The following groups of search terms in both English and Standard Mandarin were applied to title, abstract and keywords of the publications: 1) Agroforestry and related definitions describing AFS and practices: agroforestry (\u519c\u6797\u590d\u5408\u7cfb\u7edf), silvopastoral (\u6797\u8349), agrosilvopastoral (\u6df7\u519c\u6797), forest farming (\u519c\u7528\u6797\u4e1a), tree outside forest (\u6797\u4e0b), alley cropping (\u519c\u6797\u95f4\u4f5c), orchard intercropping (\u679c\u519c\u95f4\u4f5c), shelter belt (\u519c\u7530\u6797\u7f51), windbreak (\u9632\u62a4\u6797), land use conversion (\u9000\u8015\u8fd8\u6797); 2) Soil carbon, soil nutrients and related definitions: soil carbon (\u571f\u58e4\u78b3), soil nutrient (\u571f\u58e4\u517b\u5206), soil organic carbon (\u571f\u58e4\u6709\u673a\u78b3), soil organic matter (\u571f\u58e4\u6709\u673a\u8d28), soil carbon stock (\u571f \u58e4\u78b3\u50a8\u91cf), soil fertility (\u571f\u58e4\u80a5\u529b), soil properties (\u571f\u58e4\u6027\u8d28); 3) Region: China (\u4e2d\u56fd). Further selection was undertaken to limit the initial search output to those publications which: 1) address one or more agroforestry practices including traditional agricultural practices or silvicultural practices; 2) publication of data; and 3) publication after the year 2000. For details on data processing consult https://doi.org/10.1016/j.agee.2021.107437",
+	"keywords": [
+		"soil organic carbon",
+		"ecosystem services",
+		"Random Forest (RF)",
+		"shelterbelts",
+		"agrosilvicultural systems",
+		"silvopastoral systems"
+	],
+	"data_ownership": "TUM",
+	"data_contact": "",
+	"data_project": "Yes",
+	"data_project_name": "This work was supported by the Federal Ministry of Education and Research, Germany (BMBF) [grant number 033L129AN] and the Sino-German Center for Research Promotion (SGC) [grant number GZ1006].",
+	"data_collection_country": "Other",
+	"data_collection_country_other": "China",
+	"year_release": 2021,
+	"year_lastupdate": 2021,
+	"data_confidentiality": "No, the data is public",
+	"license": "Creative Commons BY",
+	"access_barrier": "No, direct download/access through a web link",
+	"data_relevant_attributes": "Yes",
+	"listed_other_databases": "Don't know",
+	"license_url": "http://creativecommons.org/licenses/by/4.0",
+	"data_metadata": "No",
+	"documentation_accessible": "Yes",
+	"data_metadata_vocabulary": "Yes",
+	"development_process": "Yes",
+	"documentation_list": "H\u00fcbner, R., K\u00fchnel, A., Lu, J., Dettmann, H., Wang, W., Wiesmeier, M., 2021. Soil carbon sequestration by agroforestry systems in China: A meta-analysis. Agriculture, Ecosystems & Environment 315, https://doi.org/10.1016/j.agee.2021.107437.",
+	"id": "data_for_soil_carbon_sequestration_by_agroforestry_systems_in_china_a_metaanalysis",
+	"timestamp_creation": 1737377916246,
+	"timestamp_lastedit": 1737377916246
+}
