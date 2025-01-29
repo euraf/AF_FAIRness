@@ -74,7 +74,7 @@
 	"name": "Farm Carbon Calculator Data Collection Spreadsheet",
 	"url": "https://calculator.farmcarbontoolkit.org.uk/resources/",
 	"description": "The Farm Carbon Calculator provides a publicly available data collection spreadsheet which can be used to determine a farm-level greenhouse gas balance.  This allows recording of farm details, fuel, materials, inventory, fertility and cropping, inputs, livestock, waste, distribution, and sequestration for subsequent entry into an online tool",
-	"logo_url": "https://calculator.farmcarbontoolkit.org.uk/themes/contrib/fcc/images/FCC_Logo_RGB.svg",
+	"logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/farmcarboncalculator_spreadsheet.png",
 	"keywords": [
 		"Data collection spreadsheet to enable development of farm-level greenhouse gas balances"
 	],
