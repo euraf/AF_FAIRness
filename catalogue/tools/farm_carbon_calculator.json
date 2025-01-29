@@ -1,1 +1,138 @@
-{"primary_purpose": ["Decision support"], "software_proglanguage": ["Python", "SQL", "Other"], "minimum_req": ["Internet connection", "Desktop computer (e.g. optimized for wider screens)"], "systems": ["Agriculture", "Forestry", "Agroforestry", "Natural/Wild"], "system_components": ["Crop", "Tree", "Livestock", "Soil"], "indicators": ["Growth", "Yield", "Water", "Soil", "Carbon"], "spatial_scales": ["Farm", "Landscape"], "time_steps": ["Yearly", "Other"], "input_data_protocols": ["User enters data manually", "Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)"], "input_data_formats": ["Widely used file formats (CSV, JSON, XML, etc.)"], "input_data_file_formats": ["JSON"], "output_data_formats": ["Widely used file formats (CSV, JSON, XML, etc.)", "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"], "output_data_file_formats": ["CSV", "JSON", "Images (e.g. png, jpg, tiff, etc)", "PDF"], "end_users": ["Researcher", "Student", "Farmer", "Landowner", "Farm advisor", "Wholesaler", "Carbon trader"], "usages_most_relevant": ["Management", "Monitoring/Evaluating", "Implementation", "Forecasting", "Planning/Design"], "usages_least_relevant": [], "languages": ["English", "Italian", "Dutch", "French", "German", "Polish", "Spanish", "Other"], "digitaf_tool_ll": [], "submitter_name": "Liz Bowles", "submitter_email": "Liz.Bowles@farmcarbontoolkit.org.uk", "name": "Farm Carbon Calculator", "url": "https://calculator.farmcarbontoolkit.org.uk/", "description": "The farm carbon calculator  is designed to estimate GHG emissions and carbon sequestration into soils, trees and hedges.", "status": "Implemented", "tool_project": "No, it has another source", "developers": "Farm Carbon Cutting Toolkit CIC", "organizations": "Farm Carbon Cutting Toolkit CIC", "contact": "Calculator@farmcarbontoolkit.org.uk  Tel: 07541 453413", "logo_url": "https://youtu.be/JeWd_L7Yv0c?t=19", "keywords": ["Farm", "Carbon", "Calculator", "Soils", "Emissions"], "license": "Other", "year_release": 2020, "year_lastupdate": 2025, "previous_versions_available": "Yes", "url_persistent": "No", "access_barrier": "User registration needed", "access_procedure": "Login at https://calculator.farmcarbontoolkit.org.uk/", "listed_other_databases": "Yes", "listed_other_databases_list": "AHDB, NFU", "integrated_other_tools": "Yes", "integrated_other_tools_list": "Farm Management Software", "documentation_available": "Yes", "documentation_accessible": "Yes", "url_documentation": "https://calculator.farmcarbontoolkit.org.uk/resources/", "documentation_theoretical_background": "Yes", "documentation_theoretical_background_list": "https://calculator.farmcarbontoolkit.org.uk/resources/", "data_provenance": "Yes", "development_process": "Not completely", "training_materials": "Yes", "url_training_materials": "https://calculator.farmcarbontoolkit.org.uk/resources/", "documentation_contribute": "No", "software_proglanguage_other": "Drupal", "license_url": "https://calculator.farmcarbontoolkit.org.uk/terms-conditions/", "license_other": "This is Terms and Conditions of use", "time_steps_other": "Users can specify period boundary", "languages_other": "Romanian and Portuguese", "access_procedure_documentation": "Yes", "digitaf_tool": "No", "id": "farm_carbon_calculator", "timestamp_creation": 1737992637058, "timestamp_lastedit": 1737992637058}
+{
+	"primary_purpose": [
+		"Decision support"
+	],
+	"software_proglanguage": [
+		"Python",
+		"SQL",
+		"Other"
+	],
+	"minimum_req": [
+		"Internet connection",
+		"Desktop computer (e.g. optimized for wider screens)"
+	],
+	"systems": [
+		"Agriculture",
+		"Forestry",
+		"Agroforestry",
+		"Natural/Wild"
+	],
+	"system_components": [
+		"Crop",
+		"Tree",
+		"Livestock",
+		"Soil"
+	],
+	"indicators": [
+		"Growth",
+		"Yield",
+		"Water",
+		"Soil",
+		"Carbon"
+	],
+	"spatial_scales": [
+		"Farm",
+		"Landscape"
+	],
+	"time_steps": [
+		"Yearly",
+		"Other"
+	],
+	"input_data_protocols": [
+		"User enters data manually",
+		"Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)"
+	],
+	"input_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)"
+	],
+	"input_data_file_formats": [
+		"JSON"
+	],
+	"output_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)",
+		"Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
+	],
+	"output_data_file_formats": [
+		"CSV",
+		"JSON",
+		"Images (e.g. png, jpg, tiff, etc)",
+		"PDF"
+	],
+	"end_users": [
+		"Researcher",
+		"Student",
+		"Farmer",
+		"Landowner",
+		"Farm advisor",
+		"Wholesaler",
+		"Carbon trader"
+	],
+	"usages_most_relevant": [
+		"Management",
+		"Monitoring/Evaluating",
+		"Implementation",
+		"Forecasting",
+		"Planning/Design"
+	],
+	"usages_least_relevant": [],
+	"languages": [
+		"English",
+		"Italian",
+		"Dutch",
+		"French",
+		"German",
+		"Polish",
+		"Spanish",
+		"Other"
+	],
+	"digitaf_tool_ll": [],
+	"submitter_name": "Liz Bowles",
+	"submitter_email": "Liz.Bowles@farmcarbontoolkit.org.uk",
+	"name": "Farm Carbon Calculator",
+	"url": "https://calculator.farmcarbontoolkit.org.uk/",
+	"description": "The farm carbon calculator  is designed to estimate GHG emissions and carbon sequestration into soils, trees and hedges.",
+	"status": "Implemented",
+	"tool_project": "No, it has another source",
+	"developers": "Farm Carbon Cutting Toolkit CIC",
+	"organizations": "Farm Carbon Cutting Toolkit CIC",
+	"contact": "calculator@farmcarbontoolkit.org.uk  Tel: 07541 453413",
+	"logo_url": "https://calculator.farmcarbontoolkit.org.uk/themes/contrib/fcc/images/FCC_Logo_RGB.svg",
+	"keywords": [
+		"Farm",
+		"Carbon",
+		"Calculator",
+		"Soils",
+		"Emissions"
+	],
+	"license": "Other",
+	"year_release": 2020,
+	"year_lastupdate": 2025,
+	"previous_versions_available": "Yes",
+	"url_persistent": "No",
+	"access_barrier": "User registration needed",
+	"access_procedure": "Login at https://calculator.farmcarbontoolkit.org.uk/",
+	"listed_other_databases": "Yes",
+	"listed_other_databases_list": "AHDB, NFU",
+	"integrated_other_tools": "Yes",
+	"integrated_other_tools_list": "Farm Management Software",
+	"documentation_available": "Yes",
+	"documentation_accessible": "Yes",
+	"url_documentation": "https://calculator.farmcarbontoolkit.org.uk/resources/",
+	"documentation_theoretical_background": "Yes",
+	"documentation_theoretical_background_list": "https://calculator.farmcarbontoolkit.org.uk/resources/",
+	"data_provenance": "Yes",
+	"development_process": "Not completely",
+	"training_materials": "Yes",
+	"url_training_materials": "https://calculator.farmcarbontoolkit.org.uk/resources/",
+	"documentation_contribute": "No",
+	"software_proglanguage_other": "Drupal",
+	"license_url": "https://calculator.farmcarbontoolkit.org.uk/terms-conditions/",
+	"license_other": "This is Terms and Conditions of use",
+	"time_steps_other": "Users can specify period boundary",
+	"languages_other": "Romanian and Portuguese",
+	"access_procedure_documentation": "Yes",
+	"digitaf_tool": "No",
+	"id": "farm_carbon_calculator",
+	"timestamp_creation": 1737992637058,
+	"timestamp_lastedit": 1737992637058
+}
