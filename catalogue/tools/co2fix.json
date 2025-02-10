@@ -1,0 +1,120 @@
+{
+	"primary_purpose": [
+		"Research",
+		"Education and training"
+	],
+	"software_proglanguage": [
+		"C++"
+	],
+	"minimum_req": [
+		"Desktop computer (e.g. optimized for wider screens)",
+		"Specific operating system: Windows"
+	],
+	"systems": [
+		"Forestry",
+		"Agroforestry"
+	],
+	"system_components": [
+		"Tree",
+		"Soil"
+	],
+	"indicators": [
+		"Growth",
+		"Yield",
+		"Carbon",
+		"Mortality",
+		"Economics",
+		"Soil",
+		"Other"
+	],
+	"spatial_scales": [
+		"Plot"
+	],
+	"time_steps": [
+		"Yearly"
+	],
+	"input_data_protocols": [
+		"User enters data manually",
+		"Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)"
+	],
+	"input_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)"
+	],
+	"input_data_file_formats": [
+		"XLS/XLSX (Microsoft Excel formats)",
+		"CSV"
+	],
+	"output_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)"
+	],
+	"output_data_file_formats": [
+		"XLS/XLSX (Microsoft Excel formats)",
+		"CSV"
+	],
+	"end_users": [
+		"Researcher",
+		"Student"
+	],
+	"usages_most_relevant": [
+		"Research",
+		"Education"
+	],
+	"usages_least_relevant": [
+		"Monitoring/Evaluating"
+	],
+	"languages": [
+		"English"
+	],
+	"digitaf_tool_ll": [
+		"Finland LL"
+	],
+	"submitter_name": "Michael den Herder",
+	"submitter_email": "michael.denherder@efi.int",
+	"name": "CO2FIX - A modelling framework for quantifying carbon sequestration in forest ecosystems",
+	"url": "https://github.com/EuropeanForestInstitute/CO2Fix-distribution",
+	"description": "The CO2FIX model is a model that quantifies the C stocks and fluxes in the forest, plantation and multistrata agroforestry. It calculates changes in C pools with time-steps of one year in the biomass, soil (litter and humus) and the wood products chain using carbon accounting approach in which converting accumulated biomass into C sequestration and storage. The model also contains financial, bioenergy and carbon accounting modules. Basic input is stem volume growth and allocation pattern to the other tree compartments (foliage, branches and roots). Carbon stocks in living biomass are calculated as the balance between growth on the one hand and turnover, mortality and harvest on the other hand. Litter from turnover and mortality processes and logging slash form the input for the soil module. The organic matter decomposes and transforms into soil organic matter. The harvested stemwood is tracked through processing lines via product classes with different lifespans to its final fate: decomposition in landfills or dumps, or used as a source for bioenergy. The bioenergy module calculates the benefits for greenhouse gas emissions of the use of biomass instead of fossil fuels. Fuel sources for bioenergy can be either logging slash or industrial residues (processing losses or discarded products). In the financial module, costs and revenues can be specified to get an indication of the profitability of the project. In the carbon accounting module, the user will get an indication of the amount of credits that can be generated with the project according to different types of crediting systems (tCERs and lCERs for CDM-AR projects and the stock change method for other projects). The model produces output in tabular and graphic forms. It allows estimating the time evolution at the stand level of the carbon stored in different pools of the system. The CO2FIX model V 3.1 is applicable to many different situations: afforestation projects, agroforestry systems, and selective logging systems.",
+	"logo_url": "https://biogateway.efi.int/wp-content/uploads/2023/11/ico_CO2FIX.svg",
+	"keywords": [
+		"Afforestation",
+		"agroforestry",
+		"carbon sequestration",
+		"climate change mitigation",
+		"forests",
+		"forest management",
+		"simulated biomass"
+	],
+	"developers": "Schelhaas, M.J., P.W. van Esch, T.A. Groen, B.H.J. de Jong, M. Kanninen, J. Liski, O. Masera, G.M.J. Mohren, G.J. Nabuurs, T. Palosuo, L. Pedroni, A. Vallejo, T. Vil\u00e9n, 2004. CO2FIX V 3.1 \u2013 A modelling framework for quantifying carbon sequestration in forest ecosystems. ALTERRA Report 1068. Wageningen, The Netherlands. \u2022 Masera, O., Garza-Caligaris, J.F., Kanninen, M., Karjalainen, T., Liski, J., Nabuurs, G.J., Pussinen, A. & de Jong, B.J. 2003. Modelling carbon sequestration in afforestation, agroforestry and forest management projects: the CO2FIX V.2 approach. Ecological Modelling 164: 177-199.",
+	"organizations": "Alterra, Wageningen, the Netherlands; Universidad Autonoma Nacional de Mexico, Mexico; European Forest Institute, Joensuu, Finland",
+	"contact": "Sergey Zudin, sergey.zudin@efi.int",
+	"tool_project": "Yes",
+	"tool_project_name": "CASFOR II project",
+	"tool_project_url": "https://efi.int/projects/casfor-ii-modelling-carbon-sequestration-forested-landscapes",
+	"status": "Implemented",
+	"license": "Not stated",
+	"year_release": 1998,
+	"year_lastupdate": 2024,
+	"previous_versions_available": "Yes",
+	"indicators_other": "Wood products",
+	"url_persistent": "Yes",
+	"access_barrier": "User registration needed",
+	"access_procedure": "The installer programme can be downloaded from Github. Hereafter the user can open the installer programme to instal the program on the own computer. The user is asked to complete the registration details.  The purpose of the registration is to have insight in the user group of CO2Fix and to keep the user informed of major changes or updates.",
+	"access_procedure_documentation": "Yes",
+	"listed_other_databases": "Yes",
+	"listed_other_databases_list": "https://biogateway.efi.int/online-tools/",
+	"integrated_other_tools": "Yes",
+	"integrated_other_tools_list": "Yasso Soil Carbon Model",
+	"documentation_available": "Yes",
+	"documentation_accessible": "Yes",
+	"url_documentation": "https://github.com/EuropeanForestInstitute/CO2Fix-distribution/tree/main/version%203.2",
+	"documentation_theoretical_background": "Yes",
+	"documentation_theoretical_background_list": "Negash, M., Kanninen, M., 2015. Modeling biomass and soil carbon sequestration of indigenous agroforestry systems using CO2FIX approach. Agriculture, Ecosystems & Environment 203, 147\u2013155. https://doi.org/10.1016/j.agee.2015.02.004; Masera, O.R., Garza-Caligaris, J.F., Kanninen, M., Karjalainen, T., Liski, J., Nabuurs, G.J., Pussinen, A., de Jong, B.H.J., Mohren, G.M.J., 2003. Modeling carbon sequestration in afforestation, agroforestry and forest management projects: the CO2FIX V.2 approach. Ecological Modelling 164, 177\u2013199. https://doi.org/10.1016/S0304-3800(02)00419-2",
+	"data_provenance": "Yes",
+	"development_process": "No",
+	"training_materials": "Yes",
+	"url_training_materials": "https://github.com/EuropeanForestInstitute/CO2Fix-distribution/blob/main/version%203.2/co2fix3_1_manual.pdf",
+	"documentation_contribute": "No",
+	"digitaf_tool": "Yes",
+	"id": "co2fix",
+	"timestamp_creation": 1738918230438,
+	"timestamp_lastedit": 1738918230438
+}
