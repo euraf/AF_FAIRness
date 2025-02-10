@@ -1,0 +1,124 @@
+{
+	"primary_purpose": [
+		"Research",
+		"Education and training",
+		"Decision support"
+	],
+	"software_proglanguage": [
+		"R"
+	],
+	"minimum_req": [
+		"Internet connection"
+	],
+	"systems": [
+		"Agroforestry",
+		"Agriculture"
+	],
+	"system_components": [
+		"Crop",
+		"Tree"
+	],
+	"indicators": [
+		"Yield",
+		"Pests and Diseases",
+		"Other"
+	],
+	"spatial_scales": [
+		"Landscape",
+		"Farm"
+	],
+	"time_steps": [
+		"Other"
+	],
+	"input_data_protocols": [
+		"User enters data manually"
+	],
+	"input_data_formats": [],
+	"input_data_file_formats": [
+		"Other"
+	],
+	"output_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)"
+	],
+	"output_data_file_formats": [
+		"CSV",
+		"Images (e.g. png, jpg, tiff, etc)"
+	],
+	"end_users": [
+		"Researcher",
+		"Student",
+		"Policy-maker",
+		"Farmer",
+		"Farm advisor"
+	],
+	"usages_most_relevant": [
+		"Monitoring/Evaluating",
+		"Education",
+		"Research"
+	],
+	"usages_least_relevant": [
+		"Implementation",
+		"Forecasting"
+	],
+	"languages": [
+		"English"
+	],
+	"digitaf_tool_ll": [],
+	"submitter_name": "Colin Tosh",
+	"submitter_email": "colin.t@organicresearchcentre.com",
+	"name": "AgroBox",
+	"url": "https://www.organicresearchcentre.com/resources/tools/agrobox-sandbox/",
+	"description": "An agroecosystem dynamics sandbox for sustainable farming. (*Can include in field trees)",
+	"logo_url": "https://www.organicresearchcentre.com/wp-content/uploads/2025/01/ORC-Logo-AgroBox-2-layout-2-no-backround-1536x540.png",
+	"keywords": [
+		"Agroforestry",
+		"agroecosystem",
+		"population dynamics",
+		"pesticide",
+		"outbreaks",
+		"trees",
+		"weeds",
+		"disease",
+		"crop yield",
+		"pests",
+		"natural enemies"
+	],
+	"developers": "Colin Tosh with expert input from others (Will Simonson, Tom Staton, Ambro Costanzo, Jo Smith)",
+	"organizations": "Principally Organic Research Centre",
+	"contact": "Feedback here: https://www.organicresearchcentre.com/contact/",
+	"tool_project": "Yes",
+	"tool_project_name": "Agromix",
+	"tool_project_url": "https://cordis.europa.eu/project/id/862993/results",
+	"status": "Implemented",
+	"license": "Not stated",
+	"license_url": "Need to think about licence. Code for core models has been made available here: https://link.springer.com/article/10.1007/s13593-024-00979-z",
+	"year_release": 2025,
+	"year_lastupdate": 2025,
+	"previous_versions_available": "No",
+	"indicators_other": "A dynamic network of trees, weeds, disease, crop yield, pests, natural enemies",
+	"time_steps_other": "Weekly",
+	"input_data_file_formats_other": "Only manual input currently.",
+	"output_data_formats_other": "",
+	"url_persistent": "No",
+	"access_barrier": "No, direct download/access through a web link",
+	"access_procedure": "None. Visit website and use.",
+	"access_procedure_documentation": "Yes",
+	"listed_other_databases": "No",
+	"integrated_other_tools": "Yes",
+	"integrated_other_tools_list": "ORC has a tool webpage: https://www.organicresearchcentre.com/resources/tools/",
+	"documentation_available": "No",
+	"documentation_accessible": "Yes",
+	"url_documentation": "A brief description is given with a link to a recent paper for those interested in technical details.",
+	"documentation_theoretical_background": "Yes",
+	"documentation_theoretical_background_list": "https://link.springer.com/article/10.1007/s13593-024-00979-z",
+	"data_provenance": "No",
+	"development_process": "No",
+	"training_materials": "Yes",
+	"url_training_materials": "Provided in text above dialogue boxes.",
+	"documentation_contribute": "Yes",
+	"feedback_tool_info": "No.",
+	"digitaf_tool": "Don't know",
+	"id": "agrobox",
+	"timestamp_creation": 1738695745578,
+	"timestamp_lastedit": 1738695745578
+}
