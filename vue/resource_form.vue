@@ -200,7 +200,9 @@ module.exports = {
                 $('#saveError').modal('show')
 
             } else {
-                alert(response.responseText);
+                console.log(response);
+                _this.pr_number = null
+                $('#saveError').modal('show')
             }
         })
     }
