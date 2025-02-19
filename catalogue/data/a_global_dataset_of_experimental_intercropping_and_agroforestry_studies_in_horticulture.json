@@ -1,0 +1,61 @@
+{
+	"data_type": [
+		"Experimental data",
+		"Observational data"
+	],
+	"spatial_scales": [
+		"Plot",
+		"Farm",
+		"One-hectare"
+	],
+	"indicators": [
+		"Yield / Biomass",
+		"Land use",
+		"Soil"
+	],
+	"time_steps": [
+		"Other"
+	],
+	"data_formats": [
+		"Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+	],
+	"digitaf_data_ll": [],
+	"digitaf_data_wp": [],
+	"submitter_name": "Jo Smith",
+	"submitter_email": "josmith@mvarc.eu",
+	"url": "https://doi.org/10.57745/HV33V1",
+	"name": "A global dataset of experimental intercropping and agroforestry studies in horticulture",
+	"url_persistent": "Yes",
+	"description": "A global dataset based on results from field intercropping experiments including 118 crop species worldwide, established between 1982 and 2022. Experimental data were extracted from 191 published articles. In total, 1544 experiments were collected across 19 K\u00f6ppen-Geiger climatic zones in 45 countries over five continents. Through manual extraction of information from publications, the dataset includes (i) general information on the articles; (ii) experimental site soil and climate conditions; (iii) descriptions of intercropping designs; (iv) crop management practices; (v) measurements of sole crop and intercrop yields and (v) Land Equivalent Ratios.",
+	"keywords": [
+		"Agroforestry",
+		"horticulture",
+		"intercropping",
+		"yields",
+		"LER"
+	],
+	"data_ownership": "INRAE",
+	"data_contact": "Able to contact owner via this website: https://entrepot.recherche.data.gouv.fr/dataset.xhtml?persistentId=doi:10.57745/HV33V1",
+	"data_project": "No, it has another source",
+	"data_collection_country": "Global",
+	"time_steps_other": "Seasonal - yield data",
+	"year_release": 2023,
+	"year_lastupdate": 2023,
+	"time_span_oldest": 1982,
+	"time_span_newest": 2022,
+	"data_confidentiality": "No, the data is public",
+	"license": "Other",
+	"license_other": "Etalab Open License 2.0",
+	"license_url": "https://spdx.org/licenses/etalab-2.0.html",
+	"access_barrier": "No, direct download/access through a web link",
+	"data_relevant_attributes": "Yes",
+	"listed_other_databases": "Don't know",
+	"data_metadata": "Yes",
+	"documentation_accessible": "Yes",
+	"data_metadata_vocabulary": "Don't know",
+	"development_process": "Yes",
+	"documentation_list": "Paut, R., Garreau, L., Ollivier, G. et al. A global dataset of experimental intercropping and agroforestry studies in horticulture. Sci Data 11, 5 (2024). https://doi.org/10.1038/s41597-023-02831-7",
+	"id": "a_global_dataset_of_experimental_intercropping_and_agroforestry_studies_in_horticulture",
+	"timestamp_creation": 1739788298378,
+	"timestamp_lastedit": 1739788298378
+}
