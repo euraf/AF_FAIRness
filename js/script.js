@@ -29,7 +29,7 @@ const router = new VueRouter({
 			path: '/',
 			name: 'homepage',
 			component: httpVueLoader('vue/contents.vue'),
-			meta: { title: "Agroforestry Tools & Data FAIRness"}
+			meta: { title: "Agroforestry Tools, Data & Projects Catalogues"}
 		},
 		{
 			path: '/projects',

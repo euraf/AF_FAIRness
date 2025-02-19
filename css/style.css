@@ -5,6 +5,7 @@
 
   --secondary: #008000;
   --secondary-light: #bacdb0;
+  --secondary-dark: #015401;
 
   --dark-grey: #67697c;
   --light-grey: #cccdd6;
@@ -18,6 +19,11 @@
 	font-family: 'Segoe UI';
 	src: url('fonts/segoeui.ttf') format('truetype');
 }
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('fonts/segoeuib.ttf') format('truetype');
+  font-weight: bold;
+}
 
 /* Body and general text styles */
 body {
@@ -25,6 +31,9 @@ body {
   background-color: var(--background-color);
   font-size: 14px;
   color: var(--text-color);
+}
+strong {
+  font-weight: bold;
 }
 
 input,
@@ -58,6 +67,40 @@ p {
 }
 .btn.btn-primary:focus {
   box-shadow: 0 0 0 .2rem rgba(234, 144, 16, 0.5);
+}
+
+.btn.btn-secondary {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+.btn.btn.btn-secondary a {
+  color: white;
+}
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn.btn-secondary:hover,
+.btn.btn-secondary:focus {
+  background-color: var(--secondary-dark);
+  border-color: var(--secondary-dark);
+}
+.btn.btn-secondary:focus {
+  box-shadow: 0 0 0 .2rem rgba(0, 128, 0, 0.5);
+}
+
+.btn.btn-grey {
+  background-color: grey;
+  border-color: grey;
+}
+.btn.btn.btn-grey a {
+  color: white;
+}
+.btn-grey:not(:disabled):not(.disabled):active,
+.btn.btn-grey:hover,
+.btn.btn-grey:focus {
+  background-color: var(--dark-grey);
+  border-color: var(--dark-grey);
+}
+.btn.btn-grey:focus {
+  box-shadow: 0 0 0 .2rem rgb(128, 128, 128, 0.5);
 }
 
 .note p {
@@ -440,7 +483,7 @@ a:focus {
   font-size: 90%;
 }
 .content-wrap {
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -601,4 +644,53 @@ span.compulsory {
 
 #saveSuccess .modal-title {
   color: var(--secondary);
+}
+
+.text-bigger {
+  font-size: 120%;
+}
+
+.tools-catalogue {
+  background-color: var(--secondary-light);
+  padding: 20px 120px;
+}
+.data-catalogue {
+  background-color: var(--primary-light);
+  padding: 20px 120px;
+}
+.projects-catalogue {
+  background-color: var(--light-grey);
+  padding: 20px 120px;
+}
+.projects-catalogue .add-btn {
+  background-color: grey;
+  border-color: grey;
+}
+.card.stats {
+  padding: 5%;
+  display: flex;
+}
+.card.stats > .row,
+.card.stats div.left
+.card.stats div.right {
+  align-items: center;
+  height: 100%;
+}
+.card.stats p {
+  margin: 0;
+}
+.card.stats svg {
+  display: block;
+  margin: 0 auto;
+}
+.card.stats .highlight {
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+  font-size: 35px;
+  font-weight: bold;
+}
+.card.stats .smaller {
+  font-size: 10px;
+}
+.add-btn {
+  font-weight: bold;
 }

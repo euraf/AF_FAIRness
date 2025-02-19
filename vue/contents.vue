@@ -7,24 +7,270 @@ module.exports = {
     nr_tools() {
       return this.$root.$data.tools.length
     },
+    latest_tools() {
+      return this.$root.$data.tools.toSorted((a, b) => a.timestamp_creation > b.timestamp_creation ? -1 : 1)
+    },
+    tools_three_months() {
+      var d = new Date()
+      d.setMonth(d.getMonth() - 3)
+      return this.$root.$data.tools.filter(function(tool) {
+        return new Date(tool.timestamp_creation) > d
+      }).length
+    },
+    tools_contributors() {
+      var contributors = []
+      var tools_sorted = this.$root.$data.tools.toSorted((a, b) => a.timestamp_lastedit > b.timestamp_lastedit ? -1 : 1)
+      for (var i = 0; i < tools_sorted.length; i++) {
+        var tool = tools_sorted[i]
+        if (tool.timestamp_lastedit > tool.timestamp_creation) {
+          /*if (tool.editor_name.indexOf(' ') < 0) {
+            contributors.push(tool.editor_name)
+          } else {
+            var name_arr = tool.editor_name.split(' ')
+            contributors.push(name_arr[0] + ' ' + name_arr[name_arr.length-1])
+          }*/
+          contributors.push(tool.editor_name)
+        } else {
+          /*if (tool.submitter_name.indexOf(' ') < 0) {
+            contributors.push(tool.submitter_name)
+          } else {
+            var name_arr = tool.submitter_name.split(' ')
+            contributors.push(name_arr[0] + ' ' + name_arr[name_arr.length-1])
+          }*/
+          contributors.push(tool.submitter_name)
+        }
+        var finished_set = new Set(contributors)
+        if (finished_set.size === 3) {
+          return Array.from(finished_set)
+        }
+      }
+    },
     nr_datasets() {
       return this.$root.$data.datasets.length
     },
+    latest_datasets() {
+      return this.$root.$data.datasets.toSorted((a, b) => a.timestamp_creation > b.timestamp_creation ? -1 : 1)
+    },
+    datasets_three_months() {
+      var d = new Date()
+      d.setMonth(d.getMonth() - 3)
+      return this.$root.$data.datasets.filter(function(tool) {
+        return new Date(tool.timestamp_creation) > d
+      }).length
+    },
+    datasets_contributors() {
+      var contributors = []
+      var tools_sorted = this.$root.$data.datasets.toSorted((a, b) => a.timestamp_lastedit > b.timestamp_lastedit ? -1 : 1)
+      for (var i = 0; i < tools_sorted.length; i++) {
+        var tool = tools_sorted[i]
+        if (tool.timestamp_lastedit > tool.timestamp_creation) {
+          /*if (tool.editor_name.indexOf(' ') < 0) {
+            contributors.push(tool.editor_name)
+          } else {
+            var name_arr = tool.editor_name.split(' ')
+            contributors.push(name_arr[0] + ' ' + name_arr[name_arr.length-1])
+          }*/
+          contributors.push(tool.editor_name)
+        } else {
+          /*if (tool.submitter_name.indexOf(' ') < 0) {
+            contributors.push(tool.submitter_name)
+          } else {
+            var name_arr = tool.submitter_name.split(' ')
+            contributors.push(name_arr[0] + ' ' + name_arr[name_arr.length-1])
+          }*/
+          contributors.push(tool.submitter_name)
+        }
+        var finished_set = new Set(contributors)
+        if (finished_set.size === 3) {
+          return Array.from(finished_set)
+        }
+      }
+    },
     nr_projects() {
       return this.$root.$data.projects.length
-    }
+    },
+    latest_projects() {
+      return this.$root.$data.projects.toSorted((a, b) => a.timestamp_creation > b.timestamp_creation ? -1 : 1)
+    },
+    projects_three_months() {
+      var d = new Date()
+      d.setMonth(d.getMonth() - 3)
+      return this.$root.$data.projects.filter(function(tool) {
+        return new Date(tool.timestamp_creation) > d
+      }).length
+    },
+    projects_contributors() {
+      var contributors = []
+      var tools_sorted = this.$root.$data.projects.toSorted((a, b) => a.timestamp_lastedit > b.timestamp_lastedit ? -1 : 1)
+      for (var i = 0; i < tools_sorted.length; i++) {
+        var tool = tools_sorted[i]
+        if (tool.timestamp_lastedit > tool.timestamp_creation) {
+          /*if (tool.editor_name.indexOf(' ') < 0) {
+            contributors.push(tool.editor_name)
+          } else {
+            var name_arr = tool.editor_name.split(' ')
+            contributors.push(name_arr[0] + ' ' + name_arr[name_arr.length-1])
+          }*/
+          contributors.push(tool.editor_name)
+        } else {
+          /*if (tool.submitter_name.indexOf(' ') < 0) {
+            contributors.push(tool.submitter_name)
+          } else {
+            var name_arr = tool.submitter_name.split(' ')
+            contributors.push(name_arr[0] + ' ' + name_arr[name_arr.length-1])
+          }*/
+          contributors.push(tool.submitter_name)
+        }
+        var finished_set = new Set(contributors)
+        if (finished_set.size === 3) {
+          return Array.from(finished_set)
+        }
+      }
+    },
   },
+  methods: {
+    imageLink(tool) {
+      if ('logo_url' in tool) {
+        return tool.logo_url
+      } else {
+        return 'img/feature-image-default.svg'
+      }
+    },
+  }
 }
 </script>
 
 <template>
   <div>
     <div class="row">
-      <div class="col-4 about-tools text-center">
+      <div class="col-12 tools-catalogue">
+        <div class="row">
+          <div class="col-6">
+            <h3 class="mb-4"><strong><i class="fa-solid fa-screwdriver-wrench mr-2"></i> Tools</strong> Catalogue</h3>
+          </div>
+          <div class="col-6 text-right">
+            <p class="mt-3 mb-0"><b class="nr">{{ nr_tools }}</b> tools currently available</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 text-center">
+            <div class="card stats shadow-sm">
+              <div class="row">
+                <div class="col-4 left text-right"><p class="highlight">{{ tools_three_months }}</p></div>
+                <div class="col-8 right text-right"><p><strong>new tools</strong> in the last three months</p></div>
+              </div>
+            </div>
+            <div class="mt-2">
+              <p class="btn btn-secondary add-btn pointer"><router-link :to="{ name: 'tool_add' }">Add yours here!</router-link></p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card stats shadow-sm">
+              <div class="row">
+                <div class="col-2 left"><i class="fa-solid fa-people-group fa-2xl"></i></div>
+                <div class="col-10 right text-right"><p>A big thank you to <strong>{{ tools_contributors[0] }}</strong>, <strong>{{ tools_contributors[1] }}</strong> and <strong>{{ tools_contributors[2] }}</strong> for their recent contributions.</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <router-link class="pointer" :to="'/tools/tool/' + latest_tools[0].id">
+              <div class="card stats shadow-sm">
+                <div class="row">
+                  <div class="col-2 left"><img class="img-fluid tool-cover" :src="imageLink(latest_tools[0])" :alt="latest_tools[0].name"></div>
+                  <div class="col-10 right text-right"><p>Check out the latest addition:</p><p><strong>{{ latest_tools[0].name }}</strong></p></div>
+                </div>
+              </div>
+            </router-link>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 data-catalogue">
+        <div class="row">
+          <div class="col-6">
+            <h3 class="mb-4"><strong><i class="fa-solid fa-database mr-2"></i> Data</strong> Catalogue</h3>
+          </div>
+          <div class="col-6 text-right">
+            <p class="mt-3 mb-0"><b class="nr">{{ nr_datasets }}</b> datasets currently available</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 text-center">
+            <div class="card stats shadow-sm">
+              <div class="row">
+                <div class="col-4 left text-right"><p class="highlight">{{ datasets_three_months }}</p></div>
+                <div class="col-8 right text-right"><p><strong>new datasets</strong> in the last three months</p></div>
+              </div>
+            </div>
+            <div class="mt-2">
+              <p class="btn btn-primary add-btn pointer"><router-link :to="{ name: 'dataset_add' }">Contribute here!</router-link></p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card stats shadow-sm">
+              <div class="row">
+                <div class="col-2 left"><i class="fa-solid fa-people-group fa-2xl"></i></div>
+                <div class="col-10 right text-right"><p>Many thanks to <strong>{{ datasets_contributors[0] }}</strong>, <strong>{{ datasets_contributors[1] }}</strong> and <strong>{{ datasets_contributors[2] }}</strong> for contributing with dataset references.</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <router-link class="pointer" :to="'/data/dataset/' + latest_datasets[0].id">
+              <div class="card stats shadow-sm">
+                <div class="row">
+                  <div class="col-2 left"></div>
+                  <div class="col-10 right text-right"><p>Take a look at the newest addition:</p><p><strong>{{ latest_datasets[0].name }}</strong></p></div>
+                </div>
+              </div>
+            </router-link>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 projects-catalogue">
+        <div class="row">
+          <div class="col-6">
+            <h3 class="mb-4"><strong><i class="fa-solid fa-folder-tree mr-2"></i> Projects</strong> Catalogue</h3>
+          </div>
+          <div class="col-6 text-right">
+            <p class="mt-3 mb-0"><b class="nr">{{ nr_projects }}</b> projects currently available</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 text-center">
+            <div class="card stats shadow-sm">
+              <div class="row">
+                <div class="col-4 left text-right"><p class="highlight">{{ projects_three_months }}</p></div>
+                <div class="col-8 right text-right"><p><strong>new projects</strong> in the last three months</p></div>
+              </div>
+            </div>
+            <div class="mt-2">
+              <p class="btn btn-grey add-btn pointer"><router-link :to="{ name: 'project_add' }">Submit yours here!</router-link></p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card stats shadow-sm">
+              <div class="row">
+                <div class="col-2 left"><i class="fa-solid fa-people-group fa-2xl"></i></div>
+                <div class="col-10 right text-right"><p>Thank you to <strong>{{ projects_contributors[0] }}</strong>, <strong>{{ projects_contributors[1] }}</strong> and <strong>{{ projects_contributors[2] }}</strong> for contributing with project references.</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <router-link class="pointer" :to="'/projects/project/' + latest_projects[0].id">
+              <div class="card stats shadow-sm">
+                <div class="row">
+                  <div class="col-2 left"><img class="img-fluid tool-cover" :src="imageLink(latest_projects[0])" :alt="latest_projects[0].name"></div>
+                  <div class="col-10 right text-right"><p>Discover the most recent addition:</p><p><strong>{{ latest_projects[0].name }}</strong></p></div>
+                </div>
+              </div>
+            </router-link>
+          </div>
+        </div>
+      </div>
+      <!--div class="col-4 about-tools text-center">
         <h3>Catalogue of Agroforestry</h3>
         <h1><router-link to="/tools"><b>Tools</b></router-link></h1>
         <h3><b class="nr">{{ nr_tools }}</b> tools currently available</h3>
-        <p class="btn btn-primary pointer"><router-link :to="{ name: 'tool_add' }">Add yours here</router-link></p>
+        
       </div>
       <div class="col-4 about-data text-center">
         <h3>Catalogue of Agroforestry</h3>
@@ -37,7 +283,7 @@ module.exports = {
         <h1><router-link to="/projects"><b>Projects</b></router-link></h1>
         <h3><b class="nr">{{ nr_projects }}</b> projects currently available</h3>
         <p class="btn btn-primary pointer"><router-link :to="{ name: 'project_add' }">Expand the catalogue</router-link></p>
-      </div>
+      </div-->
       <div class="col-12 about-this">
         <h3>Purpose of this catalogue</h3>
         <p>Digital technologies offer unprecedented capacities to collect data and synthesise knowledge to support decision-making, as well as to reach out to a targeted audience, improve communication, and boost networking. Amongst initial interactions within the consortium, arose the suggestion of creating a catalogue of agroforestry related tools and datasets. Which components of agroforestry systems are least explored in these tools? Which indicators are analysed the most, or conversely, what are the knowledge gaps? Which tools and datasets could work together to generate more complete and meaningful outputs? These are all questions that could be addressed with a complete, diverse, and detailed database of the current digital agroforestry environment.</p>
