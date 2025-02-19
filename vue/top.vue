@@ -38,9 +38,9 @@ module.exports = {
     </div>
 		<div class="col-5">
 			<div class="menu row text-center">
-				<div class="col"><router-link tag="button" class="home btn btn-secondary" to="/">About</router-link></div>
+				<div class="col"><router-link tag="button" class="home btn btn-primary" to="/">About</router-link></div>
 				<div class="col dropdown">
-					<button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
+					<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
 						Tools
 					</button>
 					<div class="dropdown-menu dropdown-menu-right text-center">
@@ -50,7 +50,7 @@ module.exports = {
 					</div>
 				</div>
 				<div class="col dropdown">
-					<button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
+					<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
 						Data
 					</button>
 					<div class="dropdown-menu dropdown-menu-right text-center">
@@ -61,7 +61,7 @@ module.exports = {
 				</div>
 				
 				<div class="col dropdown">
-					<button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
+					<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
 						Projects
 					</button>
 					<div class="dropdown-menu dropdown-menu-right text-center">

@@ -10,6 +10,8 @@ module.exports = {
     return {
         formData: {},
         isSaving: false,
+        isRetrieving: false,
+        isRetrieved: false,
         pr_number: null
     }
   },
@@ -149,6 +151,66 @@ module.exports = {
         }
         return false
     },
+    prepareDate(originalDateString) {
+        const date = new Date(originalDateString);
+
+        // Check if the date is valid
+        if (!isNaN(date)) {
+            // Format the date to "dd/mm/yyyy"
+            const formattedDate = date.toLocaleDateString('en-GB', {
+                day: '2-digit',
+                month: '2-digit',
+                year: 'numeric'
+            });
+            return formattedDate
+        } else {
+            console.error("Invalid date format");
+            return null
+        }
+    },
+    retrieve(db) {
+        var _this = this
+        if (this.projects) {
+            if (db == 'cordis') {
+                this.isRetrieving = true
+                var url = this.formData.retrieve_from_cordis
+                try {
+                    // Fetch the HTML content of the page
+                    $.ajax({
+                        url: url,
+                        type: 'GET',
+                        success: function(response){
+                            // Parse the HTML content
+                            const parser = new DOMParser();
+                            const doc = parser.parseFromString(response, 'text/html');
+
+                            // Extract the desired elements using the provided selectors
+                            _this.$set(_this.formData, 'acronym', doc.querySelector('.c-project-info__acronym')?.textContent.trim())
+                            _this.$set(_this.formData, 'code', doc.querySelector('.c-project-info__id')?.textContent.trim().replace(/[\n\t]/g, '').replace(':', ': '))
+                            _this.$set(_this.formData, 'name', doc.querySelector('.c-header-project__title')?.textContent.trim())
+                            _this.$set(_this.formData, 'programme', doc.querySelector("body > div.o-wrapper.o-wrapper--webux > nav > ol > li:nth-child(4) > a")?.textContent.trim())
+                            if (doc.querySelector('.c-header-description__text')) {
+                                _this.$set(_this.formData, 'description', doc.querySelector('.c-header-description__text')?.textContent.trim())
+                            } else if (doc.querySelector('.c-article__text')) {
+                                _this.$set(_this.formData, 'description', doc.querySelector('.c-article__text')?.textContent.trim())
+                            }
+                            _this.$set(_this.formData, 'keywords', Array.from(doc.querySelectorAll('.c-factsheet__pills li'))?.map(el => el.textContent.trim()))
+                            _this.$set(_this.formData, 'lead', doc.querySelector('.coordinated.coordinated-name')?.childNodes[0].textContent.trim())
+                            _this.$set(_this.formData, 'project_url', doc.querySelector('.c-project-info__link')?.href.trim())
+                            _this.$set(_this.formData, 'project_funding_programme_listing', url)
+                            _this.$set(_this.formData, 'start_date', _this.prepareDate(doc.querySelector('.c-project-info__timeline .c-project-info__label')?.nextSibling.textContent.trim()))
+                            _this.$set(_this.formData, 'end_date', _this.prepareDate(doc.querySelector('.c-project-info__timeline .t-text-align-right .c-project-info__label')?.nextSibling.textContent.trim()))  
+                            _this.isRetrieving = false
+                            _this.isRetrieved = true
+                        }
+                    })    
+                } catch(err) {
+                    _this.isRetrieved = false
+                    console.log(err)
+                }
+            }
+        }
+    },
     save() {
         var _this = this
         this.isSaving = true
@@ -215,12 +277,18 @@ module.exports = {
         <div class="row form form-add">
             <div class="offset-2 col-8">
                 <div class="form-group" v-for="question in form" :key="question.id" :v-model="formData[question.id]">
-                    <input-text v-if="'for' in question" :question="question" :form-data="formData" v-show="hasOther(question.for)" class="question-conditional"></input-text>
-                    <dropdown v-else-if="question.type == 'tag'" :question="question" :form-data="formData"></dropdown>
-                    <checkbox v-else-if="question.type == 'array of tags'" :question="question" :form-data="formData"></checkbox>
-                    <input-text v-else-if="question.type == 'string' || question.type == 'long string' || question.type == 'email'" :question="question" :form-data="formData"></input-text>
-                    <keywords v-else-if="question.type == 'array of strings'" :question="question" :form-data="formData"></keywords>
-                    <input-number v-else-if="question.type == 'integer'" :question="question" :form-data="formData"></input-number>
+                    <div class="special-form-group" v-if="question.id == 'retrieve_from_cordis'">
+                        <input-text :question="question" :form-data="formData"></input-text>
+                        <p class="mt-2"><button id="retrieve" class="btn btn-primary mr-2 pointer" @click="retrieve('cordis')" :disabled="isRetrieving">{{ isRetrieving ? 'Retrieving...' : 'Retrieve data' }}</button><small v-if="isRetrieved"><em>Data successfully retrieved for {{ formData.retrieve_from_cordis }}</em></small></p>
+                    </div>
+                    <template v-else>
+                        <input-text v-if="'for' in question" :question="question" :form-data="formData" v-show="hasOther(question.for)" class="question-conditional"></input-text>
+                        <dropdown v-else-if="question.type == 'tag'" :question="question" :form-data="formData"></dropdown>
+                        <checkbox v-else-if="question.type == 'array of tags'" :question="question" :form-data="formData"></checkbox>
+                        <input-text v-else-if="question.type == 'string' || question.type == 'long string' || question.type == 'email'" :question="question" :form-data="formData"></input-text>
+                        <keywords v-else-if="question.type == 'array of strings'" :question="question" :form-data="formData"></keywords>
+                        <input-number v-else-if="question.type == 'integer'" :question="question" :form-data="formData"></input-number>
+                    </template>
                 </div>
                 <div class="d-flex">
                     <button id="save" class="btn btn-primary mr-2" :class="{ pointer: !isSaving }" @click="save()" :disabled="isSaving">{{ isSaving? 'Saving...' : 'Save' }}</button>

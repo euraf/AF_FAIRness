@@ -37,6 +37,7 @@ strong {
 }
 
 input,
+textarea,
 select {
   font-size: 14px!important;
   color: var(--text-color)!important;
@@ -506,6 +507,13 @@ a:focus {
 
 .form-group p {
   margin-bottom: 0.5rem;
+}
+
+.special-form-group {
+  padding: 2%;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  box-shadow: 1px 1px grey;
 }
 
 .question-text {

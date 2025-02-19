@@ -45,6 +45,13 @@
     "required": true
   },
   {
+    "id": "retrieve_from_cordis",
+    "text": "Retrieve information from CORDIS entry",
+		"helper": "If your project is listed in the CORDIS database on EU Research & Development projects (https://cordis.europa.eu/) and has a European scope, copy the project URL and hit 'Retrieve' to automatically fill in the available fields.",
+    "type": "string",
+    "required": false
+  },
+  {
     "id": "acronym",
     "text": "Project acronym",
     "type": "string",
@@ -125,14 +132,14 @@
   {
     "id": "start_date",
     "text": "Start date",
-		"help": "Please, use the format DD/MM/YYYY. If the full date is not known, add at least the year YYYY.",
+		"helper": "Please, use the format DD/MM/YYYY. If the full date is not known, add at least the year YYYY.",
     "type": "string",
     "required": true
   },
   {
     "id": "end_date",
     "text": "End date",
-		"help": "Please, use the format DD/MM/YYYY. If the full date is not known, add at least the year YYYY.",
+		"helper": "Please, use the format DD/MM/YYYY. If the full date is not known, add at least the year YYYY.",
     "type": "string",
     "required": true
   },

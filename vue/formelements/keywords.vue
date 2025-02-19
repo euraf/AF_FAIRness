@@ -7,6 +7,18 @@ module.exports = {
       showFAIRtext: false
     }
   },
+	methods: {
+		toHTML(str) {
+			const urlRegex = /https?:\/\/[^\s]+/g;
+			return str.replace(urlRegex, (url) => `<a href="${url}" target="_blank">${url}</a>`);
+		}
+	},
+	methods: {
+		toHTML(str) {
+			const urlRegex = /https?:\/\/[^\s]+/g;
+			return str.replace(urlRegex, (url) => `<a href="${url}" target="_blank">${url}</a>`);
+		}
+	},
 	computed: {
 		answer: {
 			get() {
@@ -42,7 +54,7 @@ module.exports = {
 			<span class="link" v-if="showFAIRtext == false" @click="showFAIRtext = true"><small>learn more</small></span>
 			<p class="fair-text" v-if="showFAIRtext">{{question.fair_text}} <span class="link" v-if="showFAIRtext == true" @click="showFAIRtext = false"><small>see less</small></span></p>
 		</template>
-		<p v-if="question.helper"><small>{{ question.helper }}</small></p>
+		<p v-if="question.helper"><small v-html="toHTML(question.helper)"></small></p>
 		<input type="text" class="form-control" v-model.trim.lazy="answer">
 	</div>
 </template>
