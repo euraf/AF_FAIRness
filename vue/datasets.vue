@@ -143,7 +143,7 @@ module.exports = {
     <div class="row no-gutters">
       <div class="col-2">
         <div class="col-12 text-center">
-          <p class="btn btn-primary pointer"><router-link :to="{ name: 'dataset_add' }">Add a <b>new dataset</b></router-link></p>
+          <p class="btn btn-primary pointer"><router-link :to="{ name: 'dataset_add' }"><b>+ New Dataset</b></router-link></p>
         </div>
         <div class="col-12 text-center">
           <p>Do a self-assessment of the FAIRness of your dataset <b><router-link to="/data/fairness_self_assessment">here</router-link>.</b></p>
@@ -153,8 +153,8 @@ module.exports = {
       <div class="col-10">
         <div class="col-12 row no-gutters mb-3 sorting">
           <div class="col-6">
-            <p v-if="filteredDatasets.length > 1">Displaying {{ filteredDatasets.length }} datasets</p>
-            <p v-if="filteredDatasets.length == 1">Displaying 1 dataset</p>
+            <p v-if="filteredDatasets.length > 1">Displaying <b>{{ filteredDatasets.length }}</b> datasets</p>
+            <p v-if="filteredDatasets.length == 1">Displaying <b>1</b> dataset</p>
             <p v-if="filteredDatasets.length == 0">No datasets to display</p>
           </div>
           <sorting ref="sorting" class="col-6"></sorting>

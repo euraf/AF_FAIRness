@@ -154,7 +154,7 @@ module.exports = {
     <div class="row no-gutters">
       <div class="col-2">
         <div class="col-12 text-center">
-          <p class="btn btn-primary pointer"><router-link :to="{ name: 'tool_add' }">Add a <b>new tool</b></router-link></p>
+          <p class="btn btn-primary pointer"><router-link :to="{ name: 'tool_add' }"><b>+ New Tool</b></router-link></p>
         </div>
         <div class="col-12 text-center">
           <p>Do a self-assessment of the FAIRness of your tool <b><router-link to="/tools/fairness_self_assessment">here</router-link>.</b></p>
@@ -164,8 +164,8 @@ module.exports = {
       <div class="col-10">
         <div class="col-12 row no-gutters mb-3 sorting">
           <div class="col-6">
-            <p v-if="filteredTools.length > 1">Displaying {{ filteredTools.length }} tools</p>
-            <p v-if="filteredTools.length == 1">Displaying 1 tool</p>
+            <p v-if="filteredTools.length > 1">Displaying <b>{{ filteredTools.length }}</b> tools</p>
+            <p v-if="filteredTools.length == 1">Displaying <b>1</b> tool</p>
             <p v-if="filteredTools.length == 0">No tools to display</p>
           </div>
           <sorting ref="sorting" class="col-6"></sorting>

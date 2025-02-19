@@ -213,15 +213,15 @@ module.exports = {
     <div class="row no-gutters">
       <div class="col-2">
         <div class="col-12 text-center">
-          <p class="btn btn-primary pointer"><router-link :to="{ name: 'project_add' }">Add a <b>new project</b></router-link></p>
+          <p class="btn btn-primary pointer"><router-link :to="{ name: 'project_add' }"><b>+ New Project</b></router-link></p>
         </div>
         <filtering ref="filtering" :elements="filteredProjects" :form="form" :custom_filters="custom_filters"></filtering>
       </div>
       <div class="col-10">
         <div class="col-12 row no-gutters mb-3 sorting">
           <div class="col-6">
-            <p v-if="filteredProjects.length > 1">Displaying {{ filteredProjects.length }} projects</p>
-            <p v-if="filteredProjects.length == 1">Displaying 1 project</p>
+            <p v-if="filteredProjects.length > 1">Displaying <b>{{ filteredProjects.length }}</b> projects</p>
+            <p v-if="filteredProjects.length == 1">Displaying <b>1</b> project</p>
             <p v-if="filteredProjects.length == 0">No projects to display</p>
           </div>
           <sorting ref="sorting" class="col-6" :sorting_options_remove="[ 'findability', 'accessbility', 'interoperability', 'reusability' ]" :sorting_options_update="sorting_options_update"></sorting>

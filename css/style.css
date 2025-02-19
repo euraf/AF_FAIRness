@@ -463,6 +463,18 @@ a:focus {
   display: block;
   margin-top: 0; /* remove the gap so it doesn't close */
 }
+.menu .dropdown-menu {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 0;
+}
+.menu .dropdown-item {
+  color: white;
+}
+.menu {
+  background-color: var(--primary);
+}
 .menu .dropdown button.dropdown-toggle,
 .menu .home.btn {
   margin-top: 11px;
@@ -477,7 +489,8 @@ a:focus {
 .menu .dropdown button.dropdown-item:hover {
   background-color: var(--primary-light);
 }
-.top .menu a {
+.top .menu a,
+.top .title a {
   color: white;
 }
 .menu {
@@ -486,7 +499,7 @@ a:focus {
 .content-wrap {
   margin-top: 50px;
   margin-bottom: 40px;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 
@@ -659,6 +672,7 @@ span.compulsory {
 }
 
 .tools-catalogue {
+  margin-top: -10px;
   background-color: var(--secondary-light);
   padding: 20px 120px;
 }
