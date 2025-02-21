@@ -32,7 +32,7 @@ module.exports = {
 		<template v-if="question.fair">
 			<p class="badge badge-FAIR">FAIR principle &rarr; <b>{{ question.fair }}</b></p>
 			<span class="link" v-if="showFAIRtext == false" @click="showFAIRtext = true"><small>learn more</small></span>
-			<p class="fair-text" v-if="showFAIRtext">{{question.fair_text}} <span class="link" v-if="showFAIRtext == true" @click="showFAIRtext = false"><small>see less</small></span></p>
+			<p class="fair-text" v-if="showFAIRtext"><span v-html="toHTML(question.fair_text)"></span><span class="link" v-if="showFAIRtext == true" @click="showFAIRtext = false"><small>see less</small></span></p>
 		</template>
 		<p v-if="question.helper"><small v-html="toHTML(question.helper)"></small></p>
 		<textarea v-if="question.type == 'long string'" rows="4" class="form-control" v-model.trim="answer"></textarea>

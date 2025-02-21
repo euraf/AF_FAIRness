@@ -147,10 +147,7 @@ p {
   font-weight: bold;
 }
 
-.btn-crop,
-.btn-tree,
-.btn-livestock,
-.btn-people,
+.tool-types .btn,
 .btn-natural,
 .btn-agroforestry,
 .btn-soil {
@@ -158,8 +155,7 @@ p {
   font-size: 14px;
   font-weight: bold;
   border-radius: 30px;
-  width: 100px;
-  margin-right: 5px;
+  padding: 0 0.4rem;
 }
 
 .btn-crop { background-color: orange; }
@@ -508,7 +504,21 @@ a:focus {
 }
 .form.form-self-assessment {
   margin-left: 11rem;
-  margin-right: 6rem;
+  margin-right: 15px;
+}
+.form.form-self-assessment .intro {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 1.5rem;
+}
+.form.form-self-assessment .intro .card .card-img-top {
+  object-fit: cover;
+  max-height: 130px;
+  width: auto;
+}
+.form.form-self-assessment .intro a:hover,
+.form.form-self-assessment .intro a {
+  text-decoration: none !important;
 }
 .form.form-add {
   margin-left: 6rem;
@@ -715,4 +725,72 @@ span.compulsory {
 }
 .add-btn {
   font-weight: bold;
+}
+
+
+
+
+
+.post-it .card-big-shadow {
+  max-width: 320px;
+  position: relative;
+}
+
+.coloured-cards .card {
+  margin-top: 30px;
+}
+
+.post-it .card {
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+  background-color: #FFFFFF;
+  color: #252422;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+.post-it .card.card-just-text .content {
+  padding: 50px 65px;
+  text-align: center;
+}
+.post-it .card .content {
+  padding: 20px 20px 10px 20px;
+}
+.post-it .card .category, .card .label {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.post-it .card-big-shadow:before {
+  background-image: url("http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  bottom: -12%;
+  content: "";
+  display: block;
+  left: -12%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+.post-it h4, .h4 {
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+.post-it h6, .h6 {
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.post-it .card .description {
+  font-size: 16px;
+  color: #66615b;
+}
+.post-it .content-card{
+  margin-top:30px;    
+}
+.post-it a:hover, a:focus {
+  text-decoration: none;
 }

@@ -85,6 +85,33 @@ module.exports = {
 <template>
     <div>
         <div class="row form form-self-assessment">
+            <div class="col-12 card intro">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <p><b>Making Agroforestry Tools FAIR: what it means and why it matters</b></p>
+                            <p>In today's digital world, ensuring that online tools are accessible, reusable, and interoperable is crucial. The FAIR principles—Findability, Accessibility, Interoperability, and Reusability—provide a framework to make digital resources more useful for both humans and machines. Originally developed for scientific data, these principles now guide best practices for software, services, and tools across many fields.</p>
+                            <p>By applying FAIR principles, online tools become easier to discover, integrate with other systems, and reuse for various purposes. Whether you're a researcher or developer, understanding and implementing FAIR can enhance the impact and longevity of your digital resources. This self-assessment will help you evaluate how FAIR your tool is and identify areas for improvement.</p>
+                        </div>
+                        <div class="col-9">
+                            <p><b>FAIR Principles: a quick guide</b></p>
+                            <p>FAIR stands for Findable, Accessible, Interoperable, and Reusable—four key principles designed to improve the usability of digital assets. In simple terms, a FAIR tool is easy to locate, openly available when appropriate, compatible with other systems, and well-documented for future use.</p>
+                            <p><b>Ensuring your tools are FAIR</b></p>
+                            <p>Achieving FAIRness isn't just about compliance; it's about creating tools that are more efficient, sustainable, and impactful. This self-assessment will guide you in evaluating your tool's FAIRness and offer insights on where improvements can be made.</p>
+                        </div>
+                        <div class="col-3">
+                            <a href="https://www.go-fair.org/fair-principles/">
+                                <div class="card">
+                                    <img src="img/go_fair_principles.png" class="card-img-top">
+                                    <div class="card-body p-3">
+                                        <p class="m-0 text-center">Dive deeper into the foundational work that established the guidelines for the FAIR principles.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="col-6">
                 <div class="form-group" v-for="question in form_1part" :key="question.id" :v-model="formData[question.id]">
                     <dropdown v-if="question.type == 'tag'" :question="question" :form-data="formData"></dropdown>

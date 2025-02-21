@@ -141,8 +141,8 @@ module.exports = {
       }
     },
     truncateDescription(description) {
-      var MAX_LEN = 400
-      if (description.length > MAX_LEN) return description.substr(0, 400) + '...'
+      var MAX_LEN = 200
+      if (description.length > MAX_LEN) return description.substr(0, MAX_LEN) + '...'
       else return description
     }
   }
@@ -182,8 +182,8 @@ module.exports = {
                   <div class="col-12 text-center">
                     <p class="card-text">{{ truncateDescription(tool.description) }}</p>
                   </div>
-                  <div class="col-12 text-center my-3">
-                    <p><span class="btn-crop mr-1 px-3 py-1" v-if="tool.system_components.includes('Crop')">Crop</span> <span class="btn-tree mr-1 px-3 py-1" v-if="tool.system_components.includes('Tree')">Tree</span> <span class="btn-livestock mr-1 px-3 py-1" v-if="tool.system_components.includes('Livestock')">Livestock</span> <span class="btn-people mr-1 px-3 py-1" v-if="tool.system_components.includes('People')">People</span> <span class="btn-soil mr-1 px-3 py-1" v-if="tool.system_components.includes('Soil')">Soil</span></p>
+                  <div class="col-12 text-center my-3 tool-types">
+                    <p><span class="btn btn-crop" v-if="tool.system_components.includes('Crop')">Crop</span> <span class="btn btn-tree" v-if="tool.system_components.includes('Tree')">Tree</span> <span class="btn btn-livestock" v-if="tool.system_components.includes('Livestock')">Livestock</span> <span class="btn btn-people" v-if="tool.system_components.includes('People')">People</span> <span class="btn btn-soil" v-if="tool.system_components.includes('Soil')">Soil</span></p>
                   </div>
                   <div class="col-4 text-center details-block">
                     <template v-if="'spatial_scales' in tool && arrayHasAnswer(tool.spatial_scales)">
