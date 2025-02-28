@@ -1,0 +1,112 @@
+{
+	"primary_purpose": [
+		"Research"
+	],
+	"software_proglanguage": [
+		"R",
+		"Javascript"
+	],
+	"minimum_req": [
+		"Internet connection",
+		"Desktop computer (e.g. optimized for wider screens)",
+		"Cross-platform tool (works in Windows, Mac and Linux)",
+		"Open source software/programming language"
+	],
+	"systems": [
+		"Forestry",
+		"Agroforestry"
+	],
+	"system_components": [
+		"Tree",
+		"Crop"
+	],
+	"indicators": [
+		"Other"
+	],
+	"spatial_scales": [
+		"Plot",
+		"One-hectare"
+	],
+	"time_steps": [
+		"Hourly"
+	],
+	"input_data_protocols": [
+		"Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)"
+	],
+	"input_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)"
+	],
+	"input_data_file_formats": [
+		"CSV"
+	],
+	"output_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)"
+	],
+	"output_data_file_formats": [
+		"XLS/XLSX (Microsoft Excel formats)",
+		"CSV"
+	],
+	"end_users": [
+		"Researcher",
+		"Student"
+	],
+	"usages_most_relevant": [
+		"Research",
+		"Education",
+		"Planning/Design",
+		"Management"
+	],
+	"usages_least_relevant": [
+		"Monitoring/Evaluating"
+	],
+	"languages": [
+		"English"
+	],
+	"digitaf_tool_ll": [],
+	"submitter_name": "Tom De Swaef",
+	"submitter_email": "tom.deswaef@ilvo.vlaanderen.be",
+	"name": "agroforlight",
+	"url": "https://tdeswaef.github.io/agroforlight/",
+	"description": "Agroforlight is an intuitive 3D modeling tool designed to simulate light availability in agroforestry systems, utilizing detailed terrestrial LiDAR scans of real trees. The tool consists of an online application, accessible at https://agroforestry.ilvo.be/agroforlight/, and the R package agroforlight. This tool simulates light conditions more accurately in agroforestry systems, accounting for the complex structure of real-world trees.",
+	"logo_url": "https://tdeswaef.github.io/agroforlight/logo.png",
+	"keywords": [
+		"Agroforestry",
+		"Light modelling",
+		"Decision support tools",
+		"Alley cropping",
+		"Precision management",
+		"Terrestrial LiDAR"
+	],
+	"developers": "Toon Baeyens, Willem Coudron, Tom De Swaef",
+	"organizations": "ILVO, Ghent University",
+	"contact": "tom.deswaef@ilvo.vlaanderen.be",
+	"tool_project": "Yes",
+	"tool_project_name": "DigitAF",
+	"tool_project_url": "https://cordis.europa.eu/project/id/101059794",
+	"status": "Implemented",
+	"license": "MIT License",
+	"license_url": "https://opensource.org/license/mit",
+	"year_release": 2024,
+	"year_lastupdate": 2024,
+	"previous_versions_available": "Only one version exists",
+	"indicators_other": "Light",
+	"url_persistent": "No",
+	"access_barrier": "No, direct download/access through a web link",
+	"access_procedure_documentation": "Yes",
+	"listed_other_databases": "No",
+	"integrated_other_tools": "No",
+	"documentation_available": "Yes",
+	"documentation_accessible": "Yes",
+	"url_documentation": "https://tdeswaef.githib.io/agroforlight",
+	"documentation_theoretical_background": "Yes",
+	"data_provenance": "No",
+	"development_process": "Yes",
+	"training_materials": "Yes",
+	"url_training_materials": "https://tdeswaef.github.io/agroforlight/articles/",
+	"documentation_theoretical_background_list": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985297",
+	"documentation_contribute": "Yes",
+	"digitaf_tool": "Yes",
+	"id": "agroforlight",
+	"timestamp_creation": 1740407013381,
+	"timestamp_lastedit": 1740407013381
+}
