@@ -11,5 +11,5 @@ module.exports = {
 </script>
 
 <template>
-	<div class="footer fixed-bottom"><p>This tool was developed under the EU project <a href="https://digitaf.eu/" target="_blank">DigitAF</a> (grant agreement 101059794), as part of Deliverable 4.5, and is intended to evolve according to needs.</p></div>
+	<div class="footer fixed-bottom d-print-none"><p>This tool was developed under the EU project <a href="https://digitaf.eu/" target="_blank">DigitAF</a> (grant agreement 101059794), as part of Deliverable 4.5, and is intended to evolve according to needs.</p></div>
 </template>

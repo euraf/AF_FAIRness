@@ -282,6 +282,7 @@ module.exports = {
                         <p class="mt-2"><button id="retrieve" class="btn btn-primary mr-2 pointer" @click="retrieve('cordis')" :disabled="isRetrieving">{{ isRetrieving ? 'Retrieving...' : 'Retrieve data' }}</button><small v-if="isRetrieved"><em>Data successfully retrieved for {{ formData.retrieve_from_cordis }}</em></small></p>
                     </div>
                     <template v-else>
+                        <div class="only-print mb-4" v-if="'for' in question"><p class="ml-0">If you selected "Other", please specify: __________________________________</p></div>
                         <input-text v-if="'for' in question" :question="question" :form-data="formData" v-show="hasOther(question.for)" class="question-conditional"></input-text>
                         <dropdown v-else-if="question.type == 'tag'" :question="question" :form-data="formData"></dropdown>
                         <checkbox v-else-if="question.type == 'array of tags'" :question="question" :form-data="formData"></checkbox>

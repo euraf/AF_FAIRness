@@ -854,3 +854,13 @@ span.compulsory {
   color: white;
   margin-left: 30px;
 }
+
+@media screen {
+  .only-print {
+      display: none;
+  }
+}
+.only-print p {
+  margin-bottom: 0;
+  margin-left: 20px;
+}
