@@ -864,3 +864,11 @@ span.compulsory {
   margin-bottom: 0;
   margin-left: 20px;
 }
+
+.btn.in-view {
+	position: fixed;
+	right: 1.5rem;
+	bottom: 3rem;
+	z-index: 1010;
+  font-size: 80%;
+}

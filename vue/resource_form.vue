@@ -211,6 +211,9 @@ module.exports = {
             }
         }
     },
+    print() {
+        window.print()
+    },
     save() {
         var _this = this
         this.isSaving = true
@@ -274,6 +277,7 @@ module.exports = {
 
 <template>
     <div>
+        <button class="btn in-view btn-primary mr-2" @click="print()">Print the form for offline completion</button>
         <div class="row form form-add">
             <div class="offset-2 col-8">
                 <div class="form-group" v-for="question in form" :key="question.id" :v-model="formData[question.id]">
