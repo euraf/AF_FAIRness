@@ -147,7 +147,10 @@ p {
   font-weight: bold;
 }
 
-.tool-types .btn,
+.btn-crop,
+.btn-tree,
+.btn-livestock,
+.btn-people,
 .btn-natural,
 .btn-agroforestry,
 .btn-soil {
@@ -161,10 +164,38 @@ p {
 .btn-crop { background-color: orange; }
 .btn-tree { background-color: green; }
 .btn-livestock { background-color: darkblue; }
-.btn-people { background-color: darkgray; }
-.btn-natural { background-color: gold; }
-.btn-agroforestry { background-color: yellowgreen; }
+.btn-people { background-color: gold; }
+.btn-natural { background-color: yellowgreen; }
+.btn-agroforestry { background-color: darkolivegreen; }
 .btn-soil { background-color: brown; }
+.btn-purpose { background-color: var(--secondary-light); }
+
+.btn-crop:not(.active),
+.btn-tree:not(.active),
+.btn-livestock:not(.active),
+.btn-people:not(.active),
+.btn-natural:not(.active),
+.btn-agroforestry:not(.active),
+.btn-soil:not(.active) {
+  background-color: rgb(233, 233, 233);
+}
+.indicator {
+  color: darkgray;
+  text-decoration: line-through;
+}
+.indicator.active {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.tool-dates p {
+  font-size: 80%;
+  color: var(--secondary);
+  font-style: italic;
+}
+.tool-dates span {
+  font-size: 80%;
+}
 
 /* Fair score styles */
 .h-fair-container {
@@ -216,10 +247,11 @@ p {
 /* Small title styles */
 .btn-small-title {
   font-size: 12px;
-  color: darkgray;
-  font-style: italic;
+  font-weight: bold;
+  /*font-style: italic;*/
   margin-bottom: 5px;
   text-align: left;
+  /*text-transform: uppercase;*/
 }
 
 /* Button hover styles */
@@ -301,6 +333,11 @@ table.fair-score, table.fair-score tr, table.fair-score td {
     rgba(0, 128, 0, 0.07) 20px,
     rgba(0, 128, 0, 0.07) 40px
   );
+}
+
+.toolpage .tool-cover {
+  margin-bottom: 30px;
+  background: none;
 }
 
 .project-cover {
@@ -407,8 +444,10 @@ a:focus {
 }
 
 .bar {
-  height: 15px;
-  width: 80%;
+  height: 18px;
+  margin-top: 2px;
+  width: 100%;
+  max-width: 100px;
   display: flex;
   text-align: left;
 }
@@ -420,7 +459,8 @@ a:focus {
 .label {
   margin-bottom: 0px;
   font-size: 12px;
-  width: 20%;
+  max-width: 30px;
+  width: 100%;
 }
 .footer {
     background-color: white;
@@ -793,4 +833,24 @@ span.compulsory {
 }
 .post-it a:hover, a:focus {
   text-decoration: none;
+}
+.tool-url.badge {
+  background-color: var(--secondary);
+  font-size: 110%;
+  padding: 0.5em 0.8em;
+}
+.tool-url.badge p {
+  font-weight: bold;
+  color: white;
+  padding-right: 10px;
+}
+.tool-url.badge a {
+  color: white;
+  font-weight: normal;
+}
+.toolpage .card-title span.badge {
+  background-color: var(--secondary-light);
+  font-size: 60%;
+  color: white;
+  margin-left: 30px;
 }

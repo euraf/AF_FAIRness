@@ -183,7 +183,7 @@ module.exports = {
                     <p class="card-text">{{ truncateDescription(tool.description) }}</p>
                   </div>
                   <div class="col-12 text-center my-3 tool-types">
-                    <p><span class="btn btn-crop" v-if="tool.system_components.includes('Crop')">Crop</span> <span class="btn btn-tree" v-if="tool.system_components.includes('Tree')">Tree</span> <span class="btn btn-livestock" v-if="tool.system_components.includes('Livestock')">Livestock</span> <span class="btn btn-people" v-if="tool.system_components.includes('People')">People</span> <span class="btn btn-soil" v-if="tool.system_components.includes('Soil')">Soil</span></p>
+                    <p><span class="btn btn-crop active" v-if="tool.system_components.includes('Crop')">Crop</span> <span class="btn btn-tree active" v-if="tool.system_components.includes('Tree')">Tree</span> <span class="btn btn-livestock active" v-if="tool.system_components.includes('Livestock')">Livestock</span> <span class="btn btn-people active" v-if="tool.system_components.includes('People')">People</span> <span class="btn btn-soil active" v-if="tool.system_components.includes('Soil')">Soil</span></p>
                   </div>
                   <div class="col-4 text-center details-block">
                     <template v-if="'spatial_scales' in tool && arrayHasAnswer(tool.spatial_scales)">
