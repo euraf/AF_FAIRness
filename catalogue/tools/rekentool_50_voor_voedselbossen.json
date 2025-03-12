@@ -1,1 +1,121 @@
-{"primary_purpose": ["Decision support"], "software_proglanguage": ["Microsoft Excel"], "minimum_req": ["Desktop computer (e.g. optimized for wider screens)"], "systems": ["Agroforestry"], "system_components": ["Tree", "Crop", "People", "Soil"], "indicators": ["Growth", "Yield", "Carbon", "Mechanization", "Labour", "Economics"], "spatial_scales": ["Farm"], "time_steps": ["Yearly"], "input_data_protocols": ["User enters data manually"], "input_data_formats": ["Widely used file formats (CSV, JSON, XML, etc.)"], "input_data_file_formats": ["XLS/XLSX (Microsoft Excel formats)"], "output_data_formats": [], "output_data_file_formats": ["XLS/XLSX (Microsoft Excel formats)", "Images (e.g. png, jpg, tiff, etc)"], "end_users": ["Researcher", "Student", "Policy-maker", "Farmer", "Landowner", "Farm advisor", "Wholesaler", "Retailer", "Final consumer", "Carbon trader"], "usages_most_relevant": ["Planning/Design", "Implementation", "Management", "Forecasting"], "usages_least_relevant": ["Monitoring/Evaluating", "Research", "Education"], "languages": ["Dutch", "English"], "digitaf_tool_ll": ["Germany LL"], "submitter_name": "Nicolaas Geijer", "submitter_email": "nicolaasgeijer@voedselbosbouw.org", "name": "Rekentool 5.0 voor voedselbossen", "url": "https://www.voedselbosbouw.org/onderzoek-link/verdienmodellen/", "description": "The Food Forest Calculation Tool is an Excel file that calculates the financial feasibility of an (agricultural) food forest based on various parameters. The Calculation Tool can be used as a design tool to make the most realistic possible estimate of the profitability of an existing food forest. A margin of uncertainty remains due to, for example, fluctuating purchase and sales prices and crop losses. The tool contains approximately 200 commonly used plant species. The tool can be freely used. Please send feedback and if applicable further developed versions to nicolaasgeijer@voedselbosbouw.org . We will use feedback for the future development of this tool.", "logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/rekentool.png", "keywords": ["Excel", "Profitability", "Plantlist", "Food Forestry", "Financial Feasibility"], "developers": "Nicolaas Geijer, Stijn Heijs", "organizations": "Stichting Voedselbosbouw Nederland, HAS Den Bosch, TKI Wetenschappelijk Bodemvorming onder de Voedselbosbouw", "contact": "nicolaasgeijer@voedselbosbouw.org", "tool_project": "Yes", "tool_project_name": "TKI Wetenschappelijk Bodemvorming onder de Voedselbosbouw", "tool_project_url": "https://www.wur.nl/nl/onderzoek-resultaten/onderzoeksinstituten/environmental-research/projecten/wetenschappelijke-bodemvorming-onder-de-voedselbosbouw-1.htm", "status": "Implemented", "license": "Other", "year_release": 2024, "year_lastupdate": 2024, "previous_versions_available": "Yes", "url_persistent": "Yes", "access_barrier": "No, direct download/access through a web link", "listed_other_databases": "Yes", "integrated_other_tools": "No", "documentation_available": "No", "documentation_accessible": "No", "documentation_theoretical_background": "Incomplete", "data_provenance": "Incomplete", "development_process": "Not completely", "training_materials": "Yes", "url_training_materials": "https://www.voedselbosbouw.org/onderzoek-link/verdienmodellen/", "documentation_contribute": "Yes", "digitaf_tool": "No", "feedback_tool_info": "", "id": "rekentool_50_voor_voedselbossen", "timestamp_creation": 1731661025437, "timestamp_lastedit": 1741673054355, "editor_name": "Rico", "editor_email": "huebner@defaf.de"}
+{
+	"primary_purpose": [
+		"Decision support"
+	],
+	"software_proglanguage": [
+		"Microsoft Excel"
+	],
+	"minimum_req": [
+		"Desktop computer (e.g. optimized for wider screens)"
+	],
+	"systems": [
+		"Agroforestry"
+	],
+	"system_components": [
+		"Tree",
+		"Crop",
+		"People",
+		"Soil"
+	],
+	"indicators": [
+		"Growth",
+		"Yield",
+		"Carbon",
+		"Mechanization",
+		"Labour",
+		"Economics"
+	],
+	"spatial_scales": [
+		"Farm"
+	],
+	"time_steps": [
+		"Yearly"
+	],
+	"input_data_protocols": [
+		"User enters data manually"
+	],
+	"input_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)"
+	],
+	"input_data_file_formats": [
+		"XLS/XLSX (Microsoft Excel formats)"
+	],
+	"output_data_formats": [],
+	"output_data_file_formats": [
+		"XLS/XLSX (Microsoft Excel formats)",
+		"Images (e.g. png, jpg, tiff, etc)"
+	],
+	"end_users": [
+		"Researcher",
+		"Student",
+		"Policy-maker",
+		"Farmer",
+		"Landowner",
+		"Farm advisor",
+		"Wholesaler",
+		"Retailer",
+		"Final consumer",
+		"Carbon trader"
+	],
+	"usages_most_relevant": [
+		"Planning/Design",
+		"Implementation",
+		"Management",
+		"Forecasting"
+	],
+	"usages_least_relevant": [
+		"Monitoring/Evaluating",
+		"Research",
+		"Education"
+	],
+	"languages": [
+		"Dutch",
+		"English"
+	],
+	"digitaf_tool_ll": [
+		"Germany LL"
+	],
+	"submitter_name": "Nicolaas Geijer",
+	"submitter_email": "nicolaasgeijer@voedselbosbouw.org",
+	"name": "Rekentool 5.0 voor voedselbossen",
+	"url": "https://www.voedselbosbouw.org/onderzoek-link/verdienmodellen/",
+	"description": "The Food Forest Calculation Tool is an Excel file that calculates the financial feasibility of an (agricultural) food forest based on various parameters. The Calculation Tool can be used as a design tool to make the most realistic possible estimate of the profitability of an existing food forest. A margin of uncertainty remains due to, for example, fluctuating purchase and sales prices and crop losses. The tool contains approximately 200 commonly used plant species. The tool can be freely used. Please send feedback and if applicable further developed versions to nicolaasgeijer@voedselbosbouw.org . We will use feedback for the future development of this tool.",
+	"logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/rekentool.png",
+	"keywords": [
+		"Excel",
+		"Profitability",
+		"Plantlist",
+		"Food Forestry",
+		"Financial Feasibility"
+	],
+	"developers": "Nicolaas Geijer, Stijn Heijs",
+	"organizations": "Stichting Voedselbosbouw Nederland, HAS Den Bosch, TKI Wetenschappelijk Bodemvorming onder de Voedselbosbouw",
+	"contact": "nicolaasgeijer@voedselbosbouw.org",
+	"tool_project": "Yes",
+	"tool_project_name": "TKI Wetenschappelijk Bodemvorming onder de Voedselbosbouw",
+	"tool_project_url": "https://www.wur.nl/nl/onderzoek-resultaten/onderzoeksinstituten/environmental-research/projecten/wetenschappelijke-bodemvorming-onder-de-voedselbosbouw-1.htm",
+	"status": "Implemented",
+	"license": "Other",
+	"year_release": 2024,
+	"year_lastupdate": 2024,
+	"previous_versions_available": "Yes",
+	"url_persistent": "Yes",
+	"access_barrier": "No, direct download/access through a web link",
+	"listed_other_databases": "Yes",
+	"integrated_other_tools": "No",
+	"documentation_available": "No",
+	"documentation_accessible": "No",
+	"documentation_theoretical_background": "Incomplete",
+	"data_provenance": "Incomplete",
+	"development_process": "Not completely",
+	"training_materials": "Yes",
+	"url_training_materials": "https://www.voedselbosbouw.org/onderzoek-link/verdienmodellen/",
+	"documentation_contribute": "Yes",
+	"digitaf_tool": "No",
+	"feedback_tool_info": "",
+	"id": "rekentool_50_voor_voedselbossen",
+	"timestamp_creation": 1731661025437,
+	"timestamp_lastedit": 1741673054355,
+	"editor_name": "Rico",
+	"editor_email": "huebner@defaf.de"
+}
