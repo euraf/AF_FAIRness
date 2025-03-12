@@ -1,1 +1,100 @@
-{"primary_purpose": ["Decision support", "Research"], "software_proglanguage": ["R"], "minimum_req": ["Internet connection"], "systems": ["Agroforestry"], "system_components": ["Tree"], "indicators": ["Yield", "Water", "Nutrients", "Economics", "Pests and Diseases", "Other", "Soil"], "spatial_scales": ["Plot", "Ecosystem Service Spatial Unit (ESSU)"], "time_steps": ["Not relevant"], "input_data_protocols": ["User enters data manually"], "input_data_formats": ["HTTP (query string parameters, data in request body & file uploads)"], "input_data_file_formats": [], "output_data_formats": ["Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"], "output_data_file_formats": [], "end_users": ["Researcher", "Student", "Farmer", "Landowner", "Farm advisor"], "usages_most_relevant": ["Planning/Design"], "usages_least_relevant": ["Monitoring/Evaluating"], "languages": ["English"], "digitaf_tool_ll": [], "logo_url": "https://filesender.renater.fr/?s=download&token=f7030de9-2b48-424d-8dae-4db6e94b822b", "submitter_name": "Cl\u00e9ment Rigal", "submitter_email": "clement.rigal@cirad.fr", "name": "ShadeTreeAdvice", "url": "https://www.shadetreeadvice.org/", "description": "ShadeTreeAdvice is an online decision-support tool designed to assist farmers in selecting suitable shade tree species for their farms. A the tool's core is a method to gather and consolidate the local ecological knowledge of farmers who are already managing agroforestry systems. This process leads to a database of tree species and their effectiveness in providing various local services (e.g., soil fertility, weather protection, and supplemental revenue). Farmers seeking to introduce trees onto their farms can specify the services they prioritize, and the tool will rank tree species that offer the best trade-offs, based on the knowledge shared by other local farmers. To date, ShadeTreeAdvice supports tree species selection for coffee and cocoa farms in over 10 locations across the tropical belt.", "keywords": ["Tree selection", "Agroforestry", "Coffee and cocoa", "Farmer knowledge"], "developers": "", "organizations": "CIRAD", "contact": "Clement Rigal - clement.rigal@cirad.fr", "tool_project": "No, it has another source", "status": "Implemented", "license": "Not stated", "year_release": 2016, "year_lastupdate": 2021, "previous_versions_available": "No", "indicators_other": "Food provision, Timber, Firewood provision, Mulch, Climate regulation, pro", "url_persistent": "No", "access_barrier": "No, direct download/access through a web link", "listed_other_databases": "Don't know", "integrated_other_tools": "No", "documentation_available": "Yes", "documentation_accessible": "Some of it", "documentation_theoretical_background_list": "The map on https://www.shadetreeadvice.org/ lists the studies and links to the documents", "data_provenance": "Yes", "development_process": "No", "training_materials": "No", "documentation_contribute": "Yes", "digitaf_tool": "Yes", "documentation_theoretical_background": "Yes", "id": "shadetreeadvice", "timestamp_creation": 1741633920426, "timestamp_lastedit": 1741633920426}
+{
+	"primary_purpose": [
+		"Decision support",
+		"Research"
+	],
+	"software_proglanguage": [
+		"R"
+	],
+	"minimum_req": [
+		"Internet connection"
+	],
+	"systems": [
+		"Agroforestry"
+	],
+	"system_components": [
+		"Tree"
+	],
+	"indicators": [
+		"Yield",
+		"Water",
+		"Nutrients",
+		"Economics",
+		"Pests and Diseases",
+		"Other",
+		"Soil"
+	],
+	"spatial_scales": [
+		"Plot",
+		"Ecosystem Service Spatial Unit (ESSU)"
+	],
+	"time_steps": [
+		"Not relevant"
+	],
+	"input_data_protocols": [
+		"User enters data manually"
+	],
+	"input_data_formats": [
+		"HTTP (query string parameters, data in request body & file uploads)"
+	],
+	"input_data_file_formats": [],
+	"output_data_formats": [
+		"Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
+	],
+	"output_data_file_formats": [],
+	"end_users": [
+		"Researcher",
+		"Student",
+		"Farmer",
+		"Landowner",
+		"Farm advisor"
+	],
+	"usages_most_relevant": [
+		"Planning/Design"
+	],
+	"usages_least_relevant": [
+		"Monitoring/Evaluating"
+	],
+	"languages": [
+		"English"
+	],
+	"digitaf_tool_ll": [],
+	"logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/sta.png",
+	"submitter_name": "Cl\u00e9ment Rigal",
+	"submitter_email": "clement.rigal@cirad.fr",
+	"name": "ShadeTreeAdvice",
+	"url": "https://www.shadetreeadvice.org/",
+	"description": "ShadeTreeAdvice is an online decision-support tool designed to assist farmers in selecting suitable shade tree species for their farms. A the tool's core is a method to gather and consolidate the local ecological knowledge of farmers who are already managing agroforestry systems. This process leads to a database of tree species and their effectiveness in providing various local services (e.g., soil fertility, weather protection, and supplemental revenue). Farmers seeking to introduce trees onto their farms can specify the services they prioritize, and the tool will rank tree species that offer the best trade-offs, based on the knowledge shared by other local farmers. To date, ShadeTreeAdvice supports tree species selection for coffee and cocoa farms in over 10 locations across the tropical belt.",
+	"keywords": [
+		"Tree selection",
+		"Agroforestry",
+		"Coffee and cocoa",
+		"Farmer knowledge"
+	],
+	"developers": "",
+	"organizations": "CIRAD",
+	"contact": "Clement Rigal - clement.rigal@cirad.fr",
+	"tool_project": "No, it has another source",
+	"status": "Implemented",
+	"license": "Not stated",
+	"year_release": 2016,
+	"year_lastupdate": 2021,
+	"previous_versions_available": "No",
+	"indicators_other": "Food provision, Timber, Firewood provision, Mulch, Climate regulation",
+	"url_persistent": "No",
+	"access_barrier": "No, direct download/access through a web link",
+	"listed_other_databases": "Don't know",
+	"integrated_other_tools": "No",
+	"documentation_available": "Yes",
+	"documentation_accessible": "Some of it",
+	"documentation_theoretical_background_list": "The map on https://www.shadetreeadvice.org/ lists the studies and links to the documents",
+	"data_provenance": "Yes",
+	"development_process": "No",
+	"training_materials": "No",
+	"documentation_contribute": "Yes",
+	"digitaf_tool": "Yes",
+	"documentation_theoretical_background": "Yes",
+	"id": "shadetreeadvice",
+	"timestamp_creation": 1741633920426,
+	"timestamp_lastedit": 1741633920426
+}
