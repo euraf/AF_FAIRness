@@ -26,7 +26,7 @@
 	"minimum_req": [
 		"Internet connection"
 	],
-	"license": "Proprietary",
+	"license": "Creative Commons BY-NC-SA",
 	"year_release": 2024,
 	"year_lastupdate": 2024,
 	"previous_versions_available": "Only one version exists",
@@ -55,11 +55,10 @@
 		"User enters data manually"
 	],
 	"input_data_formats": [
-		"Other"
+		"Widely used file formats (CSV, JSON, XML, etc.)"
 	],
 	"input_data_formats_other": "User enters data manually",
-	"input_data_file_formats": [
-	],
+	"input_data_file_formats": [],
 	"output_data_formats": [
 		"Widely used file formats (CSV, JSON, XML, etc.)"
 	],
@@ -86,21 +85,21 @@
 	"url_persistent": "Yes",
 	"access_barrier": "No, direct download/access through a web link",
 	"access_procedure": "",
-	"access_procedure_documentation": "No",
-	"listed_other_databases": "Yes",
-	"listed_other_databases_list": "https://gosme.shinyapps.io/DigitAFtreeAdvice/",
-	"integrated_other_tools": "No",
-	"integrated_other_tools_list": "",
+	"access_procedure_documentation": "",
+	"listed_other_databases": "",
+	"listed_other_databases_list": "",
+	"integrated_other_tools": "Yes",
+	"integrated_other_tools_list": "https://agroforestreeadvice.sk8.inrae.fr/",
 	"documentation_available": "Yes",
 	"documentation_accessible": "Some of it",
-	"url_documentation": "",
-	"documentation_theoretical_background": "Incomplete",
+	"url_documentation": "https://www.grab.fr/deciduous-page-principale/",
+	"documentation_theoretical_background": "Yes",
 	"documentation_theoretical_background_list": "",
-	"data_provenance": "No",
-	"development_process": "No",
+	"data_provenance": "Yes",
+	"development_process": "Not completely",
 	"training_materials": "Don't know",
 	"url_training_materials": "",
-	"documentation_contribute": "No",
+	"documentation_contribute": "Yes",
 	"digitaf_tool": "Yes",
 	"digitaf_tool_ll": [
 		"Czech Republic LL"
@@ -109,5 +108,7 @@
 	"digitaf_tool_demo_video": "https://www.youtube.com/watch?v=ld_ZkJnwnv4",
 	"editor_name": "Fran\u00e7ois Warlop",
 	"editor_email": "francois.warlop@grab.fr",
-	"timestamp_lastedit": 1716906785730
+	"timestamp_lastedit": 1741704977210,
+	"license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+	"tool_project": "No, it has another source"
 }
