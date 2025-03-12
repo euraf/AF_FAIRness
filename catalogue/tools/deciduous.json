@@ -1,1 +1,114 @@
-{"id": "deciduous", "timestamp_creation": 1702910450000, "submitter_name": "Fran\u00e7ois Warlop", "submitter_email": "francois.warlop@grab.fr", "name": "DECIDUOUS", "url": "https://www.grab.fr/deciduous-page-principale/", "description": "Deciduous aims to help farmers & advisors interested in adding fruit trees in their established systems, to choose right fruit species, rootstock and cultivar according to their local soil/climate/time constraints.", "logo_url": "https://www.grab.fr/wp-content/uploads/2024/03/Logo-OAD-Deciduous.png.webp", "primary_purpose": ["Education and training", "Decision support"], "keywords": ["Fruit trees", "Species", "Rootstocks"], "developers": "Fran\u00e7ois Warlop, Raphael Paut, Anthony Volant", "organizations": "RMT Agroforesteries, Grab, INRAE", "contact": "francois.warlop@grab.fr", "status": "Implemented", "software_proglanguage": ["R"], "minimum_req": ["Internet connection"], "license": "Creative Commons BY-NC-SA", "year_release": 2024, "year_lastupdate": 2024, "previous_versions_available": "Only one version exists", "systems": ["Agroforestry"], "system_components": ["Tree"], "indicators": ["Other", "Labour", "Suitability", "Pests and Diseases"], "indicators_other": "Low-input systems/no treatment", "spatial_scales": ["Plot", "Farm"], "time_steps": ["Not relevant"], "time_steps_comment": "once for tree choice", "input_data_protocols": ["User enters data manually"], "input_data_formats": ["Widely used file formats (CSV, JSON, XML, etc.)"], "input_data_formats_other": "User enters data manually", "input_data_file_formats": [], "output_data_formats": ["Widely used file formats (CSV, JSON, XML, etc.)"], "output_data_file_formats": ["CSV", "PDF"], "end_users": ["Farmer", "Farm advisor"], "usages_most_relevant": ["Education", "Planning/Design", "Implementation"], "usages_least_relevant": ["Monitoring/Evaluating", "Forecasting"], "languages": ["French"], "url_persistent": "Yes", "access_barrier": "No, direct download/access through a web link", "access_procedure": "", "access_procedure_documentation": "null", "listed_other_databases": "Yes", "listed_other_databases_list": "https://gosme.shinyapps.io/DigitAFtreeAdvice/", "integrated_other_tools": "Yes", "integrated_other_tools_list": "", "documentation_available": "Yes", "documentation_accessible": "Some of it", "url_documentation": "https://www.grab.fr/deciduous-page-principale/", "documentation_theoretical_background": "Yes", "documentation_theoretical_background_list": "", "data_provenance": "Yes", "development_process": "Not completely", "training_materials": "Don't know", "url_training_materials": "", "documentation_contribute": "Yes", "digitaf_tool": "Yes", "digitaf_tool_ll": ["Czech Republic LL"], "feedback_tool_info": "", "digitaf_tool_demo_video": "https://www.youtube.com/watch?v=ld_ZkJnwnv4", "editor_name": "Fran\u00e7ois Warlop", "editor_email": "francois.warlop@grab.fr", "timestamp_lastedit": 1741704977210, "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en", "tool_project": "No, it has another source"}
+{
+	"id": "deciduous",
+	"timestamp_creation": 1702910450000,
+	"submitter_name": "Fran\u00e7ois Warlop",
+	"submitter_email": "francois.warlop@grab.fr",
+	"name": "DECIDUOUS",
+	"url": "https://www.grab.fr/deciduous-page-principale/",
+	"description": "Deciduous aims to help farmers & advisors interested in adding fruit trees in their established systems, to choose right fruit species, rootstock and cultivar according to their local soil/climate/time constraints.",
+	"logo_url": "https://www.grab.fr/wp-content/uploads/2024/03/Logo-OAD-Deciduous.png.webp",
+	"primary_purpose": [
+		"Education and training",
+		"Decision support"
+	],
+	"keywords": [
+		"Fruit trees",
+		"Species",
+		"Rootstocks"
+	],
+	"developers": "Fran\u00e7ois Warlop, Raphael Paut, Anthony Volant",
+	"organizations": "RMT Agroforesteries, Grab, INRAE",
+	"contact": "francois.warlop@grab.fr",
+	"status": "Implemented",
+	"software_proglanguage": [
+		"R"
+	],
+	"minimum_req": [
+		"Internet connection"
+	],
+	"license": "Creative Commons BY-NC-SA",
+	"year_release": 2024,
+	"year_lastupdate": 2024,
+	"previous_versions_available": "Only one version exists",
+	"systems": [
+		"Agroforestry"
+	],
+	"system_components": [
+		"Tree"
+	],
+	"indicators": [
+		"Other",
+		"Labour",
+		"Suitability",
+		"Pests and Diseases"
+	],
+	"indicators_other": "Low-input systems/no treatment",
+	"spatial_scales": [
+		"Plot",
+		"Farm"
+	],
+	"time_steps": [
+		"Not relevant"
+	],
+	"time_steps_comment": "once for tree choice",
+	"input_data_protocols": [
+		"User enters data manually"
+	],
+	"input_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)"
+	],
+	"input_data_formats_other": "User enters data manually",
+	"input_data_file_formats": [],
+	"output_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)"
+	],
+	"output_data_file_formats": [
+		"CSV",
+		"PDF"
+	],
+	"end_users": [
+		"Farmer",
+		"Farm advisor"
+	],
+	"usages_most_relevant": [
+		"Education",
+		"Planning/Design",
+		"Implementation"
+	],
+	"usages_least_relevant": [
+		"Monitoring/Evaluating",
+		"Forecasting"
+	],
+	"languages": [
+		"French"
+	],
+	"url_persistent": "Yes",
+	"access_barrier": "No, direct download/access through a web link",
+	"access_procedure": "",
+	"access_procedure_documentation": "",
+	"listed_other_databases": "",
+	"listed_other_databases_list": "",
+	"integrated_other_tools": "Yes",
+	"integrated_other_tools_list": "https://agroforestreeadvice.sk8.inrae.fr/",
+	"documentation_available": "Yes",
+	"documentation_accessible": "Some of it",
+	"url_documentation": "https://www.grab.fr/deciduous-page-principale/",
+	"documentation_theoretical_background": "Yes",
+	"documentation_theoretical_background_list": "",
+	"data_provenance": "Yes",
+	"development_process": "Not completely",
+	"training_materials": "Don't know",
+	"url_training_materials": "",
+	"documentation_contribute": "Yes",
+	"digitaf_tool": "Yes",
+	"digitaf_tool_ll": [
+		"Czech Republic LL"
+	],
+	"feedback_tool_info": "",
+	"digitaf_tool_demo_video": "https://www.youtube.com/watch?v=ld_ZkJnwnv4",
+	"editor_name": "Fran\u00e7ois Warlop",
+	"editor_email": "francois.warlop@grab.fr",
+	"timestamp_lastedit": 1741704977210,
+	"license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+	"tool_project": "No, it has another source"
+}
