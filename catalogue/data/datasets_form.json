@@ -1,583 +1,587 @@
-[
-  {
-    "id": "id",
-    "text": "ID",
-    "helper": "string slug - exactly the same used to name the .json file",
-    "type": "string",
-    "required": true
-  },
-  {
-    "id": "timestamp_creation",
-    "text": "Creation date",
-    "type": "date",
-    "required": true
-  },
-  {
-    "id": "timestamp_lastedit",
-    "text": "Last edited date",
-    "type": "date",
-    "required": true
-  },
-  {
-    "id": "submitter_name",
-    "text": "Your name",
-    "type": "string",
-    "required": true
-  },
-  {
-    "id": "submitter_email",
-    "text": "Your email",
-    "helper": "This information allows us to contact you in case there is something that needs clarifying.",
-    "type": "email",
-    "required": true
-  },
-  {
-    "id": "editor_name",
-    "text": "Your name",
-    "type": "string",
-    "required": true
-  },
-  {
-    "id": "editor_email",
-    "text": "Your email",
-    "helper": "This information allows us to contact you in case there is something that needs clarifying.",
-    "type": "email",
-    "required": true
-  },
-  {
-    "id": "name",
-    "text": "What is the name of the dataset?",
-    "type": "string",
-    "required": true
-  },
-  {
-    "id": "url",
-    "text": "What is the link to the dataset?",
-    "type": "string",
-    "required": true
-  },
-  {
-    "id": "url_persistent",
-    "text": "Is the link to the dataset a unique and persistent identifier?",
-    "type": "tag",
-    "required": true,
-    "fair": "F1",
-    "fair_text": "Identifiers consist of an internet link created through registry services. Many repositories will automatically generate globally unique (i.e., someone else could not reuse/reassign the same identifier without referring to your data) and persistent (it should be kept active into the future, at least to some degree) identifiers to deposited documents, tools, or datasets. Identifiers also help others to properly, and unambiguously, cite the dataset. DOIs are an example, available through e.g. institutional repositories, Zenodo or OpenAIRE.",
-    "fair_score": [
-      1,
-      0
-    ],
-    "answers": [
-      "Yes",
-      "No"
-    ]
-  },
-  {
-    "id": "description",
-    "text": "Dataset description",
-    "type": "long string",
-    "required": true
-  },
-  {
-    "id": "keywords",
-    "text": "Which keywords best describe the dataset?",
-    "helper": "Comma-separated words or expressions, please",
-    "type": "array of strings",
-    "required": true
-  },
-  {
-    "id": "data_ownership",
-    "text": "Who, or which organization, is the data owner?",
-    "type": "string",
-    "required": true
-  },
-  {
-    "id": "data_contact",
-    "text": "Provide some contact information regarding the dataset",
-    "type": "string",
-    "required": false
-  },
-  {
-    "id": "data_project",
-    "text": "Was the data collected during a project?",
-    "type": "tag",
-    "required": true,
-    "answers": [
-      "Yes",
-      "No, it has another source",
-      "Don't know"
-    ]
-  },
-  {
-    "id": "data_project_name",
-    "text": "If yes, what was the name of the project?",
-    "type": "string",
-    "required": false
-  },
-  {
-    "id": "data_project_url",
-    "text": "If yes, please provide a project URL (preferrably of CORDIS if available)",
-    "type": "string",
-    "required": false
-  },
-  {
-    "id": "data_collection_country",
-    "text": "Regional extent, e.g. country (or region) where the data was collected?",
-    "type": "tag",
-    "filter": 2,
-    "short_text": "Regional extent",
-    "required": true,
-    "answers": [
-      "Belgium",
-      "Czech Republic",
-      "Finland",
-      "France",
-      "Germany",
-      "Italy",
-      "Netherlands",
-      "United Kingdom",
-      "Europe",
-      "Global",
-      "Other"
-    ]
-  },
-  {
-    "id": "data_collection_country_other",
-    "for": "data_collection_country",
-    "text": "Please, specify",
-    "type": "string",
-    "required": false
-  },
-  {
-    "id": "data_type",
-    "text": "Type of data?",
-    "filter": 1,
-    "short_text": "Type of data",
-    "type": "array of tags",
-    "required": true,
-    "answers": [
-      "Aggregated data",
-      "Analysis data",
-      "Audiovisual corpus",
-      "Computer code",
-      "Experimental data",
-      "Observational data",
-      "Simulation data",
-      "Spatial data",
-      "Survey data",
-      "Text corpus",
-      "Other"
-    ]
-  },
-  {
-    "id": "data_type_other",
-    "for": "data_type",
-    "text": "Please, specify",
-    "type": "string",
-    "required": false
-  },
-  {
-    "id": "spatial_scales",
-    "text": "What's the spatial scale of the data?",
-    "short_text": "Spatial scale",
-    "filter": 1,
-    "type": "array of tags",
-    "required": true,
-    "answers": [
-      "Leaf/stem (sub-individual)",
-      "Plant/animal",
-      "Plot",
-      "One-hectare",
-      "Farm",
-      "Landscape",
-      "Catchment",
-      "Ecosystem Service Spatial Unit (ESSU)",
-      "Regional",
-      "National",
-      "European",
-      "Global",
-      "Other"
-    ]
-  },
-  {
-    "id": "spatial_scales_other",
-    "for": "spatial_scales",
-    "text": "Please, specify",
-    "type": "string"
-  },
-  {
-    "id": "spatial_details",
-    "text": "If applicable, give further spatial details (e.g. resolution, grid size)",
-    "type": "long string",
-    "required": false
-  },
-  {
-    "id": "indicators",
-    "text": "What indicators are included in the dataset?",
-    "short_text": "Indicators",
-    "filter": 2,
-    "type": "array of tags",
-    "required": true,
-    "answers": [
-      "Growth",
-      "Yield / Biomass",
-      "Biodiversity",
-      "Species occurrence",
-      "Land cover",
-      "Land use",
-      "Vegetation indexes",
-      "Phenology",
-      "Suitability",
-      "Water",
-      "Meteorology",
-      "Soil",
-      "Carbon",
-      "Nutrients",
-      "Mechanization",
-      "Labour",
-      "Social",
-      "Economics",
-      "Nutrition",
-      "Animal welfare",
-      "Mortality",
-      "Pests and Diseases",
-      "Other"
-    ]
-  },
-  {
-    "id": "indicators_other",
-    "for": "indicators",
-    "text": "Please, specify",
-    "type": "string"
-  },
-  {
-    "id": "time_steps",
-    "text": "At which time intervals is the data collected?",
-    "short_text": "Time interval",
-    "filter": 2,
-    "type": "array of tags",
-    "required": true,
-    "answers": [
-      "Hourly",
-      "Daily",
-      "Weekly",
-      "Fortnightly",
-      "Monthly",
-      "Yearly",
-      "Not relevant",
-      "Other"
-    ]
-  },
-  {
-    "id": "time_steps_other",
-    "for": "time_steps",
-    "text": "Please, specify",
-    "type": "string"
-  },
-  {
-    "id": "year_release",
-    "text": "What was the year of release?",
-    "type": "integer",
-    "required": false
-  },
-  {
-    "id": "year_lastupdate",
-    "text": "What year was it last updated?",
-    "type": "integer",
-    "required": false
-  },
-  {
-    "id": "time_span_oldest",
-    "text": "Time span covered by the database: year of oldest observation",
-    "type": "integer",
-    "required": false
-  },
-  {
-    "id": "time_span_newest",
-    "text": "Time span covered by the database: year of newest observation",
-    "type": "integer",
-    "required": false
-  },
-  {
-    "id": "data_confidentiality",
-    "text": "Is the data confidential?",
-    "type": "tag",
-    "required": true,
-    "answers": [
-      "No, the data is public",
-      "Yes, it is confidential data",
-      "Data embargo, i.e there are rules or limits on using, sharing, or spreading it",
-      "Data has a limiting license"
-    ]
-  },
-  {
-    "id": "license",
-    "text": "What is the usage rights license for the dataset?",
-    "short_text": "License",
-    "filter": 3,
-    "type": "tag",
-    "required": true,
-    "fair": "R2",
-    "fair_text": "What usage rights are attached to the data? This should be described clearly. Ambiguity could severely limit the reuse of the data by organisations that struggle to comply with licensing restrictions. Clarity of licensing status will become more important with automated searches involving more licensing considerations. The conditions under which the data can be used should be clear to machines and humans.",
-    "fair_score": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      0.5,
-      0.5,
-      0.2,
-      0.2,
-      1,
-      0,
-      0,
-      0.2
-    ],
-    "answers": [
-      "MIT License",
-      "Apache License 2.0",
-      "GNU General Public License (GPL)",
-      "Creative Commons BY",
-      "Creative Commons BY-SA",
-      "Creative Commons BY-NC",
-      "Creative Commons BY-NC-SA",
-      "Creative Commons BY-ND",
-      "Creative Commons BY-NC-ND",
-      "Creative Commons Zero (CC0)",
-      "Proprietary",
-      "Not stated",
-      "Don't know",
-      "Other"
-    ]
-  },
-  {
-    "id": "license_other",
-    "for": "license",
-    "text": "Please, specify",
-    "type": "string",
-    "required": false
-  },
-  {
-    "id": "license_url",
-    "text": "Please indicate the URL to the license.",
-    "type": "string",
-    "required": false
-  },
-  {
-    "id": "access_barrier",
-    "text": "Is there any barrier to accessing the data?",
-    "type": "tag",
-    "required": true,
-    "fair": "A1",
-    "fair_text": "Data access should be mediated without relying on specialized or proprietary tools or communication methods. Ensuring that retrieval protocols are free allows equitable access for those without financial resources. Universal implementability of these protocols ensures accessibility for everyone, without restrictions based on location or community. However, fully mechanized protocols might not provide secure access for highly sensitive data. Ethical, legal, or contractual constraints may necessitate additional measures. In such cases, it is acceptable to provide contact information, such as an email or telephone number, for the responsible person to discuss access. This contact protocol must be clearly and explicitly documented.",
-    "fair_score": [
-      1,
-      1,
-      0.5,
-      0.8
-    ],
-    "answers": [
-      "No, direct download/access through a web link",
-      "User registration needed",
-      "Access to the data needs to be granted (e.g. dataset owner needs to give permission after user registration; dataset owner sends data after receiving a request email)",
-      "Access to the data is evaluated before being granted, due to ethical, legal or contractual constrains (e.g. privacy, highly sensitive data)"
-    ]
-  },
-  {
-    "id": "data_formats",
-    "text": "What is the format of the data?",
-    "type": "array of tags",
-    "required": true,
-    "fair": "I1",
-    "fair_text": "The critical part of FAIR data is that both humans and computers should be able to exchange and interpret each other's data without requiring specialized programs, translators or mappings. For computers, interoperability means that each computer system knows the other system's data exchange formats. For this to happen — and to ensure automatic findability and interoperability of datasets — one crucial aspect is to use open file formats.",
-    "fair_score": [
-      1,
-      0,
-      0,
-      0.2
-    ],
-    "answers": [
-      "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)",
-      "Custom file formats (database specific, not widely used)",
-      "Static content (e.g. textual, reports on website pages, tables and graphs, PDF files)",
-      "Other"
-    ]
-  },
-  {
-    "id": "data_formats_other",
-    "for": "data_formats",
-    "text": "Please, specify the data format",
-    "type": "string",
-    "required": false
-  },
-  {
-    "id": "data_relevant_attributes",
-    "text": "The data (or its metadata) is accurate and well described with many relevant attributes?",
-    "type": "tag",
-    "required": true,
-    "fair": "R1",
-    "fair_text": "The data publisher should provide comprehensive metadata that not only enables discovery but also richly describes the context in which the data was generated. Metadata should be detailed and inclusive, even if some information seems irrelevant. Key details to include are: the purpose for which the data was generated or collected; any particularities or limitations of the data; the date of data generation/collection, field conditions, data preparers, parameter settings, and software details; explanations for all variable names or ensuring they are self-explanatory; clear documentation of the version of the archived and/or reused data.",
-    "fair_score": [
-      1,
-      0.5,
-      0,
-      0
-    ],
-    "answers": [
-      "Yes",
-      "Not completely",
-      "No",
-      "Don't know"
-    ]
-  },
-  {
-    "id": "listed_other_databases",
-    "text": "Is the dataset also listed in other databases?",
-    "type": "tag",
-    "required": true,
-    "fair": "F3",
-    "fair_text": "Identifiers and metadata alone will not ensure ‘findability’ on the internet. Perfectly good data resources may go unused simply because no one knows they exist. If the availability of a dataset is not known, then nobody (and no computer) can discover it. Indexing the dataset within multiple databases might help reach a wider audience and hence, increase the dataset usage and dissemination.",
-    "fair_score": [
-      1,
-      0,
-      0
-    ],
-    "answers": [
-      "Yes",
-      "No",
-      "Don't know"
-    ]
-  },
-  {
-    "id": "listed_other_databases_list",
-    "text": "If applicable and known, in which databases is it listed?",
-    "type": "string",
-    "required": false
-  },
-  {
-    "id": "data_metadata",
-    "text": "The dataset has an associated metadata file (e.g. XML, md), where the dataset details are described?",
-    "type": "tag",
-    "required": true,
-    "fair": "F2",
-    "fair_text": "Metadata is a description of a resource that enhances its findability, reusability, interpretation, and assessment. Typically, metadata and the dataset it describes are separate files. Metadata acts as a descriptor, while the data is what is being described. The connection between them should be clear by including the dataset's unique and persistent identifier in the metadata. Comprehensive metadata should include details about the context, quality, condition, and characteristics of the data. While it's hard to define a minimal standard for metadata richness, more detailed metadata improves search accuracy for both humans and computers. A digital resource that is not well-described cannot be accurately discovered.",
-    "fair_score": [
-      1,
-      0,
-      0
-    ],
-    "answers": [
-      "Yes",
-      "No",
-      "Don't know"
-    ]
-  },
-  {
-    "id": "documentation_accessible",
-    "text": "Is the metadata file, or documentation, fully accessible, even if the data may not be publicly available?",
-    "type": "tag",
-    "required": true,
-    "fair": "A2",
-    "fair_text": "It is important that users have, at the very least, access to high quality metadata, or complete and organized documentation, that describes digital resources sufficiently to minimally understand their nature and their provenance, even when the relevant data is not publicly available, or not available anymore.",
-    "fair_score": [
-      1,
-      0.5,
-      0,
-      0
-    ],
-    "answers": [
-      "Yes",
-      "Some of it",
-      "No",
-      "Don't know"
-    ]
-  },
-  {
-    "id": "data_metadata_vocabulary",
-    "text": "Does the metadata file, or documentation, follow any controlled vocabularies, keywords, thesauri or ontologies?",
-    "type": "tag",
-    "required": true,
-    "fair": "I2",
-    "fair_text": "\"Vocabularies\" refer to methods that clearly represent concepts within a specific domain. Using shared, formally structured sets of terms is a crucial aspect of FAIR principles. Terminology systems, including flat \"vocabularies\", hierarchical \"thesauri\", and more detailed knowledge specifications like data models and ontologies, are vital for establishing community standards. For example, simply using a label like \"temperature\" is not enough for a machine to understand its intent (e.g., air temperature or body temperature) and the appropriate contexts for linking it with other similarly labeled data.",
-    "fair_score": [
-      1,
-      0,
-      0
-    ],
-    "answers": [
-      "Yes",
-      "No",
-      "Don't know"
-    ]
-  },
-  {
-    "id": "development_process",
-    "text": "It is clear how, why and by whom the data have been created and processed?",
-    "type": "tag",
-    "required": true,
-    "fair": "R3",
-    "fair_text": "For others to reuse the data, they need to know its origin, who to cite, and how you wish to be acknowledged. Provide a detailed description of the workflow that led to your data, including who generated or collected it, how it was processed, whether it has been previously published, and if it includes data from others that you have transformed or supplemented. Ideally, this workflow should be described in a machine-readable format.",
-    "fair_score": [
-      1,
-      0.5,
-      0,
-      0
-    ],
-    "answers": [
-      "Yes",
-      "Not completely",
-      "No",
-      "Don't know"
-    ]
-  },
-  {
-    "id": "documentation_list",
-    "text": "Indicate the associated publication(s) or other documentation related with the dataset.",
-    "type": "long string",
-    "required": false
-  },
-  {
-    "id": "digitaf_data_ll",
-    "text": "For DigitAF participants, in which DigitAF Living Labs is the data being used?",
-    "short_text": "Used in DigitAF Living Labs",
-    "type": "array of tags",
-    "required": false,
-    "digitaf_specific": true,
-    "answers": [
-      "Czech Republic LL",
-      "Finland LL",
-      "Germany LL",
-      "Italy LL",
-      "Netherlands LL",
-      "United Kingdom LL"
-    ]
-  },
-  {
-    "id": "digitaf_data_wp",
-    "text": "For DigitAF participants, in what WPs is this data being used?",
-    "short_text": "Used in DigitAF Living Labs",
-    "type": "array of tags",
-    "required": false,
-    "digitaf_specific": true,
-    "answers": [
-      "WP1 - Tools for policy-makers",
-      "WP2 - Tools for practitioners and farm advisors",
-      "WP3 - Tools for beneficiaries",
-      "WP4 - LL and a common AF toolbox"
-    ]
-  },
-  {
-    "id": "digitaf_data_used",
-    "text": "For DigitAF participants, please detail how is this data being used within the project context.",
-    "type": "long string",
-    "digitaf_specific": true,
-    "required": false
-  },
-  {
-    "id": "feedback_data_info",
-    "text": "Is there any relevant information about the dataset that hasn't been collected in the previous questions?",
-    "type": "string",
-    "required": false
-  }
-]
+{
+  "title": "Datasets - Form",
+  "version": "1.0",
+  "form": [
+    {
+      "id": "id",
+      "text": "ID",
+      "helper": "string slug - exactly the same used to name the .json file",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "timestamp_creation",
+      "text": "Creation date",
+      "type": "date",
+      "required": true
+    },
+    {
+      "id": "timestamp_lastedit",
+      "text": "Last edited date",
+      "type": "date",
+      "required": true
+    },
+    {
+      "id": "submitter_name",
+      "text": "Your name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "submitter_email",
+      "text": "Your email",
+      "helper": "This information allows us to contact you in case there is something that needs clarifying.",
+      "type": "email",
+      "required": true
+    },
+    {
+      "id": "editor_name",
+      "text": "Your name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "editor_email",
+      "text": "Your email",
+      "helper": "This information allows us to contact you in case there is something that needs clarifying.",
+      "type": "email",
+      "required": true
+    },
+    {
+      "id": "name",
+      "text": "What is the name of the dataset?",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "url",
+      "text": "What is the link to the dataset?",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "url_persistent",
+      "text": "Is the link to the dataset a unique and persistent identifier?",
+      "type": "tag",
+      "required": true,
+      "fair": "F1",
+      "fair_text": "Identifiers consist of an internet link created through registry services. Many repositories will automatically generate globally unique (i.e., someone else could not reuse/reassign the same identifier without referring to your data) and persistent (it should be kept active into the future, at least to some degree) identifiers to deposited documents, tools, or datasets. Identifiers also help others to properly, and unambiguously, cite the dataset. DOIs are an example, available through e.g. institutional repositories, Zenodo or OpenAIRE.",
+      "fair_score": [
+        1,
+        0
+      ],
+      "answers": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "id": "description",
+      "text": "Dataset description",
+      "type": "long string",
+      "required": true
+    },
+    {
+      "id": "keywords",
+      "text": "Which keywords best describe the dataset?",
+      "helper": "Comma-separated words or expressions, please",
+      "type": "array of strings",
+      "required": true
+    },
+    {
+      "id": "data_ownership",
+      "text": "Who, or which organization, is the data owner?",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "data_contact",
+      "text": "Provide some contact information regarding the dataset",
+      "type": "string",
+      "required": false
+    },
+    {
+      "id": "data_project",
+      "text": "Was the data collected during a project?",
+      "type": "tag",
+      "required": true,
+      "answers": [
+        "Yes",
+        "No, it has another source",
+        "Don't know"
+      ]
+    },
+    {
+      "id": "data_project_name",
+      "text": "If yes, what was the name of the project?",
+      "type": "string",
+      "required": false
+    },
+    {
+      "id": "data_project_url",
+      "text": "If yes, please provide a project URL (preferrably of CORDIS if available)",
+      "type": "string",
+      "required": false
+    },
+    {
+      "id": "data_collection_country",
+      "text": "Regional extent, e.g. country (or region) where the data was collected?",
+      "type": "tag",
+      "filter": 2,
+      "short_text": "Regional extent",
+      "required": true,
+      "answers": [
+        "Belgium",
+        "Czech Republic",
+        "Finland",
+        "France",
+        "Germany",
+        "Italy",
+        "Netherlands",
+        "United Kingdom",
+        "Europe",
+        "Global",
+        "Other"
+      ]
+    },
+    {
+      "id": "data_collection_country_other",
+      "for": "data_collection_country",
+      "text": "Please, specify",
+      "type": "string",
+      "required": false
+    },
+    {
+      "id": "data_type",
+      "text": "Type of data?",
+      "filter": 1,
+      "short_text": "Type of data",
+      "type": "array of tags",
+      "required": true,
+      "answers": [
+        "Aggregated data",
+        "Analysis data",
+        "Audiovisual corpus",
+        "Computer code",
+        "Experimental data",
+        "Observational data",
+        "Simulation data",
+        "Spatial data",
+        "Survey data",
+        "Text corpus",
+        "Other"
+      ]
+    },
+    {
+      "id": "data_type_other",
+      "for": "data_type",
+      "text": "Please, specify",
+      "type": "string",
+      "required": false
+    },
+    {
+      "id": "spatial_scales",
+      "text": "What's the spatial scale of the data?",
+      "short_text": "Spatial scale",
+      "filter": 1,
+      "type": "array of tags",
+      "required": true,
+      "answers": [
+        "Leaf/stem (sub-individual)",
+        "Plant/animal",
+        "Plot",
+        "One-hectare",
+        "Farm",
+        "Landscape",
+        "Catchment",
+        "Ecosystem Service Spatial Unit (ESSU)",
+        "Regional",
+        "National",
+        "European",
+        "Global",
+        "Other"
+      ]
+    },
+    {
+      "id": "spatial_scales_other",
+      "for": "spatial_scales",
+      "text": "Please, specify",
+      "type": "string"
+    },
+    {
+      "id": "spatial_details",
+      "text": "If applicable, give further spatial details (e.g. resolution, grid size)",
+      "type": "long string",
+      "required": false
+    },
+    {
+      "id": "indicators",
+      "text": "What indicators are included in the dataset?",
+      "short_text": "Indicators",
+      "filter": 2,
+      "type": "array of tags",
+      "required": true,
+      "answers": [
+        "Growth",
+        "Yield / Biomass",
+        "Biodiversity",
+        "Species occurrence",
+        "Land cover",
+        "Land use",
+        "Vegetation indexes",
+        "Phenology",
+        "Suitability",
+        "Water",
+        "Meteorology",
+        "Soil",
+        "Carbon",
+        "Nutrients",
+        "Mechanization",
+        "Labour",
+        "Social",
+        "Economics",
+        "Nutrition",
+        "Animal welfare",
+        "Mortality",
+        "Pests and Diseases",
+        "Other"
+      ]
+    },
+    {
+      "id": "indicators_other",
+      "for": "indicators",
+      "text": "Please, specify",
+      "type": "string"
+    },
+    {
+      "id": "time_steps",
+      "text": "At which time intervals is the data collected?",
+      "short_text": "Time interval",
+      "filter": 2,
+      "type": "array of tags",
+      "required": true,
+      "answers": [
+        "Hourly",
+        "Daily",
+        "Weekly",
+        "Fortnightly",
+        "Monthly",
+        "Yearly",
+        "Not relevant",
+        "Other"
+      ]
+    },
+    {
+      "id": "time_steps_other",
+      "for": "time_steps",
+      "text": "Please, specify",
+      "type": "string"
+    },
+    {
+      "id": "year_release",
+      "text": "What was the year of release?",
+      "type": "integer",
+      "required": false
+    },
+    {
+      "id": "year_lastupdate",
+      "text": "What year was it last updated?",
+      "type": "integer",
+      "required": false
+    },
+    {
+      "id": "time_span_oldest",
+      "text": "Time span covered by the database: year of oldest observation",
+      "type": "integer",
+      "required": false
+    },
+    {
+      "id": "time_span_newest",
+      "text": "Time span covered by the database: year of newest observation",
+      "type": "integer",
+      "required": false
+    },
+    {
+      "id": "data_confidentiality",
+      "text": "Is the data confidential?",
+      "type": "tag",
+      "required": true,
+      "answers": [
+        "No, the data is public",
+        "Yes, it is confidential data",
+        "Data embargo, i.e there are rules or limits on using, sharing, or spreading it",
+        "Data has a limiting license"
+      ]
+    },
+    {
+      "id": "license",
+      "text": "What is the usage rights license for the dataset?",
+      "short_text": "License",
+      "filter": 3,
+      "type": "tag",
+      "required": true,
+      "fair": "R2",
+      "fair_text": "What usage rights are attached to the data? This should be described clearly. Ambiguity could severely limit the reuse of the data by organisations that struggle to comply with licensing restrictions. Clarity of licensing status will become more important with automated searches involving more licensing considerations. The conditions under which the data can be used should be clear to machines and humans.",
+      "fair_score": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.5,
+        0.5,
+        0.2,
+        0.2,
+        1,
+        0,
+        0,
+        0.2
+      ],
+      "answers": [
+        "MIT License",
+        "Apache License 2.0",
+        "GNU General Public License (GPL)",
+        "Creative Commons BY",
+        "Creative Commons BY-SA",
+        "Creative Commons BY-NC",
+        "Creative Commons BY-NC-SA",
+        "Creative Commons BY-ND",
+        "Creative Commons BY-NC-ND",
+        "Creative Commons Zero (CC0)",
+        "Proprietary",
+        "Not stated",
+        "Don't know",
+        "Other"
+      ]
+    },
+    {
+      "id": "license_other",
+      "for": "license",
+      "text": "Please, specify",
+      "type": "string",
+      "required": false
+    },
+    {
+      "id": "license_url",
+      "text": "Please indicate the URL to the license.",
+      "type": "string",
+      "required": false
+    },
+    {
+      "id": "access_barrier",
+      "text": "Is there any barrier to accessing the data?",
+      "type": "tag",
+      "required": true,
+      "fair": "A1",
+      "fair_text": "Data access should be mediated without relying on specialized or proprietary tools or communication methods. Ensuring that retrieval protocols are free allows equitable access for those without financial resources. Universal implementability of these protocols ensures accessibility for everyone, without restrictions based on location or community. However, fully mechanized protocols might not provide secure access for highly sensitive data. Ethical, legal, or contractual constraints may necessitate additional measures. In such cases, it is acceptable to provide contact information, such as an email or telephone number, for the responsible person to discuss access. This contact protocol must be clearly and explicitly documented.",
+      "fair_score": [
+        1,
+        1,
+        0.5,
+        0.8
+      ],
+      "answers": [
+        "No, direct download/access through a web link",
+        "User registration needed",
+        "Access to the data needs to be granted (e.g. dataset owner needs to give permission after user registration; dataset owner sends data after receiving a request email)",
+        "Access to the data is evaluated before being granted, due to ethical, legal or contractual constrains (e.g. privacy, highly sensitive data)"
+      ]
+    },
+    {
+      "id": "data_formats",
+      "text": "What is the format of the data?",
+      "type": "array of tags",
+      "required": true,
+      "fair": "I1",
+      "fair_text": "The critical part of FAIR data is that both humans and computers should be able to exchange and interpret each other's data without requiring specialized programs, translators or mappings. For computers, interoperability means that each computer system knows the other system's data exchange formats. For this to happen — and to ensure automatic findability and interoperability of datasets — one crucial aspect is to use open file formats.",
+      "fair_score": [
+        1,
+        0,
+        0,
+        0.2
+      ],
+      "answers": [
+        "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)",
+        "Custom file formats (database specific, not widely used)",
+        "Static content (e.g. textual, reports on website pages, tables and graphs, PDF files)",
+        "Other"
+      ]
+    },
+    {
+      "id": "data_formats_other",
+      "for": "data_formats",
+      "text": "Please, specify the data format",
+      "type": "string",
+      "required": false
+    },
+    {
+      "id": "data_relevant_attributes",
+      "text": "The data (or its metadata) is accurate and well described with many relevant attributes?",
+      "type": "tag",
+      "required": true,
+      "fair": "R1",
+      "fair_text": "The data publisher should provide comprehensive metadata that not only enables discovery but also richly describes the context in which the data was generated. Metadata should be detailed and inclusive, even if some information seems irrelevant. Key details to include are: the purpose for which the data was generated or collected; any particularities or limitations of the data; the date of data generation/collection, field conditions, data preparers, parameter settings, and software details; explanations for all variable names or ensuring they are self-explanatory; clear documentation of the version of the archived and/or reused data.",
+      "fair_score": [
+        1,
+        0.5,
+        0,
+        0
+      ],
+      "answers": [
+        "Yes",
+        "Not completely",
+        "No",
+        "Don't know"
+      ]
+    },
+    {
+      "id": "listed_other_databases",
+      "text": "Is the dataset also listed in other databases?",
+      "type": "tag",
+      "required": true,
+      "fair": "F3",
+      "fair_text": "Identifiers and metadata alone will not ensure ‘findability’ on the internet. Perfectly good data resources may go unused simply because no one knows they exist. If the availability of a dataset is not known, then nobody (and no computer) can discover it. Indexing the dataset within multiple databases might help reach a wider audience and hence, increase the dataset usage and dissemination.",
+      "fair_score": [
+        1,
+        0,
+        0
+      ],
+      "answers": [
+        "Yes",
+        "No",
+        "Don't know"
+      ]
+    },
+    {
+      "id": "listed_other_databases_list",
+      "text": "If applicable and known, in which databases is it listed?",
+      "type": "string",
+      "required": false
+    },
+    {
+      "id": "data_metadata",
+      "text": "The dataset has an associated metadata file (e.g. XML, md), where the dataset details are described?",
+      "type": "tag",
+      "required": true,
+      "fair": "F2",
+      "fair_text": "Metadata is a description of a resource that enhances its findability, reusability, interpretation, and assessment. Typically, metadata and the dataset it describes are separate files. Metadata acts as a descriptor, while the data is what is being described. The connection between them should be clear by including the dataset's unique and persistent identifier in the metadata. Comprehensive metadata should include details about the context, quality, condition, and characteristics of the data. While it's hard to define a minimal standard for metadata richness, more detailed metadata improves search accuracy for both humans and computers. A digital resource that is not well-described cannot be accurately discovered.",
+      "fair_score": [
+        1,
+        0,
+        0
+      ],
+      "answers": [
+        "Yes",
+        "No",
+        "Don't know"
+      ]
+    },
+    {
+      "id": "documentation_accessible",
+      "text": "Is the metadata file, or documentation, fully accessible, even if the data may not be publicly available?",
+      "type": "tag",
+      "required": true,
+      "fair": "A2",
+      "fair_text": "It is important that users have, at the very least, access to high quality metadata, or complete and organized documentation, that describes digital resources sufficiently to minimally understand their nature and their provenance, even when the relevant data is not publicly available, or not available anymore.",
+      "fair_score": [
+        1,
+        0.5,
+        0,
+        0
+      ],
+      "answers": [
+        "Yes",
+        "Some of it",
+        "No",
+        "Don't know"
+      ]
+    },
+    {
+      "id": "data_metadata_vocabulary",
+      "text": "Does the metadata file, or documentation, follow any controlled vocabularies, keywords, thesauri or ontologies?",
+      "type": "tag",
+      "required": true,
+      "fair": "I2",
+      "fair_text": "\"Vocabularies\" refer to methods that clearly represent concepts within a specific domain. Using shared, formally structured sets of terms is a crucial aspect of FAIR principles. Terminology systems, including flat \"vocabularies\", hierarchical \"thesauri\", and more detailed knowledge specifications like data models and ontologies, are vital for establishing community standards. For example, simply using a label like \"temperature\" is not enough for a machine to understand its intent (e.g., air temperature or body temperature) and the appropriate contexts for linking it with other similarly labeled data.",
+      "fair_score": [
+        1,
+        0,
+        0
+      ],
+      "answers": [
+        "Yes",
+        "No",
+        "Don't know"
+      ]
+    },
+    {
+      "id": "development_process",
+      "text": "It is clear how, why and by whom the data have been created and processed?",
+      "type": "tag",
+      "required": true,
+      "fair": "R3",
+      "fair_text": "For others to reuse the data, they need to know its origin, who to cite, and how you wish to be acknowledged. Provide a detailed description of the workflow that led to your data, including who generated or collected it, how it was processed, whether it has been previously published, and if it includes data from others that you have transformed or supplemented. Ideally, this workflow should be described in a machine-readable format.",
+      "fair_score": [
+        1,
+        0.5,
+        0,
+        0
+      ],
+      "answers": [
+        "Yes",
+        "Not completely",
+        "No",
+        "Don't know"
+      ]
+    },
+    {
+      "id": "documentation_list",
+      "text": "Indicate the associated publication(s) or other documentation related with the dataset.",
+      "type": "long string",
+      "required": false
+    },
+    {
+      "id": "digitaf_data_ll",
+      "text": "For DigitAF participants, in which DigitAF Living Labs is the data being used?",
+      "short_text": "Used in DigitAF Living Labs",
+      "type": "array of tags",
+      "required": false,
+      "digitaf_specific": true,
+      "answers": [
+        "Czech Republic LL",
+        "Finland LL",
+        "Germany LL",
+        "Italy LL",
+        "Netherlands LL",
+        "United Kingdom LL"
+      ]
+    },
+    {
+      "id": "digitaf_data_wp",
+      "text": "For DigitAF participants, in what WPs is this data being used?",
+      "short_text": "Used in DigitAF Living Labs",
+      "type": "array of tags",
+      "required": false,
+      "digitaf_specific": true,
+      "answers": [
+        "WP1 - Tools for policy-makers",
+        "WP2 - Tools for practitioners and farm advisors",
+        "WP3 - Tools for beneficiaries",
+        "WP4 - LL and a common AF toolbox"
+      ]
+    },
+    {
+      "id": "digitaf_data_used",
+      "text": "For DigitAF participants, please detail how is this data being used within the project context.",
+      "type": "long string",
+      "digitaf_specific": true,
+      "required": false
+    },
+    {
+      "id": "feedback_data_info",
+      "text": "Is there any relevant information about the dataset that hasn't been collected in the previous questions?",
+      "type": "string",
+      "required": false
+    }
+  ]
+}

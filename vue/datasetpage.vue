@@ -26,6 +26,9 @@ module.exports = {
     },
     loaded() {
       return this.$root.$data.loaded
+    },
+    fairness_version() {
+      return this.$root.$data.datasets_scoring.version
     }
   },
   methods: {
@@ -95,7 +98,7 @@ module.exports = {
           <p>{{ dataset.time_steps.join(', ') }}</p>
           <div class="row">
             <div class="col-8 text-center details-block">
-              <p class="btn-small-title">FAIRness score</p>
+              <p class="btn-small-title">FAIRness score <small><b>v{{ fairness_version }}</b></small></p>
               <div class="score-bar">
                 <p class="label">F</p>
                 <div class="bar">

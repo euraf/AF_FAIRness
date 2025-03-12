@@ -184,13 +184,13 @@ app = new Vue({
 				var requests = []
 
 				requests.push($.getJSON(baseurl + 'catalogue/tools/tools_form.json', 
-				function (form) {
-					_this.tools_form = form
+				function (json) {
+					_this.tools_form = json.form
 				}))
 	
 				requests.push($.getJSON(baseurl + 'catalogue/data/datasets_form.json', 
-				function (form) {
-					_this.datasets_form = form
+				function (json) {
+					_this.datasets_form = json.form
 				}))
 
 				requests.push($.getJSON(baseurl + 'catalogue/projects/projects_form.json', 

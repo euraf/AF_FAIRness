@@ -18,6 +18,9 @@
 
 function Data_FAIRness_scoring() {
     const _version = "1.0"
+    const _description = "This first version of the Data FAIRness scoring was assessed during the DigitAF project as a first iteration. It serves as an initial evaluation and is expected to evolve with further refinements and improvements."
+
+    const _using_form_version = "1.0"
 
     const DEFAULT_SCORE_FOR_OTHER_ANSWERS = 0.2
 
@@ -195,6 +198,7 @@ function Data_FAIRness_scoring() {
     }
 
     return {
+        version: _version,
         score(dataset) {
             return {
                 F: score_f(dataset),

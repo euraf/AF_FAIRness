@@ -47,6 +47,13 @@ module.exports = {
         } else if (this.data) {
             return this.form.slice(this.DATA_FORM_HALF, this.form.length)
         }
+    },
+    fairness_version() {
+        if (this.tools) {
+            return this.$root.$data.tools_scoring.version
+        } else if (this.data) {
+            return this.$root.$data.datasets_scoring.version
+        }
     }
   },
   methods: {
@@ -159,7 +166,7 @@ module.exports = {
             </div>
         </div>
         <div class="scoring-block">
-            <p class="small-title"><b>FAIRness score</b></p>
+            <p class="small-title"><b>FAIRness score <small><b>v{{ fairness_version }}</b></small></b></p>
             <div class="score-bar">
                 <p class="label">F</p>
                 <div class="bar">

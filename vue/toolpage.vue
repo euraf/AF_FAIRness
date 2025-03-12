@@ -29,6 +29,9 @@ module.exports = {
     },
     indicators() {
       return this.$root.$data.tools_form.filter(x => x.id == 'indicators')[0]
+    },
+    fairness_version() {
+      return this.$root.$data.tools_scoring.version
     }
   },
   methods: {
@@ -179,7 +182,7 @@ module.exports = {
               <div class="card bg-white p-4">
                 <div class="row">
                   <div class="col-12 text-center mb-4">
-                    <p class="btn-small-title">FAIRness score</p>
+                    <p class="btn-small-title">FAIRness score <small><b>v{{ fairness_version }}</b></small></p>
                     <div class="score-bar">
                       <p class="label">F</p>
                       <div class="bar">

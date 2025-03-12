@@ -25,6 +25,9 @@ module.exports = {
     },
     form() {
       return this.$root.$data.tools_form
+    },
+    fairness_version() {
+      return this.$root.$data.tools_scoring.version
     }
   },
   methods: {
@@ -198,7 +201,7 @@ module.exports = {
                     </template>
                   </div>
                   <div class="col-4 text-center details-block">
-                    <p class="btn-small-title">FAIRness score</p>
+                    <p class="btn-small-title">FAIRness score <small><b>v{{ fairness_version }}</b></small></p>
                     <div class="score-bar">
                       <p class="label">F</p>
                       <div class="bar">

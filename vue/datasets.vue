@@ -25,6 +25,9 @@ module.exports = {
     },
     form() {
       return this.$root.$data.datasets_form
+    },
+    fairness_version() {
+      return this.$root.$data.datasets_scoring.version
     }
   },
   methods: {
@@ -174,7 +177,7 @@ module.exports = {
                         <p class="topic">{{ dataset.data_type.join(", ") + dataset.data_type_other }}</p-->
                       </div>
                       <div class="offset-2 col-8 text-center details-block">
-                        <p class="btn-small-title">FAIRness score</p>
+                        <p class="btn-small-title">FAIRness score <small><b>v{{ fairness_version }}</b></small></p>
                         <div class="score-bar">
                           <p class="label">F</p>
                           <div class="bar">
