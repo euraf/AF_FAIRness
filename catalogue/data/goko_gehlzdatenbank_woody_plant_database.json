@@ -1,1 +1,60 @@
-{"data_type": ["Aggregated data"], "spatial_scales": ["Plant/animal", "Leaf/stem (sub-individual)"], "indicators": ["Yield / Biomass", "Species occurrence", "Phenology", "Suitability", "Biodiversity"], "time_steps": ["Not relevant"], "data_formats": ["Static content (e.g. textual, reports on website pages, tables and graphs, PDF files)"], "digitaf_data_ll": ["Germany LL"], "digitaf_data_wp": ["WP2 - Tools for practitioners and farm advisors", "WP4 - LL and a common AF toolbox"], "submitter_name": "Rico H\u00fcbner", "submitter_email": "huebner@defaf.de", "name": "Go\u00d6ko Geh\u00f6lzdatenbank (woody plant database)", "url": "https://hecken-landschaft.de/geh%C3%B6lzdatenbank", "url_persistent": "Yes", "description": "The Go\u00d6ko woody plant database (German: Geh\u00f6lzdatenbank) is a website to gain information on tree and shrub species typically found in the agricultural landscape in Germany. The database includes 59 tree and shrub species. The location and climate requirements, habitats of the woody plants, utilization aspects, landscape aesthetic and cultural significance as well as the indicator values according to Ellenberg are compiled in the database. The decision support tool Go\u00d6ko Hedgerow Manager (German: Heckenmanager) is based on this, for example when selecting the right tree species for a specific location.\nThe plant database can be used free of charge on the DeFAF website.", "keywords": ["shrub species", "tree species", "Ellenberg"], "data_ownership": "BTU Cottbus / Senftenberg", "data_contact": "tsonkova@defaf.de", "data_project": "Yes", "data_project_name": "\u201cGo\u00d6ko\u201d project \u2013 Woodland use optimizes ecosystem services", "data_collection_country": "Germany", "year_release": 2021, "year_lastupdate": "", "data_confidentiality": "No, the data is public", "license": "Creative Commons BY", "access_barrier": "No, direct download/access through a web link", "data_relevant_attributes": "Yes", "listed_other_databases": "Don't know", "data_metadata": "No", "documentation_accessible": "No", "data_metadata_vocabulary": "No", "development_process": "Yes", "documentation_list": "Tsonkova, P., C. B\u00f6hm, R. H\u00fcbner and J. Ehritt (2019). Assessing multiple ecosystem functions of linear woody-features in the agricultural landscape. Agroforestry: strengthening links between science, society and policy. C. Dupraz, M. Gosme and G. Lawson. Montpellier, France: 230.", "id": "goko_gehlzdatenbank_woody_plant_database", "timestamp_creation": 1741787283645, "timestamp_lastedit": 1741787283645}
+{
+	"data_type": [
+		"Aggregated data"
+	],
+	"spatial_scales": [
+		"Plant/animal",
+		"Leaf/stem (sub-individual)"
+	],
+	"indicators": [
+		"Yield / Biomass",
+		"Species occurrence",
+		"Phenology",
+		"Suitability",
+		"Biodiversity"
+	],
+	"time_steps": [
+		"Not relevant"
+	],
+	"data_formats": [
+		"Static content (e.g. textual, reports on website pages, tables and graphs, PDF files)"
+	],
+	"digitaf_data_ll": [
+		"Germany LL"
+	],
+	"digitaf_data_wp": [
+		"WP2 - Tools for practitioners and farm advisors",
+		"WP4 - LL and a common AF toolbox"
+	],
+	"submitter_name": "Rico H\u00fcbner",
+	"submitter_email": "huebner@defaf.de",
+	"name": "Go\u00d6ko Geh\u00f6lzdatenbank (woody plant database)",
+	"url": "https://hecken-landschaft.de/geh%C3%B6lzdatenbank",
+	"url_persistent": "Yes",
+	"description": "The Go\u00d6ko woody plant database (German: Geh\u00f6lzdatenbank) is a website to gain information on tree and shrub species typically found in the agricultural landscape in Germany. The database includes 59 tree and shrub species. The location and climate requirements, habitats of the woody plants, utilization aspects, landscape aesthetic and cultural significance as well as the indicator values according to Ellenberg are compiled in the database. The decision support tool Go\u00d6ko Hedgerow Manager (German: Heckenmanager) is based on this, for example when selecting the right tree species for a specific location.\nThe plant database can be used free of charge on the DeFAF website.",
+	"keywords": [
+		"shrub species",
+		"tree species",
+		"Ellenberg"
+	],
+	"data_ownership": "BTU Cottbus / Senftenberg",
+	"data_contact": "tsonkova@defaf.de",
+	"data_project": "Yes",
+	"data_project_name": "\u201cGo\u00d6ko\u201d project \u2013 Woodland use optimizes ecosystem services",
+	"data_collection_country": "Germany",
+	"year_release": 2021,
+	"year_lastupdate": "",
+	"data_confidentiality": "No, the data is public",
+	"license": "Creative Commons BY",
+	"access_barrier": "No, direct download/access through a web link",
+	"data_relevant_attributes": "Yes",
+	"listed_other_databases": "Don't know",
+	"data_metadata": "No",
+	"documentation_accessible": "No",
+	"data_metadata_vocabulary": "No",
+	"development_process": "Yes",
+	"documentation_list": "Tsonkova, P., C. B\u00f6hm, R. H\u00fcbner and J. Ehritt (2019). Assessing multiple ecosystem functions of linear woody-features in the agricultural landscape. Agroforestry: strengthening links between science, society and policy. C. Dupraz, M. Gosme and G. Lawson. Montpellier, France: 230.",
+	"id": "goko_gehlzdatenbank_woody_plant_database",
+	"timestamp_creation": 1741787283645,
+	"timestamp_lastedit": 1741787283645
+}
