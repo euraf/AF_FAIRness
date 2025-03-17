@@ -141,15 +141,15 @@ module.exports = {
 </script>
 
 <template>
-  <div>
+  <div class="initial-screen">
     <div class="row">
       <div class="col-12 tools-catalogue">
         <div class="row">
           <div class="col-6">
-            <h3 class="mb-4"><strong><i class="fa-solid fa-screwdriver-wrench mr-2"></i> Tools</strong> Catalogue</h3>
+            <h3 class="mb-4"><router-link class="text-color" :to="{ name: 'tools' }"><strong><i class="fa-solid fa-screwdriver-wrench mr-2"></i> Tools</strong> Catalogue</router-link></h3>
           </div>
           <div class="col-6 text-right">
-            <p class="mt-3 mb-0"><b class="nr">{{ nr_tools }}</b> tools currently available</p>
+            <p class="mt-3 mb-0"><router-link class="text-color" :to="{ name: 'tools' }"><b class="nr">{{ nr_tools }}</b> tools currently available</router-link></p>
           </div>
         </div>
         <div class="row">
@@ -181,16 +181,19 @@ module.exports = {
                 </div>
               </div>
             </router-link>
+              <div class="mt-2 text-center">
+                <p class="btn btn-secondary pointer"><router-link :to="{ name: 'tools' }">Browse all tools <i class="fa-solid fa-screwdriver-wrench ml-2"></i></router-link></p>
+              </div>
           </div>
         </div>
       </div>
       <div class="col-12 data-catalogue">
         <div class="row">
           <div class="col-6">
-            <h3 class="mb-4"><strong><i class="fa-solid fa-database mr-2"></i> Data</strong> Catalogue</h3>
+            <h3 class="mb-4"><router-link class="text-color" :to="{ name: 'datasets' }"><strong><i class="fa-solid fa-database mr-2"></i> Data</strong> Catalogue</router-link></h3>
           </div>
           <div class="col-6 text-right">
-            <p class="mt-3 mb-0"><b class="nr">{{ nr_datasets }}</b> datasets currently available</p>
+            <p class="mt-3 mb-0"><router-link class="text-color" :to="{ name: 'datasets' }"><b class="nr">{{ nr_datasets }}</b> datasets currently available</router-link></p>
           </div>
         </div>
         <div class="row">
@@ -222,16 +225,19 @@ module.exports = {
                 </div>
               </div>
             </router-link>
+              <div class="mt-2 text-center">
+                <p class="btn btn-primary pointer"><router-link :to="{ name: 'data' }">Explore the data catalogue <i class="fa-solid fa-database ml-2"></i></router-link></p>
+              </div>
           </div>
         </div>
       </div>
       <div class="col-12 projects-catalogue">
         <div class="row">
           <div class="col-6">
-            <h3 class="mb-4"><strong><i class="fa-solid fa-folder-tree mr-2"></i> Projects</strong> Catalogue</h3>
+            <h3 class="mb-4"><router-link class="text-color" :to="{ name: 'projects' }"><strong><i class="fa-solid fa-folder-tree mr-2"></i> Projects</strong> Catalogue</router-link></h3>
           </div>
           <div class="col-6 text-right">
-            <p class="mt-3 mb-0"><b class="nr">{{ nr_projects }}</b> projects currently available</p>
+            <p class="mt-3 mb-0"><router-link class="text-color" :to="{ name: 'projects' }"><b class="nr">{{ nr_projects }}</b> projects currently available</router-link></p>
           </div>
         </div>
         <div class="row">
@@ -263,6 +269,9 @@ module.exports = {
                 </div>
               </div>
             </router-link>
+              <div class="mt-2 text-center">
+                <p class="btn btn-grey pointer"><router-link :to="{ name: 'projects' }">View projects list <i class="fa-solid fa-folder-tree ml-2"></i></router-link></p>
+              </div>
           </div>
         </div>
       </div>

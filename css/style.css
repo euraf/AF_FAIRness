@@ -603,12 +603,8 @@ a:focus {
   margin-top: 0;
 }
 
-.initial-screen {
-  margin-top: 200px;
-}
-
-.initial-screen a {
-  color: var(--primary);
+.initial-screen a.text-color {
+  color: var(--text-color);
 }
 
 .question-conditional {
