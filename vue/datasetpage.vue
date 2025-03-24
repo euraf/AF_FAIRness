@@ -61,19 +61,19 @@ module.exports = {
     </div>
     <div v-if="dataset" class="toolpage card bg-white p-4">
       <div class="row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <h5 class="card-title"><b>{{ dataset.name }}</b></h5>
         </div>
-        <div class="col-6 note text-right">
+        <div class="col-sm-6 note text-right">
           <p>Do you want to improve this dataset's info? <router-link :to="'/data/dataset/' + dataset.id +'/edit'">Edit it here</router-link></p>
         </div>
       </div>
       <div class="row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="btn-small-title">Description</p>
           <p>{{ dataset.description }}</p>
         </div>
-        <div class="col-3">
+        <div class="col-sm-3">
           <p class="btn-small-title">Link</p>
           <p><a :href="dataset.url" target="_blank">{{  dataset.url }}</a></p>
           <p class="btn-small-title">Keywords</p>
@@ -87,7 +87,7 @@ module.exports = {
           <p class="btn-small-title">Type of data</p>
           <p>{{ dataset.data_type.join(', ') }}</p>
         </div>
-        <div class="col-3">
+        <div class="col-sm-3">
           <p class="btn-small-title">Spatial scale</p>
           <p>{{ dataset.spatial_scales.join(', ') }}</p>
           <p class="btn-small-title">Spatial details</p>

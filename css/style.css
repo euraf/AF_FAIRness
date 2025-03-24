@@ -147,6 +147,10 @@ p {
   font-weight: bold;
 }
 
+.card.project .badge {
+  white-space: normal;
+}
+
 .btn-crop,
 .btn-tree,
 .btn-livestock,
@@ -269,14 +273,19 @@ p {
 .sorting select {
   margin-left: auto;
   margin-right: 0;
-  width: 20rem;
   font-size: 14px;
 }
 
 .sorting p {
   font-size: 14px;
-  margin-top: 7px;
   margin-bottom: 0;
+}
+.sorting .sort-by {
+  margin-top: 6px;
+  text-align: center;
+}
+.sorting .displaying {
+  text-align: right;
 }
 
 table.fair-score, table.fair-score tr, table.fair-score td {
@@ -464,7 +473,6 @@ a:focus {
 }
 .footer {
     background-color: white;
-    font-size: 80%;
     padding: 10px;
     text-align: center;
     box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
@@ -472,84 +480,74 @@ a:focus {
 .footer p {
     margin: 0;
     padding: 0;
+    font-size: 65%;
 }
 
 .top {
-  height: 60px;
+  min-height: 60px;
   background-color: var(--primary);
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
-  padding-right: 20px;
 }
-.top .logo img {
-  height: 55px;
-  width: auto;
-  padding-top: 3px;
-}
-.top .logo {
-  background-color: white;
-}
-.title h1 {
-  font-size: 1.8rem;
+.top .title {
+  font-size: 1.5rem;
   color: white;
   font-weight: bold;
-  margin-bottom: 0;
-  padding-top: 11px;
+  /* margin-bottom: 0;
+  padding-top: 11px; */
 }
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0; /* remove the gap so it doesn't close */
+.top .menu {
+  background-color: var(--primary);
 }
-.menu .dropdown-menu {
+.top .menu .dropdown-menu {
   background-color: var(--primary);
   color: white;
   border: none;
   border-radius: 0;
 }
-.menu .dropdown-item {
+.top .menu .dropdown-item {
   color: white;
 }
-.menu {
-  background-color: var(--primary);
+.top .menu .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* remove the gap so it doesn't close */
 }
-.menu .dropdown button.dropdown-toggle,
-.menu .home.btn {
-  margin-top: 11px;
+.top .menu .dropdown button.dropdown-toggle,
+.top .menu .home.btn {
+  /* margin-top: 11px; */
   background-color: var(--primary);
   border: none!important;
 }
-.menu .dropdown button.dropdown-toggle:focus,
-.menu .home.btn {
+.top .menu .dropdown button.dropdown-toggle:focus,
+.top .menu .home.btn {
   box-shadow: none!important;
   border: none!important;
 }
-.menu .dropdown button.dropdown-item:hover {
+.top .menu .dropdown button.dropdown-item:hover {
   background-color: var(--primary-light);
 }
 .top .menu a,
 .top .title a {
   color: white;
 }
-.menu {
+
+.home-ico {
+  position: absolute;
+  left: 20px;
+  top: 10px;
   font-size: 90%;
 }
+
 .content-wrap {
-  margin-top: 50px;
-  margin-bottom: 40px;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  margin-top: 100px;
+  margin-bottom: 45px;
 }
 
 .proglang .form-check div {
   padding-left: 15px;
 }
-.form.form-self-assessment {
-  margin-left: 11rem;
-  margin-right: 15px;
-}
 .form.form-self-assessment .intro {
-  padding-left: 0;
-  padding-right: 0;
-  margin-bottom: 1.5rem;
+  margin-top: 140px;
+  margin-bottom: 20px;
 }
 .form.form-self-assessment .intro .card .card-img-top {
   object-fit: cover;
@@ -561,8 +559,8 @@ a:focus {
   text-decoration: none !important;
 }
 .form.form-add {
-  margin-left: 6rem;
-  margin-right: 6rem;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .form .form-group {
   margin-bottom: 30px;
@@ -585,7 +583,7 @@ a:focus {
 
 .scoring-block {
   position: fixed;
-  top: 56px;
+  top: 96px;
   left: 20px;
   z-index: 800;
   background: white;
@@ -601,10 +599,6 @@ a:focus {
 }
 .scoring-block .bar p {
   margin-top: 0;
-}
-
-.initial-screen a.text-color {
-  color: var(--text-color);
 }
 
 .question-conditional {
@@ -652,12 +646,6 @@ span.compulsory {
 }
 .about-this {
   background-color: var(--secondary-light);
-}
-.about-this,
-.about-fair,
-.about-digitaf,
-.about-deliverables {
-  padding: 20px 120px;
 }
 .about-deliverables p,
 .about-deliverables h3 {
@@ -716,26 +704,32 @@ span.compulsory {
 .text-bigger {
   font-size: 120%;
 }
-
+.home-screen a.text-color {
+  color: var(--text-color);
+}
+.home-screen .home-block {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.catalogue .drawer-content {
+  background-color: var(--background-color);
+  padding: 10px;
+}
 .tools-catalogue {
-  margin-top: -10px;
   background-color: var(--secondary-light);
-  padding: 20px 120px;
 }
 .data-catalogue {
   background-color: var(--primary-light);
-  padding: 20px 120px;
 }
 .projects-catalogue {
   background-color: var(--light-grey);
-  padding: 20px 120px;
 }
 .projects-catalogue .add-btn {
   background-color: grey;
   border-color: grey;
 }
 .card.stats {
-  padding: 5%;
+  padding: 3%;
   display: flex;
 }
 .card.stats > .row,
@@ -867,4 +861,75 @@ span.compulsory {
 	bottom: 3rem;
 	z-index: 1010;
   font-size: 80%;
+}
+
+@media (min-width: 576px) { 
+
+  .top .title {
+    font-size: 1.8rem;
+    padding-top: 8px;
+  }
+
+  .content-wrap {
+    margin-top: 60px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+  }
+  .home-screen .home-block {
+    padding: 20px 120px;
+  }
+  .card.stats {
+    padding: 4%;
+  }
+  .footer p {
+    font-size: 80%;
+  }
+  .top .menu .dropdown {
+    margin-top: 12px;
+  }
+  
+  .catalogue {
+    padding-top: 10px;
+  }
+  .sorting p {
+    margin-top: 7px;
+  }
+  /*.sorting select {
+    width: 20rem;
+  }*/
+  .sorting .sort-by {
+    text-align: right;
+    padding-right: 10px;
+  }
+  .sorting .displaying {
+    text-align: left;
+  }
+  .card.project .badge {
+    white-space: nowrap;
+  }
+  .form.form-self-assessment {
+    margin-left: 11rem;
+    margin-right: 15px;
+  }
+  .form.form-self-assessment .intro {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+  }
+  .scoring-block {
+    position: fixed;
+    top: 56px;
+    left: 20px;
+    z-index: 800;
+    background: white;
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+    width: 150px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .form.form-add {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
 }

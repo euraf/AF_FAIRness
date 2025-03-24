@@ -58,19 +58,19 @@ module.exports = {
     </div>
     <div v-if="project" class="toolpage card bg-white p-4">
       <div class="row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <h5 class="card-title"><b>{{ project.name }}</b></h5>
         </div>
-        <div class="col-6 note text-right">
+        <div class="col-sm-6 note text-right">
           <p>Do you want to improve this project's info? <router-link :to="'/projects/project/' + project.id +'/edit'">Edit it here</router-link></p>
         </div>
       </div>
       <div class="row">
-        <div class="col-9">
+        <div class="col-sm-9">
           <p class="btn-small-title">Description</p>
           <p>{{ project.description }}</p>
         </div>
-        <div class="col-3">
+        <div class="col-sm-3">
           <div class="project-cover text-center mb-4">
             <img class="img-fluid mini" :src="project.logo_url" :alt="project.acronym">
           </div>

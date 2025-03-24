@@ -153,108 +153,120 @@ module.exports = {
 </script>
 
 <template>
-  <div>
-    <div class="row no-gutters">
-      <div class="col-2">
-        <div class="col-12 text-center">
-          <p class="btn btn-primary pointer"><router-link :to="{ name: 'tool_add' }"><b>+ New Tool</b></router-link></p>
-        </div>
-        <div class="col-12 text-center">
-          <p>Do a self-assessment of the FAIRness of your tool <b><router-link to="/tools/fairness_self_assessment">here</router-link>.</b></p>
-        </div>
+  <div class="catalogue row">
+    <div class="d-sm-none drawer drawer-left slide" tabindex="-1" role="dialog" id="drawer-2">
+      <div class="drawer-content" role="document">
         <filtering ref="filtering" :elements="filteredTools" :form="form"></filtering>
       </div>
-      <div class="col-10">
-        <div class="col-12 row no-gutters mb-3 sorting">
-          <div class="col-6">
+    </div>
+    <div class="d-none d-sm-block col-sm-2">
+      <div class="text-center">
+        <p class="btn btn-primary pointer"><router-link :to="{ name: 'tool_add' }"><b>+ New Tool</b></router-link></p>
+      </div>
+      <div class="text-center">
+          <p>Do a self-assessment of the FAIRness of your tool <b><router-link to="/tools/fairness_self_assessment">here</router-link>.</b></p>
+      </div>
+      <filtering ref="filtering" :elements="filteredTools" :form="form"></filtering>
+    </div>
+    <div class="col-sm-10">
+        <div class="row no-gutters mb-3 sorting">
+          <div class="d-sm-none col-4 col-sm-6 mb-2">
+            <p class="btn btn-primary" data-toggle="drawer" data-target="#drawer-2"><i class="fa-solid fa-arrow-left-long"></i> Filters</p>
+          </div>
+          <div class="d-sm-none col-4 col-sm-6 mb-2">
+            <p class="btn btn-primary pointer"><router-link :to="{ name: 'tool_add' }"><b>+ New Tool</b></router-link></p>
+          </div>
+          <div class="displaying col-4 col-sm-6 mb-2">
             <p v-if="filteredTools.length > 1">Displaying <b>{{ filteredTools.length }}</b> tools</p>
             <p v-if="filteredTools.length == 1">Displaying <b>1</b> tool</p>
             <p v-if="filteredTools.length == 0">No tools to display</p>
           </div>
-          <sorting ref="sorting" class="col-6"></sorting>
-        </div>
-        <div class="col-12">
-          <div class="row tools">
-            <div class="col-4 mb-4" v-for="tool in filteredTools" :key="tool.id">
-              <div class="card tool">
-                <router-link :to="'/tools/tool/' + tool.id"><img class="card-img-top tool-cover" :src="imageLink(tool)" :alt="tool.name"></router-link>
-                <div class="card-body row">
-                  <div class="col-12">
-                    <h5 class="card-title text-center"><b><router-link :to="'/tools/tool/' + tool.id">{{ tool.name }}</router-link></b></h5>
-                  </div>
-                  <div class="col-12 text-center">
-                    <p class="card-text">{{ truncateDescription(tool.description) }}</p>
-                  </div>
-                  <div class="col-12 text-center my-3 tool-types">
-                    <p><span class="btn btn-crop active" v-if="tool.system_components.includes('Crop')">Crop</span> <span class="btn btn-tree active" v-if="tool.system_components.includes('Tree')">Tree</span> <span class="btn btn-livestock active" v-if="tool.system_components.includes('Livestock')">Livestock</span> <span class="btn btn-people active" v-if="tool.system_components.includes('People')">People</span> <span class="btn btn-soil active" v-if="tool.system_components.includes('Soil')">Soil</span></p>
-                  </div>
-                  <div class="col-4 text-center details-block">
-                    <template v-if="'spatial_scales' in tool && arrayHasAnswer(tool.spatial_scales)">
-                      <p class="btn-small-title">Spatial scale</p>
-                      <p v-for="(scale, index) in tool.spatial_scales" :key="index">{{ scale }}</p>
-                    </template>
-                  </div>
-                  <div class="col-4 text-center details-block">
-                    <template v-if="'time_steps' in tool && arrayHasAnswer(tool.time_steps)">
-                      <p class="btn-small-title">Time step</p>
-                      <p v-for="(time, index) in tool.time_steps" :key="index">{{ time }}</p>
-                    </template>
-                  </div>
-                  <div class="col-4 text-center details-block">
-                    <p class="btn-small-title">FAIRness score <small><b>v{{ fairness_version }}</b></small></p>
-                    <div class="score-bar">
-                      <p class="label">F</p>
-                      <div class="bar">
-                        <div :style="'width:' + tool.findability_score*0.75 + '%; background-color: ' + scoreColor(tool.findability_score) + ';'"></div>
-                        <p :class="{ 'ml-0': tool.findability_score == 0 }">{{ tool.findability_score }}%</p>
+          <div class="d-sm-none col-12 text-center mb-2">
+            <p>Do a self-assessment of the FAIRness of your tool <b><router-link to="/tools/fairness_self_assessment">here</router-link>.</b></p>
+          </div>
+          <sorting ref="sorting"></sorting>
+          <div class="col-12 tools mt-4">
+            <div class="row">
+              <div class="col-12 col-sm-4 mb-4" v-for="tool in filteredTools" :key="tool.id">
+                <div class="card tool">
+                  <router-link :to="'/tools/tool/' + tool.id"><img class="card-img-top tool-cover" :src="imageLink(tool)" :alt="tool.name"></router-link>
+                  <div class="card-body row">
+                    <div class="col-12">
+                      <h5 class="card-title text-center"><b><router-link :to="'/tools/tool/' + tool.id">{{ tool.name }}</router-link></b></h5>
+                    </div>
+                    <div class="col-12 text-center">
+                      <p class="card-text">{{ truncateDescription(tool.description) }}</p>
+                    </div>
+                    <div class="col-12 text-center my-3 tool-types">
+                      <p><span class="btn btn-crop active" v-if="tool.system_components.includes('Crop')">Crop</span> <span class="btn btn-tree active" v-if="tool.system_components.includes('Tree')">Tree</span> <span class="btn btn-livestock active" v-if="tool.system_components.includes('Livestock')">Livestock</span> <span class="btn btn-people active" v-if="tool.system_components.includes('People')">People</span> <span class="btn btn-soil active" v-if="tool.system_components.includes('Soil')">Soil</span></p>
+                    </div>
+                    <div class="col-4 text-center details-block">
+                      <template v-if="'spatial_scales' in tool && arrayHasAnswer(tool.spatial_scales)">
+                        <p class="btn-small-title">Spatial scale</p>
+                        <p v-for="(scale, index) in tool.spatial_scales" :key="index">{{ scale }}</p>
+                      </template>
+                    </div>
+                    <div class="col-4 text-center details-block">
+                      <template v-if="'time_steps' in tool && arrayHasAnswer(tool.time_steps)">
+                        <p class="btn-small-title">Time step</p>
+                        <p v-for="(time, index) in tool.time_steps" :key="index">{{ time }}</p>
+                      </template>
+                    </div>
+                    <div class="col-4 text-center details-block">
+                      <p class="btn-small-title">FAIRness score <small><b>v{{ fairness_version }}</b></small></p>
+                      <div class="score-bar">
+                        <p class="label">F</p>
+                        <div class="bar">
+                          <div :style="'width:' + tool.findability_score*0.75 + '%; background-color: ' + scoreColor(tool.findability_score) + ';'"></div>
+                          <p :class="{ 'ml-0': tool.findability_score == 0 }">{{ tool.findability_score }}%</p>
+                        </div>
+                      </div>
+                      <div class="score-bar">
+                        <p class="label">A</p>
+                        <div class="bar">
+                          <div :style="'width:' + tool.accessibility_score*0.75 + '%; background-color: ' + scoreColor(tool.accessibility_score) + ';'"></div>
+                          <p :class="{ 'ml-0': tool.accessibility_score == 0 }">{{ tool.accessibility_score }}%</p>
+                        </div>
+                      </div>
+                      <div class="score-bar">
+                        <p class="label">I</p>
+                        <div class="bar">
+                          <div :style="'width:' + tool.interoperability_score*0.75 + '%; background-color: ' + scoreColor(tool.interoperability_score) + ';'"></div>
+                          <p :class="{ 'ml-0': tool.interoperability_score == 0 }">{{ tool.interoperability_score }}%</p>
+                        </div>
+                      </div>
+                      <div class="score-bar">
+                        <p class="label">R</p>
+                        <div class="bar">
+                          <div :style="'width:' + tool.reusability_score*0.75 + '%; background-color: ' + scoreColor(tool.reusability_score) + ';'"></div>
+                          <p :class="{ 'ml-0': tool.reusability_score == 0 }">{{ tool.reusability_score }}%</p>
+                        </div>
                       </div>
                     </div>
-                    <div class="score-bar">
-                      <p class="label">A</p>
-                      <div class="bar">
-                        <div :style="'width:' + tool.accessibility_score*0.75 + '%; background-color: ' + scoreColor(tool.accessibility_score) + ';'"></div>
-                        <p :class="{ 'ml-0': tool.accessibility_score == 0 }">{{ tool.accessibility_score }}%</p>
-                      </div>
+                    <div class="col-4 text-center details-block">
+                      <template v-if="'software_proglanguage' in tool && arrayHasAnswer(tool.software_proglanguage)">
+                        <p class="btn-small-title">Stack</p>
+                        <p v-for="(scale, index) in tool.software_proglanguage" :key="index">{{ scale }}</p>
+                      </template>
                     </div>
-                    <div class="score-bar">
-                      <p class="label">I</p>
-                      <div class="bar">
-                        <div :style="'width:' + tool.interoperability_score*0.75 + '%; background-color: ' + scoreColor(tool.interoperability_score) + ';'"></div>
-                        <p :class="{ 'ml-0': tool.interoperability_score == 0 }">{{ tool.interoperability_score }}%</p>
-                      </div>
+                    <div class="col-4 text-center details-block">
+                      <template v-if="'license' in tool && tool.license">
+                        <p class="btn-small-title">License</p>
+                        <p>{{ tool.license }}</p>
+                      </template>
                     </div>
-                    <div class="score-bar">
-                      <p class="label">R</p>
-                      <div class="bar">
-                        <div :style="'width:' + tool.reusability_score*0.75 + '%; background-color: ' + scoreColor(tool.reusability_score) + ';'"></div>
-                        <p :class="{ 'ml-0': tool.reusability_score == 0 }">{{ tool.reusability_score }}%</p>
-                      </div>
+                    <div class="col-4 text-center details-block">
+                      <template v-if="'digitaf_tool_demo_video' in tool && tool.digitaf_tool_demo_video">
+                        <p class="btn-small-title">Demonstration video</p>
+                        <router-link :to="'tools/tool/' + tool.id" :tool="tool"><img class="demo-video img-fluid" src="img/digitaf_demo_video.png"></router-link>
+                      </template>
                     </div>
-                  </div>
-                  <div class="col-4 text-center details-block">
-                    <template v-if="'software_proglanguage' in tool && arrayHasAnswer(tool.software_proglanguage)">
-                      <p class="btn-small-title">Stack</p>
-                      <p v-for="(scale, index) in tool.software_proglanguage" :key="index">{{ scale }}</p>
-                    </template>
-                  </div>
-                  <div class="col-4 text-center details-block">
-                    <template v-if="'license' in tool && tool.license">
-                      <p class="btn-small-title">License</p>
-                      <p>{{ tool.license }}</p>
-                    </template>
-                  </div>
-                  <div class="col-4 text-center details-block">
-                    <template v-if="'digitaf_tool_demo_video' in tool && tool.digitaf_tool_demo_video">
-                      <p class="btn-small-title">Demonstration video</p>
-                      <router-link :to="'tools/tool/' + tool.id" :tool="tool"><img class="demo-video img-fluid" src="img/digitaf_demo_video.png"></router-link>
-                    </template>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </div>
   </div>
 </template>

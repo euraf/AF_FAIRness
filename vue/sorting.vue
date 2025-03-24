@@ -90,10 +90,16 @@ module.exports = {
 </script>
 
 <template>
-	<div class="row no-gutters">
-		<div class="col"><p class="text-right pr-2">Sort by</p></div>
-		<div class="col"><select class="form-control" v-model="answer">
-			<option v-for="option, option_value in sorters" :value="option_value" :key="option_value">{{ option.name }}</option>
-		</select></div>
+	<div class="col-sm-6">
+		<div class="row no-gutters">
+			<div class="col-3 col-sm-6">
+				<p class="sort-by">Sort by</p>
+			</div>
+			<div class="col-9 col-sm-6">
+				<select class="form-control" v-model="answer">
+					<option v-for="option, option_value in sorters" :value="option_value" :key="option_value">{{ option.name }}</option>
+				</select>
+			</div>
+		</div>
 	</div>
 </template>
