@@ -209,33 +209,42 @@ module.exports = {
 </script>
 
 <template>
-  <div>
-    <div class="row no-gutters">
-      <div class="col-2">
-        <div class="col-12 text-center">
-          <p class="btn btn-primary pointer"><router-link :to="{ name: 'project_add' }"><b>+ New Project</b></router-link></p>
-        </div>
-        <filtering ref="filtering" :elements="filteredProjects" :form="form" :custom_filters="custom_filters"></filtering>
+  <div class="catalogue row">
+    <div class="d-sm-none drawer drawer-left slide" tabindex="-1" role="dialog" id="drawer-2">
+      <div class="drawer-content" role="document">
+        <filtering ref="filtering" :elements="filteredProjects" :form="form"></filtering>
       </div>
-      <div class="col-10">
-        <div class="col-12 row no-gutters mb-3 sorting">
-          <div class="col-6">
+    </div>
+    <div class="d-none d-sm-block col-sm-2">
+      <div class="text-center">
+        <p class="btn btn-primary pointer"><router-link :to="{ name: 'project_add' }"><b>+ New Project</b></router-link></p>
+      </div>
+      <filtering ref="filtering" :elements="filteredProjects" :form="form"></filtering>
+    </div>
+    <div class="col-sm-10">
+        <div class="row no-gutters mb-3 sorting">
+          <div class="d-sm-none col-4 col-sm-6 mb-2">
+            <p class="btn btn-primary" data-toggle="drawer" data-target="#drawer-2"><i class="fa-solid fa-arrow-left-long"></i> Filters</p>
+          </div>
+          <div class="d-sm-none col-4 col-sm-6 mb-2">
+            <p class="btn btn-primary pointer"><router-link :to="{ name: 'project_add' }"><b>+ New Project</b></router-link></p>
+          </div>
+          <div class="displaying col-4 col-sm-6 mb-2">
             <p v-if="filteredProjects.length > 1">Displaying <b>{{ filteredProjects.length }}</b> projects</p>
             <p v-if="filteredProjects.length == 1">Displaying <b>1</b> project</p>
             <p v-if="filteredProjects.length == 0">No projects to display</p>
           </div>
-          <sorting ref="sorting" class="col-6" :sorting_options_remove="[ 'findability', 'accessbility', 'interoperability', 'reusability' ]" :sorting_options_update="sorting_options_update"></sorting>
-        </div>
-        <div class="col-12">
-          <div class="row projects">
-            <div class="col-12 mb-4" v-for="project in filteredProjects" :key="project.id">
+          <sorting ref="sorting"></sorting>
+          <div class="col-12 projects mt-4">
+            <div class="row">
+              <div class="col-12 mb-4" v-for="project in filteredProjects" :key="project.id">
               <div class="card project">
                 <div class="card-body">
                   <div class="row no-gutters">
-                    <div class="col-2 project-cover text-center">
+                    <div class="col-sm-2 project-cover text-center">
                       <div class="vertical-helper"></div><img v-if="project.logo_url" class="img-fluid mini" :src="project.logo_url" :alt="project.acronym">
                     </div>
-                    <div class="col-10 details">
+                    <div class="col-sm-10 details">
                       <div class="row">
                         <div class="col-12">
                           <h5 class="card-title mb-2"><router-link :to="'/projects/project/' + project.id" :project="project"><b>{{ project.acronym }} </b> - {{ project.name }}</router-link></h5>

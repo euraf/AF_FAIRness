@@ -71,20 +71,32 @@ module.exports = {
     <div v-if="tool" class="toolpage">
       <div class="row">
 
-        <div class="col-8"><!-- left block -->
+        <div class="col-12 d-sm-none">
+          <div class="row"><!-- record details block mobile -->
+            <div class="col-7 tool-dates">
+              <p class="mb-0"><span class="btn-small-title">Record created on</span> {{ formatDate(tool.timestamp_creation) }}</p>
+              <p><span class="btn-small-title">Record last updated on</span> {{ formatDate(tool.timestamp_lastedit) }}</p>
+            </div>
+            <div class="col-5 text-right">
+              <p class="tool-url badge"><router-link class="font-weight-bold" :to="'/tools/tool/' + tool.id +'/edit'">Edit tool</router-link></p>
+            </div>
+          </div>
+        </div><!-- end of record details block mobile -->
+
+        <div class="col-sm-8"><!-- left block -->
           <div class="row">
 
             <div class="col-12"><!-- general block -->
               <div class="card bg-white p-4">
                 <div class="row">
-                  <div class="col-3">
+                  <div class="col-sm-3">
                     <div class="row">
                       <div class="col-12">
                         <img class="img-fluid tool-cover" :src="imageLink(tool)" :alt="tool.name">
                       </div>
                     </div>
                   </div>
-                  <div class="col-9">
+                  <div class="col-sm-9">
                     <h5 class="card-title"><b>{{ tool.name }}</b><span class="badge">{{ tool.status }}</span></h5>
                     <div class="tool-url badge text-left mb-4">
                       <p class="mb-1">Launch the tool ↴</p>
@@ -102,7 +114,7 @@ module.exports = {
               </div>
             </div><!-- end of general block -->
 
-            <div class="col-6 pt-4"><!-- developer block -->
+            <div class="col-sm-6 pt-4"><!-- developer block -->
               <div class="card bg-white p-4">
                 <div class="row">
                   <div class="col-12">
@@ -118,7 +130,7 @@ module.exports = {
               </div>
             </div><!-- end of developer block -->
 
-            <div class="col-6 pt-4"><!-- tech details block -->
+            <div class="col-sm-6 pt-4"><!-- tech details block -->
               <div class="card bg-white p-4">
                 <div class="row">
                   <div class="col-6">
@@ -145,7 +157,7 @@ module.exports = {
               </div>
             </div><!-- end of tech details block -->
             
-            <div class="col-12 pt-4"><!-- documentation block -->
+            <div class="col-sm-12 pt-4"><!-- documentation block -->
               <div class="card bg-white p-4">
                 <div class="row">
                   <div class="col-12">
@@ -163,10 +175,10 @@ module.exports = {
           </div>
         </div><!-- end of left block -->
 
-        <div class="col-4 pl-0"><!-- right block -->
+        <div class="col-sm-4 mt-4 mt-sm-0 pl-sm-0"><!-- right block -->
           <div class="row">
 
-            <div class="col-12"><!-- record details block -->
+            <div class="d-none d-sm-block col-sm-12"><!-- record details block -->
                 <div class="row">
                   <div class="col-7 tool-dates">
                     <p class="mb-0"><span class="btn-small-title">Record created on</span> {{ formatDate(tool.timestamp_creation) }}</p>

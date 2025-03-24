@@ -142,29 +142,41 @@ module.exports = {
 </script>
 
 <template>
-  <div>
-    <div class="row no-gutters">
-      <div class="col-2">
-        <div class="col-12 text-center">
-          <p class="btn btn-primary pointer"><router-link :to="{ name: 'dataset_add' }"><b>+ New Dataset</b></router-link></p>
-        </div>
-        <div class="col-12 text-center">
-          <p>Do a self-assessment of the FAIRness of your dataset <b><router-link to="/data/fairness_self_assessment">here</router-link>.</b></p>
-        </div>
+  <div class="catalogue row">
+    <div class="d-sm-none drawer drawer-left slide" tabindex="-1" role="dialog" id="drawer-2">
+      <div class="drawer-content" role="document">
         <filtering ref="filtering" :elements="filteredDatasets" :form="form"></filtering>
       </div>
-      <div class="col-10">
-        <div class="col-12 row no-gutters mb-3 sorting">
-          <div class="col-6">
+    </div>
+    <div class="d-none d-sm-block col-sm-2">
+      <div class="text-center">
+        <p class="btn btn-primary pointer"><router-link :to="{ name: 'dataset_add' }"><b>+ New Dataset</b></router-link></p>
+      </div>
+      <div class="text-center">
+          <p>Do a self-assessment of the FAIRness of your dataset <b><router-link to="/data/fairness_self_assessment">here</router-link>.</b></p>
+      </div>
+      <filtering ref="filtering" :elements="filteredDatasets" :form="form"></filtering>
+    </div>
+    <div class="col-sm-10">
+        <div class="row no-gutters mb-3 sorting">
+          <div class="d-sm-none col-4 col-sm-6 mb-2">
+            <p class="btn btn-primary" data-toggle="drawer" data-target="#drawer-2"><i class="fa-solid fa-arrow-left-long"></i> Filters</p>
+          </div>
+          <div class="d-sm-none col-4 col-sm-6 mb-2">
+            <p class="btn btn-primary pointer"><router-link :to="{ name: 'dataset_add' }"><b>+ New Dataset</b></router-link></p>
+          </div>
+          <div class="displaying col-4 col-sm-6 mb-2">
             <p v-if="filteredDatasets.length > 1">Displaying <b>{{ filteredDatasets.length }}</b> datasets</p>
             <p v-if="filteredDatasets.length == 1">Displaying <b>1</b> dataset</p>
             <p v-if="filteredDatasets.length == 0">No datasets to display</p>
           </div>
-          <sorting ref="sorting" class="col-6"></sorting>
-        </div>
-        <div class="col-12">
-          <div class="row datasets">
-            <div class="col-6 mb-4" v-for="dataset in filteredDatasets" :key="dataset.id">
+          <div class="d-sm-none col-12 text-center mb-2">
+            <p>Do a self-assessment of the FAIRness of your dataset <b><router-link to="/data/fairness_self_assessment">here</router-link>.</b></p>
+          </div>
+          <sorting ref="sorting"></sorting>
+          <div class="col-12 datasets mt-4">
+            <div class="row">
+              <div class="col-12 col-sm-4 mb-4" v-for="dataset in filteredDatasets" :key="dataset.id">
               <div class="card dataset">
                 <div class="card-body row">
                   <div class="col-6">

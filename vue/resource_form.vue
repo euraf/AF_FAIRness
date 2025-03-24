@@ -279,7 +279,7 @@ module.exports = {
     <div>
         <button class="btn in-view btn-primary mr-2" @click="print()">Print the form for offline completion</button>
         <div class="row form form-add">
-            <div class="offset-2 col-8">
+            <div class="offset-sm-2 col-sm-8">
                 <div class="form-group" v-for="question in form" :key="question.id" :v-model="formData[question.id]">
                     <div class="special-form-group" v-if="question.id == 'retrieve_from_cordis'">
                         <input-text :question="question" :form-data="formData"></input-text>
