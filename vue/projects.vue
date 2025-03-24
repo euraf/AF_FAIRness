@@ -219,7 +219,7 @@ module.exports = {
       <div class="text-center">
         <p class="btn btn-primary pointer"><router-link :to="{ name: 'project_add' }"><b>+ New Project</b></router-link></p>
       </div>
-      <filtering ref="filtering" :elements="filteredProjects" :form="form"></filtering>
+      <filtering ref="filtering" :elements="filteredProjects" :form="form"  :custom_filters="custom_filters"></filtering>
     </div>
     <div class="col-sm-10">
         <div class="row no-gutters mb-3 sorting">
