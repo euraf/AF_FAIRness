@@ -173,7 +173,7 @@ module.exports = {
           <router-link class="pointer" :to="'/tools/tool/' + latest_tools[0].id">
             <div class="card stats shadow-sm">
               <div class="row">
-                <div class="col-3 col-sm-2 left"><img class="img-fluid tool-cover" :src="imageLink(latest_tools[0])" :alt="latest_tools[0].name"></div>
+                <div class="col-3 col-sm-2 left"><img class="img-fluid tool-cover" v-if="latest_tools[0].logo_url" :src="imageLink(latest_tools[0])" :alt="latest_tools[0].name"></div>
                 <div class="col-9 col-sm-10 right text-right"><p>Check out the latest addition:</p><p><strong>{{ latest_tools[0].name }}</strong></p></div>
               </div>
             </div>
@@ -261,7 +261,7 @@ module.exports = {
           <router-link class="pointer" :to="'/projects/project/' + latest_projects[0].id">
             <div class="card stats shadow-sm">
               <div class="row">
-                <div class="col-3 col-sm-2 left"><img class="img-fluid tool-cover" :src="imageLink(latest_projects[0])" :alt="latest_projects[0].name"></div>
+                <div class="col-3 col-sm-2 left"><img v-if="latest_projects[0].logo_url" class="img-fluid tool-cover" :src="imageLink(latest_projects[0])" :alt="latest_projects[0].name"></div>
                 <div class="col-9 col-sm-10 right text-right"><p>Discover the most recent addition:</p><p><strong>{{ latest_projects[0].name }}</strong></p></div>
               </div>
             </div>
