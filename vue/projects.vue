@@ -234,7 +234,7 @@ module.exports = {
             <p v-if="filteredProjects.length == 1">Displaying <b>1</b> project</p>
             <p v-if="filteredProjects.length == 0">No projects to display</p>
           </div>
-          <sorting ref="sorting"></sorting>
+          <sorting ref="sorting" :sorting_options_remove="[ 'findability', 'accessbility', 'interoperability', 'reusability' ]" :sorting_options_update="sorting_options_update"></sorting>
           <div class="col-12 projects mt-4">
             <div class="row">
               <div class="col-12 mb-4" v-for="project in filteredProjects" :key="project.id">

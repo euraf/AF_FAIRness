@@ -35,13 +35,6 @@ module.exports = {
       if (hasproject.length == 0) console.log(project_id + " does not exist.")
       if (hasproject.length > 1) console.log(project_id + " has duplicate entries.")
     },
-    imageLink(project) {
-      if ('logo_url' in project) {
-        return project.logo_url
-      } else {
-        return 'img/feature-image-default.svg'
-      }
-    },
     setLinks(text) {
       const Rexp = /(\b(https?|ftp|file):\/\/([-A-Z0-9+&@#%?=~_|!:,.;]*)([-A-Z0-9+&@#%?\/=~_|!:,.;]*)[-A-Z0-9+&@#\/%=~_|])/ig;
       return text.replace(Rexp, "<a href='$1' target='_blank'>$1</a>");
@@ -72,7 +65,7 @@ module.exports = {
         </div>
         <div class="col-sm-3">
           <div class="project-cover text-center mb-4">
-            <img class="img-fluid mini" :src="project.logo_url" :alt="project.acronym">
+            <img v-if="project.logo_url" class="img-fluid mini" :src="project.logo_url" :alt="project.acronym">
           </div>
           <template v-if="project.project_url">
             <p class="btn-small-title">Project website</p>
