@@ -223,7 +223,7 @@ module.exports = {
             </div>
           </router-link>
             <div class="mt-2 text-center">
-              <p class="btn btn-primary pointer mb-0"><router-link :to="{ name: 'data' }">Explore the data catalogue <i class="fa-solid fa-database ml-2"></i></router-link></p>
+              <p class="btn btn-primary pointer mb-0"><router-link :to="{ name: 'datasets' }">Explore the data catalogue <i class="fa-solid fa-database ml-2"></i></router-link></p>
             </div>
         </div>
       </div>

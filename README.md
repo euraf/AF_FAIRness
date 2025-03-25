@@ -1,9 +1,9 @@
-# Agroforestry Tools and Data Catalogues
+# Agroforestry Tools, Data and Projects Catalogues
 ## Moving from Scattered to Converging Ecosystem
 
 Digital technologies offer unprecedented capacities to collect data and synthesise knowledge to support decision-making, as well as to reach out to a targeted audience, improve communication, and boost networking. Amongst initial interactions within the [DigitAF](https://digitaf.eu/) consortium arose the suggestion of creating a catalogue of agroforestry related tools and data.
 
-The online Agroforestry Tools and Data Catalogues is already implemented at https://euraf.github.io/AF_FAIRness/, and integrated in the DigitAF project website https://digitaf.eu/tools-and-data-catalogue. The acceptance and willingness to participate in this endeavour is growing, mostly driven by DigitAF consortium members and developers of tools used within the Living Labs. Ultimately, this will help increase knowledge about **which tools and datasets exist**, **how they can be made compatible with each other**, and **which topics have a tool-gap or data-gap** (and therefore the potential to develop new tools and gather new data).
+The online Agroforestry Tools, Data and Projects Catalogues is already implemented at https://euraf.github.io/AF_FAIRness/, and integrated in the DigitAF project website https://digitaf.eu/tools-data-and-projects-catalogue. The acceptance and willingness to participate in this endeavour is growing, mostly driven by DigitAF consortium members and developers of tools used within the Living Labs. Ultimately, this will help increase knowledge about **which tools and datasets exist**, **how they can be made compatible with each other**, and **which topics have a tool-gap or data-gap** (and therefore the potential to develop new tools and gather new data).
 
 The general intention is that any user may contribute with new tools and datasets to the database, edit any incomplete or outdated information about any of the digital resources, and that the interaction with the catalogue and results display should be easy and comprehensible. Available filters allow users to search for tools and datasets depending on different criteria, depending on the user needs. A quick FAIRness score is available for each digital resource to enable an assessment preview of the easiness of their findability, accessibility, interoperability and reusability.
 
@@ -60,28 +60,6 @@ When the information is saved, it's automatically uploaded to the GitHub reposit
 - A _POST HTTP request_ is made to the server. Using the [PyGitHub API](https://github.com/PyGithub/PyGithub), a _new branch_ is created and a _commit_ is made to a fork of the project's main repository. The use of a fork (an accessory repository) allows to guarantee the security of the access data (i.e. API Key) of the main repository, and there is no possibility of making changes directly to the main code without first being validated by one of the EURAF community members. This guarantees a data-quality check. After this, a _pull request_ is made to the main repository.
 - This _pull request_ is checked by DigitAF partners and the European Agroforestry Federation (EURAF). If necessary, changes can be proposed/asked. If everything is in order, it is accepted and immediately integrated into the main code, with the information becoming part of the catalogue.
 
-### The Geek Way
-
-Entries can be added or edited directly in this GitHub repository (curated by [EURAF](https://euraf.net/)).
-
-In detail, and as an example, to add a new tool consider that the `/catalogue/tools` folder includes:
-- `tools_form.json` file, that holds every question whose answers represent the tool's respective data, which is then displayed and filtered;
-- `tools_list.json` file, that contains the list of every reviewed tool;
-- an individual `.json` file for each one of the tools.
-
-Using common methods of Git:
-1. Fork the repository;
-2. Do your edits;
-	- If adding a new tool:
-		- Create a new file with your tool's name (using a simple string, avoiding illegal characters, symbols or spaces);
-		- Fill in the needed fields, based on the indications given in the `tools_form.json`.
-	- If editing an existing tool:
-		- Open the tool's respective `.json` file;
-		- Edit the needed fields, based on the indications given in the `tools_form.json`;
-3. Commit your edits;
-4. Create a pull request;
-5. Wait for the team of curators to verify, request changes if necessary, and then merge your edits/tool which will become live in the online tool database.
-
 ## FAIRness scoring
 
 The «FAIRness score» concept is based on the FAIR principles (https://www.go-fair.org/), established in 2016, whose guidelines help to improve the **Findability, Accessibility, Interoperability and Reusability** of digital resources. These are fundamental aspects when trying to automate, connect and understand large volumes of dispersed and complex information. These high-level principles allow different communities to adapt and apply them to their context, although facing the challenge of not misinterpreting or distorting the original formulation.
@@ -124,8 +102,8 @@ It is customisable, making it fit the identity of the website itself. This is po
 
 | Parameter | Value | Description |
 | --------- | ----- | ----------- |
-| **font-family** | String <br>*ex. "Ga+Maamli"* | Font family name |
-| **font-url** | URL String <br>*ex. "https://fonts.googleapis.com/css2?family=Ga+Maamli"* | [Google Fonts](https://fonts.google.com/) embed URL |
+| **font-family** | String <br>*ex. "Roboto"* | Font family name |
+| **font-url** | URL String <br>*ex. "https://fonts.googleapis.com/css2?family=Roboto"* | [Google Fonts](https://fonts.google.com/) embed URL |
 | **color-primary** | HEX color (without #) <br>*ex. "b4d465"* | Main website color (headers, buttons, etc.) |
 | **color-secondary** | HEX color (without #) <br>*ex. "5a9d43"* | Secondary website color (titles, labels) |
 | **color-text** | HEX color (without #) <br>*ex. "000000"* | Website text color |
@@ -133,7 +111,7 @@ It is customisable, making it fit the identity of the website itself. This is po
 
 Following the above parameter examples, a full integration URL would be:
 
-```<iframe src="https://euraf.github.io/AF_FAIRness?color-secondary=5a9d43&color-background=f1f6f2&color-primary=b4d465&font-url=https://fonts.googleapis.com/css2?family=Ga+Maamli&font-family=Ga+Maamli" title="AF FAIRness"></iframe>```
+```<iframe src="https://euraf.github.io/AF_FAIRness?color-secondary=5a9d43&color-background=f1f6f2&color-primary=b4d465&font-url=https://fonts.googleapis.com/css2?family=Roboto&font-family=Roboto" title="AF FAIRness"></iframe>```
 
 ### Update URL of parent window (Wordpress example)
 Updating the URL of the parent window is important for two reasons: (1) it makes it possible to share links to one of the catalogues or specific resources while maintaining the main address and (2) it improves the SEO of the pages where the iFrame is integrated.
@@ -142,11 +120,11 @@ Technically, this is possible by listening to a [postMessage](https://developer.
 
 For example, the iFrame integration on the DigitAF project website is set up to accompany the navigation within the catalogue. If you want to share a specific link, it goes directly to the resource. So, both of the following URLs are directing to the same resource/page:
 - https://euraf.github.io/AF_FAIRness/tools/tool/open_farm_carbon_tracker
-- https://digitaf.eu/tools-and-data-catalogue/tools/tool/open_farm_carbon_tracker
+- https://digitaf.eu/tools-data-and-projects-catalogue/tools/tool/open_farm_carbon_tracker
 
 ### Wordpress URL update example
 
-  1. Create a Page and add the iFrame. Save the iFrame (ex. #catalogue) and page (ex. 2345) IDs and the page slug (short url path, ex. /tools-and-data-catalogue).
+  1. Create a Page and add the iFrame. Save the iFrame (ex. #catalogue) and page (ex. 2345) IDs and the page slug (short url path, ex. /tools-data-and-projects-catalogue).
   2. Copy the functions below to the functions.php: Admin menu > Appearance > Theme File Editor > Theme Functions
   3. Update the variables with "// UPDATE THIS" with your specific settings.
   4. Save changes.
@@ -154,7 +132,7 @@ For example, the iFrame integration on the DigitAF project website is set up to 
 
 ```
 /**
- *  AGROFORESTRY TOOLS AND DATA CATALOGUES INTEGRATION [WORDPRESS]
+ *  AGROFORESTRY TOOLS, DATA AND PROJECTS CATALOGUES INTEGRATION [WORDPRESS]
  */
 function AF_FAIRness_integration() {
 	
@@ -163,7 +141,7 @@ if (is_page ($AF_CATALOGUES_PAGE_ID)) {
     ?>
     <script>
 		var AF_CATALOGUES_IFRAME_ID = '#catalogue' // UPDATE THIS
-		var AF_CATALOGUES_PAGE_SLUG = '/tools-and-data-catalogue' // UPDATE THIS
+		var AF_CATALOGUES_PAGE_SLUG = '/tools-data-and-projects-catalogue' // UPDATE THIS
 
 		// query string for website customization
 		var AF_CATALOGUES_QUERY = '?color-primary=b4d465&color-secondary=5a9d43&color-background=f1f6f2&color-text=f1f6f2&font-family=Ga+Maamli&font-url=https://fonts.googleapis.com/css2?family=Ga+Maamli' // UPDATE THIS
@@ -200,7 +178,7 @@ add_action('wp_footer', 'AF_FAIRness_integration');
 
 function AF_FAIRness_integration_rewrite() {
 $AF_CATALOGUES_PAGE_ID = 3901; // UPDATE THIS
-$AF_CATALOGUES_PAGE_SLUG = '/tools-and-data-catalogue'; // UPDATE THIS
+$AF_CATALOGUES_PAGE_SLUG = '/tools-data-and-projects-catalogue'; // UPDATE THIS
 add_rewrite_rule(substr($AF_CATALOGUES_PAGE_SLUG, 1).'/(.+)', "index.php?page_id={$AF_CATALOGUES_PAGE_ID}", 'top');
 }
 add_action('init', 'AF_FAIRness_integration_rewrite');
