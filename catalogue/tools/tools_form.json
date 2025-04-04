@@ -74,14 +74,14 @@
     {
       "id": "primary_purpose",
       "text": "What is the primary purpose of the tool?",
-      "short_text": "Primary purpose",
+      "short_text": "Tools for a specific primary purpose",
+      "filter": 101,
       "type": "array of tags",
-      "filter": 2,
       "required": true,
       "answers": [
-        "Research",
         "Education and training",
-        "Decision support"
+        "Decision support",
+        "Research"
       ]
     },
     {
@@ -136,7 +136,6 @@
       "id": "status",
       "text": "What is the current status of the tool?",
       "short_text": "Status",
-      "filter": 1,
       "type": "tag",
       "required": true,
       "answers": [
@@ -147,8 +146,8 @@
     {
       "id": "software_proglanguage",
       "text": "In which software/programming language is it (being) implemented?",
-      "short_text": "Software/Programming language",
-      "filter": 1,
+      "short_text": "Software/programming language(s)",
+      "filter": 45,
       "type": "array of tags",
       "required": true,
       "fair": "I1",
@@ -223,7 +222,6 @@
       "id": "minimum_req",
       "text": "What are the minimum requirements to operate the tool?",
       "short_text": "Minimum requirements",
-      "filter": 1,
       "type": "array of tags",
       "required": true,
       "fair": "A3",
@@ -264,8 +262,8 @@
     {
       "id": "license",
       "text": "What is the usage rights license for the tool?",
-      "short_text": "License",
-      "filter": 1,
+      "short_text": "Tools that have a specific license",
+      "filter": 35,
       "type": "tag",
       "required": true,
       "fair": "R1",
@@ -351,8 +349,8 @@
     {
       "id": "systems",
       "text": "Which systems are modelled?",
-      "short_text": "Systems",
-      "filter": 2,
+      "short_text": "Tools that consider the following systems",
+      "filter": 80,
       "type": "array of tags",
       "required": true,
       "answers": [
@@ -366,8 +364,8 @@
     {
       "id": "system_components",
       "text": "Which system components are modelled?",
-      "short_text": "System components",
-      "filter": 2,
+      "short_text": "Tools that consider the following components",
+      "filter": 70,
       "type": "array of tags",
       "required": true,
       "answers": [
@@ -381,8 +379,8 @@
     {
       "id": "indicators",
       "text": "What indicators are evaluated?",
-      "short_text": "Indicators",
-      "filter": 2,
+      "short_text": "Specific topics/indicators",
+      "filter": 60,
       "type": "array of tags",
       "required": true,
       "answers": [
@@ -415,8 +413,8 @@
     {
       "id": "spatial_scales",
       "text": "At which spatial scales does the tool work?",
-      "short_text": "Spatial scale",
-      "filter": 1,
+      "short_text": "Tools that consider specific spatial scale(s)",
+      "filter": 9,
       "type": "array of tags",
       "required": true,
       "answers": [
@@ -444,8 +442,8 @@
     {
       "id": "time_steps",
       "text": "At which time steps does the tool work?",
-      "short_text": "Time step",
-      "filter": 2,
+      "short_text": "Tools that consider specific time step(s)",
+      "filter": 10,
       "type": "array of tags",
       "required": true,
       "answers": [
@@ -467,7 +465,6 @@
     {
       "id": "input_data_protocols",
       "text": "What ways can be used to input data into the tool?",
-      "filter": 0,
       "type": "array of tags",
       "required": true,
       "fair": "I2",
@@ -517,7 +514,6 @@
       "id": "input_data_file_formats",
       "text": "If applicable, specify which type of input file formats does the tool accept?",
       "short_text": "Input data formats",
-      "filter": 1,
       "type": "array of tags",
       "required": false,
       "answers": [
@@ -544,7 +540,6 @@
     {
       "id": "output_data_formats",
       "text": "What kind of output data formats does the tool generate?",
-      "filter": 0,
       "type": "array of tags",
       "required": true,
       "fair": "I4",
@@ -574,7 +569,6 @@
       "id": "output_data_file_formats",
       "text": "Specify which type of output file formats does the tool generate?",
       "short_text": "Output data formats",
-      "filter": 1,
       "type": "array of tags",
       "required": false,
       "answers": [
@@ -597,8 +591,8 @@
     {
       "id": "end_users",
       "text": "For what kind of end users can the tool be useful?",
-      "short_text": "End user",
-      "filter": 1,
+      "short_text": "Tools useful for the following types of users",
+      "filter": 100,
       "type": "array of tags",
       "required": true,
       "answers": [
@@ -625,16 +619,27 @@
     {
       "id": "usages_most_relevant",
       "text": "What might be its MOST RELEVANT primary usages or purposes?",
+      "short_text": "Support for the following stage(s) in an agroforestry project",
+      "filter": 90,
       "type": "array of tags",
       "required": false,
       "answers": [
-        "Research",
         "Education",
         "Planning/Design",
         "Implementation",
         "Management",
         "Monitoring/Evaluating",
-        "Forecasting"
+        "Forecasting",
+        "Research"
+      ],
+      "answers_text": [
+        "Learning about agroforestry (Education)",
+        "Designing a future agroforestry system (Planning/Design)",
+        "Planting an agroforestry system (Implementation)",
+        "Managing an agroforestry system (Management)",
+        "Assessing an agroforestry system (Monitoring/Evaluating)",
+        "Predicting the future performance of an agroforestry system (Forecasting)",
+        "Understanding detailed mechanisms (Research)"
       ]
     },
     {
@@ -655,8 +660,8 @@
     {
       "id": "languages",
       "text": "In which languages is the tool available?",
-      "short_text": "Language",
-      "filter": 1,
+      "short_text": "Tools in the following language(s)",
+      "filter": 50,
       "type": "array of tags",
       "required": true,
       "fair": "A4",
@@ -705,7 +710,8 @@
     {
       "id": "access_barrier",
       "text": "Is there any barrier to accessing the tool?",
-      "filter": 0,
+      "short_text": "Tools that have the following access levels",
+      "filter": 40,
       "type": "tag",
       "required": true,
       "fair": "A1",
@@ -723,6 +729,13 @@
         "Access to the tool needs to be granted (e.g. tool owner needs to give permission after user registration; tool owner sends tool after receiving a request email)",
         "Access to the tool is evaluated before being granted, due to ethical, legal or contractual constrains (e.g. privacy, highly sensitive data)",
         "Paywall"
+      ],
+      "answers_text": [
+        "No registration needed",
+        "Free registration",
+        "Verified account",
+        "Restricted with clearance",
+        "Paid account"
       ]
     },
     {
@@ -944,8 +957,8 @@
     {
       "id": "digitaf_tool",
       "text": "For DigitAF participants, is this tool being co-developed or improved within DigitAF activities?",
-      "short_text": "Is a DigitAF tool",
-      "filter": 3,
+      "short_text": "DigitAF tools",
+      "filter": 2,
       "type": "tag",
       "required": true,
       "answers": [
@@ -957,8 +970,8 @@
     {
       "id": "digitaf_tool_ll",
       "text": "For DigitAF participants, if applicable, in which Living Labs is it being tested?",
-      "short_text": "Tested in DigitAF Living Labs",
-      "filter": 3,
+      "short_text": "Tools tested in DigitAF Living Labs",
+      "filter": 1,
       "type": "array of tags",
       "required": false,
       "answers": [

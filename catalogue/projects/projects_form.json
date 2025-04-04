@@ -53,26 +53,27 @@
   },
   {
     "id": "acronym",
-    "text": "Project acronym",
+    "text": "What is the project acronym?",
     "type": "string",
     "required": true
   },
   {
     "id": "name",
-    "text": "Project name",
+    "text": "What is the project name?",
+		"helper": "Preferably in English, or in both English and the original language.",
     "type": "string",
     "required": true
   },
   {
     "id": "code",
-    "text": "Project identifier",
+    "text": "What is the project identifier?",
 		"helper": "Project number (e.g. LIFE20 CCA/ES/001682), grant agreement number (e.g. 101059794), etc.",
     "type": "string",
     "required": false
   },
   {
     "id": "logo_url",
-    "text": "Project logo",
+    "text": "Give us a link to a logo or a descriptive image of the project",
     "type": "string",
     "required": false
   },

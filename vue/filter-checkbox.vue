@@ -45,6 +45,14 @@ module.exports = {
 					return element[filter_id] == answer
 				}
 			}).length
+		},
+		getText(idx) {
+			if ('answers_text' in this.filter) {
+				return this.filter.answers_text[idx]
+			} else {
+				return this.filter.answers[idx]
+			}
+
 		}
 	}
 }
@@ -52,11 +60,11 @@ module.exports = {
 
 <template>
 	<div>
-		<div class="form-check" v-for="(answer, index) in cleanedAnwers" :key="index">
+		<div class="form-check mb-1" v-for="(answer, index) in cleanedAnwers" :key="index">
 			<input class="form-check-input" type="checkbox" :disabled="numberAvailable(answer) == 0"
 				:value ="answer"
 				v-model="value">
-			<label class="form-check-label">{{ answer }} ({{ numberAvailable(answer) }})</label>
+			<label class="form-check-label">{{ getText(index) }} <span class="option-nr">({{ numberAvailable(answer) }})</span></label>
 		</div>
 	</div>
 </template>

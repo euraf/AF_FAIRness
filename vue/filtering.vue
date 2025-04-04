@@ -79,18 +79,19 @@ module.exports = {
 				<label class="form-check-label" for="searchKeywords">search in <em>keywords</em></label>
 			</div>
 		</div>
+		<label class="label-for-filters">I'm looking for:</label>
 		<div class="accordion" id="accordionex">
 
 			<div class="card" v-for="(filter, key) in filterAndSort(filters)" :key="key">
 				<div class="card-header" id="headingOne">
 					<h5 class="mb-0">
-						<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" :data-target="'#collapseFilter' + filter.id">
+						<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" :data-target="'#collapseFilter' + filter.id">
 							{{ filter.short_text }}
 						</button>
 					</h5>
 				</div>
 
-				<div :id="'collapseFilter' + filter.id" class="collapse show" :class="{ 'add-scroll': filter.answers.length > 8 }">
+				<div :id="'collapseFilter' + filter.id" class="collapse" :class="{ 'add-scroll': filter.answers.length > 8 }">
 					<div class="card-body">
 
 						<!-- Search input -->

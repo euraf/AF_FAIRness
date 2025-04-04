@@ -159,7 +159,7 @@ module.exports = {
         <filtering ref="filtering" :elements="filteredTools" :form="form"></filtering>
       </div>
     </div>
-    <div class="d-none d-sm-block col-sm-2">
+    <div class="d-none d-sm-block col-sm-3">
       <div class="text-center">
         <p class="btn btn-primary pointer"><router-link :to="{ name: 'tool_add' }"><b>+ New Tool</b></router-link></p>
       </div>
@@ -168,7 +168,7 @@ module.exports = {
       </div>
       <filtering ref="filtering" :elements="filteredTools" :form="form"></filtering>
     </div>
-    <div class="col-sm-10">
+    <div class="col-sm-9">
         <div class="row no-gutters mb-3 sorting">
           <div class="d-sm-none col-4 col-sm-6 mb-2">
             <p class="btn btn-primary" data-toggle="drawer" data-target="#drawer-2"><i class="fa-solid fa-arrow-left-long"></i> Filters</p>
