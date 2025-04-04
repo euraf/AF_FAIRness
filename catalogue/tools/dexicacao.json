@@ -1,1 +1,107 @@
-{"primary_purpose": ["Education and training", "Decision support"], "software_proglanguage": ["Delphi"], "minimum_req": ["Open source software/programming language", "Specific operating system: Windows"], "systems": ["Agroforestry", "Agriculture"], "system_components": ["Tree", "Crop"], "indicators": ["Suitability", "Social", "Economics"], "spatial_scales": ["Plot", "One-hectare"], "time_steps": ["Yearly"], "input_data_protocols": ["Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)", "User enters data manually"], "input_data_formats": ["Widely used file formats (CSV, JSON, XML, etc.)"], "input_data_file_formats": ["CSV"], "output_data_formats": ["Widely used file formats (CSV, JSON, XML, etc.)"], "output_data_file_formats": ["CSV"], "end_users": ["Policy-maker", "Farmer", "Farm advisor"], "usages_most_relevant": ["Education", "Planning/Design", "Monitoring/Evaluating", "Forecasting"], "usages_least_relevant": [], "languages": ["French"], "digitaf_tool_ll": [], "submitter_email": "karen.lammoglia@cirad.fr", "submitter_name": "Karen Lammoglia", "name": "DEXiCacao", "url": "https://means.inrae.fr/outils-emc/dexicacao", "description": "DEXiCacao is a hierarchical multicriteria decision model specifically designed within the framework of the Cocoa4Future project to evaluate the sustainability of cocoa agroforestry systems", "logo_url": "https://filesender.renater.fr/?s=download&token=424f0a09-f4a9-4910-96d5-46b56d15b505", "keywords": ["Agroforestry", "Theobroma cacao", "Sustainability", "Decision model", "Multicriteria assessment"], "developers": "Lammoglia et al.", "organizations": "CIRAD, Universit\u00e9 F\u00e9lix Houphou\u00ebt-Boigny, Universit\u00e9 Jean Lorougnon Gu\u00e9d\u00e9, Universit\u00e9 Nangui Abrogoua", "contact": "karen.lammoglia@cirad.fr", "tool_project": "Yes", "tool_project_name": "Cocoa4Future", "tool_project_url": "https://www.cocoa4future.org/en", "status": "Implemented", "license": "Not stated", "year_release": 2024, "year_lastupdate": 2025, "previous_versions_available": "Yes", "access_barrier": "Access to the tool needs to be granted (e.g. tool owner needs to give permission after user registration; tool owner sends tool after receiving a request email)", "access_procedure_documentation": "Yes", "listed_other_databases": "Yes", "integrated_other_tools": "No", "listed_other_databases_list": "Plateforme d'\u00e9valuation multicrit\u00e8re de la durabilit\u00e9 (MEANS)", "documentation_available": "Yes", "documentation_accessible": "Yes", "documentation_theoretical_background": "Incomplete", "documentation_theoretical_background_list": "Konan S., Saj S., Kassi N. J., Lammoglia S-K. 2023. DEXiCacao: a new tool to assess the overall sustainability of cocoa-based cropping systems. In : International Symposium on Cocoa Research 2022 - ISCR 2022. Booklet of Abstracts. Montpellier : ICCO-CIRAD, 38-39. International Symposium on Cocoa Research (ISCR 2022), Montpellier, France, 5 D\u00e9cembre 2022/7 D\u00e9cembre 2022.", "development_process": "Yes", "training_materials": "Yes", "documentation_contribute": "Yes", "digitaf_tool": "No", "data_provenance": "Yes", "url_persistent": "No", "id": "dexicacao", "timestamp_creation": 1743160749119, "timestamp_lastedit": 1743160749119}
+{
+	"primary_purpose": [
+		"Education and training",
+		"Decision support"
+	],
+	"software_proglanguage": [
+		"Delphi"
+	],
+	"minimum_req": [
+		"Open source software/programming language",
+		"Specific operating system: Windows"
+	],
+	"systems": [
+		"Agroforestry",
+		"Agriculture"
+	],
+	"system_components": [
+		"Tree",
+		"Crop"
+	],
+	"indicators": [
+		"Suitability",
+		"Social",
+		"Economics"
+	],
+	"spatial_scales": [
+		"Plot",
+		"One-hectare"
+	],
+	"time_steps": [
+		"Yearly"
+	],
+	"input_data_protocols": [
+		"Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)",
+		"User enters data manually"
+	],
+	"input_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)"
+	],
+	"input_data_file_formats": [
+		"CSV"
+	],
+	"output_data_formats": [
+		"Widely used file formats (CSV, JSON, XML, etc.)"
+	],
+	"output_data_file_formats": [
+		"CSV"
+	],
+	"end_users": [
+		"Policy-maker",
+		"Farmer",
+		"Farm advisor"
+	],
+	"usages_most_relevant": [
+		"Education",
+		"Planning/Design",
+		"Monitoring/Evaluating",
+		"Forecasting"
+	],
+	"usages_least_relevant": [],
+	"languages": [
+		"French"
+	],
+	"digitaf_tool_ll": [],
+	"submitter_email": "karen.lammoglia@cirad.fr",
+	"submitter_name": "Karen Lammoglia",
+	"name": "DEXiCacao",
+	"url": "https://means.inrae.fr/outils-emc/dexicacao",
+	"description": "DEXiCacao is a hierarchical multicriteria decision model specifically designed within the framework of the Cocoa4Future project to evaluate the sustainability of cocoa agroforestry systems",
+	"logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/logo_dexicacao.png",
+	"keywords": [
+		"Agroforestry",
+		"Theobroma cacao",
+		"Sustainability",
+		"Decision model",
+		"Multicriteria assessment"
+	],
+	"developers": "Lammoglia et al.",
+	"organizations": "CIRAD, Universit\u00e9 F\u00e9lix Houphou\u00ebt-Boigny, Universit\u00e9 Jean Lorougnon Gu\u00e9d\u00e9, Universit\u00e9 Nangui Abrogoua",
+	"contact": "karen.lammoglia@cirad.fr",
+	"tool_project": "Yes",
+	"tool_project_name": "Cocoa4Future",
+	"tool_project_url": "https://www.cocoa4future.org/en",
+	"status": "Implemented",
+	"license": "Not stated",
+	"year_release": 2024,
+	"year_lastupdate": 2025,
+	"previous_versions_available": "Yes",
+	"access_barrier": "Access to the tool needs to be granted (e.g. tool owner needs to give permission after user registration; tool owner sends tool after receiving a request email)",
+	"access_procedure_documentation": "Yes",
+	"listed_other_databases": "Yes",
+	"integrated_other_tools": "No",
+	"listed_other_databases_list": "Plateforme d'\u00e9valuation multicrit\u00e8re de la durabilit\u00e9 (MEANS)",
+	"documentation_available": "Yes",
+	"documentation_accessible": "Yes",
+	"documentation_theoretical_background": "Incomplete",
+	"documentation_theoretical_background_list": "Konan S., Saj S., Kassi N. J., Lammoglia S-K. 2023. DEXiCacao: a new tool to assess the overall sustainability of cocoa-based cropping systems. In : International Symposium on Cocoa Research 2022 - ISCR 2022. Booklet of Abstracts. Montpellier : ICCO-CIRAD, 38-39. International Symposium on Cocoa Research (ISCR 2022), Montpellier, France, 5 D\u00e9cembre 2022/7 D\u00e9cembre 2022.",
+	"development_process": "Yes",
+	"training_materials": "Yes",
+	"documentation_contribute": "Yes",
+	"digitaf_tool": "No",
+	"data_provenance": "Yes",
+	"url_persistent": "No",
+	"id": "dexicacao",
+	"timestamp_creation": 1743160749119,
+	"timestamp_lastedit": 1743160749119
+}
