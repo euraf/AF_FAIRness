@@ -222,6 +222,10 @@
       <priority>0.5</priority>
    </url>
    <url>
+      <loc>https://euraf.github.io/AF_FAIRness/tools/tool/dexicacao</loc>
+      <priority>0.5</priority>
+   </url>
+   <url>
       <loc>https://euraf.github.io/AF_FAIRness/data/dataset/smallwoodyfeatures</loc>
       <priority>0.5</priority>
    </url>
@@ -587,6 +591,38 @@
    </url>
    <url>
       <loc>https://euraf.github.io/AF_FAIRness/projects/project/cimontadodehesa</loc>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://euraf.github.io/AF_FAIRness/projects/project/modema</loc>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://euraf.github.io/AF_FAIRness/projects/project/agrobala</loc>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://euraf.github.io/AF_FAIRness/projects/project/sebas</loc>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://euraf.github.io/AF_FAIRness/projects/project/mudash</loc>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://euraf.github.io/AF_FAIRness/projects/project/impulsburo_altmark</loc>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://euraf.github.io/AF_FAIRness/projects/project/elan</loc>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://euraf.github.io/AF_FAIRness/projects/project/agrowins</loc>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://euraf.github.io/AF_FAIRness/projects/project/klimalaaf</loc>
       <priority>0.5</priority>
    </url>
 
