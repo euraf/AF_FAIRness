@@ -1,1 +1,44 @@
-{"data_type": ["Experimental data"], "spatial_scales": ["Plot", "Plant/animal"], "indicators": ["Yield / Biomass", "Growth"], "time_steps": ["Yearly"], "data_formats": ["Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"], "digitaf_data_ll": [], "digitaf_data_wp": [], "submitter_name": "Paul Burgess", "submitter_email": "p.burgess@cranfield.ac.uk", "name": "UK Silvoarable Network data", "url": "https://dspace.lib.cranfield.ac.uk/items/76d6a963-e081-4039-9d46-7b0742ec3d10", "url_persistent": "Yes", "description": "Silvoarable agroforestry (the intercropping of trees and arable crops) can diversify farm incomes, increasing tree planting and improve farm biodiversity. In the UK, in 1992 a silvoarable experiment, comprising three replicate blocks of four poplar (Populus spp.) hybrids (at a spacing of 10 m x 6.4 m) and three arable treatments, was established by Cranfield University in Bedfordshire, Leeds University in West Yorkshire, and the Royal Agricultural University in Gloucestershire.  This web-page provides the data for crop yields (1992-2002) and tree heights and diameters (1992-2001) for the three sites.", "keywords": ["Silvoarable arable crop yields poplar tree heights diameters experiment results"], "data_ownership": "Cranfield University", "data_contact": "p.burgess@cranfield.ac.uk", "data_project": "Yes", "data_project_name": "The Impact of Silvoarable Agroforestry with Poplar on Farm Profitability and Biological Diversity", "data_collection_country": "United Kingdom", "year_release": 2025, "time_span_newest": 2002, "time_span_oldest": 1992, "data_confidentiality": "No, the data is public", "license": "Creative Commons BY", "license_url": "https://dspace.lib.cranfield.ac.uk/items/76d6a963-e081-4039-9d46-7b0742ec3d10/full", "access_barrier": "No, direct download/access through a web link", "data_relevant_attributes": "Yes", "listed_other_databases": "No", "data_metadata": "Yes", "documentation_accessible": "Yes", "data_metadata_vocabulary": "Yes", "development_process": "Yes", "documentation_list": "The Impact of Silvoarable Agroforestry with Poplar on Farm Profitability and Biological Diversity\nAF0105 Long Final Report.pdf (1005.14 KB)\nhttps://dspace.lib.cranfield.ac.uk/handle/1826/23863\nhttps://doi.org/10.57996/cran.ceres-2759", "digitaf_data_used": "These data have been used to calibrate the Yield-SAFE model", "feedback_data_info": "Annual tree and crop data from a silvoarable systems is presented for three experimental sites across England in the UK.", "id": "uk_silvoarable_network_data", "timestamp_creation": 1746895724054, "timestamp_lastedit": 1746895724054}
+{
+  "data_type": ["Experimental data"],
+  "spatial_scales": ["Plot", "Plant/animal"],
+  "indicators": ["Yield / Biomass", "Growth"],
+  "time_steps": ["Yearly"],
+  "data_formats": [
+    "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+  ],
+  "digitaf_data_ll": [],
+  "digitaf_data_wp": [],
+  "submitter_name": "Paul Burgess",
+  "submitter_email": "p.burgess@cranfield.ac.uk",
+  "name": "UK Silvoarable Network data",
+  "url": "https://dspace.lib.cranfield.ac.uk/items/76d6a963-e081-4039-9d46-7b0742ec3d10",
+  "url_persistent": "Yes",
+  "description": "Silvoarable agroforestry (the intercropping of trees and arable crops) can diversify farm incomes, increasing tree planting and improve farm biodiversity. In the UK, in 1992 a silvoarable experiment, comprising three replicate blocks of four poplar (Populus spp.) hybrids (at a spacing of 10 m x 6.4 m) and three arable treatments, was established by Cranfield University in Bedfordshire, Leeds University in West Yorkshire, and the Royal Agricultural University in Gloucestershire.  This web-page provides the data for crop yields (1992-2002) and tree heights and diameters (1992-2001) for the three sites.",
+  "keywords": [
+    "Silvoarable arable crop yields poplar tree heights diameters experiment results"
+  ],
+  "data_ownership": "Cranfield University",
+  "data_contact": "p.burgess@cranfield.ac.uk",
+  "data_project": "Yes",
+  "data_project_name": "The Impact of Silvoarable Agroforestry with Poplar on Farm Profitability and Biological Diversity",
+  "data_collection_country": "United Kingdom",
+  "year_release": 2025,
+  "time_span_newest": 2002,
+  "time_span_oldest": 1992,
+  "data_confidentiality": "No, the data is public",
+  "license": "Creative Commons BY",
+  "license_url": "https://dspace.lib.cranfield.ac.uk/items/76d6a963-e081-4039-9d46-7b0742ec3d10/full",
+  "access_barrier": "No, direct download/access through a web link",
+  "data_relevant_attributes": "Yes",
+  "listed_other_databases": "No",
+  "data_metadata": "Yes",
+  "documentation_accessible": "Yes",
+  "data_metadata_vocabulary": "Yes",
+  "development_process": "Yes",
+  "documentation_list": "The Impact of Silvoarable Agroforestry with Poplar on Farm Profitability and Biological Diversity\nAF0105 Long Final Report.pdf (1005.14 KB)\nhttps://dspace.lib.cranfield.ac.uk/handle/1826/23863\nhttps://doi.org/10.57996/cran.ceres-2759",
+  "digitaf_data_used": "These data have been used to calibrate the Yield-SAFE model",
+  "feedback_data_info": "Annual tree and crop data from a silvoarable systems is presented for three experimental sites across England in the UK.",
+  "id": "uk_silvoarable_network_data",
+  "timestamp_creation": 1746895724054,
+  "timestamp_lastedit": 1746895724054
+}
