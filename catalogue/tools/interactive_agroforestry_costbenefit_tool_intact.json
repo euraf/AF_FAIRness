@@ -1,120 +1,86 @@
 {
-	"primary_purpose": [
-		"Decision support"
-	],
-	"software_proglanguage": [
-		"Apex",
-		"Oracle Apex"
-	],
-	"minimum_req": [
-		"Internet connection",
-		"Desktop computer (e.g. optimized for wider screens)"
-	],
-	"systems": [
-		"Agroforestry"
-	],
-	"system_components": [
-		"Tree"
-	],
-	"indicators": [
-		"Yield",
-		"Economics",
-		"Labour"
-	],
-	"spatial_scales": [
-		"Plot",
-		"One-hectare"
-	],
-	"time_steps": [
-		"Yearly"
-	],
-	"input_data_protocols": [
-		"User enters data manually"
-	],
-	"input_data_formats": [
-		"Other"
-	],
-	"input_data_file_formats": [
-		"Other"
-	],
-	"output_data_formats": [
-		"Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
-	],
-	"output_data_file_formats": [
-		"Images (e.g. png, jpg, tiff, etc)"
-	],
-	"end_users": [
-		"Farmer",
-		"Farm advisor",
-		"Policy-maker",
-		"Landowner",
-		"Student",
-		"Researcher"
-	],
-	"usages_most_relevant": [
-		"Forecasting",
-		"Management"
-	],
-	"usages_least_relevant": [
-		"Monitoring/Evaluating"
-	],
-	"languages": [
-		"Czech",
-		"Dutch",
-		"English"
-	],
-	"digitaf_tool_ll": [],
-	"submitter_name": "Sarah Carton",
-	"submitter_email": "sarah.carton@ilvo.vlaanderen.be",
-	"name": "INTeractive Agroforestry Cost-benefit Tool (INTACT)",
-	"url": "https://www.agroforestryvlaanderen.be/en/agroforestry-planner-2",
-	"description": "INTACT (INTeractive Agroforestry Cost-benefit Tool) is a dynamic calculation tool that allows you to interactively estimate the costs and benefits for the trees and shrubs in your agroforestry project. This tool helps you to take into account all components of the investment and maintenance costs, as well as the expected income, step by step. INTACT is therefore composed of four different user-friendly modules: 1) Basic information, 2) Costs, 3) Benefits and 4) Cost-benefit analysis. After you have gone through all modules, INTACT generates an outcome that summarises and visualises your choices in the form of a table and graph. The aim of INTACT is to help you estimate (more correctly) the financial effects of your plans in advance.\n\nThe tool focuses specifically on the costs and benefits related to the trees and shrubs (without crops and without animals) within the agroforestry system, making it a partial financial analysis. INTACT is thus not intended for integral business analysis.",
-	"logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/intact_logo.png",
-	"keywords": [
-		"Financial",
-		"Trees",
-		"Shrubs",
-		"Costs",
-		"Benefits",
-		"Cost-benefit analsysis",
-		"Agroforestry",
-		"Belgium",
-		"Flanders"
-	],
-	"developers": "Sarah Carton, Julian Rahahleh, Bert Reubens",
-	"organizations": "ILVO, Bodemkundige Dienst van Belgi\u00eb",
-	"contact": "sarah.carton@ilvo.vlaanderen.be",
-	"status": "Implemented",
-	"year_release": 2024,
-	"year_lastupdate": 2024,
-	"previous_versions_available": "Only one version exists",
-	"input_data_formats_other": "The user can enter data online, no input from a file needed.",
-	"input_data_file_formats_other": "The user can enter data online, no input from a file needed.",
-	"url_persistent": "Yes",
-	"access_barrier": "No, direct download/access through a web link",
-	"listed_other_databases": "No",
-	"integrated_other_tools": "Yes",
-	"integrated_other_tools_list": "MIMOSA",
-	"documentation_available": "Yes",
-	"documentation_accessible": "Yes",
-	"url_documentation": "https://zenodo.org/doi/10.5281/zenodo.11281616",
-	"documentation_theoretical_background": "Yes",
-	"documentation_theoretical_background_list": "In Zenodo, you can find a link to INTACT's manual where INTACT's theoretical background is further explained.",
-	"data_provenance": "Yes",
-	"development_process": "Yes",
-	"training_materials": "Yes",
-	"url_training_materials": "https://www.agroforestryvlaanderen.be/en/agroforestryplannerexplained",
-	"documentation_contribute": "No",
-	"digitaf_tool": "Yes",
-	"feedback_tool_info": "In Zenodo, the metadata is provided, whereas the Manual INTACT 1.0 includes the bibliography and user guidance. A demo video will be recorded soon.",
-	"license": "Creative Commons BY-NC-SA",
-	"access_procedure": "Click on the link and scroll down to INTACT. Click on the logo to go to the Agroforestry Planner; platform of tools.",
-	"access_procedure_documentation": "Yes",
-	"id": "interactive_agroforestry_costbenefit_tool_intact",
-	"timestamp_creation": 1716816212913,
-	"timestamp_lastedit": 1742983670527,
-	"editor_name": "Sarah Carton",
-	"editor_email": "sarah.carton@ilvo.vlaanderen.be",
-	"tool_project": "Yes",
-	"tool_project_name": "FarmLIFE, DigitAF"
+  "primary_purpose": ["Decision support"],
+  "software_proglanguage": ["Apex", "Oracle Apex"],
+  "minimum_req": [
+    "Internet connection",
+    "Desktop computer (e.g. optimized for wider screens)"
+  ],
+  "systems": ["Agroforestry"],
+  "system_components": ["Tree"],
+  "indicators": ["Yield", "Economics", "Labour"],
+  "spatial_scales": ["Plot", "One-hectare"],
+  "time_steps": ["Yearly"],
+  "input_data_protocols": ["User enters data manually"],
+  "input_data_formats": ["Other"],
+  "input_data_file_formats": ["Other"],
+  "output_data_formats": [
+    "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
+  ],
+  "output_data_file_formats": ["Images (e.g. png, jpg, tiff, etc)"],
+  "end_users": [
+    "Farmer",
+    "Farm advisor",
+    "Policy-maker",
+    "Landowner",
+    "Student",
+    "Researcher"
+  ],
+  "usages_most_relevant": ["Forecasting", "Management"],
+  "usages_least_relevant": ["Monitoring/Evaluating"],
+  "languages": ["Czech", "Dutch", "English"],
+  "digitaf_tool_ll": [],
+  "submitter_name": "Sarah Carton",
+  "submitter_email": "sarah.carton@ilvo.vlaanderen.be",
+  "name": "INTeractive Agroforestry Cost-benefit Tool (INTACT)",
+  "url": "https://www.agroforestryvlaanderen.be/en/agroforestry-planner-2",
+  "description": "INTACT (INTeractive Agroforestry Cost-benefit Tool) is a dynamic calculation tool that allows you to interactively estimate the costs and benefits for the trees and shrubs in your agroforestry project. This tool helps you to take into account all components of the investment and maintenance costs, as well as the expected income, step by step. INTACT is therefore composed of four different user-friendly modules: 1) Basic information, 2) Costs, 3) Benefits and 4) Cost-benefit analysis. After you have gone through all modules, INTACT generates an outcome that summarises and visualises your choices in the form of a table and graph. The aim of INTACT is to help you estimate (more correctly) the financial effects of your plans in advance.\n\nThe tool focuses specifically on the costs and benefits related to the trees and shrubs (without crops and without animals) within the agroforestry system, making it a partial financial analysis. INTACT is thus not intended for integral business analysis.",
+  "logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/intact_logo.png",
+  "keywords": [
+    "Financial",
+    "Trees",
+    "Shrubs",
+    "Costs",
+    "Benefits",
+    "Cost-benefit analsysis",
+    "Agroforestry",
+    "Belgium",
+    "Flanders"
+  ],
+  "developers": "Sarah Carton, Julian Rahahleh, Bert Reubens",
+  "organizations": "ILVO, Bodemkundige Dienst van Belgi\u00eb",
+  "contact": "sarah.carton@ilvo.vlaanderen.be",
+  "status": "Implemented",
+  "year_release": 2024,
+  "year_lastupdate": 2024,
+  "previous_versions_available": "Only one version exists",
+  "input_data_formats_other": "The user can enter data online, no input from a file needed.",
+  "input_data_file_formats_other": "The user can enter data online, no input from a file needed.",
+  "url_persistent": "Yes",
+  "access_barrier": "No, direct download/access through a web link",
+  "listed_other_databases": "No",
+  "integrated_other_tools": "Yes",
+  "integrated_other_tools_list": "MIMOSA",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Yes",
+  "url_documentation": "https://zenodo.org/doi/10.5281/zenodo.11281616",
+  "documentation_theoretical_background": "Yes",
+  "documentation_theoretical_background_list": "In Zenodo, you can find a link to INTACT's manual where INTACT's theoretical background is further explained.",
+  "data_provenance": "Yes",
+  "development_process": "Yes",
+  "training_materials": "Yes",
+  "url_training_materials": "https://www.agroforestryvlaanderen.be/en/agroforestryplannerexplained",
+  "documentation_contribute": "No",
+  "digitaf_tool": "Yes",
+  "feedback_tool_info": "In Zenodo, the metadata is provided, whereas the Manual INTACT 1.0 includes the bibliography and user guidance. A demo video will be recorded soon.",
+  "license": "Creative Commons BY-NC-SA",
+  "access_procedure": "Click on the link and scroll down to INTACT. Click on the logo to go to the Agroforestry Planner; platform of tools.",
+  "access_procedure_documentation": "Yes",
+  "id": "interactive_agroforestry_costbenefit_tool_intact",
+  "timestamp_creation": 1716816212913,
+  "timestamp_lastedit": 1749633209763,
+  "editor_name": "Sarah Carton",
+  "editor_email": "sarah.carton@ilvo.vlaanderen.be",
+  "tool_project": "Yes",
+  "tool_project_name": "FarmLIFE, DigitAF",
+  "digitaf_tool_demo_video": "https://www.youtube.com/watch?v=VCiHCDSPOOw"
 }
