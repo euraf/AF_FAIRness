@@ -20,7 +20,7 @@
   "developers": "notenteelt.com en kaartserver.nl",
   "organizations": "notenteelt.com en kaartserver.nl",
   "contact": "info@notenteelt.com",
-  "description_full": "See for more information at www.notenteelt.com It is operationally in the Netherlands and Vlaanderen (Belgium)",
+  "description_full": "See for more information at https://www.notenteelt.com/ It is operationally in the Netherlands and Vlaanderen (Belgium)",
   "status": "Implemented",
   "software_proglanguage": [
     "HTML/CSS"
@@ -112,7 +112,7 @@
   "listed_other_databases": "Don't know",
   "listed_other_databases_list": "",
   "integrated_other_tools": "Yes",
-  "integrated_other_tools_list": "Tool is GIS based and can use digital maps from www.pudok.nl (like soil map, kadastermap)",
+  "integrated_other_tools_list": "Tool is GIS based and can use digital maps from https://www.pdok.nl/ (like soil map, kadastermap)",
   "documentation_available": "Yes",
   "documentation_accessible": "No",
   "url_documentation": "",
