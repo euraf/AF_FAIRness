@@ -1,0 +1,29 @@
+{
+  "submitter_name": "Jens Asmuth",
+  "submitter_email": "jens.asmuth@lignovis.com",
+  "acronym": "PappelWERT",
+  "name": "PappelWERT - Pappelanbau in Agroforstsystemen und Wertsch\u00f6pfungsketten / PappelWERT - Poplar production in agroforestry systems and associated value chains",
+  "programme": "Federal Ministry of Food and Agriculture (BMEL) through the Agency for Renewable Resources (FNR) under the funding programme Sustainable Renewable Resources.",
+  "keywords": [
+    "agroforestry",
+    "poplar",
+    "wood",
+    "sustainable agriculture",
+    "demonstration farms",
+    "climate adaptation",
+    "material value chains",
+    "business case",
+    "scalability",
+    "non-energy value chains"
+  ],
+  "lead": "Lignovis GmbH",
+  "contact": "jens.asmuth@lignovis.com / +49 162 769 43 17",
+  "project_url": "https://www.pappelwert.de/",
+  "start_date": "01/01/2024",
+  "end_date": "31/12/2026",
+  "description": "The PappelWERT project focuses on promoting the sustainable cultivation of poplar trees in agroforestry systems. It aims to integrate fast-growing poplars into agricultural landscapes to enhance biodiversity, improve climate resilience, and support multifunctional land use. The focus is to establish agroforersty with poplars as a business case in the agricultural sector the to enable scaing-up the implementation of such systems. Therefore, the project explores the material use of poplar wood in value chains, contributing to circular and resource-efficient economic models that reduce risks and improves the economic outlook for farmers and endusers of poplar wood. By connecting farmers, researchers, and industry stakeholders, PappelWERT fosters innovation, knowledge transfer, and regional value creation.",
+  "logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/pappelwert.jpg",
+  "id": "pappelwert",
+  "timestamp_creation": 1750674131901,
+  "timestamp_lastedit": 1750674131901
+}
