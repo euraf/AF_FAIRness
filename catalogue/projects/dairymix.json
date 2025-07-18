@@ -1,1 +1,22 @@
-{"submitter_name": "Federico Dragoni", "submitter_email": "fdragoni@atb-potsdam.de", "acronym": "DairyMix", "name": "Multi-criteria assessment, decision support and management tools for sustainable circular mixed farming systems for dairy production", "project_url": "www.dairymix.eu", "project_funding_programme_listing": "", "start_date": "01/03/2022", "end_date": "28/02/2025", "programme": "Joint ERA-NET Call on Circularity in mixed crop and livestock farming systems, with emphasis on greenhouse gas mitigation", "description": "DairyMix applies a systems approach for sustainable dairy production systems that are targeted to key European regions and beyond. DairyMix is structured in five work packages. Case studies, data from the extensive DATAMAN database, Eurostat data and data from OTICE, the online barn climate and emission control tool will be collected and analysed. Data analytics uses linear statistics as well as supervised machine learning algorithms, like ridge regression, random forests, support vector machines and artificial neural networks. Data analysis assesses the potential of currently known mitigation measures as well as the potential of precision farming technologies that are not yet fully developed. On farm decisions with respect to barn climate, emission reduction and improved animal welfare are supported by the ICT-based tool OTICE. These data are then fed into a detailed modelling analysis on carbon and nutrient utilization and circularity of mixed farming systems for dairy production. This are brought together for a multi-criteria assessment of mixed farming systems for dairy production based on indicators for circularity and efficient resource use. DairyMix hosts an interactive web application to analyse farm data and to evaluate effects of changes in farming practice at farm and regional level with regard to environmental, economic and societal sustainability indicators. This output has farmers and other stakeholders in the primary sector as target group, and is also relevant for society and policy makers.", "keywords": ["crop-forestry-livestock systems", "mixed farming systems", "circularity"], "lead": "Leibniz Institute for Agricultural Engineering and Bioeconomy, Germany", "id": "dairymix", "timestamp_creation": 1752397124642, "timestamp_lastedit": 1752397124642}
+{
+  "submitter_name": "Federico Dragoni",
+  "submitter_email": "fdragoni@atb-potsdam.de",
+  "acronym": "DairyMix",
+  "name": "Multi-criteria assessment, decision support and management tools for sustainable circular mixed farming systems for dairy production",
+  "logo_url": "https://www.dairymix.eu/wp-content/uploads/2022/09/logo_dairymix_200.jpg",
+  "project_url": "www.dairymix.eu",
+  "project_funding_programme_listing": "",
+  "start_date": "01/03/2022",
+  "end_date": "28/02/2025",
+  "programme": "SusCrop ERA-NET",
+  "description": "DairyMix applies a systems approach for sustainable dairy production systems that are targeted to key European regions and beyond. DairyMix is structured in five work packages. Case studies, data from the extensive DATAMAN database, Eurostat data and data from OTICE, the online barn climate and emission control tool will be collected and analysed. Data analytics uses linear statistics as well as supervised machine learning algorithms, like ridge regression, random forests, support vector machines and artificial neural networks. Data analysis assesses the potential of currently known mitigation measures as well as the potential of precision farming technologies that are not yet fully developed. On farm decisions with respect to barn climate, emission reduction and improved animal welfare are supported by the ICT-based tool OTICE. These data are then fed into a detailed modelling analysis on carbon and nutrient utilization and circularity of mixed farming systems for dairy production. This are brought together for a multi-criteria assessment of mixed farming systems for dairy production based on indicators for circularity and efficient resource use. DairyMix hosts an interactive web application to analyse farm data and to evaluate effects of changes in farming practice at farm and regional level with regard to environmental, economic and societal sustainability indicators. This output has farmers and other stakeholders in the primary sector as target group, and is also relevant for society and policy makers.",
+  "keywords": [
+    "crop-forestry-livestock systems",
+    "mixed farming systems",
+    "circularity"
+  ],
+  "lead": "Leibniz Institute for Agricultural Engineering and Bioeconomy, Germany",
+  "id": "dairymix",
+  "timestamp_creation": 1752397124642,
+  "timestamp_lastedit": 1752397124642
+}
