@@ -52,7 +52,8 @@ module.exports = {
     <div v-if="project" class="toolpage card bg-white p-4">
       <div class="row">
         <div class="col-sm-6">
-          <h5 class="card-title"><b>{{ project.name }}</b></h5>
+          <h5 v-if="project.acronym" class="card-title"><b>{{ project.acronym }}</b></h5>
+          <h5 class="card-title">{{ project.name }}</h5>
         </div>
         <div class="col-sm-6 note text-right">
           <p>Do you want to improve this project's info? <router-link :to="'/projects/project/' + project.id +'/edit'">Edit it here</router-link></p>

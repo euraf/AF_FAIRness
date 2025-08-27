@@ -40,10 +40,10 @@ module.exports = {
 <template>
 	
 	<div class="top row fixed-top">
-		<div class="col-sm-1 text-center">
-			<h5 class="p-0 m-0"><router-link v-if="$router.currentRoute.name !== 'homepage'" class="home-ico" to="/"><i class="fa-solid fa-house"></i></router-link></h5>
+		<div class="col-sm-1 text-center" v-if="$router.currentRoute.name !== 'homepage'" >
+			<h5 class="p-0 m-0"><router-link class="home-ico" to="/"><i class="fa-solid fa-house"></i></router-link></h5>
 		</div>
-		<div class="col-sm-6 text-center">
+		<div class="text-center" :class="{'col-sm-6': $router.currentRoute.name !== 'homepage', 'col-sm-7': $router.currentRoute.name === 'homepage'}">
 			<h1 class="title">{{ title }}</h1>
 		</div>
 		<div class="col-sm-5">

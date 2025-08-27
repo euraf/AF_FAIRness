@@ -156,7 +156,7 @@ module.exports = {
           <div class="card stats shadow-sm">
             <div class="row">
               <div class="col-3 col-sm-4 left text-center"><p class="highlight">{{ tools_three_months }}</p></div>
-              <div class="col-9 col-sm-8 right text-left"><p><strong>new tools</strong> in the last three months</p></div>
+              <div class="col-9 col-sm-8 right text-left"><p><strong>new tool<span v-if="tools_three_months > 1">s</span></strong> in the last three months</p></div>
               <div class="col-12 right text-center"><p class="btn btn-secondary add-btn pointer"><router-link :to="{ name: 'tool_add' }">Add yours here!</router-link></p></div>
             </div>
           </div>
@@ -198,7 +198,7 @@ module.exports = {
           <div class="card stats shadow-sm">
             <div class="row">
               <div class="col-3 col-sm-4 left text-center"><p class="highlight">{{ datasets_three_months }}</p></div>
-              <div class="col-9 col-sm-8 right text-left"><p><strong>new datasets</strong> in the last three months</p></div>
+              <div class="col-9 col-sm-8 right text-left"><p><strong>new dataset<span v-if="datasets_three_months > 1">s</span></strong> in the last three months</p></div>
               <div class="col-12 right text-center">
                 <p class="btn btn-primary add-btn pointer"><router-link :to="{ name: 'dataset_add' }">Contribute here!</router-link></p>
               </div>
@@ -242,7 +242,7 @@ module.exports = {
           <div class="card stats shadow-sm">
             <div class="row">
               <div class="col-3 col-sm-4 left text-right"><p class="highlight">{{ projects_three_months }}</p></div>
-              <div class="col-9 col-sm-8 right text-right"><p><strong>new projects</strong> in the last three months</p></div>
+              <div class="col-9 col-sm-8 right text-right"><p><strong>new project<span v-if="projects_three_months > 1">s</span></strong> in the last three months</p></div>
               <div class="col-12 right text-center">
                 <p class="btn btn-grey add-btn pointer"><router-link :to="{ name: 'project_add' }">Submit yours here!</router-link></p>
               </div>
