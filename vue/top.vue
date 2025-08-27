@@ -3,25 +3,34 @@ module.exports = {
   name: "top",
 	computed: {
 		title() {
-			/*if (this.$route.params.id) {
+			if (this.$route.params && this.$route.params.id) {
 				var name = null
-				if (this.$route.name.substring(0, 4) == "data") {
+				if (this.$route.meta && this.$route.meta.isData) {
 					var datasets = this.$root.$data.datasets.filter(dataset => dataset.id === this.$route.params.id)
 					if (datasets.length > 0) {
 						name = datasets[0].name
 					} else {
 						console.log("'id' not recognized")
 					}
-				} else if (this.$route.name.substring(0, 4) == "tool") {
+				} else if (this.$route.meta && this.$route.meta.isTools) {
 					var tools = this.$root.$data.tools.filter(tool => tool.id === this.$route.params.id)
 					if (tools.length > 0) {
 						name = tools[0].name
 					} else {
 						console.log("'id' not recognized")
 					}
+				} else if (this.$route.meta && this.$route.meta.isProjects) {
+					var projects = this.$root.$data.projects.filter(project => project.id === this.$route.params.id)
+					if (project.length > 0) {
+						name = projects[0].name
+					} else {
+						console.log("'id' not recognized")
+					}
 				}
-				return this.$route.meta.title + " \"" + name + "\""
-			}*/
+				if (name) {
+					return name + ' - ' + this.$route.meta.title
+				}
+			}
 			return this.$route.meta.title
 		}
 	}
@@ -31,9 +40,12 @@ module.exports = {
 <template>
 	
 	<div class="top row fixed-top">
-		<div class="col-sm-7 text-center">
-      <h1 class="title">{{ title }} <router-link v-if="$router.currentRoute.name !== 'homepage'" class="home-ico" to="/"><i class="fa-solid fa-house"></i></router-link></h1>
-    </div>
+		<div class="col-sm-1 text-center">
+			<h5 class="p-0 m-0"><router-link v-if="$router.currentRoute.name !== 'homepage'" class="home-ico" to="/"><i class="fa-solid fa-house"></i></router-link></h5>
+		</div>
+		<div class="col-sm-6 text-center">
+			<h1 class="title">{{ title }}</h1>
+		</div>
 		<div class="col-sm-5">
 			<div class="menu row text-center">
 				<div class="col dropdown">

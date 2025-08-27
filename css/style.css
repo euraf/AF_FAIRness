@@ -32,6 +32,14 @@ body {
   font-size: 14px;
   color: var(--text-color);
 }
+
+a,
+a:hover,
+a:visited,
+a:focus {
+  color: var(--secondary);
+}
+
 strong {
   font-weight: bold;
 }
@@ -435,13 +443,6 @@ label.label-for-filters {
   height: calc(1.5em + 2px);
 }
 
-a,
-a:hover,
-a:visited,
-a:focus {
-  color: var(--secondary);
-}
-
 .youtube-video {
   aspect-ratio: 16 / 9;
   width: 100%;
@@ -492,6 +493,8 @@ a:focus {
   min-height: 60px;
   background-color: var(--primary);
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  display: flex;
+  align-items: center;
 }
 .top .title {
   font-size: 1.5rem;
@@ -535,11 +538,8 @@ a:focus {
   color: white;
 }
 
-.home-ico {
-  position: absolute;
-  left: 20px;
-  top: 10px;
-  font-size: 90%;
+a.home-ico {
+  color: white;
 }
 
 .content-wrap {
@@ -888,9 +888,6 @@ span.compulsory {
   }
   .footer p {
     font-size: 80%;
-  }
-  .top .menu .dropdown {
-    margin-top: 12px;
   }
   
   .catalogue {

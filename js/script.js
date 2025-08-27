@@ -29,32 +29,45 @@ const router = new VueRouter({
 			path: '/',
 			name: 'homepage',
 			component: httpVueLoader('vue/contents.vue'),
-			meta: { title: "Agroforestry Tools, Data & Projects Catalogues"}
+			meta: {
+				title: "Agroforestry Tools, Data & Projects Catalogues",
+				description: ""
+			}
 		},
 		{
 			path: '/projects',
 			name: 'projects',
 			component: httpVueLoader('vue/projects.vue'),
-			meta: { title: "Agroforestry Projects Catalogue"}
+			meta: {
+				title: "Agroforestry Projects Catalogue",
+				description: "",
+				isProjects: true
+			}
 		},
 		{
 			path: '/projects/add',
 			name: 'project_add',
 			component: httpVueLoader('vue/resource_form.vue'),
-			props: { projects: true },
-			meta: { title: "New Agroforestry Project"}
+			meta: {
+				title: "New Agroforestry Project",
+				description: "",
+				isProjects: true
+			}
 		},
 		{
 			path: '/projects/project/:id',
 			name: 'project_page',
-			props: { projects: true },
+			props: { isProjects: true },
 			component: httpVueLoader('vue/projectpage.vue'),
-			meta: { title: "Agroforestry Projects Catalogue" } // TODO add tool name to the page title
+			meta: {
+				title: "Agroforestry Project",
+				description: ""
+			}
 		},
 		{
 			path: '/projects/project/:id/edit',
 			name: 'project_edit',
-			props: { projects: true },
+			props: { isProjects: true },
 			component: httpVueLoader('vue/resource_form.vue'),
 			meta: { title: "Editing Agroforestry Project" } // TODO add project name to the page title
 		},
@@ -62,33 +75,34 @@ const router = new VueRouter({
 			path: '/data',
 			name: 'datasets',
 			component: httpVueLoader('vue/datasets.vue'),
+			props: { isData: true },
 			meta: { title: "Agroforestry Data Catalogue"}
 		},
 		{
 			path: '/data/add',
 			name: 'dataset_add',
 			component: httpVueLoader('vue/resource_form.vue'),
-			props: { data: true },
+			props: { isData: true },
 			meta: { title: "New Agroforestry Dataset"}
 		},
 		{
 			path: '/data/fairness_self_assessment',
 			name: 'datasets_self_assessment',
 			component: httpVueLoader('vue/selfassessment.vue'),
-			props: { data: true },
+			props: { isData: true },
 			meta: { title: "Agroforestry Data FAIRness Self-Assessment" }
 		},
 		{
 			path: '/data/dataset/:id',
 			name: 'dataset_page',
-			props: { data: true },
+			props: { isData: true },
 			component: httpVueLoader('vue/datasetpage.vue'),
-			meta: { title: "Agroforestry Data Catalogue" } // TODO add tool name to the page title
+			meta: { title: "Agroforestry Dataset" } // TODO add tool name to the page title
 		},
 		{
 			path: '/data/dataset/:id/edit',
 			name: 'dataset_edit',
-			props: { data: true },
+			props: { isData: true },
 			component: httpVueLoader('vue/resource_form.vue'),
 			meta: { title: "Editing Agroforestry Dataset" } // TODO add tool name to the page title
 		},
@@ -96,35 +110,39 @@ const router = new VueRouter({
 			path: '/tools',
 			name: 'tools',
 			component: httpVueLoader('vue/tools.vue'),
+			props: { isTools: true },
 			meta: { title: "Agroforestry Tools Catalogue"}
 		},
 		{
 			path: '/tools/add',
 			name: 'tool_add',
 			component: httpVueLoader('vue/resource_form.vue'),
-			props: { tools: true },
+			props: { isTools: true },
 			meta: { title: "New Agroforestry Tool"}
 		},
 		{
 			path: '/tools/fairness_self_assessment',
 			name: 'tools_self_assessment',
 			component: httpVueLoader('vue/selfassessment.vue'),
-			props: { tools: true },
+			props: { isTools: true },
 			meta: { title: "Agroforestry Tools FAIRness Self-Assessment" }
 		},
 		{
 			path: '/tools/tool/:id',
 			name: 'toolpage',
 			component: httpVueLoader('vue/toolpage.vue'),
-			props: { tools: true },
-			meta: { title: "Agroforestry Tools Catalogue" } // TODO add tool name to the page title
+			props: {  },
+			meta: {
+				title: "Agroforestry Tool",
+				isTools: true
+			}
 		},
 		{
 			path: '/tools/tool/:id/edit',
 			name: 'toolpage_edit',
 			component: httpVueLoader('vue/resource_form.vue'),
-			props: { tools: true },
-			meta: { title: "Editing Agroforestry Tool" } // TODO add tool name to the page title
+			props: { isTools: true },
+			meta: { title: "Editing Agroforestry Tool" }
 		},
 		{
 			path: '*',
@@ -132,8 +150,74 @@ const router = new VueRouter({
 			component: httpVueLoader('vue/notfound.vue')
 		},
 	],
-	scrollBehavior (to, from, savedPosition) {
+	scrollBehavior(to, from, savedPosition) {
 		return { x: 0, y: 0 }
+	},
+})
+
+function waitFor(elements, callback) {
+	debugger
+  if (app.$root.$data.loaded && app.$root.$data[elements].length > 0) {
+    callback(app.$root.$data[elements]);
+  } else {
+    setTimeout(() => waitFor(elements, callback), 100);
+  }
+}
+
+router.afterEach((to) => {
+
+	// update title
+	if (to.meta && to.meta.title) {
+		let title = to.meta.title;
+		// Check for :id in the route path and append it to the title if present
+		if (to.params && to.params.id) {
+			var name = null
+			if (to.meta && to.meta.isData) {
+				waitFor('datasets', (datasets) => {
+					filtered = datasets.filter(dataset => dataset.id === to.params.id)
+					if (filtered.length > 0) {
+						name = filtered[0].name
+						document.title = name + ' - ' + to.meta.title
+					} else {
+						console.log(`'id' ${to.params.id} not recognized`)
+					}
+				})
+			} else if (to.meta && to.meta.isTools) {
+				waitFor('tools', (tools) => {
+					filtered = tools.filter(tool => tool.id === to.params.id)
+					if (filtered.length > 0) {
+						name = filtered[0].name
+						document.title = name + ' - ' + to.meta.title
+					} else {
+						console.log(`'id' ${to.params.id} not recognized`)
+					}
+				})
+			} else if (to.meta && to.meta.isProjects) {
+				waitFor('projects', (projects) => {
+					filtered = projects.filter(project => project.id === to.params.id)
+					if (filtered.length > 0) {
+						name = filtered[0].name
+						document.title = name + ' - ' + to.meta.title
+					} else {
+						console.log(`'id' ${to.params.id} not recognized`)
+					}
+				})
+			}
+		}
+		document.title = title;
+	}
+
+	// update description
+	if (to.meta && to.meta.description) {
+		let descriptionTag = document.querySelector('meta[name="description"]');
+		if (descriptionTag) {
+		descriptionTag.setAttribute("content", to.meta.description);
+		} else {
+		descriptionTag = document.createElement("meta");
+		descriptionTag.setAttribute("name", "description");
+		descriptionTag.setAttribute("content", to.meta.description);
+		document.head.appendChild(descriptionTag);
+		}
 	}
 })
 
@@ -160,14 +244,14 @@ app = new Vue({
 		this.loadData()
 	},
 	watch: {
-    $route (to, from) {
+		$route(to, from) {
 			this.checkStyling(to)
 			window.top.postMessage({ af_fairness_url: to.fullPath }, '*')
-    }
+		}
 	},
 	methods: {
 		loadData() {
-      var _this = this
+      		var _this = this
 
 			//var baseurl = 'https://cdn.jsdelivr.net/gh/euraf/AF_FAIRness@main/'
 			var baseurl = ''

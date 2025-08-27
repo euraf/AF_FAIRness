@@ -46,7 +46,7 @@ module.exports = {
 
 <template>
   <div v-if="loaded">
-    <div class="note text-left mb-2">
+    <div class="note text-left py-2">
       <router-link to="/projects"><i class="fas fa-angle-left"></i> Go back to the database</router-link>
     </div>
     <div v-if="project" class="toolpage card bg-white p-4">
