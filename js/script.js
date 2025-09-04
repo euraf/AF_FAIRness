@@ -38,20 +38,20 @@ const router = new VueRouter({
 			path: '/projects',
 			name: 'projects',
 			component: httpVueLoader('vue/projects.vue'),
+			props: { isProjects: true },
 			meta: {
 				title: "Agroforestry Projects Catalogue",
-				description: "",
-				isProjects: true
+				description: ""
 			}
 		},
 		{
 			path: '/projects/add',
 			name: 'project_add',
+			props: { isProjects: true },
 			component: httpVueLoader('vue/resource_form.vue'),
 			meta: {
 				title: "New Agroforestry Project",
-				description: "",
-				isProjects: true
+				description: ""
 			}
 		},
 		{

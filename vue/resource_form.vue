@@ -2,9 +2,9 @@
 module.exports = {
   name: "resource_form",
   props: {
-    tools: Boolean,
-    data: Boolean,
-    projects: Boolean
+    isTools: Boolean,
+    isData: Boolean,
+    isProjects: Boolean
   },
   data() {
     return {
@@ -36,11 +36,11 @@ module.exports = {
       return this.$route.params.id
     },
     resources() {
-        if (this.tools) {
+        if (this.isTools) {
             return this.$root.$data.tools
-        } else if (this.data) {
+        } else if (this.isData) {
             return this.$root.$data.datasets
-        } else if (this.projects) {
+        } else if (this.isProjects) {
             return this.$root.$data.projects
         }
     },
@@ -55,13 +55,14 @@ module.exports = {
     },
     form() {
         var obj = {}
-        if (this.tools) {
+        if (this.isTools) {
             obj = this.$root.$data.tools_form.filter(question => question.id !== 'id')
-        } else if (this.data) {
+        } else if (this.isData) {
             obj = this.$root.$data.datasets_form.filter(question => question.id !== 'id')
-        } else if (this.projects) {
+        } else if (this.isProjects) {
             obj = this.$root.$data.projects_form.filter(question => question.id !== 'id')
         }
+        debugger
         if (this.creating) {
             obj = obj.filter(question => question.id !== 'editor_name' && question.id !== 'editor_email' )
         } else if (this.editing) {
@@ -77,7 +78,7 @@ module.exports = {
         return !this.editing
     },
     modalMessageSuccess() {
-        return "The " + (this.tools ? "tool" : (this.data ? "dataset" : "project")) + " was sucessfully " + (this.editing ? "edited." : "created.") + " A Pull Request was created in the EURAF/AF_FAIRness repository. You can follow it at <a target='_blank' href='https://github.com/euraf/AF_FAIRness/pull/" + this.pr_number + "'>https://github.com/euraf/AF_FAIRness/pull/" + this.pr_number +"</a>."
+        return "The " + (this.isTools ? "tool" : (this.isData ? "dataset" : "project")) + " was sucessfully " + (this.editing ? "edited." : "created.") + " A Pull Request was created in the EURAF/AF_FAIRness repository. You can follow it at <a target='_blank' href='https://github.com/euraf/AF_FAIRness/pull/" + this.pr_number + "'>https://github.com/euraf/AF_FAIRness/pull/" + this.pr_number +"</a>."
     },
     modalMessageError() {
         return "An error occurred while performing this action. Please try again and, if the error persists, <a href='mailto:anatomas@mvarc.eu'>let us know</a>."
@@ -101,9 +102,9 @@ module.exports = {
     },
     updateScoring() {
         var FAIR = null
-        if (this.tools) {
+        if (this.isTools) {
             FAIR = new Tools_FAIRness_scoring()
-        } else if (this.data) {
+        } else if (this.isData) {
             FAIR = new Data_FAIRness_scoring()
         }
         var scores = FAIR.score(this.formData)
@@ -170,7 +171,7 @@ module.exports = {
     },
     retrieve(db) {
         var _this = this
-        if (this.projects) {
+        if (this.isProjects) {
             if (db == 'cordis') {
                 this.isRetrieving = true
                 var url = this.formData.retrieve_from_cordis
@@ -223,7 +224,7 @@ module.exports = {
         }
 
         if (this.creating) {
-            if (this.projects) {
+            if (this.isProjects) {
                 this.formData.id = this.sanitizeName(this.formData.acronym)
             } else {
                 this.formData.id = this.sanitizeName(this.formData.name)
@@ -241,7 +242,7 @@ module.exports = {
         delete this.formData.reusability_score
 
         var action = this.creating ? "create" : "update"
-        var resources = this.data ? "data" : (this.tools ? "tools" : "projects")
+        var resources = this.isData ? "data" : (this.isTools ? "tools" : "projects")
         var databody = this.formData
         
         $.ajax({

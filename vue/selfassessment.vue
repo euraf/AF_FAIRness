@@ -2,8 +2,8 @@
 module.exports = {
   name: "selfassessment",
   props: {
-    tools: Boolean,
-    data: Boolean
+    isTools: Boolean,
+    isData: Boolean
   },
   data() {
     return {
@@ -28,30 +28,30 @@ module.exports = {
       return this.$root.$data.datasets_form
     },
     form() {
-        if (this.tools) {
+        if (this.isTools) {
             return this.$root.$data.tools_form.filter(question => 'fair' in question)
-        } else if (this.data) {
+        } else if (this.isData) {
             return this.$root.$data.datasets_form.filter(question => 'fair' in question)
         }
     },
     form_1part() {
-        if (this.tools) {
+        if (this.isTools) {
             return this.form.slice(0, this.TOOLS_FORM_HALF)
-        } else if (this.data) {
+        } else if (this.isData) {
             return this.form.slice(0, this.DATA_FORM_HALF)
         }
     },
     form_2part() {
-        if (this.tools) {
+        if (this.isTools) {
             return this.form.slice(this.TOOLS_FORM_HALF, this.form.length)
-        } else if (this.data) {
+        } else if (this.isData) {
             return this.form.slice(this.DATA_FORM_HALF, this.form.length)
         }
     },
     fairness_version() {
-        if (this.tools) {
+        if (this.isTools) {
             return this.$root.$data.tools_scoring.version
-        } else if (this.data) {
+        } else if (this.isData) {
             return this.$root.$data.datasets_scoring.version
         }
     }
@@ -74,9 +74,9 @@ module.exports = {
     },
     updateScoring() {
         var FAIR = null
-        if (this.tools) {
+        if (this.isTools) {
             FAIR = new Tools_FAIRness_scoring()
-        } else if (this.data) {
+        } else if (this.isData) {
             FAIR = new Data_FAIRness_scoring()
         }
         var scores = FAIR.score(this.formData)
