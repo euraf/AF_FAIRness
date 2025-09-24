@@ -1,0 +1,30 @@
+{
+  "retrieve_from_cordis": "https://cordis.europa.eu/project/id/101181623",
+  "acronym": "GALILEO",
+  "code": "Grant agreement ID: 101181623",
+  "name": "Strengthening rural livelihoods and resilience to climate change in Africa: innovative agroforestry integrating people, trees, crops and livestock",
+  "programme": "Horizon Europe",
+  "description": "The overall objective of GALILEO is to rely on genuine Multi-Actor Approaches (MAA) to co-develop context-specific, people-centered agroforestry innovations in representative agro-pastoral, agroforestry, and agro-silvo-pastoral systems from Sub-Saharan Africa (SSA). The aim is to promote agroforestry as leverage to significantly improve agricultural, household, and climate change adaptation and mitigation performances and to enhance biodiversity in SSA.    We build upon 8 agroforestry Living Labs (LLs: local scale and actors), 4 national and 1 regional Innovation Platforms (IPs), set up across 4 AU SSA countries. Our LLs are set in semi-arid zones of Senegal and Kenya and normally humid but drought-prone zones of Ghana and Cameroon thus comparing and covering a large range of SSA conditions.    Through MMA, we co-construct potentially adoptable scenarios ex-ante with Innovator, Target, and Control actors in our LLs, then implement, assess, and compare performances in their pilot plots during the whole project. We use field observations also to calibrate process models, able to simulate under future CC scenarios. After full multi-criteria and trade-off analysis, we finally co-select the most effective scenarios ex-post. We thus rely on transdisciplinary research, providing qualitative and quantitative data on the biophysical, socio-economic, and environmental performances.    Such adoptable agroforestry innovations will also enable farmers/pastoralists and stakeholders to diversify their incomes from new agroforestry value chains, of which 2 are GALILEO-original. They will also benefit from carbon farming and payment for ecosystem services opportunities.    Through our IPs, we also engage in solid MAA collaborations and policy dialogues to first identify bottlenecks and second elaborate guidelines, and policy recommendations, helping towards strengthening their local innovation ecosystems, under a favorable institutional and policy framework.",
+  "keywords": [
+    "Agroforestry Living Labs",
+    "Innovation Platforms",
+    "Climate change adaptation and mitigation",
+    "Sub-Saharan Africa",
+    "livelihood resilience",
+    "sustainable agriculture",
+    "enhanced biodiversity",
+    "Transdisciplinarity"
+  ],
+  "lead": "CENTRE DE COOPERATION INTERNATIONALE EN RECHERCHE AGRONOMIQUE POUR LEDEVELOPPEMENT - C.I.R.A.D. EPIC",
+  "project_url": "https://galileo-project.eu/",
+  "project_funding_programme_listing": "https://cordis.europa.eu/project/id/101181623",
+  "start_date": "01/01/2025",
+  "end_date": "31/12/2028",
+  "submitter_name": "Ana Tom\u00e1s",
+  "submitter_email": "anatomas@mvarc.eu",
+  "logo_url": "https://galileo-project.eu/wp-content/uploads/2025/03/Galileo-Logo-RGB.png",
+  "contact": "info@galileo-project.eu",
+  "id": "galileo",
+  "timestamp_creation": 1758748557288,
+  "timestamp_lastedit": 1758748557288
+}
