@@ -1,0 +1,69 @@
+{
+  "data_type": [
+    "Observational data",
+    "Spatial data"
+  ],
+  "spatial_scales": [
+    "Farm",
+    "Landscape"
+  ],
+  "indicators": [
+    "Soil"
+  ],
+  "time_steps": [
+    "Other"
+  ],
+  "data_formats": [
+    "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+  ],
+  "digitaf_data_ll": [
+    "Finland LL"
+  ],
+  "digitaf_data_wp": [
+    "WP3 - Tools for beneficiaries"
+  ],
+  "submitter_name": "Michael den Herder",
+  "data_collection_country": "Finland",
+  "submitter_email": "michael.denherder@efi.int",
+  "name": "Maaper\u00e4 1:20 000/1:50 000 - The Superficial deposits 1:20 000/1:50 000",
+  "url": "https://hakku.gtk.fi/fi/locations?id=206",
+  "url_persistent": "Yes",
+  "description": "The Superficial deposits 1:20 000/1:50 000 data include material produced during the period 1972-2007 for land use planning, for the mapping and inventory of the natural resources as well as for environmental management and for scientific research. The data covers approximately about 37% of the area of Finland. The main mapping scale has been 1:10 000. The data contains a sediment as a basal deposit at a depth of one metre. The minimum size of the basal deposit polygon is two hectares, with islands, mire and field enclosures, as well as geologically significant sites as an exception. The 0.4-0.9 m thick layers are described as overlying the basal deposit and, in geologically or economically significant cases, such layers could be even thicker. The minimum polygon size of the overlying deposit is usually four hectares. Thin covering layers under 0.4 m in thickness, which are difficult to delimit but effect an area of at least four hectares, are displayed as point data. Besides the deposits Quaternary geological formations formed in different ways, such as eskers and hummocky moraines, are described in the data. Other mapping sites such as small rock exposures, dunes and raised beaches are shown as point or line data. Coordinate reference system of the Superficial deposits 1:20 000/1:50 000 was transformed in March 2013. The transformation from Finnish National Grid Coordinate System (Kartastokoordinaattij\u00e4rjestelm\u00e4, KKJ) Uniform Coordinate Frame to ETRS-TM35FIN projection was done by using the three-dimensional transformation in accordance with the recommendations for the public administration JHS154.\n\nThe Superficial deposits 1:20 000/1:50 000 data are suitable for use at medium and small scales in land-use planning, in the mapping and inventory of the natural resources, in environmental management, in agriculture and forestry and in teaching as well as in scientific and applied research. The scale of use of the map material is 1:20 000-1:100 000.\n\nWithout further information, the Superficial deposits 1:20 000/1:50 000 data should not be considered for uses that require detailed information, such as structural design, without making further investigations.",
+  "keywords": [
+    "soils",
+    "glacial features",
+    "sediments",
+    "shore features",
+    "eolian features",
+    "raised beaches",
+    "erosion features",
+    "ground water",
+    "samples",
+    "drilling"
+  ],
+  "data_ownership": "Geologian tutkimuskeskus",
+  "data_contact": "geodata@gtk.fi",
+  "data_project": "Don't know",
+  "spatial_details": "The main mapping scale has been 1:10 000.",
+  "time_steps_other": "Between 1972-2007",
+  "year_release": 2015,
+  "year_lastupdate": 2018,
+  "time_span_oldest": 1972,
+  "time_span_newest": 2007,
+  "data_confidentiality": "No, the data is public",
+  "license": "Other",
+  "license_other": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "access_barrier": "No, direct download/access through a web link",
+  "data_relevant_attributes": "Yes",
+  "listed_other_databases": "Yes",
+  "listed_other_databases_list": "https://kartta.paikkatietoikkuna.fi/",
+  "data_metadata": "Yes",
+  "documentation_accessible": "Yes",
+  "data_metadata_vocabulary": "Yes",
+  "development_process": "Not completely",
+  "digitaf_data_used": "The soil map was used for identifying the soil type on living lab farms",
+  "id": "maaper_120_000150_000__the_superficial_deposits_120_000150_000",
+  "timestamp_creation": 1758809184334,
+  "timestamp_lastedit": 1758809184334
+}
