@@ -1,5 +1,5 @@
 /*!
- * Techonology Ranking (Software / Programming languages)
+ * Technology Ranking (Software / Programming languages)
  * 
  * »» For the programming languages:
  * 
@@ -7,7 +7,7 @@
  * (https://survey.stackoverflow.co/2023/#technology-most-popular-technologies)
  * 
  * List retrieved as:
- * var techonologies_score = [];
+ * var technologies_score = [];
  * document.querySelectorAll("#most-popular-technologies-language td.label")
  * 	.forEach(function(el, idx) {
  *		var tech = x.innerText
@@ -20,7 +20,7 @@
  * 
  * »» Usage example:
  * 
- * var ranking = new TechonologyRanking()
+ * var ranking = new TechnologyRanking()
  * var tech = "Microsoft Excel"
  * ranking.rank(tech) // { status: 'success', score: 0.8 }
  * 
@@ -32,7 +32,7 @@
 function TechnologyRanking() {
 	const _version = "1.0"
 
-	const techonologies_score = {
+	const technologies_score = {
 			"JavaScript": 1,
 			"HTML/CSS": 1,
 			"Python": 1,
@@ -90,10 +90,10 @@ function TechnologyRanking() {
 	}
 
 	function rank(tech) {
-		if (tech in techonologies_score) {
-			return { status: 'success', score: techonologies_score[tech] }
+		if (tech in technologies_score) {
+			return { status: 'success', score: technologies_score[tech] }
 		} else {
-			return { status: 'error', message: "No such techonology. Purpose an update via Github Pull Request." }
+			return { status: 'error', message: "No such technology. Purpose an update via Github Pull Request." }
 		}
 	}
 

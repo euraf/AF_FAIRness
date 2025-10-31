@@ -152,7 +152,7 @@
       "required": true,
       "fair": "I1",
       "fair_text": "Humans and computers must be able to interpret tools and exchange data. In order to facilitate these actions, tools should be developed in software or programming languages that a large number of users understand and know how to use. The use of legacy or niche software/programming languages should be avoided. This is particularly relevant when considering interoperability with other tools, or their future collaborative development. The ranking of technologies for scoring purposes follows the yearly «Stack Overflow Developer Survey». The current 2023 programming languages ranking is available at https://survey.stackoverflow.co/2023/#technology-most-popular-technologies.",
-      "fair_score_comments": "Average of the individual scoring of each technology, evaluated through https://github.com/euraf/AF_FAIRness/blob/main/catalogue/tools/scoring/techonology_ranking.js.",
+      "fair_score_comments": "Average of the individual scoring of each technology, evaluated through https://github.com/euraf/AF_FAIRness/blob/main/catalogue/tools/scoring/technology_ranking.js.",
       "answers": [
         "APL",
         "Ada",
