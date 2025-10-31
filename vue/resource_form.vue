@@ -62,7 +62,6 @@ module.exports = {
         } else if (this.isProjects) {
             obj = this.$root.$data.projects_form.filter(question => question.id !== 'id')
         }
-        debugger
         if (this.creating) {
             obj = obj.filter(question => question.id !== 'editor_name' && question.id !== 'editor_email' )
         } else if (this.editing) {

@@ -156,7 +156,6 @@ const router = new VueRouter({
 })
 
 function waitFor(elements, callback) {
-	debugger
   if (app.$root.$data.loaded && app.$root.$data[elements].length > 0) {
     callback(app.$root.$data[elements]);
   } else {

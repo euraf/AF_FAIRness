@@ -278,7 +278,7 @@ function Tools_FAIRness_scoring() {
   
         var I6 = 0
         if (tool.integrated_other_tools) {
-            I6 = {
+            var scores = {
                 "Yes": 1,
                 "No": 0,
                 "Don't know": 0
