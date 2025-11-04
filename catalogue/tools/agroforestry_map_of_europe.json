@@ -1,0 +1,137 @@
+{
+  "primary_purpose": [
+    "Education and training"
+  ],
+  "software_proglanguage": [
+    "VBA",
+    "Java",
+    "Javascript"
+  ],
+  "minimum_req": [
+    "Internet connection",
+    "Desktop computer (e.g. optimized for wider screens)",
+    "Cross-platform tool (works in Windows, Mac and Linux)"
+  ],
+  "systems": [
+    "Agriculture",
+    "Forestry",
+    "Agroforestry",
+    "Natural/Wild",
+    "Urban"
+  ],
+  "system_components": [
+    "Crop",
+    "Tree",
+    "Livestock",
+    "People",
+    "Soil"
+  ],
+  "indicators": [],
+  "spatial_scales": [
+    "Plot"
+  ],
+  "time_steps": [
+    "Not relevant"
+  ],
+  "input_data_protocols": [
+    "User enters data manually"
+  ],
+  "input_data_formats": [],
+  "input_data_file_formats": [],
+  "output_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "output_data_file_formats": [
+    "XLS/XLSX (Microsoft Excel formats)"
+  ],
+  "end_users": [
+    "Farmer",
+    "Landowner",
+    "Farm advisor",
+    "Wholesaler",
+    "Retailer",
+    "Carbon trader",
+    "Final consumer",
+    "Other",
+    "Policy-maker",
+    "Student",
+    "Researcher"
+  ],
+  "usages_most_relevant": [
+    "Education",
+    "Monitoring/Evaluating"
+  ],
+  "usages_least_relevant": [
+    "Forecasting",
+    "Management"
+  ],
+  "languages": [
+    "Czech",
+    "Danish",
+    "Dutch",
+    "English",
+    "Finish",
+    "French",
+    "German",
+    "Italian",
+    "Polish",
+    "Russian",
+    "Spanish",
+    "Swedish",
+    "Other"
+  ],
+  "digitaf_tool_ll": [
+    "Czech Republic LL",
+    "Finland LL",
+    "Germany LL",
+    "Italy LL",
+    "Netherlands LL",
+    "United Kingdom LL"
+  ],
+  "submitter_name": "Rico H\u00fcbner",
+  "submitter_email": "huebner@defaf.de",
+  "name": "Agroforestry Map of Europe",
+  "url": "https://euraf.map.agroforestry-map.eu/",
+  "description": "Do you manage an agroforestry system, know of or are looking for an agroforestry area, or would like to establish one?  Are you looking for a scientific institution in the field of agroforestry or contact points to find out more about the topic?  Or are you active in the upstream and downstream sectors, for example in consulting, marketing, or processing agroforestry products?\nThen the Agroforestry Map of Europe is the right place for you. Trough your national Agroforrestry organisation you can register or search for agroforestry areas, service providers, actors along the entire value chain, and information and education centers or scientific institutions. You can also register if you are interested in establishing an agroforestry system. Each new entry will appear on the national maps and instantly at the Agroforestry Map of Europe at the website of EURAF, shortly after it has been successfully reviewed.\n\nWith your help, we can achieve our common goal of building the most comprehensive database on agroforestry in Europe.",
+  "logo_url": "https://defaf.map.agroforestry-map.eu/_next/image?url=%2Flogo.png&w=384&q=75",
+  "keywords": [
+    "map",
+    "agroforestry site",
+    "scientific institution",
+    "advisory services",
+    "up- & downstream sector",
+    "tree nurseries",
+    "trees",
+    "shrubs",
+    "livestock"
+  ],
+  "tool_project": "Yes",
+  "tool_project_name": "ReFOREST, DigitAF",
+  "developers": "Deutscher Fachverband f\u00fcr Agroforstwirtschaft e.V. (DeFAF) \u2013 German Agroforestry Association",
+  "contact": "huebner@defaf.de",
+  "license": "Not stated",
+  "year_release": 2024,
+  "year_lastupdate": 2025,
+  "previous_versions_available": "No",
+  "url_persistent": "Yes",
+  "access_barrier": "No, direct download/access through a web link",
+  "listed_other_databases": "No",
+  "integrated_other_tools": "No",
+  "data_provenance": "Yes",
+  "development_process": "Yes",
+  "training_materials": "Yes",
+  "documentation_contribute": "Yes",
+  "url_training_materials": "",
+  "url_documentation": "https://zenodo.org/records/17423275",
+  "license_url": "https://euraf.map.agroforestry-map.eu/privacy-policy",
+  "organizations": "Eigen Vermogen van het Instituut voor Landbouw \u2013 En Visserijonderzoek (ILVO) \u2013 Flanders Research Institute for Agriculture, Fisheries and Food; Association pour l\u2019agroforesterie en Wallonie et \u00e0 Bruxelles (AWAF) \u2013 Association for the Promotion of Agroforestry in Wallonia and Brussels; Trakia University Bulgaria; Eidgen\u00f6ssisches Departement f\u00fcr Wirtschaft, Bildung und Forschung (WFB) \u2013 Federal Department of Economic Affairs, Education and Research; AGRIDEA; \u010ceska Zem\u011bd\u011blsk\u00e1 Univerzita v Praze (CZU) \u2013 Czech University of Life Sciences Prague; Zelen\u00e9 poradenstv\u00ed s.r.o.; Copenhagen University; Regen Farmer; Universidad de Extremadura (UEx) \u2013 University of Extremadura; Forest Science Center of Catalonia (CTFC); European Agroforestry Federation (EURAF); European Forest Institute (EFI); Institut National de Recherche pour l\u2019Agriculture, l\u2019Alimentation et l\u2019Environnement (INRAE) \u2013 National Research Institute for Agriculture, Nutrition and the Environment; \u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03cc \u0391\u03b3\u03c1\u03bf\u03b4\u03b1\u03c3\u03b9\u03ba\u03cc \u0394\u03af\u03ba\u03c4\u03c5\u03bf (HAN) \u2013 Greek Agroforestry Network; Magyar Permakult\u00fara Egyes\u00fclet (MAPER) \u2013 Hungarian Permaculture Association; Irish Agroforestry Forum; Farm Woodland Trust; Universit\u00e0 di Pisa (uniPI) \u2013 University of Pisa; Latvian Forest Owners' Association (LFOA); Louis Bolk Instituut (LBI), Moinhos de Vento Agroecology Research Centre (MVARC); Institute of Soil Science and Plant Cultivation, Pulawy; Research Assistant at National Institute for Research and Development in Forestry \"Marin Dr\u0103cea\", Romania; Sinergise Laboratorij za Geografske Informacijske Sisteme (SLGIS); Organic Research Centre (ORC), Cranfield University; University Reading",
+  "status": "Implemented",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Yes",
+  "documentation_theoretical_background_list": "https://zenodo.org/records/15085471",
+  "digitaf_tool": "Yes",
+  "documentation_theoretical_background": "Yes",
+  "id": "agroforestry_map_of_europe",
+  "timestamp_creation": 1762176653216,
+  "timestamp_lastedit": 1762176653216
+}
