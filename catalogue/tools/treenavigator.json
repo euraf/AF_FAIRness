@@ -17,6 +17,7 @@
     "Natural/Wild",
     "Urban"
   ],
+
   "system_components": [
     "Crop",
     "Tree"
@@ -94,10 +95,10 @@
     "design",
     "gis",
     "yield forecast",
-    "economic analysis",
-    ""
+    "economic analysis"
   ],
-  "developers": "",
+  "developers": "Sander van Holsteijn (https://www.linkedin.com/in/sander-van-holsteijn/)",
+  "contact": "info@treenavigator.org",
   "tool_project": "No, it has another source",
   "status": "Under development",
   "license": "MIT License",
