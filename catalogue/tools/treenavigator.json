@@ -1,0 +1,131 @@
+{
+  "primary_purpose": [
+    "Decision support",
+    "Research"
+  ],
+  "software_proglanguage": [
+    "TypeScript"
+  ],
+  "minimum_req": [
+    "Internet connection",
+    "Desktop computer (e.g. optimized for wider screens)"
+  ],
+  "systems": [
+    "Agriculture",
+    "Forestry",
+    "Agroforestry",
+    "Natural/Wild",
+    "Urban"
+  ],
+
+  "system_components": [
+    "Crop",
+    "Tree"
+  ],
+  "indicators": [
+    "Yield",
+    "Growth",
+    "Water",
+    "Soil",
+    "Economics",
+    "Pests and Diseases"
+  ],
+  "spatial_scales": [
+    "Plant/animal",
+    "Plot"
+  ],
+  "time_steps": [
+    "Yearly",
+    "Monthly"
+  ],
+  "input_data_protocols": [
+    "Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)",
+    "User enters data manually"
+  ],
+  "input_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "input_data_file_formats": [
+    "CSV",
+    "Images (e.g. png, jpg, tiff, etc)",
+    "GeoJSON"
+  ],
+  "output_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "output_data_file_formats": [
+    "XLS/XLSX (Microsoft Excel formats)",
+    "CSV",
+    "PDF",
+    "Other"
+  ],
+  "end_users": [
+    "Researcher",
+    "Student",
+    "Farmer",
+    "Landowner",
+    "Farm advisor"
+  ],
+  "usages_most_relevant": [
+    "Planning/Design",
+    "Forecasting",
+    "Management",
+    "Monitoring/Evaluating"
+  ],
+  "usages_least_relevant": [
+    "Implementation"
+  ],
+  "languages": [
+    "Dutch",
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "Spanish",
+    "Other"
+  ],
+  "digitaf_tool_ll": [],
+  "submitter_name": "Sander van Holsteijn",
+  "submitter_email": "info@treenavigator.org",
+  "name": "TreeNavigator",
+  "url": "https://app.treenavigator.com",
+  "description": "TreeNavigator is open-core software designed to simplify the planning, management, and economic analysis of complex tree systems such as agroforestry. It will soon launch on Github, where documentation will be provided. It is currently in beta at app.treenavigator.com, although information can be found on treenavigator.org.",
+  "keywords": [
+    "agroforestry",
+    "design",
+    "gis",
+    "yield forecast",
+    "economic analysis"
+  ],
+  "developers": "Sander van Holsteijn (https://www.linkedin.com/in/sander-van-holsteijn/)",
+  "contact": "info@treenavigator.org",
+  "tool_project": "No, it has another source",
+  "status": "Under development",
+  "license": "MIT License",
+  "year_lastupdate": 2025,
+  "year_release": "",
+  "previous_versions_available": "Only one version exists",
+  "output_data_file_formats_other": "GeoJSON, KML",
+  "languages_other": "Mandarin Chinese, Arabic, Hindi, Swahili, Portuguese, Indonesian",
+  "url_persistent": "Yes",
+  "access_barrier": "Access to the tool needs to be granted (e.g. tool owner needs to give permission after user registration; tool owner sends tool after receiving a request email)",
+  "access_procedure_documentation": "No",
+  "listed_other_databases": "No",
+  "access_procedure": "Contacting the developer via info@treenavigator.org",
+  "integrated_other_tools": "Yes",
+  "integrated_other_tools_list": "Various map layers such as Esri and OpenStreetMap",
+  "documentation_available": "No",
+  "documentation_accessible": "No",
+  "documentation_theoretical_background": "Yes",
+  "documentation_theoretical_background_list": "PFAF.org",
+  "data_provenance": "Incomplete",
+  "development_process": "No",
+  "training_materials": "Yes",
+  "url_training_materials": "In-app guided walkthrough",
+  "documentation_contribute": "Yes",
+  "digitaf_tool": "No",
+  "logo_url": "https://treenavigator.org/wp-content/uploads/2025/10/TreeNavigator-devices.jpeg",
+  "id": "treenavigator",
+  "timestamp_creation": 1766083403871,
+  "timestamp_lastedit": 1766083403871
+}
