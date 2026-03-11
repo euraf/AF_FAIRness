@@ -29,7 +29,7 @@
   "submitter_name": "Rico H\u00fcbner",
   "submitter_email": "huebner@defaf.de",
   "description": "This is a modern online pomology resource, with the aim of providing up-to-date variety descriptions.\nIn the past, much of the information on the origin and history of varieties, as well as entire variety descriptions, has simply been copied or slightly modified. For this reason, Fruit Variety Preservation Network members of the Pomologen-Verein (PV) have verified the origin and history of each variety as far as possible. The descriptions have been compiled based on the authors' own observations. If information has been taken from pomological literature, this is indicated with a reference to the source. All descriptions and photos are subject to copyright.",
-  "name": "Fruit treee variety profiles",
+  "name": "Fruit tree variety profiles",
   "url": "https://obstsortenerhalt.de/sortenportraits",
   "data_ownership": "Fruit Variety Preservation Network members of the Pomologen-Verein (PV) (Pomology Association)",
   "data_project": "Yes",
@@ -55,7 +55,7 @@
   "development_process": "Yes",
   "data_project_url": "https://obstsortenerhalt.de/",
   "year_release": 2010,
-  "id": "fruit_treee_variety_profiles",
+  "id": "fruit_tree_variety_profiles",
   "timestamp_creation": 1771223772328,
   "timestamp_lastedit": 1771223772328
 }
