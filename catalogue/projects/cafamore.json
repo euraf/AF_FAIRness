@@ -1,0 +1,25 @@
+{
+  "submitter_name": "Ana Tom\u00e1s",
+  "submitter_email": "anatomas@mvarc.eu",
+  "retrieve_from_cordis": "https://cordis.europa.eu/project/id/101219027",
+  "acronym": "CAFAMORE",
+  "code": "Grant agreement ID: 101219027",
+  "name": "Carbon Farming Monitoring and Registry",
+  "programme": "Horizon Europe",
+  "description": "The European Commission is developing the first EU-wide voluntary framework for certifying carbon removals, carbon farming and carbon storage in products across Europe. By establishing EU quality criteria and laying down monitoring and reporting processes, the CRCF Regulation will facilitate the adoption of carbon farming solutions, while addressing greenwashing, and provides a \"result-based\" (quantified) remuneration system for farmers and foresters' climate performance. Key to the CRCF regulation  are robust cost-effective Monitoring, Reporting and Verification (MRV) systems and a geographically explicit registry.  Therefore, the main goal of CAFAMORE is to develop an EU-wide parcel level monitoring approach for Carbon Farming, with harmonisation and automation of data collection, robust and cost-effective quantification of activities and baselines, a spatially explicit registry and a robust market place.  This will be accompanied by an in-depth assessment of the carbon markets and business strategies for carbon farming. CAFAMORE will facilitate certification schemes by providing tools for the quantification and monitoring of Carbon Farming activities through providing operational processing chains that connect earth observation data, soil and management data and models, including changes in SOC stocks, woody biomass and soil N2O emissions. This parcel-level data collection infrastructure can also serve companies for their CSRD reporting and member states for their National Greenhouse Gas Inventories. The MRV approaches and tools will be tested with farmers and certification actors in seven pilot countries, covering the main climatic zones and the diversity in European agriculture. The digital infrastructure and MRV tools will reduce the administrative burden for land managers, provide transparency over collected data and certificates and trust to the Carbon Farming market, which should increase the attractiveness of carbon farming.",
+  "keywords": [
+    "Carbon farming",
+    "MRV",
+    "Carbon certification",
+    "Carbon markets"
+  ],
+  "lead": "STICHTING WAGENINGEN RESEARCH",
+  "project_url": "https://www.cafamore.eu/",
+  "project_funding_programme_listing": "https://cordis.europa.eu/project/id/101219027",
+  "start_date": "01/07/2025",
+  "end_date": "30/06/2029",
+  "contact": "https://www.cafamore.eu/contact",
+  "id": "cafamore",
+  "timestamp_creation": 1773228416791,
+  "timestamp_lastedit": 1773228416791
+}
