@@ -1,0 +1,64 @@
+{
+  "data_type": [
+    "Aggregated data",
+    "Analysis data",
+    "Spatial data"
+  ],
+  "spatial_scales": [
+    "European"
+  ],
+  "indicators": [
+    "Land cover",
+    "Land use",
+    "Biodiversity",
+    "Suitability",
+    "Water",
+    "Soil",
+    "Carbon"
+  ],
+  "time_steps": [
+    "Not relevant"
+  ],
+  "data_formats": [
+    "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+  ],
+  "digitaf_data_ll": [],
+  "digitaf_data_wp": [],
+  "submitter_name": "Victor Anthony Gabourel Landaverde",
+  "submitter_email": "gabourel@unex.es",
+  "name": "Target areas to introduce agroforestry in European agricultural landscapes",
+  "url": "https://zenodo.org/records/15574647",
+  "url_persistent": "Yes",
+  "description": "Agroforestry is a practice where the intentional combination of trees and shrubs, crops and livestock occur on the same land to generate environmental, economic and social benefits. This study identifies target areas in the European Union 27 Member States, United Kingdom, and Switzerland where introducing agroforestry can further enhance environmental benefits and climate change resilience. Using a spatial approach, the methodology involved four steps: selecting suitable agricultural areas, analysing environmental pressures, defining target areas for agroforestry introduction, and characterising the socio-economic context. Fourteen environmental indicators across soil, biodiversity, water, and climate change were analysed using defined threshold values to identify areas where sustainability is compromised. Heat maps highlighted high-pressure areas (6\u201314 accumulated environmental pressures) as target areas. Socio-economic context was described using six indicators related to demography, farmer training and willingness to change, and economy at the NUTS 2 regional level, defining high, medium, and low-profile regions. Results indicated biodiversity and climate change pressures affected larger areas than soil and water pressures, with hotspots in France, Spain, and Romania. Regions facing greater socio-economic challenges (low-profile) also experienced more environmental pressures. The study concludes by defining suitable locations with high environmental pressures, along with their socio-economic contexts, for agroforestry introduction, emphasizing its importance for climate resilience.",
+  "keywords": [
+    "agroforestry",
+    "environmental pressures",
+    "climate change pressures",
+    "European agriculture"
+  ],
+  "data_ownership": "University of Extremadura and Moinhos de Vento Agroecology Research Centre",
+  "data_contact": "V. Anthony Gabourel Landaverde, University of Extremadura, gabourel@unex.es",
+  "data_project": "Yes",
+  "data_project_name": "AGROforestry and MIXed farming systems  (AGROMIX) - Participatory research to drive the transition to a resilient and efficient land use in Europe",
+  "data_project_url": "cordis.europa.eu/project/id/862993",
+  "data_collection_country": "Europe",
+  "spatial_details": "Raster layer with a spatial resolution of 100 m.",
+  "year_release": 2025,
+  "year_lastupdate": 2025,
+  "time_span_oldest": 2018,
+  "time_span_newest": "",
+  "data_confidentiality": "No, the data is public",
+  "license": "Creative Commons BY",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "access_barrier": "No, direct download/access through a web link",
+  "listed_other_databases": "No",
+  "data_metadata": "Yes",
+  "documentation_accessible": "Yes",
+  "data_metadata_vocabulary": "No",
+  "development_process": "Yes",
+  "documentation_list": "Gabourel-Landaverde, V.A.; Schnabel, S.; Lavado-Contador, J.F.; Smith, J.; Palma, J.H.N. Identifying Target Areas for Agroforestry in European Agricultural Landscapes Based on Environmental Pressures and Socioeconomic Contexts. Trees, Forests and People 2025, 21, 100961, doi:https://doi.org/10.1016/j.tfp.2025.100961.",
+  "data_relevant_attributes": "Yes",
+  "id": "target_areas_to_introduce_agroforestry_in_european_agricultural_landscapes",
+  "timestamp_creation": 1770198625731,
+  "timestamp_lastedit": 1770198625731
+}
