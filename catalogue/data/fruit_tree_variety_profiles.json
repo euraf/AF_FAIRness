@@ -1,0 +1,61 @@
+{
+  "data_type": [
+    "Aggregated data"
+  ],
+  "spatial_scales": [
+    "Plant/animal",
+    "Leaf/stem (sub-individual)",
+    "National"
+  ],
+  "indicators": [
+    "Suitability",
+    "Pests and Diseases",
+    "Growth",
+    "Yield / Biomass",
+    "Species occurrence"
+  ],
+  "time_steps": [
+    "Not relevant"
+  ],
+  "data_formats": [
+    "Static content (e.g. textual, reports on website pages, tables and graphs, PDF files)",
+    "Other"
+  ],
+  "digitaf_data_ll": [
+    "Germany LL"
+  ],
+  "digitaf_data_wp": [],
+  "url_persistent": "Yes",
+  "submitter_name": "Rico H\u00fcbner",
+  "submitter_email": "huebner@defaf.de",
+  "description": "This is a modern online pomology resource, with the aim of providing up-to-date variety descriptions.\nIn the past, much of the information on the origin and history of varieties, as well as entire variety descriptions, has simply been copied or slightly modified. For this reason, Fruit Variety Preservation Network members of the Pomologen-Verein (PV) have verified the origin and history of each variety as far as possible. The descriptions have been compiled based on the authors' own observations. If information has been taken from pomological literature, this is indicated with a reference to the source. All descriptions and photos are subject to copyright.",
+  "name": "Fruit tree variety profiles",
+  "url": "https://obstsortenerhalt.de/sortenportraits",
+  "data_ownership": "Fruit Variety Preservation Network members of the Pomologen-Verein (PV) (Pomology Association)",
+  "data_project": "Yes",
+  "data_contact": "Coordinators responsible: Apples: Jens Meyer; Pears: Jan Bade; Stone fruit and other fruit varieties: Annette Braun L\u00fcllemann",
+  "data_project_name": "Erhalternetzwerk Obstsortenvielfalt funded i.a. by Heidehof-Stiftung",
+  "keywords": [
+    "fruit variety selection",
+    "Streuobst"
+  ],
+  "data_collection_country": "Germany",
+  "year_lastupdate": 2026,
+  "data_confidentiality": "No, the data is public",
+  "license": "Other",
+  "license_other": "Specific",
+  "license_url": "https://obstsortenerhalt.de/urheberrecht",
+  "access_barrier": "No, direct download/access through a web link",
+  "data_formats_other": "Website descriptions & photos",
+  "data_relevant_attributes": "Yes",
+  "listed_other_databases": "Don't know",
+  "data_metadata": "No",
+  "documentation_accessible": "Don't know",
+  "data_metadata_vocabulary": "Don't know",
+  "development_process": "Yes",
+  "data_project_url": "https://obstsortenerhalt.de/",
+  "year_release": 2010,
+  "id": "fruit_tree_variety_profiles",
+  "timestamp_creation": 1771223772328,
+  "timestamp_lastedit": 1771223772328
+}
