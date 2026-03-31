@@ -1,0 +1,98 @@
+{
+  "primary_purpose": [
+    "Research"
+  ],
+  "software_proglanguage": [
+    "Python"
+  ],
+  "minimum_req": [
+    "Desktop computer (e.g. optimized for wider screens)",
+    "Open source software/programming language"
+  ],
+  "systems": [
+    "Agroforestry",
+    "Forestry",
+    "Agriculture"
+  ],
+  "system_components": [
+    "Tree"
+  ],
+  "indicators": [
+    "Other"
+  ],
+  "spatial_scales": [
+    "Landscape"
+  ],
+  "time_steps": [
+    "Not relevant"
+  ],
+  "input_data_protocols": [
+    "User enters data manually"
+  ],
+  "input_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "input_data_file_formats": [
+    "Shapefile"
+  ],
+  "output_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "output_data_file_formats": [
+    "Shapefile"
+  ],
+  "end_users": [
+    "Researcher"
+  ],
+  "usages_most_relevant": [
+    "Research"
+  ],
+  "usages_least_relevant": [
+    "Forecasting"
+  ],
+  "languages": [
+    "French"
+  ],
+  "digitaf_tool_ll": [],
+  "submitter_name": "Marie GOSME",
+  "submitter_email": "marie.gosme@inrae.fr",
+  "name": "HedgeTools",
+  "url": "https://plugins.qgis.org/plugins/hedge_tools/",
+  "description": "HedgeTools is a python plugin for QGIS designed to compute hedges metrics, aiming to streamline field efforts by providing information about hedge health",
+  "logo_url": "https://nextcloud.inrae.fr/s/rSCbjQcNxEwaNcd",
+  "keywords": [
+    "QGIS plugin",
+    "hedgerow detection",
+    "landscape metrics"
+  ],
+  "developers": "David Sheeren, Gabriel Marqu\u00e8s, Lewis Villierme, Jean-Baptiste Boissonnat, Guillaume Gu\u00e9bin, Marc Lang, Claude Monteil",
+  "organizations": "INRAE",
+  "tool_project": "Yes",
+  "tool_project_name": "Space Climate Observatory (SCO) EagleHedges",
+  "tool_project_url": "https://www.spaceclimateobservatory.org/eaglehedges",
+  "status": "Implemented",
+  "license_url": "https://forge.inrae.fr/dynafor/workflows/hedgetools/-/blob/main/LICENSE",
+  "year_release": 2024,
+  "year_lastupdate": 2026,
+  "url_documentation": "https://hedgetools-oop-0770ee.pages-forge.inrae.fr/fr/",
+  "previous_versions_available": "Yes",
+  "indicators_other": "hedge morphology",
+  "url_persistent": "No",
+  "access_barrier": "No, direct download/access through a web link",
+  "listed_other_databases": "Don't know",
+  "integrated_other_tools": "Yes",
+  "integrated_other_tools_list": "QGIS",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Yes",
+  "documentation_theoretical_background": "No",
+  "data_provenance": "Don't know",
+  "development_process": "Don't know",
+  "training_materials": "Yes",
+  "url_training_materials": "https://hedgetools-oop-0770ee.pages-forge.inrae.fr/fr/index.html",
+  "documentation_contribute": "Yes",
+  "digitaf_tool": "No",
+  "license": "GNU General Public License (GPL)",
+  "id": "hedgetools",
+  "timestamp_creation": 1774964315880,
+  "timestamp_lastedit": 1774964315880
+}
