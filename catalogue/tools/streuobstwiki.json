@@ -1,0 +1,104 @@
+{
+  "primary_purpose": [
+    "Education and training",
+    "Decision support",
+    "Research"
+  ],
+  "software_proglanguage": [
+    "Other"
+  ],
+  "minimum_req": [
+    "Internet connection",
+    "Desktop computer (e.g. optimized for wider screens)",
+    "Mobile phone (e.g. works on small screens; use the camera)"
+  ],
+  "systems": [
+    "Agroforestry"
+  ],
+  "system_components": [
+    "Tree"
+  ],
+  "indicators": [
+    "Growth",
+    "Yield",
+    "Pests and Diseases",
+    "Economics",
+    "Labour",
+    "Suitability"
+  ],
+  "spatial_scales": [
+    "Plant/animal",
+    "National"
+  ],
+  "time_steps": [
+    "Not relevant"
+  ],
+  "input_data_protocols": [
+    "User enters data manually"
+  ],
+  "input_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "input_data_file_formats": [],
+  "output_data_formats": [
+    "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
+  ],
+  "output_data_file_formats": [
+    "PDF"
+  ],
+  "end_users": [],
+  "usages_most_relevant": [
+    "Education",
+    "Planning/Design",
+    "Implementation"
+  ],
+  "usages_least_relevant": [
+    "Forecasting",
+    "Research"
+  ],
+  "languages": [
+    "German"
+  ],
+  "digitaf_tool_ll": [
+    "Germany LL"
+  ],
+  "submitter_name": "Rico H\u00fcbner",
+  "submitter_email": "huebner@defaf.de",
+  "name": "Streuobst-Wiki",
+  "url": "https://www.streuobst-wiki.eu/",
+  "description": "This free reference guide brings together verified research findings and proven practical experience in orchard farming.\nPartners from Germany and Austria collaborate on editorial content, prepare articles, and transparently cite their sources.\nOur shared goal is to preserve orchard meadows and other orchard stands and make them sustainable so that they can continue to contribute to the production of healthy, regional food, the promotion of biodiversity, and other important ecosystem services.",
+  "logo_url": "https://www.oberlausitz-stiftung.de/wp-content/uploads/2025/11/Logo-Wiki-300x300.jpg",
+  "keywords": [
+    "fruit varieties",
+    "pomologie",
+    "traditional knowledge",
+    "conservation of varieties"
+  ],
+  "developers": "Oberlausitz-Stiftung",
+  "organizations": "The development of the Streuobst Wiki was coordinated by the Oberlausitz Foundation (G\u00f6rlitz), the Austrian association ARCHE NOAH, and the IBZ St. Marienthal Foundation (Ostritz). The following organizations were also involved in the development of the wiki: Streuobst \u00d6sterreich (Klosterneuburg), the BaumLand Campaign (Travenbr\u00fcck), Hochstamm e. V. (Schrozberg), the Higher Federal School and Federal Office for Viticulture and Fruit Growing (Klosterneuburg), and the BUND Koblenz District Group.",
+  "contact": "Dr. Michael Schlitt, Oberlausitz-Stiftung, info@oberlausitz-stiftung.de",
+  "tool_project": "Yes",
+  "tool_project_name": "Erasmus+",
+  "status": "Under development",
+  "license_url": "https://www.streuobst-wiki.eu/index.php?title=Datei:Creative_Commons_Lizenzierungssymbol.jpg",
+  "year_release": 2025,
+  "year_lastupdate": "",
+  "previous_versions_available": "Only one version exists",
+  "url_persistent": "Yes",
+  "access_barrier": "No, direct download/access through a web link",
+  "access_procedure_documentation": "Yes",
+  "listed_other_databases": "Don't know",
+  "integrated_other_tools": "Don't know",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Yes",
+  "documentation_theoretical_background": "Yes",
+  "data_provenance": "Yes",
+  "development_process": "Yes",
+  "training_materials": "No",
+  "documentation_contribute": "Yes",
+  "digitaf_tool": "Yes",
+  "license": "Creative Commons BY-NC-SA",
+  "id": "streuobstwiki",
+  "timestamp_creation": 1774354948320,
+  "timestamp_lastedit": 1774354948320
+}
