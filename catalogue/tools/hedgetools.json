@@ -54,12 +54,12 @@
     "French"
   ],
   "digitaf_tool_ll": [],
-  "submitter_name": "Marie GOSME",
+  "submitter_name": "Marie Gosme",
   "submitter_email": "marie.gosme@inrae.fr",
   "name": "HedgeTools",
   "url": "https://plugins.qgis.org/plugins/hedge_tools/",
   "description": "HedgeTools is a python plugin for QGIS designed to compute hedges metrics, aiming to streamline field efforts by providing information about hedge health",
-  "logo_url": "https://nextcloud.inrae.fr/s/rSCbjQcNxEwaNcd",
+  "logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/HedgeTool.png",
   "keywords": [
     "QGIS plugin",
     "hedgerow detection",
