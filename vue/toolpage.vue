@@ -54,6 +54,69 @@ module.exports = {
         return text.replace(Rexp, "<a href='$1' target='_blank'>$1</a>");
       }
     },
+    demoVideoValue(tool) {
+      if (!tool || !('digitaf_tool_demo_video' in tool) || !tool.digitaf_tool_demo_video) return ''
+      return tool.digitaf_tool_demo_video.trim()
+    },
+    demoVideoType(tool) {
+      const value = this.demoVideoValue(tool)
+      if (!value) return null
+      if (this.videoSourceType(value)) return 'file'
+      if (this.youtubeEmbedUrl(value)) return 'youtube'
+      return null
+    },
+    videoSourceType(value) {
+      if (!value) return null
+
+      const videoTypes = {
+        mp4: 'video/mp4',
+        m4v: 'video/mp4',
+        webm: 'video/webm',
+        ogv: 'video/ogg',
+        ogg: 'video/ogg'
+      }
+
+      const match = value.match(/\.([a-z0-9]+)(\?.*)?$/i)
+      if (!match) return null
+      return videoTypes[match[1].toLowerCase()] || null
+    },
+    youtubeEmbedUrl(value) {
+      if (!value) return null
+      if (/^[A-Za-z0-9_-]{11}$/.test(value)) {
+        return 'https://www.youtube.com/embed/' + value
+      }
+
+      try {
+        const parsedUrl = new URL(value)
+        const hostname = parsedUrl.hostname.replace(/^www\./, '')
+
+        if (hostname === 'youtu.be') {
+          const videoId = parsedUrl.pathname.replace(/^\//, '')
+          return videoId ? 'https://www.youtube.com/embed/' + videoId : null
+        }
+
+        if (hostname === 'youtube.com' || hostname === 'm.youtube.com') {
+          if (parsedUrl.pathname === '/watch') {
+            const videoId = parsedUrl.searchParams.get('v')
+            return videoId ? 'https://www.youtube.com/embed/' + videoId : null
+          }
+
+          if (parsedUrl.pathname.startsWith('/embed/')) {
+            const videoId = parsedUrl.pathname.split('/embed/')[1]
+            return videoId ? 'https://www.youtube.com/embed/' + videoId : null
+          }
+
+          if (parsedUrl.pathname.startsWith('/shorts/')) {
+            const videoId = parsedUrl.pathname.split('/shorts/')[1]
+            return videoId ? 'https://www.youtube.com/embed/' + videoId : null
+          }
+        }
+      } catch (error) {
+        return null
+      }
+
+      return null
+    },
     scoreColor: scoreColor,
     formatDate(str) {
       var date = new Date(str)
@@ -261,9 +324,13 @@ module.exports = {
             <div class="col-12 pt-4"><!-- training block -->
               <div class="card bg-white p-4">
                 <div class="row">
-                  <div class="col-12" v-if="'digitaf_tool_demo_video' in tool && tool.digitaf_tool_demo_video">
+                  <div class="col-12" v-if="demoVideoType(tool)">
                     <p class="btn-small-title mb-2">Demonstration video</p>
-                    <iframe class="youtube-video" :src="'https://www.youtube.com/embed/' + tool.digitaf_tool_demo_video.slice(tool.digitaf_tool_demo_video.indexOf('=')+1)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe v-if="demoVideoType(tool) == 'youtube'" class="youtube-video" :src="youtubeEmbedUrl(demoVideoValue(tool))" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <video v-else-if="demoVideoType(tool) == 'file'" class="youtube-video" controls preload="metadata">
+                      <source :src="demoVideoValue(tool)" :type="videoSourceType(demoVideoValue(tool))">
+                      Your browser does not support the video tag.
+                    </video>
                   </div>
                   <div class="col-12">
                     <p class="btn-small-title mb-2">Training materials</p>
