@@ -1,0 +1,104 @@
+{
+  "primary_purpose": [
+    "Decision support"
+  ],
+  "software_proglanguage": [
+    "R"
+  ],
+  "minimum_req": [
+    "Internet connection"
+  ],
+  "systems": [
+    "Agroforestry"
+  ],
+  "system_components": [
+    "Crop",
+    "Tree"
+  ],
+  "indicators": [
+    "Yield",
+    "Economics"
+  ],
+  "spatial_scales": [
+    "Plot"
+  ],
+  "time_steps": [
+    "Yearly"
+  ],
+  "input_data_protocols": [
+    "User enters data manually"
+  ],
+  "input_data_formats": [
+    "HTTP (query string parameters, data in request body & file uploads)"
+  ],
+  "input_data_file_formats": [
+    "HTTP POST method - Data in request body & file upload"
+  ],
+  "output_data_formats": [
+    "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
+  ],
+  "output_data_file_formats": [
+    "PDF"
+  ],
+  "end_users": [
+    "Farmer",
+    "Landowner",
+    "Farm advisor",
+    "Policy-maker",
+    "Student",
+    "Researcher"
+  ],
+  "usages_most_relevant": [
+    "Forecasting",
+    "Planning/Design"
+  ],
+  "usages_least_relevant": [
+    "Management"
+  ],
+  "languages": [
+    "English",
+    "Dutch"
+  ],
+  "digitaf_tool_ll": [],
+  "submitter_name": "Bert Reubens",
+  "organizations": "ILVO",
+  "submitter_email": "bert.reubens@ilvo.vlaanderen.be",
+  "name": "ACORN",
+  "url": "https://agroforestry.ilvo.be/acorn/",
+  "description": "ACORN (Alley Cropping Output and Revenue predictioN) is part of the Agroforestry Planner Flanders and supports the design of agroforestry systems by combining simulations of crop yields, crop quality, and wood production with an economic evaluation. The tool focuses on alley-cropping systems and simulates yields over a tenyear period following the establishment of the alley-cropping system.",
+  "logo_url": "https://ilvo.vlaanderen.be/uploads/documents/Agroforestry/250-ACORN-1.png",
+  "keywords": [
+    "alley cropping",
+    "crop productivity",
+    "calculation tool",
+    "tree growth"
+  ],
+  "developers": "Emma Vandenheede, Paul Pardon and Bert Reubens",
+  "contact": "bert.reubens@ilvo.vlaanderen.be",
+  "tool_project": "Yes",
+  "tool_project_name": "DigitAF and AFaktive",
+  "tool_project_url": "www.digitaf.eu, https://afaktive.stoffstrom.org/en/",
+  "status": "Implemented",
+  "license": "Creative Commons BY",
+  "previous_versions_available": "Yes",
+  "url_persistent": "Yes",
+  "access_barrier": "No, direct download/access through a web link",
+  "listed_other_databases": "No",
+  "integrated_other_tools": "No",
+  "documentation_available": "Yes",
+  "url_documentation": "https://ilvo.vlaanderen.be/uploads/documents/Agroforestry/Manual-ACORN-EN.pdf",
+  "documentation_theoretical_background": "Yes",
+  "documentation_theoretical_background_list": "Pardon, P., Quataert, P., Bracke, J. et al. (2025). Crop yield in young temperate alley cropping systems is affected by tree height, distance to trees and crop type, while impacts on crop quality remain limited. Agroforest Syst 99, 162. ; Pardon, P., Reubens, B., Mertens, J., Verheyen, K., De Frenne, P., De Smet, G., \u2026 Reheul, D. (2018). Effects of temperate agroforestry on yield and quality of different arable intercrops. Agricultural Systems, 166, 135\u2013151.",
+  "data_provenance": "Yes",
+  "development_process": "Not completely",
+  "training_materials": "Yes",
+  "url_training_materials": "https://ilvo.vlaanderen.be/uploads/documents/Agroforestry/Demo-ACORN-EN.mp4",
+  "documentation_contribute": "No",
+  "digitaf_tool": "Yes",
+  "digitaf_tool_demo_video": "https://ilvo.vlaanderen.be/uploads/documents/Agroforestry/Demo-ACORN-EN.mp4",
+  "feedback_tool_info": "The interface of the tool is freely accessible; access to the script behind the tool can be requested and is on Gitlab.",
+  "documentation_accessible": "Yes",
+  "id": "acorn",
+  "timestamp_creation": 1775224711855,
+  "timestamp_lastedit": 1775224711855
+}
