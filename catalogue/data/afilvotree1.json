@@ -1,0 +1,55 @@
+{
+  "data_type": [
+    "Observational data"
+  ],
+  "spatial_scales": [
+    "Plant/animal",
+    "Plot"
+  ],
+  "indicators": [
+    "Growth",
+    "Other"
+  ],
+  "time_steps": [
+    "Other"
+  ],
+  "data_formats": [
+    "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+  ],
+  "digitaf_data_ll": [],
+  "digitaf_data_wp": [],
+  "submitter_name": "Paul Pardon",
+  "submitter_email": "paul.pardon@ilvo.vlaanderen.be",
+  "name": "AF_ILVO_Tree1: dataset of long term tree monitoring in alley cropping systems and boundary planted fields in Flanders, Belgium",
+  "url": "10.5281/zenodo.19084914",
+  "url_persistent": "Yes",
+  "description": "This dataset contains tree measurement results performed by ILVO in agroforestry fields in Flanders, Belgium. The data were collected between 2014 and 2026, on a total set of 12 parcels. \nBoth boundary planted fields and silvoarable alley cropping fields are included.\nParameters assessed include field & tree identification (e.g. field location, orientation, spatial design, tree species and cultivar, \u2026), tree size measurements (e.g. height, DBH, crown dimensions, \u2026), tree vitality measurements (e.g. overall score and scores for specific infestations with indication of the causal agent) as well as environmental parameters (e.g. soil cover in the tree rows).\nSpecies monitored include Populus x canadensis, Malus sp., Juglans regia, Prunus avium, Castanea sativa, Acer pseudoplatanus, Tilia sp., Quercus petraea, Pyrus sp.\nThis specific dataset is a key subset of a bigger dataset of tree measurement in agroforestry context performed by ILVO (Flanders Research Institute for Agriculture, Fisheries and Food).",
+  "keywords": [
+    "agroforestry",
+    "alley cropping",
+    "tree growth"
+  ],
+  "data_ownership": "ILVO (Flanders Research Institute for Agriculture, Fisheries and Food)",
+  "data_contact": "paul.pardon@ilvo.vlaanderen.be, bert.reubens@ilvo.vlaanderen.be",
+  "data_project": "Yes",
+  "data_project_name": "Several projects: DigitAF, CAFAMORE, Marvic, VLAIO AF2025, VLAIO Agroforestry Flanders, AFaktive, Pro-Noot",
+  "data_collection_country": "Belgium",
+  "indicators_other": "tree vitality",
+  "time_steps_other": "Variable from plot to plot, but data collected between 2014-2026",
+  "year_release": 2026,
+  "year_lastupdate": 2026,
+  "time_span_oldest": 2014,
+  "time_span_newest": 2026,
+  "data_confidentiality": "Data embargo, i.e there are rules or limits on using, sharing, or spreading it",
+  "license": "Creative Commons BY",
+  "access_barrier": "Access to the data needs to be granted (e.g. dataset owner needs to give permission after user registration; dataset owner sends data after receiving a request email)",
+  "data_relevant_attributes": "Yes",
+  "listed_other_databases": "No",
+  "data_metadata": "No",
+  "documentation_accessible": "Yes",
+  "data_metadata_vocabulary": "No",
+  "development_process": "Yes",
+  "id": "afilvotree1",
+  "timestamp_creation": 1773825510164,
+  "timestamp_lastedit": 1773825510165
+}
