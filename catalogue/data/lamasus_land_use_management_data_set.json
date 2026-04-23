@@ -1,0 +1,59 @@
+{
+  "data_type": [
+    "Spatial data",
+    "Aggregated data",
+    "Analysis data"
+  ],
+  "spatial_scales": [
+    "European"
+  ],
+  "indicators": [
+    "Land use",
+    "Land cover"
+  ],
+  "time_steps": [
+    "Not relevant"
+  ],
+  "data_formats": [
+    "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+  ],
+  "digitaf_data_ll": [],
+  "digitaf_data_wp": [],
+  "submitter_name": "Ana Tom\u00e1s",
+  "submitter_email": "anatomas@mvarc.eu",
+  "name": "LAMASUS Land Use Management Data Set",
+  "url": "https://doi.org/10.5281/zenodo.13254323",
+  "url_persistent": "Yes",
+  "description": "The LAMASUS Land Use Management (LUM) Geodatabase is a harmonised spatial dataset developed to represent land use management patterns across Europe in a consistent and comparable way. It integrates multiple input sources, including land cover products (e.g., CORINE Land Cover time series), statistical datasets, and ancillary geospatial information, to derive a coherent representation of how land is managed over time.\n\nThe dataset provides spatially explicit layers (primarily at ~1 km resolution and aggregated administrative levels such as NUTS regions) that describe dominant land use management categories such as cropland, grassland, forest, and urban areas. It is designed as an analytical and modelling product rather than a direct observation dataset, supporting the assessment of land use dynamics, environmental impacts, and policy-relevant indicators across European territories.\nThe dataset is archived on Zenodo (https://zenodo.org/records/13254324\n), with additional information available on the official project page (https://www.lamasus.eu/resources/lum-geodatabase/\n) and an interactive visualizer accessible at https://lumexpv1.accms.iiasa.ac.at/en/home/.\u201d",
+  "keywords": [
+    "Land use management",
+    "Spatial modelling",
+    "Geodatabase",
+    "Land cover change"
+  ],
+  "data_ownership": "Created, compiled, and maintained by the LAMASUS research consortium, which includes multiple European research institutions.",
+  "data_contact": "https://www.lamasus.eu/contact/",
+  "data_project": "Yes",
+  "data_project_url": "https://cordis.europa.eu/project/id/101060423",
+  "data_project_name": "LAMASUS",
+  "data_collection_country": "Europe",
+  "spatial_details": "The dataset provides a ~1 km spatially gridded European coverage, with additional outputs aggregated at NUTS2 administrative regions for policy and reporting applications.",
+  "year_release": 2025,
+  "year_lastupdate": 2025,
+  "time_span_oldest": 2000,
+  "data_confidentiality": "No, the data is public",
+  "license": "Creative Commons BY",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "access_barrier": "No, direct download/access through a web link",
+  "time_span_newest": 2018,
+  "data_relevant_attributes": "Yes",
+  "listed_other_databases": "Don't know",
+  "data_metadata": "Don't know",
+  "documentation_accessible": "Yes",
+  "data_metadata_vocabulary": "Don't know",
+  "development_process": "Yes",
+  "documentation_list": "See, L., Romanchuk, Z., Yashchun, O., & Malek, \u017d. (2024). The LUM Geodatabase and Area Estimates of Land Use Change to 2018 (Deliverable D2.1). LAMASUS Project (EU Horizon 2020). Available at: https://www.lamasus.eu/wp-content/uploads/LAMASUS_D2.1_LUMGeodatabase.pdf",
+  "id": "lamasus_land_use_management_data_set",
+  "timestamp_creation": 1776959158661,
+  "timestamp_lastedit": 1776959158661
+}
