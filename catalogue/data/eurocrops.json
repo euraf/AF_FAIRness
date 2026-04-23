@@ -1,0 +1,63 @@
+{
+  "data_type": [
+    "Spatial data"
+  ],
+  "spatial_scales": [
+    "Plot"
+  ],
+  "indicators": [
+    "Land cover",
+    "Land use"
+  ],
+  "time_steps": [
+    "Yearly"
+  ],
+  "data_formats": [
+    "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+  ],
+  "digitaf_data_ll": [],
+  "digitaf_data_wp": [
+    "WP4 - LL and a common AF toolbox",
+    "WP1 - Tools for policy-makers"
+  ],
+  "submitter_name": "Michael den Herder",
+  "data_ownership": "Technical University of Munich (TUM)",
+  "data_collection_country": "Europe",
+  "submitter_email": "michael.denherder@efi.int",
+  "name": "EuroCrops",
+  "url": "https://doi.org/10.5281/zenodo.14094196",
+  "url_persistent": "Yes",
+  "description": "EuroCrops is a dataset collection combining all publicly available self-declared crop reporting datasets from countries of the European Union. The data set contains parcel and crop data from the Land Parcel Identification Systems (LPIS) for those countries for which this information is available. The raw data obtained from the countries does not come in a unified, machine-readable taxonomy. Therefore, EuroCrops developed a new Hierarchical Crop and Agriculture Taxonomy (HCAT) that harmonises all declared crops across the European Union. In the shapefiles you'll find these as additional attributes. The HCAT crop codes are also available on the EuroCrops github site: https://github.com/maja601/EuroCrops",
+  "keywords": [
+    "Land Parcel Identification System",
+    "LPIS",
+    "crop",
+    "crop codes"
+  ],
+  "data_contact": "Prof. Dr. Marco Körner (marco.koerner@tum.de), Maja Schneider (maja.schneider@tum.de) and Ayshah Chan (ayshah.chan@tum.de)",
+  "data_project": "Yes",
+  "data_project_name": "EuroCrops",
+  "data_project_url": "https://www.eurocrops.tum.de/",
+  "spatial_details": "The vector data contains agricultural parcels with their associated crops",
+  "year_release": 2024,
+  "year_lastupdate": 2024,
+  "time_span_oldest": 2021,
+  "time_span_newest": 2021,
+  "data_confidentiality": "No, the data is public",
+  "license": "Other",
+  "license_other": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "access_barrier": "No, direct download/access through a web link",
+  "data_relevant_attributes": "Yes",
+  "listed_other_databases": "Don't know",
+  "data_metadata": "Yes",
+  "documentation_accessible": "Yes",
+  "data_metadata_vocabulary": "Yes",
+  "development_process": "Yes",
+  "documentation_list": "The dataset is a new version of\nDataset: 10.14459/2021mp1615987 (DOI)\nIs supplemented by\nOther: https://github.com/maja601/EuroCrops (URL)\nOther: https://www.eurocrops.tum.de/ (URL)\n\nReferences:\nSchneider, M., Broszeit, A. & K\u00f6rner, M. EuroCrops: A Pan-European Dataset for Time Series Crop Type Classification. in Proceedings of the Conference on Big Data from Space (BiDS) (eds. Soille, P., Loekken, S. & Albani, S.) (Publications Office of the European Union, 2021). doi:10.2760/125905.\nSchneider, M., Schelte, T., Schmitz, F. et al. EuroCrops: The Largest Harmonized Open Crop Dataset Across the European Union. Sci Data 10, 612 (2023). https://doi.org/10.1038/s41597-023-02517-0",
+  "digitaf_data_used": "The HCAT codes are useful for harmonizing the crop codes in the LPIS Sustainability Compass, the LPIS Aggregator, and for mapping tree cover in LPIS parcels.",
+  "feedback_data_info": "The parcels and crop codes in this dataset are from 2021. Each country updates its LPIS system every year. The shape of the parcels may change, and different crops may be cultivated in different years. Each year, most countries also change or adapt the names of some of the crop codes if needed.",
+  "id": "eurocrops",
+  "timestamp_creation": 1776948639319,
+  "timestamp_lastedit": 1776948639319
+}
