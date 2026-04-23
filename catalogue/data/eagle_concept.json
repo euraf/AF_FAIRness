@@ -1,0 +1,51 @@
+{
+  "data_type": [
+    "Spatial data"
+  ],
+  "spatial_scales": [
+    "European"
+  ],
+  "indicators": [
+    "Land cover",
+    "Land use"
+  ],
+  "time_steps": [
+    "Not relevant"
+  ],
+  "data_formats": [
+    "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+  ],
+  "digitaf_data_ll": [],
+  "digitaf_data_wp": [],
+  "submitter_name": "Ana Tom\u00e1s",
+  "submitter_email": "anatomas@mvarc.eu",
+  "name": "EAGLE concept",
+  "url": "https://land.copernicus.eu/en/eagle",
+  "url_persistent": "No",
+  "description": "The EAGLE concept dataset, developed within the Copernicus Land Monitoring Service, is a semantic data model designed to describe land in a flexible and harmonised way. Rather than relying on a single predefined class for each spatial unit (e.g., \u201cforest\u201d or \u201curban\u201d), EAGLE represents land through a structured combination of attributes. It separates information into three complementary components: Land Cover Components (biophysical elements such as vegetation or water), Land Use Attributes (the socio-economic function, such as agriculture or residential use), and Land Characteristics (additional contextual properties like management practices or environmental conditions).\n\nThis multi-dimensional approach enables a more detailed and adaptable representation of land, supporting complex landscapes and mixed-use areas without forcing them into rigid categories. The EAGLE framework also facilitates interoperability between different land monitoring datasets by acting as a common semantic layer, allowing data from diverse classification systems to be compared, translated, and integrated. As such, it provides a robust foundation for European land monitoring initiatives, including products derived from Copernicus, and supports more consistent analysis, reporting, and policy applications across regions and time.",
+  "keywords": [
+    "Semantic data model",
+    "Land cover",
+    "Land use",
+    "Interoperability"
+  ],
+  "data_ownership": "Owned and maintained by the European Environment Agency (EEA), in collaboration with the Copernicus Land Monitoring Service under the Copernicus programme.",
+  "data_contact": "European Environment Information and Observation Network (Eionet) through info@eea.europa.eu",
+  "data_project": "Don't know",
+  "data_collection_country": "Europe",
+  "year_release": 2013,
+  "year_lastupdate": 2025,
+  "data_confidentiality": "No, the data is public",
+  "license": "Don't know",
+  "access_barrier": "No, direct download/access through a web link",
+  "data_relevant_attributes": "Yes",
+  "listed_other_databases": "Don't know",
+  "data_metadata": "No",
+  "documentation_accessible": "Yes",
+  "data_metadata_vocabulary": "No",
+  "development_process": "Yes",
+  "documentation_list": "Arnold, S., Smith, G., Strand, G.-H., Hazeu, G., Bock, M., Kosztra, B., Perger, C., Banko, G., Soukup, T., Sanz, N. V., Kleeschulte, S., Hern\u00e1ndez, J. D., & Mancosu, E. (2025). Recent Advances in the EAGLE Concept\u2014Monitoring the Earth\u2019s Surface Based on a New Land Characterisation Approach. Land, 14(8), 1525. https://doi.org/10.3390/land14081525\n\nArnold, Stephan & Kosztra, Barbara & Banko, Gebhard & Smith, Geoff & Hazeu, G.W. & Bock, Michael & Valcarcel, Nuria. (2013). The EAGLE concept \u2013 A vision of a future European Land Monitoring Framework. EARSeL symposium proceedings \"Towards Horizon 2020\".",
+  "id": "eagle_concept",
+  "timestamp_creation": 1776956417392,
+  "timestamp_lastedit": 1776956417392
+}
