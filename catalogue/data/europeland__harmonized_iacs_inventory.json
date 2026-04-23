@@ -1,0 +1,59 @@
+{
+  "data_type": [
+    "Spatial data",
+    "Aggregated data",
+    "Survey data"
+  ],
+  "spatial_scales": [
+    "Farm",
+    "Plot"
+  ],
+  "indicators": [
+    "Land use",
+    "Other"
+  ],
+  "time_steps": [
+    "Yearly"
+  ],
+  "data_formats": [
+    "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+  ],
+  "digitaf_data_ll": [],
+  "digitaf_data_wp": [],
+  "submitter_name": "Ana Tom\u00e1s",
+  "submitter_email": "anatomas@mvarc.eu",
+  "description": "The dataset provides a harmonised, field- and farm-level representation of agricultural land use across European Union Member States. It compiles and standardises Integrated Administration and Control System (IACS) data, including crop types, land use information, and farm-level attributes, into a consistent spatial database. The data are processed and harmonised using reproducible workflows implemented in Python and R, enabling cross-country comparability of agricultural land use patterns at parcel and farm scales.\n\nThe dataset supports analysis of agricultural land use intensity, spatial distribution of crops, and farm structure across Europe. It includes both raw and harmonised outputs, with additional derived variables and metadata to facilitate modelling and comparative studies. The accompanying documentation describes data processing methods, harmonisation steps, and validation procedures ensuring consistency across regions and time periods.\nThe dataset is archived on Zenodo (https://doi.org/10.5281/zenodo.14230620\n), with accompanying code and processing workflows available on GitHub (https://github.com/clejae/europe_land_iacs_prep\n), and is further documented in the Europe-LAND project deliverable D2.1 on IACS inventory harmonisation (https://europe-land.eu/wp-content/uploads/D2.1-IACS-InventoryHarmonization-Documentation_v1.1.pdf).",
+  "name": "Europe-LAND - Harmonized IACS Inventory",
+  "url": "https://doi.org/10.5281/zenodo.14230620",
+  "url_persistent": "Yes",
+  "keywords": [
+    "Agricultural land use",
+    "Farm-level data",
+    "IACS"
+  ],
+  "data_ownership": "Europe-LAND project consortium",
+  "data_contact": "https://europe-land.eu/contact/, Clemens J\u00e4nicke (IAMO) \u2013 jaenicke@iamo.de or Kristoffer Ansbak Petersen (University of Copenhagen) \u2013 kap@ign.ku.dk",
+  "data_project": "Yes",
+  "data_project_name": "Europe-LAND",
+  "data_project_url": "https://cordis.europa.eu/project/id/101081307",
+  "data_collection_country": "Europe",
+  "indicators_other": "Administrative agricultural attributes",
+  "year_release": 2025,
+  "year_lastupdate": 2026,
+  "time_span_oldest": 2015,
+  "time_span_newest": 2020,
+  "data_confidentiality": "No, the data is public",
+  "license": "Creative Commons BY",
+  "license_url": "https://github.com/clejae/europe_land_iacs_prep/blob/main/LICENSE",
+  "access_barrier": "No, direct download/access through a web link",
+  "data_relevant_attributes": "Yes",
+  "listed_other_databases": "Don't know",
+  "data_metadata": "Don't know",
+  "documentation_accessible": "Yes",
+  "data_metadata_vocabulary": "Don't know",
+  "development_process": "Yes",
+  "documentation_list": "J\u00e4nicke, C., Petersen, K.A., Schmidts, P. et al. Field and farm-level data on agricultural land use for the European Union. Sci Data 12, 1050 (2025). https://doi.org/10.1038/s41597-025-05210-6\n\nJ\u00e4nicke, C., Petersen, K.A., Schmidts, P., M\u00fcller, D. & Jepsen, M.R. (2024). D2.1 IACS Inventory and Harmonization Documentation (v1.1). Europe-LAND Project (Horizon Europe Deliverable). Available at: https://europe-land.eu/wp-content/uploads/D2.1-IACS-InventoryHarmonization-Documentation_v1.1.pdf",
+  "id": "europeland__harmonized_iacs_inventory",
+  "timestamp_creation": 1776960220478,
+  "timestamp_lastedit": 1776960220478
+}
