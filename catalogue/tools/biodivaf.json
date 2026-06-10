@@ -1,0 +1,110 @@
+{
+  "primary_purpose": [
+    "Decision support",
+    "Research",
+    "Education and training"
+  ],
+  "software_proglanguage": [
+    "R"
+  ],
+  "minimum_req": [
+    "Internet connection",
+    "Desktop computer (e.g. optimized for wider screens)",
+    "Mobile phone (e.g. works on small screens; use the camera)"
+  ],
+  "systems": [
+    "Agroforestry",
+    "Agriculture"
+  ],
+  "system_components": [
+    "Tree"
+  ],
+  "indicators": [
+    "Biodiversity"
+  ],
+  "spatial_scales": [
+    "Plot"
+  ],
+  "time_steps": [
+    "Not relevant"
+  ],
+  "input_data_protocols": [
+    "User enters data manually"
+  ],
+  "input_data_formats": [
+    "HTTP (query string parameters, data in request body & file uploads)"
+  ],
+  "input_data_file_formats": [
+    "HTTP GET method - Query string parameters (e.g. http://www.url.com/start?param1=a&param2=b)"
+  ],
+  "output_data_formats": [
+    "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
+  ],
+  "output_data_file_formats": [
+    "Images (e.g. png, jpg, tiff, etc)"
+  ],
+  "end_users": [
+    "Farmer",
+    "Landowner",
+    "Farm advisor",
+    "Policy-maker",
+    "Student",
+    "Researcher"
+  ],
+  "usages_most_relevant": [
+    "Education",
+    "Monitoring/Evaluating",
+    "Forecasting"
+  ],
+  "usages_least_relevant": [
+    "Management",
+    "Planning/Design",
+    "Implementation"
+  ],
+  "languages": [
+    "English"
+  ],
+  "digitaf_tool_ll": [],
+  "submitter_name": "Jari Vandendriessche",
+  "submitter_email": "jari.vandendriessche@ugent.be",
+  "keywords": [
+    "Biodiversity"
+  ],
+  "developers": "Ghent University",
+  "organizations": "Ghent University",
+  "tool_project": "Yes",
+  "tool_project_name": "DigitAF",
+  "tool_project_url": "https://cordis.europa.eu/project/id/101059794",
+  "status": "Under development",
+  "license": "Creative Commons BY",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "year_release": 2026,
+  "year_lastupdate": 2025,
+  "previous_versions_available": "Only one version exists",
+  "input_data_formats_other": "",
+  "url_persistent": "No",
+  "access_barrier": "No, direct download/access through a web link",
+  "listed_other_databases": "No",
+  "integrated_other_tools": "Yes",
+  "integrated_other_tools_list": "Agroforestry Planner (in near future)",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Yes",
+  "url_documentation": "https://doi.org/10.5281/zenodo.20289748",
+  "documentation_theoretical_background": "Incomplete",
+  "documentation_theoretical_background_list": "Under revision: any further",
+  "data_provenance": "Yes",
+  "development_process": "Yes",
+  "training_materials": "No",
+  "url_training_materials": "Will be supplied, but only after publishing of the scientific background",
+  "documentation_contribute": "Yes",
+  "digitaf_tool": "No",
+  "feedback_tool_info": "There is a scientific background in review. In preference, the tool was not added to this database before peer-reviewed revision, but that timpath doesn't fit project aims, hence this preliminary publishing.",
+  "contact": "jari.vandendriessche@ugent.be",
+  "name": "Biodiv-AF",
+  "description": "This web application provides estimated biodiversity responses to agroforestry implementaion in European climatologic context based on existing case-studies and published scientific data. More than 100 separate case-studies were included in the predictive modelling approach towards this tool. For more information and the scientific background of this tool, please refer to the bibliography section below.\nThe purpose of this tool to inform stakeholders like farmers, policy actors or anyone with interest in agroforestry about potential biodiversity benefits of agroforestry systems in comparison to conventional monoculture agricultural systems. It allows users to explore how different agroforestry configurations and landscape contexts may influence biodiversity outcomes. Ideally, this tool, in future formats, can support decision-making on agroforestry adoption and design to maximize biodiversity benefits.\nThis tool really capture average patterns of biodiversity gains in agroforestry systems. Biodiversity has shown to be affected a lot my random processes or very localized parameters that are impossible to capture in a broad synthesizing model like this tool is. Results present therefore directions of biodiversity gain or loss due to different agroforestry implementations.",
+  "logo_url": "I'm working on one for the agroforestry Planner Can I send it over once it is completed (probably during EURAF)",
+  "url": "https://biodivaf.shinyapps.io/BiodivAF/",
+  "id": "biodivaf",
+  "timestamp_creation": 1781096226089,
+  "timestamp_lastedit": 1781096226089
+}
