@@ -99,8 +99,9 @@
   "training_materials": "No",
   "documentation_contribute": "Yes",
   "digitaf_tool": "Yes",
-  "logo_url": "https://chatgpt.com/s/m_6a2ad7e6b86c8191b39f02e918e28df2",
+  "logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/oneforestkb.png",
   "license": "Apache License 2.0",
+  "year_release": 2026,
   "id": "oneforest_knowledge_base",
   "timestamp_creation": 1781192914055,
   "timestamp_lastedit": 1781192914055
