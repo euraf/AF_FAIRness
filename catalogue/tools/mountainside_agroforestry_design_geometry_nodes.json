@@ -31,14 +31,14 @@
     "User enters data manually"
   ],
   "input_data_formats": [
-    "Other"
+    "Widely used file formats (CSV, JSON, XML, etc.)"
   ],
   "input_data_file_formats": [
     "Shapefile",
     "Other"
   ],
   "output_data_formats": [
-    "Other"
+    "Widely used file formats (CSV, JSON, XML, etc.)"
   ],
   "output_data_file_formats": [
     "Shapefile"
@@ -90,7 +90,9 @@
   "development_process": "Don't know",
   "training_materials": "Yes",
   "documentation_contribute": "Don't know",
+  "url_documentation": "https://bonushenricus.gumroad.com/l/blender_mountainside_agrofor",
   "digitaf_tool": "No",
+  "digitaf_tool_demo_video": "https://www.youtube.com/watch?v=p3TjRETMdoo",
   "id": "mountainside_agroforestry_design_geometry_nodes",
   "timestamp_creation": 1778080735484,
   "timestamp_lastedit": 1778080735484
