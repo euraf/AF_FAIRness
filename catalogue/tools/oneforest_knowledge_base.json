@@ -1,0 +1,108 @@
+{
+  "primary_purpose": [
+    "Research"
+  ],
+  "software_proglanguage": [
+    "Other"
+  ],
+  "minimum_req": [
+    "Internet connection",
+    "Desktop computer (e.g. optimized for wider screens)"
+  ],
+  "systems": [
+    "Forestry",
+    "Agroforestry"
+  ],
+  "system_components": [
+    "Tree",
+    "Soil"
+  ],
+  "indicators": [
+    "Soil",
+    "Carbon",
+    "Biodiversity"
+  ],
+  "spatial_scales": [
+    "Plot",
+    "Landscape"
+  ],
+  "time_steps": [
+    "Monthly"
+  ],
+  "input_data_protocols": [
+    "Data entry can be partially automated programmatically (e.g. loading files with previously defined setups)"
+  ],
+  "input_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "input_data_file_formats": [
+    "CSV",
+    "Shapefile"
+  ],
+  "output_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "output_data_file_formats": [
+    "CSV"
+  ],
+  "end_users": [
+    "Researcher",
+    "Student",
+    "Policy-maker",
+    "Carbon trader",
+    "Other"
+  ],
+  "usages_most_relevant": [
+    "Monitoring/Evaluating",
+    "Research"
+  ],
+  "usages_least_relevant": [
+    "Implementation"
+  ],
+  "languages": [
+    "English"
+  ],
+  "digitaf_tool_ll": [],
+  "submitter_name": "Alexia Stokes",
+  "organizations": "University of Montpellier, IRD",
+  "submitter_email": "alexia.stokes@cirad.fr",
+  "name": "OneForest Knowledge Base",
+  "url": "http://15.236.154.62:8109/LivingLabMapDiscovery/",
+  "description": "The OneForest Knowledge Base (OneForestKB) is based on a semantic profile and novel methods to validate and enrich (agro)forestry datasets,  and can enable the enrichment of geographic regions with the calculation of ecological indexes as proxies of biodiversity and ecosystem services.",
+  "keywords": [
+    "Forest",
+    "Knowledge Graph",
+    "Spatial Modelling",
+    "SHACL",
+    "GeoSPARQL"
+  ],
+  "developers": "Isabelle Mougenot, Felipe Vargas-Rojas, Vincent Armant",
+  "contact": "felipe.vargas-rojas@ird.fr, alexia.stokes@cirad.fr",
+  "tool_project": "Yes",
+  "tool_project_name": "eco2adapt",
+  "tool_project_url": "https://cordis.europa.eu/project/id/101059498",
+  "status": "Under development",
+  "software_proglanguage_other": "Resource Description Framework (RDF), RDF Schema (RDFS), Web Ontology Language (OWL), SPARQL Shape Constraint Language (SHACL)",
+  "previous_versions_available": "Yes",
+  "end_users_other": "Forester",
+  "url_persistent": "Yes",
+  "access_barrier": "No, direct download/access through a web link",
+  "listed_other_databases": "Yes",
+  "listed_other_databases_list": "https://github.com/felipe-vargas-rojas/OneForestKB",
+  "integrated_other_tools": "Yes",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Yes",
+  "documentation_theoretical_background": "Yes",
+  "documentation_theoretical_background_list": "https://www.semantic-web-journal.net/system/files/swj3984.pdf",
+  "data_provenance": "Yes",
+  "development_process": "Yes",
+  "training_materials": "No",
+  "documentation_contribute": "Yes",
+  "digitaf_tool": "Yes",
+  "logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/oneforestkb.png",
+  "license": "Apache License 2.0",
+  "year_release": 2026,
+  "id": "oneforest_knowledge_base",
+  "timestamp_creation": 1781192914055,
+  "timestamp_lastedit": 1781192914055
+}
