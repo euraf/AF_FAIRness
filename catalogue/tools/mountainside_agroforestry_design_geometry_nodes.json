@@ -1,0 +1,99 @@
+{
+  "primary_purpose": [
+    "Decision support"
+  ],
+  "software_proglanguage": [
+    "Other"
+  ],
+  "minimum_req": [
+    "Desktop computer (e.g. optimized for wider screens)",
+    "Cross-platform tool (works in Windows, Mac and Linux)"
+  ],
+  "systems": [
+    "Agroforestry"
+  ],
+  "system_components": [
+    "Crop",
+    "Tree"
+  ],
+  "indicators": [
+    "Water",
+    "Mechanization"
+  ],
+  "spatial_scales": [
+    "Landscape",
+    "Farm"
+  ],
+  "time_steps": [
+    "Not relevant"
+  ],
+  "input_data_protocols": [
+    "User enters data manually"
+  ],
+  "input_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "input_data_file_formats": [
+    "Shapefile",
+    "Other"
+  ],
+  "output_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "output_data_file_formats": [
+    "Shapefile"
+  ],
+  "end_users": [
+    "Farmer",
+    "Landowner",
+    "Farm advisor"
+  ],
+  "usages_most_relevant": [
+    "Planning/Design"
+  ],
+  "usages_least_relevant": [],
+  "languages": [
+    "English"
+  ],
+  "digitaf_tool_ll": [],
+  "submitter_name": "Enrico Gabrielli",
+  "submitter_email": "info@farm-agroecologia.it",
+  "name": "Mountainside agroforestry design geometry nodes.",
+  "url": "https://bonushenricus.gumroad.com/l/blender_mountainside_agrofor",
+  "description": "Designing alignment on slopes, interpreting the morphology of watersheds and drainage basins.\nAgroforestry: planting trees according to patterns based on productive, ecosystemic, hydrological, or landscape objectives.\nMountainside agroforestry design allows for combining the two design approaches, leveraging the benefits of both.\n\nSlope design can be carried out according to the principles of Keyline Design\u00ae\n\nThe technical challenge in combining agroforestry pattern design with montainside design lies in accurately calculating slopes and parallels, and arranging complex patterns along curves.\nAnd the difficulty lies in quickly evaluating different possibilities.\nWith geometry nodes in Blender, it is possible to create mountainside agroforestry design quickly and accurately.",
+  "logo_url": "https://public-files.gumroad.com/154ioqeredc97nnvuwsciibdizxx",
+  "developers": "Enrico Gabrielli",
+  "organizations": "F.A.R.M.",
+  "keywords": [
+    "keyline",
+    "hydrology",
+    "slope"
+  ],
+  "tool_project": "No, it has another source",
+  "status": "Under development",
+  "software_proglanguage_other": "geometry-nodes Blender",
+  "license": "Creative Commons BY-NC-SA",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en",
+  "year_release": 2026,
+  "previous_versions_available": "Only one version exists",
+  "input_data_formats_other": "Digital Terrain Model, vector GIS data",
+  "input_data_file_formats_other": "geotiff",
+  "output_data_formats_other": "vector gis data",
+  "url_persistent": "Yes",
+  "access_barrier": "Paywall",
+  "listed_other_databases": "No",
+  "integrated_other_tools": "No",
+  "documentation_available": "Yes",
+  "documentation_accessible": "Some of it",
+  "documentation_theoretical_background": "No",
+  "data_provenance": "Don't know",
+  "development_process": "Don't know",
+  "training_materials": "Yes",
+  "documentation_contribute": "Don't know",
+  "url_documentation": "https://bonushenricus.gumroad.com/l/blender_mountainside_agrofor",
+  "digitaf_tool": "No",
+  "digitaf_tool_demo_video": "https://www.youtube.com/watch?v=p3TjRETMdoo",
+  "id": "mountainside_agroforestry_design_geometry_nodes",
+  "timestamp_creation": 1778080735484,
+  "timestamp_lastedit": 1778080735484
+}
