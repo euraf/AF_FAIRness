@@ -1,0 +1,119 @@
+{
+  "primary_purpose": [
+    "Decision support"
+  ],
+  "software_proglanguage": [
+    "Other",
+    "Dart"
+  ],
+  "minimum_req": [
+    "Internet connection",
+    "Desktop computer (e.g. optimized for wider screens)",
+    "Mobile phone (e.g. works on small screens; use the camera)",
+    "Other"
+  ],
+  "systems": [
+    "Agroforestry"
+  ],
+  "system_components": [
+    "Crop"
+  ],
+  "indicators": [
+    "Growth",
+    "Suitability"
+  ],
+  "spatial_scales": [
+    "Plant/animal",
+    "Farm",
+    "Plot"
+  ],
+  "time_steps": [
+    "Not relevant"
+  ],
+  "input_data_protocols": [
+    "User enters data manually"
+  ],
+  "input_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "input_data_file_formats": [
+    "Images (e.g. png, jpg, tiff, etc)",
+    "Other"
+  ],
+  "output_data_formats": [
+    "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
+  ],
+  "output_data_file_formats": [
+    "PDF"
+  ],
+  "end_users": [
+    "Farmer",
+    "Student",
+    "Farm advisor"
+  ],
+  "usages_most_relevant": [
+    "Education",
+    "Planning/Design",
+    "Management"
+  ],
+  "usages_least_relevant": [],
+  "languages": [
+    "English",
+    "French",
+    "German",
+    "Spanish",
+    "Other"
+  ],
+  "digitaf_tool_ll": [],
+  "submitter_name": "Hannes Thaler",
+  "submitter_email": "syntropedia@forests4farming.org",
+  "name": "SyntroPedia",
+  "url": "https://forests4farming.app",
+  "description": "A comprehensive plant encyclopedia for Syntropic Agroforestry. Our global guide provides the data-driven bridge to help you design, manage, and scale abundance in any ecosystem.",
+  "logo_url": "https://forests4farming.app/wp-content/uploads/2026/04/f4f-syntropedia-logo-01.webp",
+  "keywords": [
+    "Syntropic Agroforestry",
+    "Syntropic Agriculture",
+    "Syntropic Farming",
+    "Plant Encyclopedia",
+    "Ecological Succession",
+    "Offline Database",
+    "Agroforestry Design",
+    "Food Forest"
+  ],
+  "developers": "Forests4Farming",
+  "organizations": "Forests4Farming",
+  "contact": "syntropedia@forests4farming.org",
+  "tool_project": "No, it has another source",
+  "status": "Implemented",
+  "software_proglanguage_other": "The mobile application is implemented in Flutter using the Dart programming language developed by Google. The backend APIs are built using Laravel.",
+  "minimum_req_other": "mobile device (tablet)",
+  "license": "Proprietary",
+  "license_url": "https://syntropedia.forests4farming.org/licensing-agreement/",
+  "year_release": 2026,
+  "year_lastupdate": 2026,
+  "previous_versions_available": "Only one version exists",
+  "input_data_file_formats_other": "The tool accepts JPEG, PNG, WebP, GIF, BMP, and other OS-recognized image formats. But It converts uploads to JPEG internally.",
+  "languages_other": "Portuguese, Swahili",
+  "url_persistent": "Yes",
+  "access_barrier": "User registration needed",
+  "access_procedure": "To gain full access, users must register beforehand with the F4F Academy - https://academy.forests4farming.org",
+  "access_procedure_documentation": "Yes",
+  "listed_other_databases": "Yes",
+  "listed_other_databases_list": "The application is listed in App store and Play store.",
+  "integrated_other_tools_list": "It collects information about the whether the user is registered on the academy or not.",
+  "integrated_other_tools": "Yes",
+  "documentation_available": "No",
+  "documentation_accessible": "No",
+  "documentation_theoretical_background": "Yes",
+  "data_provenance": "Yes",
+  "development_process": "No",
+  "documentation_contribute": "Yes",
+  "digitaf_tool": "No",
+  "digitaf_tool_demo_video": "We didn't have a video demonstration yet.",
+  "feedback_tool_info": "SyntroPedia is a practitioner-to-practitioner tool designed for the field. Built to be fully interactive, it empowers users to contribute new plant data directly from the ground. It\u2019s not just an app; it's a growing, crowd-sourced ecosystem where farmers and experts share real-time knowledge to advance syntropic farming together.",
+  "training_materials": "Yes",
+  "id": "syntropedia",
+  "timestamp_creation": 1781951659568,
+  "timestamp_lastedit": 1781951659568
+}
