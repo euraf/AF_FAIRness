@@ -79,6 +79,97 @@ The principles, the related questions, the background rationale and the evaluati
 
 The answers to each question are evaluated on a scale of 0 to 1 point. Each principle is evaluated by the average of the values of the answers given. Exceptions to these rules are identified on a case-by-case basis. Please note that this initial setup may be adapted during the course of the project.
 
+### FAIRness scoring procedure - Tools
+
+This procedure computes FAIRness scores for a **tool** using the `Tools_FAIRness_scoring` algorithm implemented in:
+
+https://github.com/euraf/AF_FAIRness/blob/main/catalogue/tools/scoring/tools_fairness_scoring.js
+
+#### What you need
+- A **`tool` object** containing the information required by the algorithm (i.e., the same fields/structure as in `tool_form.json` in this project).
+- The script file `tools_fairness_scoring.js`.
+
+#### Algorithm usage (JavaScript)
+```js
+var FAIR = new Tools_FAIRness_scoring()
+
+FAIR.score(tool)   // => { F: ..., A: ..., I: ..., R: ... }
+FAIR.score_f(tool) // => Findability score value
+FAIR.score_a(tool) // => Accessibility score value
+FAIR.score_i(tool) // => Interoperability score value
+FAIR.score_r(tool) // => Reusability score value
+```
+
+#### Loading the scorer in a simple HTML page
+You can load the scorer with a regular `<script>` tag, then score your `tool` object:
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Tools FAIRness scoring</title>
+</head>
+<body>
+  <script src="tools_fairness_scoring.js"></script>
+  <script>
+    // 1) Prepare the tool object following tool_form.json structure
+    const tool = {
+      /* ... tool metadata ... */
+    };
+
+    // 2) Instantiate the scorer
+    const FAIR = new Tools_FAIRness_scoring();
+
+    // 3) Compute scores
+    const all = FAIR.score(tool);   // { F, A, I, R }
+    console.log("FAIR scores:", all);
+
+    console.log("F:", FAIR.score_f(tool));
+    console.log("A:", FAIR.score_a(tool));
+    console.log("I:", FAIR.score_i(tool));
+    console.log("R:", FAIR.score_r(tool));
+  </script>
+</body>
+</html>
+```
+
+> **Note:** Replace `tools_fairness_scoring.js` with the correct path where you placed/downloaded `tools_fairness_scoring.js` (or use the raw GitHub URL if you prefer `https://raw.githubusercontent.com/euraf/AF_FAIRness/refs/heads/main/catalogue/tools/scoring/tools_fairness_scoring.js`).
+
+
+### FAIRness scoring procedure - Datasets
+
+The procedure is identical for **datasets**, using the `Data_FAIRness_scoring` algorithm. The only differences are the class name (`Data_FAIRness_scoring`), the input object (a `dataset` object following the structure of `datasets_form.json`), and the corresponding script file. Usage:
+
+```js
+var FAIR = new Data_FAIRness_scoring()
+
+FAIR.score(dataset)   // => { F: ..., A: ..., I: ..., R: ... }
+FAIR.score_f(dataset) // => Findability score value
+FAIR.score_a(dataset) // => Accessibility score value
+FAIR.score_i(dataset) // => Interoperability score value
+FAIR.score_r(dataset) // => Reusability score value
+```
+
+To load it in a simple HTML page, follow the same approach as above, replacing the script with the dataset scorer and using a `dataset` object built from `datasets_form.json`:
+
+```html
+<script src="data_fairness_scoring.js"></script>
+<script>
+  const dataset = {
+    /* ... dataset metadata (per datasets_form.json) ... */
+  };
+
+  const FAIR = new Data_FAIRness_scoring();
+
+  console.log("FAIR scores:", FAIR.score(dataset)); // { F, A, I, R }
+  console.log("F:", FAIR.score_f(dataset));
+  console.log("A:", FAIR.score_a(dataset));
+  console.log("I:", FAIR.score_i(dataset));
+  console.log("R:", FAIR.score_r(dataset));
+</script>
+```
+
 ### FAIRness Self-Assessment
 
 Additionally, a self-assessment scoring verification was developed for tool developers and data gatherers to understand their digital resources' strong points and improve their weaker spots concerning the FAIR principles, and are available at:
