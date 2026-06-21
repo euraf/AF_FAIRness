@@ -3,7 +3,7 @@
   "submitter_email": "academy@forests4farming.org",
   "acronym": "F4F Academy",
   "name": "Forests4Farming Academy - Syntropic Agroforestry Training",
-  "logo_url": "https://lwfiles.mycourse.app/68d9740c727cf6b6ae1a9d9a-public/a226c378e4e2e462cdc2868225bea316.png",
+  "logo_url": "https://lwfiles.mycourse.app/68d9740c727cf6b6ae1a9d9a-public/a955f48a701a345bc376fb299606813a.jpg",
   "programme": "Self-funded / Crowdfunding & Donations",
   "description": "The Forests4Farming (F4F) Academy is a 100% free, multilingual online learning platform dedicated to Syntropic Agroforestry. Inspired by the principles of Ernst G\u00f6tsch, the creator of syntropic farming, the platform bridges the gap between ecological restoration and agricultural production. It provides hands-on courses, tutorials, and practical tools taught by leading international experts.\n\nThe Academy covers a wide range of topics, from the safe use of agricultural equipment to comprehensive agroforestry garden planning and specific crop management (such as Cacao in Syntropy). It covers all relevant biomes of the world such as tropical, sub-tropical, semi-arid, temperate and mediterranean climate. Beyond video lessons, the F4F Academy functions as a global interactive community where farmers, technicians, and students can exchange knowledge, share resources, and start discussions. Our mission is to make high-quality regenerative farming education accessible to everyone worldwide, empowering practitioners to restore degraded soils, strengthen biodiversity, and create ecologically and economically sustainable food systems.",
   "keywords": [
@@ -29,5 +29,7 @@
   "feedback_data_info": "The F4F Academy platform is highly accessible, offering content in multiple languages (English, Portuguese, French, Spanish, German, and Swahili) to reach a truly global audience. While currently web-based and mobile-friendly, we are also developing a dedicated mobile app to allow offline viewing, further ensuring that farmers in remote areas with limited internet access can benefit from our syntropic agroforestry training.",
   "id": "f4f_academy",
   "timestamp_creation": 1781949560245,
-  "timestamp_lastedit": 1781949560245
+  "timestamp_lastedit": 1782054737264,
+  "editor_name": "Hannes Thaler",
+  "editor_email": "academy@forests4farming.org"
 }
