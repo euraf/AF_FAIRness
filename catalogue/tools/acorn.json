@@ -95,10 +95,12 @@
   "url_training_materials": "https://ilvo.vlaanderen.be/uploads/documents/Agroforestry/Demo-ACORN-EN.mp4",
   "documentation_contribute": "No",
   "digitaf_tool": "Yes",
-  "digitaf_tool_demo_video": "https://ilvo.vlaanderen.be/uploads/documents/Agroforestry/Demo-ACORN-EN.mp4",
+  "digitaf_tool_demo_video": "https://youtu.be/VlhinRdR904",
   "feedback_tool_info": "The interface of the tool is freely accessible; access to the script behind the tool can be requested and is on Gitlab.",
   "documentation_accessible": "Yes",
   "id": "acorn",
   "timestamp_creation": 1775224711855,
-  "timestamp_lastedit": 1775224711855
+  "timestamp_lastedit": 1782135753498,
+  "editor_name": "Bert Reubens",
+  "editor_email": "bert.reubens@ilvo.vlaanderen.be"
 }
