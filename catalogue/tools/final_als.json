@@ -1,21 +1,60 @@
 {
-  "primary_purpose": ["Education and training", "Decision support", "Research"],
-  "software_proglanguage": ["Microsoft Excel"],
-  "minimum_req": ["Desktop computer (e.g. optimized for wider screens)"],
-  "systems": ["Agroforestry"],
-  "system_components": ["Crop", "Tree"],
-  "indicators": ["Growth", "Yield", "Mechanization", "Labour", "Economics"],
-  "spatial_scales": ["Plant/animal", "Plot", "One-hectare"],
-  "time_steps": ["Yearly"],
-  "input_data_protocols": ["User enters data manually"],
+  "primary_purpose": [
+    "Education and training",
+    "Decision support",
+    "Research"
+  ],
+  "software_proglanguage": [
+    "Microsoft Excel"
+  ],
+  "minimum_req": [
+    "Desktop computer (e.g. optimized for wider screens)"
+  ],
+  "systems": [
+    "Agroforestry"
+  ],
+  "system_components": [
+    "Crop",
+    "Tree"
+  ],
+  "indicators": [
+    "Growth",
+    "Yield",
+    "Mechanization",
+    "Labour",
+    "Economics"
+  ],
+  "spatial_scales": [
+    "Plant/animal",
+    "Plot",
+    "One-hectare"
+  ],
+  "time_steps": [
+    "Yearly"
+  ],
+  "input_data_protocols": [
+    "User enters data manually"
+  ],
   "input_data_formats": [
     "Widely used file formats (CSV, JSON, XML, etc.)",
     "Custom file formats"
   ],
-  "input_data_file_formats": ["XLS/XLSX (Microsoft Excel formats)"],
-  "output_data_formats": ["Widely used file formats (CSV, JSON, XML, etc.)"],
-  "output_data_file_formats": ["XLS/XLSX (Microsoft Excel formats)"],
-  "end_users": ["Researcher", "Student", "Farmer", "Landowner", "Farm advisor"],
+  "input_data_file_formats": [
+    "XLS/XLSX (Microsoft Excel formats)"
+  ],
+  "output_data_formats": [
+    "Widely used file formats (CSV, JSON, XML, etc.)"
+  ],
+  "output_data_file_formats": [
+    "XLS/XLSX (Microsoft Excel formats)"
+  ],
+  "end_users": [
+    "Researcher",
+    "Student",
+    "Farmer",
+    "Landowner",
+    "Farm advisor"
+  ],
   "usages_most_relevant": [
     "Education",
     "Planning/Design",
@@ -23,9 +62,17 @@
     "Research",
     "Monitoring/Evaluating"
   ],
-  "usages_least_relevant": ["Management"],
-  "languages": ["Czech", "English"],
-  "digitaf_tool_ll": ["Czech Republic LL", "United Kingdom LL"],
+  "usages_least_relevant": [
+    "Management"
+  ],
+  "languages": [
+    "Czech",
+    "English"
+  ],
+  "digitaf_tool_ll": [
+    "Czech Republic LL",
+    "United Kingdom LL"
+  ],
   "submitter_name": "Jan Weger",
   "submitter_email": "weger@vukoz.cz",
   "name": "Final ALS",
@@ -69,5 +116,7 @@
   "digitaf_tool": "Yes",
   "id": "final_als",
   "timestamp_creation": 1747997354646,
-  "timestamp_lastedit": 1747997354646
+  "timestamp_lastedit": 1783586737711,
+  "editor_name": "Jan Weger",
+  "editor_email": "jan.weger@vuk.gov.cz"
 }
