@@ -1,7 +1,7 @@
 {
   "id": "carat",
   "timestamp_creation": 1702974447000,
-  "timestamp_lastedit": 1780045936457,
+  "timestamp_lastedit": 1782136234537,
   "submitter_name": "Paul Pardon",
   "submitter_email": "paul.pardon@ilvo.vlaanderen.be",
   "name": "CARAT - CARbon Agroforestry Tool",
@@ -115,8 +115,8 @@
     "Italy LL",
     "Finland LL"
   ],
-  "digitaf_tool_demo_video": "https://www.youtube.com/watch?v=-j93hxZSE2c",
-  "feedback_tool_info": "a new demovideo (for the python version) will be launched soon",
+  "digitaf_tool_demo_video": "https://www.youtube.com/watch?v=DSQEePnoodE&list=PLakdDh2GEcSm-KaF8ymqKulT4ubJithJp&index=1",
+  "feedback_tool_info": "",
   "tool_project": "Yes",
   "tool_project_name": "VLAIO2025, DigitAF",
   "editor_name": "Paul Pardon",
