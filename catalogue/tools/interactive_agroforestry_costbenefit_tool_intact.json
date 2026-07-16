@@ -1,22 +1,48 @@
 {
-  "primary_purpose": ["Decision support"],
-  "software_proglanguage": ["Apex", "Oracle Apex"],
+  "primary_purpose": [
+    "Decision support"
+  ],
+  "software_proglanguage": [
+    "Apex",
+    "Oracle Apex"
+  ],
   "minimum_req": [
     "Internet connection",
     "Desktop computer (e.g. optimized for wider screens)"
   ],
-  "systems": ["Agroforestry"],
-  "system_components": ["Tree"],
-  "indicators": ["Yield", "Economics", "Labour"],
-  "spatial_scales": ["Plot", "One-hectare"],
-  "time_steps": ["Yearly"],
-  "input_data_protocols": ["User enters data manually"],
-  "input_data_formats": ["Other"],
-  "input_data_file_formats": ["Other"],
+  "systems": [
+    "Agroforestry"
+  ],
+  "system_components": [
+    "Tree"
+  ],
+  "indicators": [
+    "Yield",
+    "Economics",
+    "Labour"
+  ],
+  "spatial_scales": [
+    "Plot",
+    "One-hectare"
+  ],
+  "time_steps": [
+    "Yearly"
+  ],
+  "input_data_protocols": [
+    "User enters data manually"
+  ],
+  "input_data_formats": [
+    "Other"
+  ],
+  "input_data_file_formats": [
+    "Other"
+  ],
   "output_data_formats": [
     "Static content (e.g. reports on website pages, tables and graphs in the tool's interface, PDF files)"
   ],
-  "output_data_file_formats": ["Images (e.g. png, jpg, tiff, etc)"],
+  "output_data_file_formats": [
+    "Images (e.g. png, jpg, tiff, etc)"
+  ],
   "end_users": [
     "Farmer",
     "Farm advisor",
@@ -25,14 +51,26 @@
     "Student",
     "Researcher"
   ],
-  "usages_most_relevant": ["Forecasting", "Management"],
-  "usages_least_relevant": ["Monitoring/Evaluating"],
-  "languages": ["Czech", "Dutch", "English"],
-  "digitaf_tool_ll": [],
+  "usages_most_relevant": [
+    "Forecasting",
+    "Management"
+  ],
+  "usages_least_relevant": [
+    "Monitoring/Evaluating"
+  ],
+  "languages": [
+    "Czech",
+    "Dutch",
+    "English"
+  ],
+  "digitaf_tool_ll": [
+    "Netherlands LL",
+    "Italy LL"
+  ],
   "submitter_name": "Sarah Carton",
   "submitter_email": "sarah.carton@ilvo.vlaanderen.be",
   "name": "INTeractive Agroforestry Cost-benefit Tool (INTACT)",
-  "url": "https://www.agroforestryvlaanderen.be/en/agroforestry-planner-2",
+  "url": "https://www.agroforestryvlaanderen.be/nl/agroforestry-planner",
   "description": "INTACT (INTeractive Agroforestry Cost-benefit Tool) is a dynamic calculation tool that allows you to interactively estimate the costs and benefits for the trees and shrubs in your agroforestry project. This tool helps you to take into account all components of the investment and maintenance costs, as well as the expected income, step by step. INTACT is therefore composed of four different user-friendly modules: 1) Basic information, 2) Costs, 3) Benefits and 4) Cost-benefit analysis. After you have gone through all modules, INTACT generates an outcome that summarises and visualises your choices in the form of a table and graph. The aim of INTACT is to help you estimate (more correctly) the financial effects of your plans in advance.\n\nThe tool focuses specifically on the costs and benefits related to the trees and shrubs (without crops and without animals) within the agroforestry system, making it a partial financial analysis. INTACT is thus not intended for integral business analysis.",
   "logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/intact_logo.png",
   "keywords": [
@@ -51,7 +89,7 @@
   "contact": "sarah.carton@ilvo.vlaanderen.be",
   "status": "Implemented",
   "year_release": 2024,
-  "year_lastupdate": 2024,
+  "year_lastupdate": 2026,
   "previous_versions_available": "Only one version exists",
   "input_data_formats_other": "The user can enter data online, no input from a file needed.",
   "input_data_file_formats_other": "The user can enter data online, no input from a file needed.",
@@ -77,7 +115,7 @@
   "access_procedure_documentation": "Yes",
   "id": "interactive_agroforestry_costbenefit_tool_intact",
   "timestamp_creation": 1716816212913,
-  "timestamp_lastedit": 1749633209763,
+  "timestamp_lastedit": 1782136080440,
   "editor_name": "Sarah Carton",
   "editor_email": "sarah.carton@ilvo.vlaanderen.be",
   "tool_project": "Yes",
