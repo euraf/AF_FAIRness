@@ -69,7 +69,7 @@
   "submitter_email": "syntropedia@forests4farming.org",
   "name": "SyntroPedia",
   "url": "https://forests4farming.app",
-  "description": "A comprehensive plant encyclopedia for Syntropic Agroforestry. Our global guide provides the data-driven bridge to help you design, manage, and scale abundance in any ecosystem.\n\nSyntroPedia is a practitioner-to-practitioner tool designed for the field. Built to be fully interactive, it empowers users to contribute new plant data directly from the ground. It\u2019s not just an app; it's a growing, crowd-sourced ecosystem where farmers and experts share real-time knowledge to advance syntropic farming together.",
+  "description": "SyntroPedia is a practitioner-to-practitioner tool designed for the field. Built to be fully interactive, it empowers users to contribute new plant data directly from the ground. It\u2019s not just an app; it's a growing, crowd-sourced ecosystem where farmers and experts share real-time knowledge to advance syntropic farming together.",
   "logo_url": "https://forests4farming.app/wp-content/uploads/2026/06/syntropedia_logo2.jpg",
   "keywords": [
     "Syntropic Agroforestry",
@@ -111,7 +111,7 @@
   "documentation_contribute": "Yes",
   "digitaf_tool": "No",
   "digitaf_tool_demo_video": "",
-  "feedback_tool_info": "SyntroPedia is a practitioner-to-practitioner tool designed for the field. Built to be fully interactive, it empowers users to contribute new plant data directly from the ground. It\u2019s not just an app; it's a growing, crowd-sourced ecosystem where farmers and experts share real-time knowledge to advance syntropic farming together.",
+  "feedback_tool_info": "",
   "training_materials": "Yes",
   "id": "syntropedia",
   "timestamp_creation": 1781951659568,
