@@ -245,7 +245,7 @@ module.exports = {
         var databody = this.formData
         
         $.ajax({
-            url: "https://mvarc.eu/tools/dev/AF_FAIRness_py",
+            url: "https://mvarc.eu/tools/dev/AF_FAIRness_php/init.php",
             type: "post",
             data: { action: action, resources: resources, data: JSON.stringify(databody, null, 4) },
             dataType: "json"
