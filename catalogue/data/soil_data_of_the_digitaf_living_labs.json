@@ -1,0 +1,75 @@
+{
+    "data_type": [
+        "Observational data",
+        "Spatial data",
+        "Experimental data"
+    ],
+    "spatial_scales": [
+        "Plot",
+        "Farm"
+    ],
+    "indicators": [
+        "Land cover",
+        "Land use",
+        "Soil",
+        "Carbon"
+    ],
+    "time_steps": [
+        "Other"
+    ],
+    "data_formats": [
+        "Widely used file formats (Spreadsheet, JSON, GeoJSON, SHP, GPX, KML, XML, TIFF, MP3, MP4, etc.)"
+    ],
+    "digitaf_data_ll": [
+        "Czech Republic LL",
+        "Finland LL",
+        "Germany LL",
+        "Italy LL",
+        "Netherlands LL",
+        "United Kingdom LL"
+    ],
+    "digitaf_data_wp": [
+        "WP3 - Tools for beneficiaries"
+    ],
+    "submitter_name": "Michael den Herder",
+    "submitter_email": "michael.denherder@efi.int",
+    "name": "Soil data of the DigitAF living labs",
+    "url": "https://doi.org/10.5281/zenodo.21204617",
+    "url_persistent": "Yes",
+    "description": "This dataset contains the data from a soil health assessment across eight sites in selected Living Lab farms in Portugal, Finland, Spain, Italy, United Kingdom, the Netherlands, Czechia and Germany. In all sites, a consistent set of four parameters of soil health were measured, which are also required within the UKCEH Soil Health Tool. The four parameters are the level of soil organic matter (or soil organic carbon), the level of acidity (pH, in water and KCl), the soil bulk density, and the number of earthworms. Measurements of the effect of agroforestry on soil health parameters were completed following a common protocol (Aynekulu et al., 2026, annexed to the DigitAF deliverable 3.5 report by den Herder et al . 2026). However in some sites, the protocol was modified to accommodate the differences in agroforestry system design, soil type, and in some cases to allow direct comparisons with previous measurements. Hence the detailed sampling protocols are described for each of the eight sites and can be found in DigitAF deliverable 3.5 report (den Herder et al. 2026), and the metadata sheets for each country.\n\nThe Original Raw Excel data is also complemented with:\n\ndigitaf_soil_dataset_final.json - a machine readable dataset\nconvertdata2machinereadable.py - python code that was used to convert the raw excel to promote the accessibility of the data, making it machine readable (i.e. you can send the DOI/URL to AI agents for data analysis)",
+    "keywords": [
+        "soil health",
+        "soil organic carbon",
+        "bulk density",
+        "soil acidity",
+        "earthworms"
+    ],
+    "data_ownership": "DigitAF project",
+    "data_contact": "michael.denherder@efi.int",
+    "data_project": "Yes",
+    "data_project_name": "DIGItal Tools to boost AgroForestry (DigitAF)",
+    "data_project_url": "https://digitaf.eu/",
+    "data_collection_country": "Europe",
+    "spatial_details": "A soil health assessment was carried out across eight sites in selected Living Lab farms in Portugal, Finland, Spain, Italy, United Kingdom, the Netherlands, Czechia and Germany. The sites included silvopastoral and silvoarable agroforestry systems. In silvoarable systems, linear-based soil sampling was performed with samples taken at a regular distance from the tree lines. In silvopastoral systems, area-based sampling (treatment vs. control) was performed, comparing grazed sites with ungrazed sites. More details can be found in the sampling protocols for each site in each country.",
+    "time_steps_other": "In most sites the data were collected in 2025. In some sites (Germany), soil sampling was repeated from earlier measurements.",
+    "year_release": 2026,
+    "year_lastupdate": 2026,
+    "time_span_oldest": 2025,
+    "time_span_newest": 2025,
+    "data_confidentiality": "No, the data is public",
+    "license": "Other",
+    "license_other": "Creative Commons Attribution 4.0 International",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "access_barrier": "No, direct download/access through a web link",
+    "data_relevant_attributes": "Yes",
+    "listed_other_databases": "No",
+    "data_metadata": "Yes",
+    "documentation_accessible": "Yes",
+    "data_metadata_vocabulary": "Yes",
+    "development_process": "Yes",
+    "documentation_list": "den Herder, M., Cumplido-Marin, L., Burgess, P., Aynekulu,, E., Fabrizio Giuseppe Cella, Hou\u0161ka, J., H\u00fcbner, R., Kay, S., Lojka, B., Mantino, A., Moreno, G., Nauta, S. N., Palma, J., Pardon, P., Smith, J., Ripamonti, A., Rolo, V., Serra, A., R\u00f8nn-Andersen, K., \u2026 Thissen, W. (2026). Methods to Verify and Account for the Carbon and Soil Health Benefits of Agroforestry. DigitAF EU Project. Deliverable 3.5. Zenodo. https://doi.org/10.5281/zenodo.20529635\nAynekulu, E., Cumplido-Marin, L., Burgess, P.& den Herder, M. (2026). Monitoring Soil Health in Agroforestry Systems: A Guide to Assessment. DigitAF EU Project. Annex to Deliverable 3.5. Zenodo. https://doi.org/10.5281/zenodo.20529901",
+    "digitaf_data_used": "The soil health data were collected in selected living lab farms in all DigitAF living labs, and also in Spain and Portugal. The results of the assessment are presented in DigitAf deliverable 3.5. All countries presented the results of the soil health assessment to the living lab stakeholders.",
+    "id": "soil_data_of_the_digitaf_living_labs",
+    "timestamp_creation": 1785830293415,
+    "timestamp_lastedit": 1785830293415
+}
