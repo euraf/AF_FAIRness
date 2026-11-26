@@ -1,0 +1,30 @@
+{
+    "submitter_name": "Ana Tom\u00e1s",
+    "submitter_email": "anatomas@mvarc.eu",
+    "acronym": "Trees Outside Woodland (TOW) in England",
+    "name": "Trees Outside Woodland (TOW) in England",
+    "programme": "National Capital and Ecosystem Assessment Programme (NCEA) Defra",
+    "logo_url": "https://cdn.forestresearch.gov.uk/2025/04/TOW-Map-Hero.jpg",
+    "description": "The Trees Outside Woodland (TOW) initiative aims to improve the inventory, mapping and monitoring of trees located outside formally defined woodland areas across England. It addresses the need for comprehensive information on dispersed trees and small woody landscape features, including individual trees, hedgerows, tree groups and trees in agricultural and urban environments.\n\nImplemented within the Natural Capital Ecosystem Assessment (NCEA) programme, the initiative combines field surveys, remote mapping and spatial analysis to assess the extent, distribution, composition and condition of trees outside woodland. Its methodology includes annual field sampling and desk-based mapping, supporting the development and calibration of a national GIS dataset.\n\nThe initiative seeks to improve understanding of the contribution of non-woodland trees to national carbon stocks, biodiversity and natural capital, as well as their interactions with surrounding ecosystems. The resulting data will support evidence-based environmental policy, landscape planning and the protection and sustainable management of trees across agricultural and urban landscapes.",
+    "keywords": [
+        "Trees Outside Woodland",
+        "Tree Cover Mapping",
+        "National Forest Inventory",
+        "Hedgerows",
+        "Landscape Connectivity",
+        "Natural Capital",
+        "Biodiversity Monitoring",
+        "Carbon Stocks",
+        "Remote Sensing",
+        "Ecosystem Services"
+    ],
+    "lead": "Forest Research",
+    "contact": "remote.sensing@forestresearch.gov.uk",
+    "project_url": "https://www.forestresearch.gov.uk/tools-and-resources/national-forest-inventory/trees-outside-woodland-tow/",
+    "project_url_other": "https://www.forestresearch.gov.uk/tools-and-resources/fthr/trees-outside-woodland-tow-projects/trees-outside-woodland-map/",
+    "start_date": "2015",
+    "end_date": "2017",
+    "id": "trees_outside_woodland_tow_in_england",
+    "timestamp_creation": 1795706453836,
+    "timestamp_lastedit": 1795706453836
+}
