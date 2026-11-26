@@ -53,7 +53,12 @@
   "languages": [
     "French"
   ],
-  "digitaf_tool_ll": [],
+  "related_projects": [
+    {
+      "project_id": "eaglehedges",
+      "relationship": "The tool was developed within this project."
+    }
+  ],
   "submitter_name": "Marie Gosme",
   "submitter_email": "marie.gosme@inrae.fr",
   "name": "HedgeTools",
@@ -67,9 +72,6 @@
   ],
   "developers": "David Sheeren, Gabriel Marqu\u00e8s, Lewis Villierme, Jean-Baptiste Boissonnat, Guillaume Gu\u00e9bin, Marc Lang, Claude Monteil",
   "organizations": "INRAE",
-  "tool_project": "Yes",
-  "tool_project_name": "Space Climate Observatory (SCO) EagleHedges",
-  "tool_project_url": "https://www.spaceclimateobservatory.org/eaglehedges",
   "status": "Implemented",
   "license_url": "https://forge.inrae.fr/dynafor/workflows/hedgetools/-/blob/main/LICENSE",
   "year_release": 2024,
@@ -90,7 +92,6 @@
   "training_materials": "Yes",
   "url_training_materials": "https://hedgetools-oop-0770ee.pages-forge.inrae.fr/fr/index.html",
   "documentation_contribute": "Yes",
-  "digitaf_tool": "No",
   "license": "GNU General Public License (GPL)",
   "id": "hedgetools",
   "timestamp_creation": 1774964315880,

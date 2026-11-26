@@ -115,10 +115,5 @@
   "training_materials": "Yes",
   "url_training_materials": "https://www.inaturalist.org/",
   "documentation_contribute": "Yes",
-  "digitaf_tool": "No",
-  "digitaf_tool_ll": [
-    ""
-  ],
-  "digitaf_tool_demo_video": "",
   "feedback_tool_info": ""
 }

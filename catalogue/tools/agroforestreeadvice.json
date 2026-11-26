@@ -72,10 +72,13 @@
 		"Italian",
 		"Spanish"
 	],
-	"digitaf_tool_ll": [
-		"Czech Republic LL",
-		"Netherlands LL"
+	"related_projects": [
+		{
+			"project_id": "digitaf",
+			"relationship": "This tool is being co-developed and/or improved within DigitAF activities. It has been tested in the following Living Labs: Czech Republic and Netherlands."
+		}
 	],
+	"url_demo_video": "https://www.youtube.com/watch?v=mbajuVJQ9bk",
 	"submitter_name": "Marie Gosme",
 	"submitter_email": "marie.gosme@inrae.fr",
 	"name": "AgroforesTreeAdvice",
@@ -91,9 +94,6 @@
 	"developers": "Marie Gosme; Tade\u00e1\u0161 Stan\u011bk; Cl\u00e9ment Rigal; Raphael Paut; Birk Skyum",
 	"organizations": "INRAE; VUKOZ; CIRAD; RegenFarmer",
 	"contact": "marie.gosme@inrae.fr",
-	"tool_project": "Yes",
-	"tool_project_name": "DigitAF",
-	"tool_project_url": "https://cordis.europa.eu/project/id/101059794",
 	"status": "Under development",
 	"license": "MIT License",
 	"license_url": "https://github.com/euraf/agroforestreeadvice?tab=MIT-1-ov-file#readme",
@@ -108,14 +108,12 @@
 	"documentation_available": "No",
 	"documentation_accessible": "Some of it",
 	"documentation_contribute": "Yes",
-	"digitaf_tool": "Yes",
 	"data_provenance": "Incomplete",
 	"documentation_theoretical_background": "No",
 	"url_documentation": "https://github.com/euraf/agroforestreeadvice/blob/main/CONTRIBUTING.md",
 	"development_process": "No",
 	"training_materials": "Yes",
 	"url_training_materials": "https://www.youtube.com/watch?v=mbajuVJQ9bk",
-	"digitaf_tool_demo_video": "https://www.youtube.com/watch?v=mbajuVJQ9bk",
 	"id": "agroforestreeadvice",
 	"timestamp_creation": 1731600064836,
 	"timestamp_lastedit": 1731600064836

@@ -52,7 +52,7 @@ module.exports = {
     <div v-if="project" class="toolpage card bg-white p-4">
       <div class="row">
         <div class="col-sm-6">
-          <h5 v-if="project.acronym" class="card-title"><b>{{ project.acronym }}</b></h5>
+          <h5 v-if="project.acronym && project.acronym.toLowerCase() !== project.name.toLowerCase()" class="card-title"><b>{{ project.acronym }}</b></h5>
           <h5 class="card-title">{{ project.name }}</h5>
           <p v-if="project.programme || project.code">
             <span v-if="project.programme" class="badge badge-project" :class="'badge-' + project.programme.replace(' ', '_').toLowerCase()"><b>{{ project.programme }}</b></span>

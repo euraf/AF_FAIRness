@@ -62,7 +62,13 @@
     "English",
     "Dutch"
   ],
-  "digitaf_tool_ll": [],
+  "related_projects": [
+    {
+      "project_id": "digitaf",
+      "relationship": "This tool is being co-developed and/or improved within DigitAF activities."
+    }
+  ],
+  "url_demo_video": "https://www.youtube.com/watch?v=chMudaMPZGI&t=5s",
   "submitter_name": "Sarah Carton",
   "submitter_email": "sarah.carton@ilvo.vlaanderen.be",
   "name": "DENTRO",
@@ -75,9 +81,6 @@
   "developers": "Sarah Carton, Bert Reubens, Sander van Daele, Tim d'Hondt, Jolien Bracke, Paul Pardon",
   "organizations": "ILVO, BOS+",
   "contact": "https://agroforestry.ilvo.be/dentro/contact/",
-  "tool_project": "Yes",
-  "tool_project_name": "DIGITAF",
-  "tool_project_url": "https://digitaf.eu/",
   "status": "Implemented",
   "license": "Creative Commons BY-NC-SA",
   "year_release": 2025,
@@ -99,8 +102,6 @@
   "training_materials": "Yes",
   "url_training_materials": "https://agroforestry.ilvo.be/dentro/support/",
   "documentation_contribute": "No",
-  "digitaf_tool": "Yes",
-  "digitaf_tool_demo_video": "https://www.youtube.com/watch?v=chMudaMPZGI&t=5s",
   "feedback_tool_info": "I will have to replace the youtube link once the video is uploaded on the DigitAF channel",
   "id": "dentro",
   "timestamp_creation": 1779886515726,

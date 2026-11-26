@@ -144,19 +144,18 @@
 	"training_materials": "Yes",
 	"url_training_materials": "https://www.farmtree.earth/instructions",
 	"documentation_contribute": "Yes",
-	"digitaf_tool": "Yes",
-	"digitaf_tool_ll": [
-		"Germany LL",
-		"Netherlands LL",
-		"United Kingdom LL",
-		"Czech Republic LL"
+	"related_projects": [
+		{
+			"project_id": "reforest",
+			"relationship": "Supported development of the tool's temperate functionality."
+		},
+		{
+			"project_id": "digitaf",
+			"relationship": "This tool is being co-developed and/or improved within DigitAF activities. It has been tested in the following Living Labs: Germany, Netherlands, United Kingdom and Czech Republic."
+		}
 	],
-	"digitaf_tool_demo_video": "",
 	"feedback_tool_info": "Please contact the FarmTree Team for collaboration options! frank.vanschoubroeck@farmtree.earth",
 	"editor_name": "Frank van Schoubroeck",
 	"editor_email": "frank.vanschoubroeck@farmtree.earth",
-	"tool_project": "Yes",
-	"tool_project_name": "ReForest supported the development of the temperate functionality of the Tool",
-	"tool_project_url": "https://agroreforest.eu",
 	"license_url": "https://www.farmtree.earth/services"
 }

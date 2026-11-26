@@ -8,6 +8,7 @@ httpVueLoader.register(Vue, 'vue/formelements/checkbox.vue');
 httpVueLoader.register(Vue, 'vue/formelements/input-text.vue');
 httpVueLoader.register(Vue, 'vue/formelements/input-number.vue');
 httpVueLoader.register(Vue, 'vue/formelements/keywords.vue');
+httpVueLoader.register(Vue, 'vue/formelements/related-projects.vue');
 
 Object.filter = function(obj, predicate) {
 	let result = {}, key;

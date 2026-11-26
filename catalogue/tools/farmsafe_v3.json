@@ -111,10 +111,11 @@
   "training_materials": "Yes",
   "url_training_materials": "https://doi.org/10.17862/cranfield.rd.25151465.v1",
   "documentation_contribute": "Yes",
-  "digitaf_tool": "Yes",
-  "digitaf_tool_ll": [
-    "United Kingdom LL"
-  ],
-  "digitaf_tool_demo_video": "",
+  "related_projects": [
+			{
+					"project_id": "digitaf",
+					"relationship": "This tool is being co-developed and/or improved within DigitAF activities. It has been tested in the United Kingdom Living Lab."
+			}
+	],
   "feedback_tool_info": "No"
 }

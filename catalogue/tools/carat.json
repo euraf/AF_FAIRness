@@ -106,19 +106,18 @@
   "training_materials": "Yes",
   "url_training_materials": "https://ilvo.vlaanderen.be/uploads/documents/Agroforestry/CARAT_manual_version.python.pdf",
   "documentation_contribute": "Yes",
-  "digitaf_tool": "Yes",
-  "digitaf_tool_ll": [
-    "Netherlands LL",
-    "Czech Republic LL",
-    "Germany LL",
-    "United Kingdom LL",
-    "Italy LL",
-    "Finland LL"
+  "related_projects": [
+    {
+      "project_id": "agroforestry_2025",
+      "relationship": "The tool was developed and/or improved within this project."
+    },
+    {
+      "project_id": "digitaf",
+      "relationship": "This tool is being co-developed and/or improved within DigitAF activities. It has been tested in the following Living Labs: Netherlands, Czech Republic, Germany, United Kingdom, Italy and Finland."
+    }
   ],
-  "digitaf_tool_demo_video": "https://www.youtube.com/watch?v=DSQEePnoodE&list=PLakdDh2GEcSm-KaF8ymqKulT4ubJithJp&index=1",
+  "url_demo_video": "https://www.youtube.com/watch?v=DSQEePnoodE&list=PLakdDh2GEcSm-KaF8ymqKulT4ubJithJp&index=1",
   "feedback_tool_info": "",
-  "tool_project": "Yes",
-  "tool_project_name": "VLAIO2025, DigitAF",
   "editor_name": "Paul Pardon",
   "editor_email": "paul.pardon@ilvo.vlaanderen.be"
 }

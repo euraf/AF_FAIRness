@@ -100,15 +100,16 @@
   "training_materials": "Don't know",
   "url_training_materials": "",
   "documentation_contribute": "Yes",
-  "digitaf_tool": "Yes",
-  "digitaf_tool_ll": [
-    "Czech Republic LL"
+  "related_projects": [
+    {
+      "project_id": "digitaf",
+      "relationship": "This tool is being co-developed and/or improved within DigitAF activities. It has been tested in the Czech Republic Living Lab."
+    }
   ],
+  "url_demo_video": "https://www.youtube.com/watch?v=ld_ZkJnwnv4",
   "feedback_tool_info": "",
-  "digitaf_tool_demo_video": "https://www.youtube.com/watch?v=ld_ZkJnwnv4",
   "editor_name": "Fran\u00e7ois Warlop",
   "editor_email": "francois.warlop@grab.fr",
   "timestamp_lastedit": 1769177985538,
-  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
-  "tool_project": "No, it has another source"
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
 }

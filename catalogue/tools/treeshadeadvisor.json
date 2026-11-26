@@ -97,7 +97,6 @@
         "Italian",
         "Other"
     ],
-    "digitaf_tool_ll": [],
     "submitter_name": "Randall Zamora",
     "submitter_email": "support@treeshadeadvisor.com",
     "name": "TreeShadeAdvisor",
@@ -116,7 +115,6 @@
         "cocoa"
     ],
     "contact": "support@treeshadeadvisor.com",
-    "tool_project": "No, it has another source",
     "status": "Implemented",
     "license": "Proprietary",
     "previous_versions_available": "Don't know",
@@ -134,7 +132,6 @@
     "development_process": "No",
     "training_materials": "Yes",
     "documentation_contribute": "No",
-    "digitaf_tool": "No",
     "feedback_tool_info": "Web-based agroforestry shade simulation. Local simulations can run in the browser; Cloud API use is optional and uses credits. Public contact: support@treeshadeadvisor.com",
     "indicators_other": "Tree shade (hourly shade simulation, 2D/3D shade maps and quantitative shade outputs)",
     "input_data_formats_other": "API and interactive web form: users enter plot geometry, tree placement, spacing, dimensions, location and simulation period in the application UI",

@@ -256,7 +256,7 @@ module.exports = {
                       </template>
                     </div>
                     <div class="col-4 text-center details-block">
-                      <template v-if="'digitaf_tool_demo_video' in tool && tool.digitaf_tool_demo_video">
+                      <template v-if="'url_demo_video' in tool && tool.url_demo_video">
                         <p class="btn-small-title">Demonstration video</p>
                         <router-link :to="'tools/tool/' + tool.id" :tool="tool"><img class="demo-video img-fluid" src="img/digitaf_demo_video.png"></router-link>
                       </template>

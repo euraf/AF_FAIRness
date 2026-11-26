@@ -52,7 +52,6 @@
 	"languages": [
 		"English"
 	],
-	"digitaf_tool_ll": [],
 	"submitter_name": "Cristina Martin Hernandez",
 	"submitter_email": "crimar@ceh.ac.uk",
 	"name": "Ammonia reduction calculator",
@@ -69,7 +68,6 @@
 	],
 	"developers": "UK Centre for Ecology & Hydrology + Forest Reasearch",
 	"organizations": "UK Centre for Ecology & Hydrology + Forest Research",
-	"tool_project": "Don't know",
 	"status": "Implemented",
 	"license": "Don't know",
 	"year_release": 2019,
@@ -90,7 +88,6 @@
 	"data_provenance": "No",
 	"development_process": "No",
 	"training_materials": "No",
-	"digitaf_tool": "Don't know",
 	"documentation_contribute": "No",
 	"id": "ammonia_reduction_calculator",
 	"timestamp_creation": 1733305193646,

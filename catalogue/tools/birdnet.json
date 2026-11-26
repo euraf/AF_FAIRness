@@ -54,10 +54,10 @@
   "input_data_protocols": [
     "User enters data manually"
   ],
-	"input_data_formats": [
+  "input_data_formats": [
 		"Other"
 	],
-	"input_data_formats_other": "User enters data manually",
+  "input_data_formats_other": "User enters data manually",
   "input_data_file_formats": [
     "Other"
   ],
@@ -114,8 +114,5 @@
   "training_materials": "Yes",
   "url_training_materials": "https://birdnet.cornell.edu/",
   "documentation_contribute": "Yes",
-  "digitaf_tool": "No",
-  "digitaf_tool_ll": [ ],
-  "digitaf_tool_demo_video": "",
   "feedback_tool_info": ""
 }

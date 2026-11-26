@@ -64,7 +64,12 @@
 	"languages": [
 		"English"
 	],
-	"digitaf_tool_ll": [],
+	"related_projects": [
+		{
+			"project_id": "digitaf",
+			"relationship": "This tool is being co-developed and/or improved within DigitAF activities."
+		}
+	],
 	"submitter_name": "Marie Gosme",
 	"submitter_email": "marie.gosme@inrae.fr",
 	"name": "Hi-sAFe",
@@ -96,7 +101,6 @@
 	"development_process": "No",
 	"training_materials": "Yes",
 	"documentation_contribute": "No",
-	"digitaf_tool": "Yes",
 	"feedback_tool_info": "Writing complete documentation as well as tutorials in order to allow open-source publication of the model is under way... should be done by the end of 2024",
 	"id": "hisafe",
 	"timestamp_creation": 1716540998909,

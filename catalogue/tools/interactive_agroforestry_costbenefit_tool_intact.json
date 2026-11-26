@@ -63,10 +63,17 @@
     "Dutch",
     "English"
   ],
-  "digitaf_tool_ll": [
-    "Netherlands LL",
-    "Italy LL"
+  "related_projects": [
+    {
+      "project_id": "farmlife",
+      "relationship": "The tool was developed and/or improved within this project."
+    },
+    {
+      "project_id": "digitaf",
+      "relationship": "This tool is being co-developed and/or improved within DigitAF activities. It has been tested in the following Living Labs: Netherlands and Italy."
+    }
   ],
+  "url_demo_video": "https://www.youtube.com/watch?v=VCiHCDSPOOw",
   "submitter_name": "Sarah Carton",
   "submitter_email": "sarah.carton@ilvo.vlaanderen.be",
   "name": "INTeractive Agroforestry Cost-benefit Tool (INTACT)",
@@ -108,7 +115,6 @@
   "training_materials": "Yes",
   "url_training_materials": "https://www.agroforestryvlaanderen.be/en/agroforestryplannerexplained",
   "documentation_contribute": "No",
-  "digitaf_tool": "Yes",
   "feedback_tool_info": "In Zenodo, the metadata is provided, whereas the Manual INTACT 1.0 includes the bibliography and user guidance. A demo video will be recorded soon.",
   "license": "Creative Commons BY-NC-SA",
   "access_procedure": "Click on the link and scroll down to INTACT. Click on the logo to go to the Agroforestry Planner; platform of tools.",
@@ -117,8 +123,5 @@
   "timestamp_creation": 1716816212913,
   "timestamp_lastedit": 1782136080440,
   "editor_name": "Sarah Carton",
-  "editor_email": "sarah.carton@ilvo.vlaanderen.be",
-  "tool_project": "Yes",
-  "tool_project_name": "FarmLIFE, DigitAF",
-  "digitaf_tool_demo_video": "https://www.youtube.com/watch?v=VCiHCDSPOOw"
+  "editor_email": "sarah.carton@ilvo.vlaanderen.be"
 }

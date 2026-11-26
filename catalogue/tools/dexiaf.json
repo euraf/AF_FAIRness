@@ -29,7 +29,12 @@
   "usages_most_relevant": ["Education", "Planning/Design", "Forecasting"],
   "usages_least_relevant": ["Management"],
   "languages": ["English", "French"],
-  "digitaf_tool_ll": [],
+  "related_projects": [
+    {
+      "project_id": "moca",
+      "relationship": "The tool was developed within this project."
+    }
+  ],
   "submitter_name": "Aude Alaphilippe",
   "submitter_email": "aude.alaphilippe@inrae.fr",
   "name": "DEXiAF",
@@ -43,9 +48,6 @@
   ],
   "organizations": "INRAE, Grab, UniLaSalle",
   "developers": "A. Alaphilippe, L. Fourri\u00e9, F. Warlop, D. Grandgirard with the help of:  C. Delhoume, R. Roche, A. Augis, C. Vaskou, M. Brindeau, A. Dufour",
-  "tool_project": "Yes",
-  "tool_project_name": "MOCA project",
-  "tool_project_url": "https://www.grab.fr/projet-moca/",
   "status": "Implemented",
   "license": "Creative Commons BY-ND",
   "year_release": 2024,
@@ -65,7 +67,6 @@
   "training_materials": "Yes",
   "url_training_materials": "https://means.inrae.fr/eng/emc-tools/dexi-tools/dexiaf",
   "documentation_contribute": "No",
-  "digitaf_tool": "No",
   "id": "dexiaf",
   "timestamp_creation": 1744383398746,
   "timestamp_lastedit": 1756136700936,

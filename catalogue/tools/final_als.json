@@ -69,9 +69,11 @@
     "Czech",
     "English"
   ],
-  "digitaf_tool_ll": [
-    "Czech Republic LL",
-    "United Kingdom LL"
+  "related_projects": [
+    {
+      "project_id": "digitaf",
+      "relationship": "This tool is being co-developed and/or improved within DigitAF activities. It has been tested in the following Living Labs: Czech Republic and United Kingdom."
+    }
   ],
   "submitter_name": "Jan Weger",
   "submitter_email": "weger@vukoz.cz",
@@ -91,9 +93,6 @@
   "developers": "Martin Benes, Jaroslav Knapek, Jan Weger",
   "organizations": "Czech Technical University, Faculty for Electrical Engeneering, Prague, Czechia; Landscape Research Institute, Department of Phytoenergy, Pr\u016fhonice",
   "contact": "Martin Benes benes@fel.cvut.cz; Jaroslav Knapek knapek@fel.cvut.cz; Jan Weger weger@vukoz.cz",
-  "tool_project": "Yes",
-  "tool_project_url": "https://digitaf.eu/",
-  "tool_project_name": "DigitAF - DIGItal Tools to boost AgroForestry",
   "status": "Under development",
   "license": "Don't know",
   "year_release": 2025,
@@ -113,7 +112,6 @@
   "development_process": "No",
   "training_materials": "No",
   "documentation_contribute": "Don't know",
-  "digitaf_tool": "Yes",
   "id": "final_als",
   "timestamp_creation": 1747997354646,
   "timestamp_lastedit": 1783586737711,

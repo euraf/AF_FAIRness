@@ -62,7 +62,7 @@
   "languages": [
     "English"
   ],
-  "digitaf_tool_ll": [],
+  "related_projects": [],
   "submitter_name": "Alexia Stokes",
   "organizations": "University of Montpellier, IRD",
   "submitter_email": "alexia.stokes@cirad.fr",
@@ -78,9 +78,6 @@
   ],
   "developers": "Isabelle Mougenot, Felipe Vargas-Rojas, Vincent Armant",
   "contact": "felipe.vargas-rojas@ird.fr, alexia.stokes@cirad.fr",
-  "tool_project": "Yes",
-  "tool_project_name": "eco2adapt",
-  "tool_project_url": "https://cordis.europa.eu/project/id/101059498",
   "status": "Under development",
   "software_proglanguage_other": "Resource Description Framework (RDF), RDF Schema (RDFS), Web Ontology Language (OWL), SPARQL Shape Constraint Language (SHACL)",
   "previous_versions_available": "Yes",
@@ -98,7 +95,6 @@
   "development_process": "Yes",
   "training_materials": "No",
   "documentation_contribute": "Yes",
-  "digitaf_tool": "Yes",
   "logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/oneforestkb.png",
   "license": "Apache License 2.0",
   "year_release": 2026,

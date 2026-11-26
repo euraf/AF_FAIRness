@@ -108,11 +108,12 @@
   "training_materials": "Yes",
   "url_training_materials": "Burgess, P.J., Graves, A.R., Wiltshire, K., Giannitsopoulos, M., Metselaar, K., Stappers, R., Keesman, K., Palma, J., van der Werf, W. (2023). Description of the Biophysical Yield-SAFE model as implemented in Microsoft Excel.  Cranfield, Bedfordshire, UK, Cranfield University. July 2023. 22 pp. https://cord.cranfield.ac.uk/articles/software/Yield-SAFE_v2_-_Biophysical_model_for_tree_and_crop_yields_in_agroforestry/24250549\n\nBurgess, P.J., Graves, A.R., Upson, M., Wiltshire, K., Giannitsopoulos, M., Metselaar, K., Stappers, R., Keesman, K., Palma, J., Pilbeam, D.J., van der Werf, W. (2023). Yield-SAFE Description and Calibration Guide.  Cranfield, Bedfordshire, UK, Cranfield University. July 2023. 46 pp.  https://cord.cranfield.ac.uk/articles/software/Yield-SAFE_v2_-_Biophysical_model_for_tree_and_crop_yields_in_agroforestry/24250549",
   "documentation_contribute": "No",
-  "digitaf_tool": "Yes",
-  "digitaf_tool_ll": [
-    "United Kingdom LL"
-  ],
-  "digitaf_tool_demo_video": "",
+  "related_projects": [
+			{
+					"project_id": "digitaf",
+					"relationship": "This tool is being co-developed and/or improved within DigitAF activities. It has been tested in the United Kingdom Living Lab."
+			}
+	],
   "feedback_tool_info": "",
   "feedback_general": "Perhaps acknowledgements of sponsors"
 }

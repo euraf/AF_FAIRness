@@ -59,7 +59,6 @@
 	"languages": [
 		"English"
 	],
-	"digitaf_tool_ll": [],
 	"submitter_name": "Moritz Laub",
 	"submitter_email": "moritz.laub@usys.ethz.ch",
 	"name": "ZonalCent",
@@ -75,9 +74,6 @@
 	"developers": "Moritz Laub, Ulysse Le Goff, Marc Pr\u00e9bandier, Johan Six, R\u00e9mi Cardinael",
 	"organizations": "ETH Zurich, CIRAD",
 	"contact": "moritz.laub@usys.ethz.ch",
-	"tool_project": "Yes",
-	"tool_project_name": "LANDMARC",
-	"tool_project_url": "https://cordis.europa.eu/project/id/869367",
 	"status": "Implemented",
 	"license": "Creative Commons BY",
 	"license_url": "https://creativecommons.org/licenses/by/4.0/",
@@ -98,7 +94,6 @@
 	"development_process": "Not completely",
 	"training_materials": "No",
 	"documentation_contribute": "No",
-	"digitaf_tool": "Don't know",
 	"id": "zonalcent",
 	"timestamp_creation": 1740663923615,
 	"timestamp_lastedit": 1740663923615

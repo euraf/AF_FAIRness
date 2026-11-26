@@ -80,13 +80,15 @@
     "Swedish",
     "Other"
   ],
-  "digitaf_tool_ll": [
-    "Czech Republic LL",
-    "Finland LL",
-    "Germany LL",
-    "Italy LL",
-    "Netherlands LL",
-    "United Kingdom LL"
+  "related_projects": [
+    {
+      "project_id": "reforest",
+      "relationship": "The tool was developed and/or improved within this project."
+    },
+    {
+      "project_id": "digitaf",
+      "relationship": "This tool is being co-developed and/or improved within DigitAF activities. It has been tested in the following Living Labs: Czech Republic, Finland, Germany, Italy, Netherlands and United Kingdom."
+    }
   ],
   "submitter_name": "Rico H\u00fcbner",
   "submitter_email": "huebner@defaf.de",
@@ -105,8 +107,6 @@
     "shrubs",
     "livestock"
   ],
-  "tool_project": "Yes",
-  "tool_project_name": "ReFOREST, DigitAF",
   "developers": "Deutscher Fachverband f\u00fcr Agroforstwirtschaft e.V. (DeFAF) \u2013 German Agroforestry Association",
   "contact": "huebner@defaf.de",
   "license": "Not stated",
@@ -129,7 +129,6 @@
   "documentation_available": "Yes",
   "documentation_accessible": "Yes",
   "documentation_theoretical_background_list": "https://zenodo.org/records/15085471",
-  "digitaf_tool": "Yes",
   "documentation_theoretical_background": "Yes",
   "id": "agroforestry_map_of_europe",
   "timestamp_creation": 1762176653216,

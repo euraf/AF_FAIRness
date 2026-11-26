@@ -63,16 +63,21 @@
   "training_materials": "Yes",
   "url_training_materials": "https://www.agroforestryvlaanderen.be/nl/nieuws?type=teaching-module&page=1",
   "documentation_contribute": "No",
-  "digitaf_tool": "Yes",
-  "digitaf_tool_ll": ["Netherlands LL"],
+  "related_projects": [
+    {
+      "project_id": "agroforestry_in_vlaanderen",
+      "relationship": "The tool was developed and/or improved within this project."
+    },
+    {
+      "project_id": "digitaf",
+      "relationship": "This tool is being co-developed and/or improved within DigitAF activities. It has been tested in the Netherlands Living Lab."
+    }
+  ],
+  "url_demo_video": "https://www.youtube.com/watch?v=ugCEOVa8vbI",
   "feedback_tool_info": "No",
   "editor_name": "Bert Reubens",
   "editor_email": "bert.reubens@ilvo.vlaanderen.be",
   "input_data_formats_other": "Geographic location layer for Flanders",
   "timestamp_lastedit": 1749633103130,
-  "tool_project": "Yes",
-  "tool_project_name": "VLAIO LA project \"Agroforestry in Flanders\"",
-  "tool_project_url": "https://www.agroforestryvlaanderen.be/nl/projecten/agroforestry-in-vlaanderen",
-  "indicators_other": "subsidies and regulation",
-  "digitaf_tool_demo_video": "https://www.youtube.com/watch?v=ugCEOVa8vbI"
+  "indicators_other": "subsidies and regulation"
 }

@@ -110,29 +110,6 @@
       "required": false
     },
     {
-      "id": "tool_project",
-      "text": "Was the tool developed/improved during a project?",
-      "type": "tag",
-      "required": true,
-      "answers": [
-        "Yes",
-        "No, it has another source",
-        "Don't know"
-      ]
-    },
-    {
-      "id": "tool_project_name",
-      "text": "If yes, what was the name of the project(s)?",
-      "type": "string",
-      "required": false
-    },
-    {
-      "id": "tool_project_url",
-      "text": "If yes, please provide the project's URL (preferrably of CORDIS if available)",
-      "type": "string",
-      "required": false
-    },
-    {
       "id": "status",
       "text": "What is the current status of the tool?",
       "short_text": "Status",
@@ -955,38 +932,29 @@
       ]
     },
     {
-      "id": "digitaf_tool",
-      "text": "For DigitAF participants, is this tool being co-developed or improved within DigitAF activities?",
-      "short_text": "DigitAF tools",
-      "filter": 2,
-      "type": "tag",
-      "required": true,
-      "answers": [
-        "Yes",
-        "No",
-        "Don't know"
-      ]
-    },
-    {
-      "id": "digitaf_tool_ll",
-      "text": "For DigitAF participants, if applicable, in which Living Labs is it being tested?",
-      "short_text": "Tools tested in DigitAF Living Labs",
-      "filter": 1,
-      "type": "array of tags",
+      "id": "related_projects",
+      "text": "Which agroforestry related projects contributed to the development of this tool?",
+      "helper": "Select the relevant agroforestry related projects from the projects catalogue. Add a project to the catalogue before linking it here.",
+      "type": "array of projects",
       "required": false,
-      "answers": [
-        "Czech Republic LL",
-        "Finland LL",
-        "Germany LL",
-        "Italy LL",
-        "Netherlands LL",
-        "United Kingdom LL"
+      "fields": [
+        {
+          "id": "project_id",
+          "text": "Project",
+          "type": "project reference",
+          "required": true
+        },
+        {
+          "id": "relationship",
+          "text": "Describe the changes made to the tool during project development",
+          "type": "long string",
+          "required": false
+        }
       ]
     },
     {
-      "id": "digitaf_tool_demo_video",
-      "text": "For DigitAF participants, if available, what is the link to this tool's DigitAF demonstration video?",
-      "helper": "From the ones available at https://www.youtube.com/watch?v=ld_ZkJnwnv4",
+      "id": "url_demo_video",
+      "text": "If available, provide a link to a demonstration video for this tool.",
       "type": "string",
       "required": false
     },

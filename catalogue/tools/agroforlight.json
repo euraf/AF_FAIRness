@@ -62,7 +62,12 @@
 	"languages": [
 		"English"
 	],
-	"digitaf_tool_ll": [],
+	"related_projects": [
+		{
+			"project_id": "digitaf",
+			"relationship": "This tool is being co-developed and/or improved within DigitAF activities."
+		}
+	],
 	"submitter_name": "Tom De Swaef",
 	"submitter_email": "tom.deswaef@ilvo.vlaanderen.be",
 	"name": "agroforlight",
@@ -80,9 +85,6 @@
 	"developers": "Toon Baeyens, Willem Coudron, Tom De Swaef",
 	"organizations": "ILVO, Ghent University",
 	"contact": "tom.deswaef@ilvo.vlaanderen.be",
-	"tool_project": "Yes",
-	"tool_project_name": "DigitAF",
-	"tool_project_url": "https://cordis.europa.eu/project/id/101059794",
 	"status": "Implemented",
 	"license": "MIT License",
 	"license_url": "https://opensource.org/license/mit",
@@ -105,7 +107,6 @@
 	"url_training_materials": "https://tdeswaef.github.io/agroforlight/articles/",
 	"documentation_theoretical_background_list": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985297",
 	"documentation_contribute": "Yes",
-	"digitaf_tool": "Yes",
 	"id": "agroforlight",
 	"timestamp_creation": 1740407013381,
 	"timestamp_lastedit": 1740407013381

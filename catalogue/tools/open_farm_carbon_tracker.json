@@ -84,11 +84,11 @@
 		"English",
 		"Danish"
 	],
-	"digitaf_tool_ll": [
-		"Czech Republic LL",
-		"Finland LL",
-		"Netherlands LL",
-		"United Kingdom LL"
+	"related_projects": [
+		{
+			"project_id": "digitaf",
+			"relationship": "This tool is being co-developed and/or improved within DigitAF activities. It has been tested in the following Living Labs: Czech Republic, Finland, Netherlands and United Kingdom."
+		}
 	],
 	"submitter_name": "Kristoffer R\u00f8nn-Andersen",
 	"submitter_email": "kristoffer@regenfarmer.com",
@@ -97,9 +97,6 @@
 	"developers": "Regen Farmer",
 	"organizations": "Regen Farmer",
 	"contact": "https://github.com/euraf/OpenFarmCarbonTracker",
-	"tool_project": "Yes",
-	"tool_project_name": "DigitAF",
-	"tool_project_url": "https://digitaf.eu/",
 	"status": "Under development",
 	"license": "MIT License",
 	"license_url": "https://github.com/euraf/OpenFarmCarbonTracker/blob/main/LICENSE",
@@ -122,7 +119,6 @@
 	"development_process": "Not completely",
 	"training_materials": "Don't know",
 	"documentation_contribute": "Yes",
-	"digitaf_tool": "Yes",
 	"keywords": [
 		"opensource",
 		"digitaf",

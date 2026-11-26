@@ -247,7 +247,7 @@ module.exports = {
                     <div class="col-sm-10 details">
                       <div class="row">
                         <div class="col-12">
-                          <h5 class="card-title mb-2"><router-link :to="'/projects/project/' + project.id" :project="project"><b>{{ project.acronym }} </b> - {{ project.name }}</router-link></h5>
+                          <h5 class="card-title mb-2"><router-link :to="'/projects/project/' + project.id" :project="project"><b>{{ project.acronym }}</b><span v-if="project.acronym.toLowerCase() !== project.name.toLowerCase()"> - {{ project.name }}</span></router-link></h5>
                           <p><span class="badge badge-project" :class="'badge-' + project.programme.replace(' ', '_').toLowerCase()"><b>{{ project.programme }}</b></span> {{ project.start_date }} - {{ project.end_date }}</p>
                           <p class="mb-0">{{ truncateDescription(project.description) }}</p>
                         </div>

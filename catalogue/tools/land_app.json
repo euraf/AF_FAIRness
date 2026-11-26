@@ -80,7 +80,12 @@
 	"languages": [
 		"English"
 	],
-	"digitaf_tool_ll": [],
+	"related_projects": [
+		{
+			"project_id": "trees_outside_woodland_tow_in_england",
+			"relationship": "The tool was developed and/or improved within this project."
+		}
+	],
 	"submitter_name": "Dan Geerah",
 	"submitter_email": "dan@thelandapp.com",
 	"name": "Land App",
@@ -94,9 +99,6 @@
 	"developers": "DIGITALLANDSOLUTIONS Ltd",
 	"organizations": "Woodland Trust, Forestry Commission, Shropshire Council and Tree's Outside Woodland Project (Defra)",
 	"contact": "support@thelandapp.com",
-	"tool_project": "Yes",
-	"tool_project_name": "Tree's Outside Woodland",
-	"tool_project_url": "https://www.forestresearch.gov.uk/tools-and-resources/national-forest-inventory/trees-outside-woodland-tow/#:~:text=The%20Trees%20Outside%20Woodland%20%E2%80%93%20TOW,interact%20with%20non%2Dwoodland%20ecosystems.",
 	"status": "Implemented",
 	"license": "Proprietary",
 	"year_release": 2024,
@@ -117,7 +119,6 @@
 	"training_materials": "Yes",
 	"url_training_materials": "https://help.thelandapp.com/en/articles/9716790-data-download-how-to-use-the-agroforestry-designer-data-download",
 	"documentation_contribute": "Yes",
-	"digitaf_tool": "No",
 	"description": "A brand-new free digital agroforestry designer toolkit is being launched by cloud-based mapping software company Land App and partners. \n\nAimed at farmers, estate managers and land agents across the UK, Land App\u2019s ground-breaking new Agroforestry Designer Toolkit aims to platform agroforestry \u2013 the intentional integration of trees into farms \u2013 and its many benefits to farmers, their livestock and nature.",
 	"logo_url": "https://thelandapp.com/wp-content/uploads/2022/02/LA_Black-Fill-Inline.png",
 	"id": "land_app",

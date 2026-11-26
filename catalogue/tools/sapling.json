@@ -61,7 +61,17 @@
         "English",
         "Dutch"
     ],
-    "digitaf_tool_ll": [],
+    "related_projects": [
+        {
+            "project_id": "digitaf",
+            "relationship": "This tool is being co-developed and/or improved within DigitAF activities."
+        },
+        {
+            "project_id": "afaktive",
+            "relationship": "The tool was developed and/or improved within this project."
+        }
+    ],
+    "url_demo_video": "https://agroforestry.ilvo.be/sapling/",
     "submitter_name": "Bert Reubens",
     "organizations": "ILVO",
     "submitter_email": "bert.reubens@ilvo.vlaanderen.be",
@@ -77,9 +87,6 @@
     ],
     "developers": "Emma Vandenheede, Paul Pardon and Bert Reubens",
     "contact": "bert.reubens@ilvo.vlaanderen.be",
-    "tool_project": "Yes",
-    "tool_project_name": "DigitAF and AFaktive",
-    "tool_project_url": "www.digitaf.eu, https://afaktive.stoffstrom.org/en/",
     "status": "Implemented",
     "license": "Creative Commons BY",
     "previous_versions_available": "Yes",
@@ -96,8 +103,6 @@
     "training_materials": "Yes",
     "url_training_materials": "https://agroforestry.ilvo.be/sapling/",
     "documentation_contribute": "No",
-    "digitaf_tool": "Yes",
-    "digitaf_tool_demo_video": "https://agroforestry.ilvo.be/sapling/",
     "feedback_tool_info": "The interface of the tool is freely accessible; access to the script behind the tool can be requested (send mail to info@agroforestryvlaanderen.be) and is on ILVO's Gitlab.",
     "documentation_accessible": "Yes",
     "id": "sapling",

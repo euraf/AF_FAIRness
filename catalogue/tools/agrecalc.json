@@ -59,8 +59,11 @@
 		"Spanish",
 		"French"
 	],
-	"digitaf_tool_ll": [
-		"United Kingdom LL"
+	"related_projects": [
+		{
+			"project_id": "digitaf",
+			"relationship": "This tool is being co-developed and/or improved within DigitAF activities. It has been tested in the United Kingdom Living Lab."
+		}
 	],
 	"submitter_name": "Paul Burgess",
 	"submitter_email": "p.burgess@cranfield.ac.uk",
@@ -95,7 +98,6 @@
 	"data_provenance": "Incomplete",
 	"development_process": "Yes",
 	"training_materials": "Don't know",
-	"digitaf_tool": "Yes",
 	"feedback_tool_info": "We will plan to use Agrecalc in the UK Living Lab",
 	"documentation_contribute": "Don't know",
 	"id": "agrecalc",

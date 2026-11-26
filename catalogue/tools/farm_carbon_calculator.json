@@ -85,14 +85,12 @@
 		"Spanish",
 		"Other"
 	],
-	"digitaf_tool_ll": [],
 	"submitter_name": "Liz Bowles",
 	"submitter_email": "Liz.Bowles@farmcarbontoolkit.org.uk",
 	"name": "Farm Carbon Calculator",
 	"url": "https://calculator.farmcarbontoolkit.org.uk/",
 	"description": "The farm carbon calculator  is designed to estimate GHG emissions and carbon sequestration into soils, trees and hedges.",
 	"status": "Implemented",
-	"tool_project": "No, it has another source",
 	"developers": "Farm Carbon Cutting Toolkit CIC",
 	"organizations": "Farm Carbon Cutting Toolkit CIC",
 	"contact": "calculator@farmcarbontoolkit.org.uk  Tel: 07541 453413",
@@ -131,7 +129,6 @@
 	"time_steps_other": "Users can specify period boundary",
 	"languages_other": "Romanian and Portuguese",
 	"access_procedure_documentation": "Yes",
-	"digitaf_tool": "No",
 	"id": "farm_carbon_calculator",
 	"timestamp_creation": 1737992637058,
 	"timestamp_lastedit": 1737992637058

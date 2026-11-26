@@ -65,8 +65,15 @@
 	"languages": [
 		"English"
 	],
-	"digitaf_tool_ll": [
-		"Finland LL"
+	"related_projects": [
+		{
+			"project_id": "casforii",
+			"relationship": "The tool was developed within the CASFOR-II project."
+		},
+		{
+			"project_id": "digitaf",
+			"relationship": "This tool has been tested in the Finland Living Lab."
+		}
 	],
 	"submitter_name": "Michael den Herder",
 	"submitter_email": "michael.denherder@efi.int",
@@ -86,9 +93,6 @@
 	"developers": "Schelhaas, M.J., P.W. van Esch, T.A. Groen, B.H.J. de Jong, M. Kanninen, J. Liski, O. Masera, G.M.J. Mohren, G.J. Nabuurs, T. Palosuo, L. Pedroni, A. Vallejo, T. Vil\u00e9n, 2004. CO2FIX V 3.1 \u2013 A modelling framework for quantifying carbon sequestration in forest ecosystems. ALTERRA Report 1068. Wageningen, The Netherlands. \u2022 Masera, O., Garza-Caligaris, J.F., Kanninen, M., Karjalainen, T., Liski, J., Nabuurs, G.J., Pussinen, A. & de Jong, B.J. 2003. Modelling carbon sequestration in afforestation, agroforestry and forest management projects: the CO2FIX V.2 approach. Ecological Modelling 164: 177-199.",
 	"organizations": "Alterra, Wageningen, the Netherlands; Universidad Autonoma Nacional de Mexico, Mexico; European Forest Institute, Joensuu, Finland",
 	"contact": "Sergey Zudin, sergey.zudin@efi.int",
-	"tool_project": "Yes",
-	"tool_project_name": "CASFOR II project",
-	"tool_project_url": "https://efi.int/projects/casfor-ii-modelling-carbon-sequestration-forested-landscapes",
 	"status": "Implemented",
 	"license": "Not stated",
 	"year_release": 1998,
@@ -113,7 +117,6 @@
 	"training_materials": "Yes",
 	"url_training_materials": "https://github.com/EuropeanForestInstitute/CO2Fix-distribution/blob/main/version%203.2/co2fix3_1_manual.pdf",
 	"documentation_contribute": "No",
-	"digitaf_tool": "Yes",
 	"id": "co2fix",
 	"timestamp_creation": 1738918230438,
 	"timestamp_lastedit": 1738918230438

@@ -55,7 +55,7 @@
   "languages": [
     "English"
   ],
-  "digitaf_tool_ll": [],
+  "url_demo_video": "https://www.youtube.com/watch?v=p3TjRETMdoo",
   "submitter_name": "Enrico Gabrielli",
   "submitter_email": "info@farm-agroecologia.it",
   "name": "Mountainside agroforestry design geometry nodes.",
@@ -69,7 +69,6 @@
     "hydrology",
     "slope"
   ],
-  "tool_project": "No, it has another source",
   "status": "Under development",
   "software_proglanguage_other": "geometry-nodes Blender",
   "license": "Creative Commons BY-NC-SA",
@@ -91,8 +90,6 @@
   "training_materials": "Yes",
   "documentation_contribute": "Don't know",
   "url_documentation": "https://bonushenricus.gumroad.com/l/blender_mountainside_agrofor",
-  "digitaf_tool": "No",
-  "digitaf_tool_demo_video": "https://www.youtube.com/watch?v=p3TjRETMdoo",
   "id": "mountainside_agroforestry_design_geometry_nodes",
   "timestamp_creation": 1778080735484,
   "timestamp_lastedit": 1778080735484

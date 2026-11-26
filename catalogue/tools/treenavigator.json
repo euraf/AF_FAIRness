@@ -17,7 +17,6 @@
     "Natural/Wild",
     "Urban"
   ],
-
   "system_components": [
     "Crop",
     "Tree"
@@ -84,7 +83,6 @@
     "Spanish",
     "Other"
   ],
-  "digitaf_tool_ll": [],
   "submitter_name": "Sander van Holsteijn",
   "submitter_email": "info@treenavigator.org",
   "name": "TreeNavigator",
@@ -99,7 +97,6 @@
   ],
   "developers": "Sander van Holsteijn (https://www.linkedin.com/in/sander-van-holsteijn/)",
   "contact": "info@treenavigator.org",
-  "tool_project": "No, it has another source",
   "status": "Under development",
   "license": "MIT License",
   "year_lastupdate": 2025,
@@ -123,7 +120,6 @@
   "training_materials": "Yes",
   "url_training_materials": "In-app guided walkthrough",
   "documentation_contribute": "Yes",
-  "digitaf_tool": "No",
   "logo_url": "https://treenavigator.org/wp-content/uploads/2025/10/TreeNavigator-devices.jpeg",
   "id": "treenavigator",
   "timestamp_creation": 1766083403871,

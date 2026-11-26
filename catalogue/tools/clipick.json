@@ -112,9 +112,6 @@
   "training_materials": "Yes",
   "url_training_materials": "https://youtu.be/eoUBd6Rcn04?si=QEFReo6w2rmaCycC\n\ninstructions and tab on the tool itself: http://www.isa.ulisboa.pt/proj/clipick/",
   "documentation_contribute": "Yes",
-  "digitaf_tool": "No",
-  "digitaf_tool_ll": [],
-  "digitaf_tool_demo_video": "",
   "feedback_tool_info": "link to github development",
   "feedback_general": "If there si a video for instructions, that hasn't been developed in Digitaf... Perhaps the video link, and then a check box for adding the project where it was developed? Digitaf or others"
 }

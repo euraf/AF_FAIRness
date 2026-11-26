@@ -33,7 +33,16 @@
   "usages_most_relevant": ["Planning/Design", "Forecasting"],
   "usages_least_relevant": ["Research"],
   "languages": ["German"],
-  "digitaf_tool_ll": ["Germany LL"],
+  "related_projects": [
+    {
+      "project_id": "aufwerten",
+      "relationship": "The tool was developed and/or improved within this project."
+    },
+    {
+      "project_id": "digitaf",
+      "relationship": "This tool is being co-developed and/or improved within DigitAF activities. It has been tested in the Germany Living Lab."
+    }
+  ],
   "submitter_name": "Rico H\u00fcbner",
   "submitter_email": "huebner@defaf.de",
   "name": "AgroForstRechner",
@@ -44,9 +53,6 @@
   "developers": "DeFAF, IG AUFWERTEN",
   "organizations": "DeFAF, BTU Cottbus",
   "contact": "info@defaf.de",
-  "tool_project": "Yes",
-  "tool_project_name": "IG AUFWERTEN",
-  "tool_project_url": "https://agroforst-info.de/innovationsgruppe-aufwerten/",
   "status": "Implemented",
   "license": "GNU General Public License (GPL)",
   "previous_versions_available": "Only one version exists",
@@ -65,7 +71,6 @@
   "training_materials": "Yes",
   "url_training_materials": "",
   "documentation_contribute": "No",
-  "digitaf_tool": "Yes",
   "id": "agroforstrechner",
   "timestamp_creation": 1750844196803,
   "timestamp_lastedit": 1750844196803

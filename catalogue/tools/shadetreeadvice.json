@@ -58,7 +58,12 @@
 	"languages": [
 		"English"
 	],
-	"digitaf_tool_ll": [],
+	"related_projects": [
+		{
+			"project_id": "digitaf",
+			"relationship": "This tool is being tested within DigitAF activities."
+		}
+	],
 	"logo_url": "https://raw.githubusercontent.com/euraf/AF_FAIRness/main/img/sta.png",
 	"submitter_name": "Cl\u00e9ment Rigal",
 	"submitter_email": "clement.rigal@cirad.fr",
@@ -74,7 +79,6 @@
 	"developers": "",
 	"organizations": "CIRAD",
 	"contact": "Clement Rigal - clement.rigal@cirad.fr",
-	"tool_project": "No, it has another source",
 	"status": "Implemented",
 	"license": "Not stated",
 	"year_release": 2016,
@@ -92,7 +96,6 @@
 	"development_process": "No",
 	"training_materials": "No",
 	"documentation_contribute": "Yes",
-	"digitaf_tool": "Yes",
 	"documentation_theoretical_background": "Yes",
 	"id": "shadetreeadvice",
 	"timestamp_creation": 1741633920426,

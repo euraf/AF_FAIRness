@@ -26,7 +26,24 @@
     "Monitoring/Evaluating"
   ],
   "languages": ["English"],
-  "digitaf_tool_ll": ["United Kingdom LL"],
+  "related_projects": [
+    {
+      "project_id": "safe",
+      "relationship": "The Yield-SAFE model was developed as part of this project."
+    },
+    {
+      "project_id": "agforward",
+      "relationship": "The EcoYield-SAFE model was first developed as part of this project."
+    },
+    {
+      "project_id": "agromix",
+      "relationship": "EcoYield-SAFE v2 and its use to predict agroforestry system behaviour at Loughgall were developed as part of this project."
+    },
+    {
+      "project_id": "digitaf",
+      "relationship": "This tool is being co-developed and improved within DigitAF activities. It has been tested in the United Kingdom Living Lab."
+    }
+  ],
   "submitter_name": "Paul Burgess",
   "submitter_email": "p.burgess@cranfield.ac.uk",
   "name": "EcoYield-SAFE v2",
@@ -57,9 +74,6 @@
   "developers": "Paul J. Burgess, Anil R. Graves, Michail Giannitsopoulos, Matthew Upson, Jo\u00e3o H.N. Palma",
   "organizations": "Cranfield University, MVARC",
   "contact": "p.burgess@cranfield.ac.uk",
-  "tool_project": "Yes",
-  "tool_project_name": "The Yield-SAFE model was developed as part of the collaborative EU research project called \u201cSAFE: Silvoarable Agroforestry for Europe\u201d. Support for SAFE was provided by the Quality of Life Programme of the European Union (contract number QLK5-CT-2001-00560). The EcoYield-SAFE model was first developed as part of the AGFORWARD project supported by the European Union under the seventh framework programme (contract number 613520). The EcoYield-SAFE v2 model, and its use to predict the behaviour of the agroforestry systems at Loughgall was developed as part of the AGROMIX project funded by the EU under the EU Horizon programme (grant agreement 862993).",
-  "tool_project_url": "https://agromixproject.eu/, https://agforward.eu/, https://cordis.europa.eu/project/id/QLK5-CT-2001-00560",
   "status": "Implemented",
   "license": "Creative Commons BY-NC-SA",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
@@ -82,7 +96,6 @@
   "development_process": "Yes",
   "training_materials": "Yes",
   "documentation_contribute": "Yes",
-  "digitaf_tool": "Yes",
   "url_training_materials": "https://dspace.lib.cranfield.ac.uk/items/b8016d01-24b8-4b23-bbd2-26bbddb37b4b",
   "id": "ecoyieldsafe_v2",
   "timestamp_creation": 1747144398682,

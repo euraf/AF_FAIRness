@@ -61,13 +61,11 @@
 	"languages": [
 		"English"
 	],
-	"digitaf_tool_ll": [
-		"United Kingdom LL",
-		"Netherlands LL",
-		"Italy LL",
-		"Germany LL",
-		"Finland LL",
-		"Czech Republic LL"
+	"related_projects": [
+		{
+			"project_id": "digitaf",
+			"relationship": "This tool is being co-developed and/or improved within DigitAF activities. It has been tested in the following Living Labs: United Kingdom, Netherlands, Italy, Germany, Finland and Czech Republic."
+		}
 	],
 	"submitter_name": "Paul Burgess",
 	"submitter_email": "p.burgess@cranfield.ac.uk",
@@ -102,7 +100,6 @@
 	"development_process": "Not completely",
 	"training_materials": "Yes",
 	"documentation_contribute": "Don't know",
-	"digitaf_tool": "Yes",
 	"feedback_tool_info": "The plan is to use the data collection spreadsheet across the six living labs",
 	"id": "farm_carbon_calculator_data_collection_spreadsheet",
 	"timestamp_creation": 1718105935014,

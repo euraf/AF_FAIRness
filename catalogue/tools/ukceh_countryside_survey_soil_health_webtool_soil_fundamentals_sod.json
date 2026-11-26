@@ -111,13 +111,7 @@
 	"training_materials": "Yes",
 	"url_training_materials": "",
 	"documentation_contribute": "Don't know",
-	"digitaf_tool": "No",
-	"digitaf_tool_ll": [
-		"United Kingdom LL"
-	],
-	"digitaf_tool_demo_video": "",
 	"feedback_tool_info": "The tool deals with soil health.  Hence it does not deal with crop, livestock, trees, or people in the component section above.  I have entered the incorrect answer \"Crop\" simply so that I can submit the data for the tool.  This should be corrected.",
 	"editor_name": "Ana Tom\u00e1s",
-	"editor_email": "anatomas@mvarc.eu",
-	"tool_project": "Don't know"
+	"editor_email": "anatomas@mvarc.eu"
 }

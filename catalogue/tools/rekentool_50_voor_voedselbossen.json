@@ -72,9 +72,6 @@
 		"Dutch",
 		"English"
 	],
-	"digitaf_tool_ll": [
-		"Germany LL"
-	],
 	"submitter_name": "Nicolaas Geijer",
 	"submitter_email": "nicolaasgeijer@voedselbosbouw.org",
 	"name": "Rekentool 5.0 voor voedselbossen",
@@ -91,9 +88,6 @@
 	"developers": "Nicolaas Geijer, Stijn Heijs",
 	"organizations": "Stichting Voedselbosbouw Nederland, HAS Den Bosch, TKI Wetenschappelijk Bodemvorming onder de Voedselbosbouw",
 	"contact": "nicolaasgeijer@voedselbosbouw.org",
-	"tool_project": "Yes",
-	"tool_project_name": "TKI Wetenschappelijk Bodemvorming onder de Voedselbosbouw",
-	"tool_project_url": "https://www.wur.nl/nl/onderzoek-resultaten/onderzoeksinstituten/environmental-research/projecten/wetenschappelijke-bodemvorming-onder-de-voedselbosbouw-1.htm",
 	"status": "Implemented",
 	"license": "Other",
 	"year_release": 2024,
@@ -111,7 +105,6 @@
 	"training_materials": "Yes",
 	"url_training_materials": "https://www.voedselbosbouw.org/onderzoek-link/verdienmodellen/",
 	"documentation_contribute": "Yes",
-	"digitaf_tool": "No",
 	"feedback_tool_info": "",
 	"id": "rekentool_50_voor_voedselbossen",
 	"timestamp_creation": 1731661025437,

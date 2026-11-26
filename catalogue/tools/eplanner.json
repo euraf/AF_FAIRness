@@ -18,7 +18,12 @@
     "usages_most_relevant": ["Planning/Design", "Forecasting"],
     "usages_least_relevant": ["Education"],
     "languages": ["English"],
-    "digitaf_tool_ll": [],
+    "related_projects": [
+        {
+            "project_id": "agzero",
+            "relationship": "The tool was developed and/or improved within this project."
+        }
+    ],
     "submitter_name": "John Redhead",
     "submitter_email": "johdhe@ceh.ac.uk",
     "name": "e-planner",
@@ -29,9 +34,6 @@
     "developers": "John Redhead, Richard Pywell, Rich Burkmar, Mike Brown",
     "organizations": "UKCEH",
     "contact": "https://www.ceh.ac.uk/form/general-contact-us",
-    "tool_project": "Yes",
-    "tool_project_name": "AgZero+",
-    "tool_project_url": "https://agzeroplus.org.uk/",
     "status": "Implemented",
     "license": "Not stated",
     "previous_versions_available": "Only one version exists",
@@ -50,7 +52,6 @@
     "development_process": "Yes",
     "training_materials": "Yes",
     "documentation_contribute": "No",
-    "digitaf_tool": "No",
     "id": "eplanner",
     "timestamp_creation": 1720523014786,
     "timestamp_lastedit": 1720523014786

@@ -64,7 +64,12 @@
   "languages": [
     "English"
   ],
-  "digitaf_tool_ll": [],
+  "related_projects": [
+    {
+      "project_id": "digitaf",
+      "relationship": "The tool was developed and/or improved within this project."
+    }
+  ],
   "submitter_name": "Jari Vandendriessche",
   "submitter_email": "jari.vandendriessche@ugent.be",
   "keywords": [
@@ -72,9 +77,6 @@
   ],
   "developers": "Ghent University",
   "organizations": "Ghent University",
-  "tool_project": "Yes",
-  "tool_project_name": "DigitAF",
-  "tool_project_url": "https://cordis.europa.eu/project/id/101059794",
   "status": "Under development",
   "license": "Creative Commons BY",
   "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
@@ -97,7 +99,6 @@
   "training_materials": "No",
   "url_training_materials": "",
   "documentation_contribute": "Yes",
-  "digitaf_tool": "No",
   "feedback_tool_info": "There is a scientific background in review. In preference, the tool was not added to this database before peer-reviewed revision, but that timpath doesn't fit project aims, hence this preliminary publishing.",
   "contact": "jari.vandendriessche@ugent.be",
   "name": "Biodiv-AF",

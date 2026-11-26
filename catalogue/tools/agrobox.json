@@ -63,7 +63,12 @@
 	"languages": [
 		"English"
 	],
-	"digitaf_tool_ll": [],
+	"related_projects": [
+		{
+			"project_id": "agromix",
+			"relationship": "The tool was developed and/or improved within this project."
+		}
+	],
 	"submitter_name": "Colin Tosh",
 	"submitter_email": "colin.t@organicresearchcentre.com",
 	"name": "AgroBox",
@@ -86,9 +91,6 @@
 	"developers": "Colin Tosh with expert input from others (Will Simonson, Tom Staton, Ambro Costanzo, Jo Smith)",
 	"organizations": "Principally Organic Research Centre",
 	"contact": "Feedback here: https://www.organicresearchcentre.com/contact/",
-	"tool_project": "Yes",
-	"tool_project_name": "Agromix",
-	"tool_project_url": "https://cordis.europa.eu/project/id/862993/results",
 	"status": "Implemented",
 	"license": "Not stated",
 	"license_url": "Need to think about licence. Code for core models has been made available here: https://link.springer.com/article/10.1007/s13593-024-00979-z",
@@ -117,7 +119,6 @@
 	"url_training_materials": "Provided in text above dialogue boxes.",
 	"documentation_contribute": "Yes",
 	"feedback_tool_info": "No.",
-	"digitaf_tool": "Don't know",
 	"id": "agrobox",
 	"timestamp_creation": 1738695745578,
 	"timestamp_lastedit": 1738695745578

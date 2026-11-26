@@ -53,6 +53,9 @@ module.exports = {
     projects_form() {
       return this.$root.$data.projects_form
     },
+    projectCatalogue() {
+      return this.$root.$data.projects
+    },
     form() {
         var obj = {}
         if (this.isTools) {
@@ -135,6 +138,14 @@ module.exports = {
                 } else {
                     alert('Please answer all compulsory questions.\nQuestion missing an answer: ' + question.text)
                     return false
+                }
+            }
+            if (question.type == 'array of projects' && Array.isArray(this.formData[question.id])) {
+                for (const relatedProject of this.formData[question.id]) {
+                    if (!relatedProject.project_id || !this.projectCatalogue.some(project => project.id == relatedProject.project_id)) {
+                        alert('Please select a project from the projects catalogue for each related project.')
+                        return false
+                    }
                 }
             }
         }
@@ -292,6 +303,7 @@ module.exports = {
                         <checkbox v-else-if="question.type == 'array of tags'" :question="question" :form-data="formData"></checkbox>
                         <input-text v-else-if="question.type == 'string' || question.type == 'long string' || question.type == 'email'" :question="question" :form-data="formData"></input-text>
                         <keywords v-else-if="question.type == 'array of strings'" :question="question" :form-data="formData"></keywords>
+                        <related-projects v-else-if="question.type == 'array of projects'" :question="question" :form-data="formData" :available-projects="projectCatalogue"></related-projects>
                         <input-number v-else-if="question.type == 'integer'" :question="question" :form-data="formData"></input-number>
                     </template>
                 </div>

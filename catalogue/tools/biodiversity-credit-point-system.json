@@ -55,10 +55,10 @@
   "input_data_protocols": [
     "User enters data manually"
   ],
-	"input_data_formats": [
+  "input_data_formats": [
 		"Other"
 	],
-	"input_data_formats_other": "User enters data manually",
+  "input_data_formats_other": "User enters data manually",
   "input_data_file_formats": [],
   "output_data_formats": [
     "Other"
@@ -99,8 +99,5 @@
   "training_materials": "No",
   "url_training_materials": "",
   "documentation_contribute": "No",
-  "digitaf_tool": "No",
-  "digitaf_tool_ll": [],
-  "digitaf_tool_demo_video": "",
   "feedback_tool_info": ""
 }

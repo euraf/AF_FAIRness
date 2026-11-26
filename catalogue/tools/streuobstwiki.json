@@ -59,8 +59,11 @@
   "languages": [
     "German"
   ],
-  "digitaf_tool_ll": [
-    "Germany LL"
+  "related_projects": [
+    {
+      "project_id": "digitaf",
+      "relationship": "This tool is being tested in the Germany Living Lab."
+    }
   ],
   "submitter_name": "Rico H\u00fcbner",
   "submitter_email": "huebner@defaf.de",
@@ -77,8 +80,6 @@
   "developers": "Oberlausitz-Stiftung",
   "organizations": "The development of the Streuobst Wiki was coordinated by the Oberlausitz Foundation (G\u00f6rlitz), the Austrian association ARCHE NOAH, and the IBZ St. Marienthal Foundation (Ostritz). The following organizations were also involved in the development of the wiki: Streuobst \u00d6sterreich (Klosterneuburg), the BaumLand Campaign (Travenbr\u00fcck), Hochstamm e. V. (Schrozberg), the Higher Federal School and Federal Office for Viticulture and Fruit Growing (Klosterneuburg), and the BUND Koblenz District Group.",
   "contact": "Dr. Michael Schlitt, Oberlausitz-Stiftung, info@oberlausitz-stiftung.de",
-  "tool_project": "Yes",
-  "tool_project_name": "Erasmus+",
   "status": "Under development",
   "license_url": "https://www.streuobst-wiki.eu/index.php?title=Datei:Creative_Commons_Lizenzierungssymbol.jpg",
   "year_release": 2025,
@@ -96,7 +97,6 @@
   "development_process": "Yes",
   "training_materials": "No",
   "documentation_contribute": "Yes",
-  "digitaf_tool": "Yes",
   "license": "Creative Commons BY-NC-SA",
   "id": "streuobstwiki",
   "timestamp_creation": 1774354948320,
