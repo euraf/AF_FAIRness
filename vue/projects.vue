@@ -78,7 +78,7 @@ module.exports = {
         {
           id: 'start_date',
           short_text: "Start year",
-          answers: [...new Set(_this.projects.map(x => x.start_date.substr(6)))].sort((a, b) => a.localeCompare(b)),
+          answers: [...new Set(_this.projects.map(x => x.start_date.split('/').pop()))].sort((a, b) => a.localeCompare(b)),
           type: "tag",
           custom_fn: function(str_date, str_date_to_filter) {
             return str_date.includes(str_date_to_filter)
@@ -87,7 +87,7 @@ module.exports = {
         {
           id: 'end_date',
           short_text: "End year",
-          answers: [...new Set(_this.projects.map(x => x.end_date.substr(6)))].sort((a, b) => a.localeCompare(b)),
+          answers: [...new Set(_this.projects.map(x => x.end_date.split('/').pop()))].sort((a, b) => a.localeCompare(b)),
           type: "tag",
           custom_fn: function(str_date, str_date_to_filter) {
             return str_date.includes(str_date_to_filter)
