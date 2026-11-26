@@ -248,6 +248,9 @@ p {
   max-height: 120px;
   vertical-align: middle;
 }
+.project-description {
+  white-space: pre-line;
+}
 .details-block {
   margin-bottom: 5px;
 }

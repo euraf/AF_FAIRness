@@ -54,6 +54,10 @@ module.exports = {
         <div class="col-sm-6">
           <h5 v-if="project.acronym" class="card-title"><b>{{ project.acronym }}</b></h5>
           <h5 class="card-title">{{ project.name }}</h5>
+          <p v-if="project.programme || project.code">
+            <span v-if="project.programme" class="badge badge-project" :class="'badge-' + project.programme.replace(' ', '_').toLowerCase()"><b>{{ project.programme }}</b></span>
+            <span v-if="project.code">Project ID: {{ project.code }}</span>
+          </p>
         </div>
         <div class="col-sm-6 note text-right">
           <p>Do you want to improve this project's info? <router-link :to="'/projects/project/' + project.id +'/edit'">Edit it here</router-link></p>
@@ -66,25 +70,34 @@ module.exports = {
         </div>
         <div class="col-sm-3">
           <div class="project-cover text-center mb-4">
-            <img v-if="project.logo_url" class="img-fluid mini" :src="project.logo_url" :alt="project.acronym">
+            <img v-if="project.logo_url" class="img-fluid mini" :src="project.logo_url" :alt="project.acronym || project.name">
           </div>
+          <template v-if="project.lead">
+            <p class="btn-small-title">Project lead</p>
+            <p>{{ project.lead }}</p>
+          </template>
+          <template v-if="project.contact">
+            <p class="btn-small-title">Contact</p>
+            <p>{{ project.contact }}</p>
+          </template>
           <template v-if="project.project_url">
             <p class="btn-small-title">Project website</p>
-            <p><a :href="project.project_url" target="_blank">{{  project.project_url }}</a></p>
+            <p><a :href="project.project_url" target="_blank" rel="noopener noreferrer">{{ project.project_url }}</a></p>
           </template>
           <template v-if="project.project_funding_programme_listing">
             <p class="btn-small-title">Funding programme listing</p>
-            <p><a :href="project.project_funding_programme_listing" target="_blank">{{  project.project_funding_programme_listing }}</a></p>
+            <p><a :href="project.project_funding_programme_listing" target="_blank" rel="noopener noreferrer">{{ project.project_funding_programme_listing }}</a></p>
           </template>
           <template v-if="project.project_url_other">
             <p class="btn-small-title">Other relevant link</p>
-            <p><a :href="project.project_url_other" target="_blank">{{  project.project_url_other }}</a></p>
+            <p><a :href="project.project_url_other" target="_blank" rel="noopener noreferrer">{{ project.project_url_other }}</a></p>
           </template>
-          <p class="btn-small-title">Keywords</p>
-          <p>{{ project.keywords.join(', ') }}</p>
-          <p class="btn-small-title">Start date - End date</p>
+          <template v-if="project.keywords && project.keywords.length">
+            <p class="btn-small-title">Keywords</p>
+            <p>{{ project.keywords.join(', ') }}</p>
+          </template>
+          <p class="btn-small-title">Project timeline</p>
           <p>{{ project.start_date }} - {{ project.end_date }}</p>
-          <p></p>
         </div>
       </div>
     </div>
